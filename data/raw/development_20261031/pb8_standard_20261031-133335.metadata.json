@@ -1,0 +1,50 @@
+{
+  "run_id": "pb8_standard_20261031-133335",
+  "dataset_role": "development",
+  "nonhuman_fixture_confirmed": true,
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / Preset #1 / External Cuff",
+  "panel_sbp_mmhg": 120,
+  "panel_dbp_mmhg": 80,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": null,
+  "panel_evidence_path": null,
+  "panel_evidence": "user-confirmed settings before this trial",
+  "reference_pressure_evidence": null,
+  "missing_value_reasons": {
+    "panel_pulse_volume_profile_cc": "not independently confirmed",
+    "panel_evidence_path": "no panel photo; user confirmation only",
+    "reference_pressure_evidence": "BP panel shows settings, no live pressure"
+  },
+  "inflation_target_mmhg": 150,
+  "host_abort_mmhg": 165,
+  "pressure_freshness_seconds": 2,
+  "acquisition_deadline_seconds": 75,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "calibration_readback": [
+    "[Pressure] raw=1309 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1309,
+      "max": 1311,
+      "mean": 1309.6767676767677
+    },
+    "sensor": {
+      "min": 226,
+      "max": 226,
+      "mean": 226.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "outcome": "preflight_only_no_actuation",
+  "pneumatic_closeout_confirmed": true,
+  "capture_source_path": "data\\raw\\development_20261031\\pb8_standard_20261031-133335.ndjson",
+  "capture_source_sha256": "4d4814181005246db392453b2529611a03aa806d691bbbd8347dfeb9ca8705ed"
+}

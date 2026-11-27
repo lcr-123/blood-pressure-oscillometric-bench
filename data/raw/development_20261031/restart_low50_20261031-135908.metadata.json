@@ -1,0 +1,40 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 50,
+  "host_ceiling_mmhg": 65,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1359,
+      "max": 1362,
+      "mean": 1360.9166666666667
+    },
+    "sensor": {
+      "min": 234,
+      "max": 235,
+      "mean": 234.96666666666667
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1361 ads=170mV sensor=235mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "error": "RuntimeError('pressure freshness exceeded 2 seconds')",
+  "emergency_stop_error": "TimeoutError('ACK stop')",
+  "closeout_error": "TimeoutError('ACK vent')",
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": false,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\restart_low50_20261031-135908.ndjson",
+  "raw_sha256": "4c5d5a97ef14ba8f2755253949c059f987670ab47db5bcacc9c386cbca9bf9f0"
+}

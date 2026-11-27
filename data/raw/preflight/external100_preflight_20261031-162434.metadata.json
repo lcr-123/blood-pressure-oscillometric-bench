@@ -1,0 +1,46 @@
+{
+  "purpose": "external_100_mmhg_static_comparison_preflight",
+  "actuator_commands_sent": false,
+  "pressure_applied_this_run": false,
+  "status": [
+    "[Pressure] raw=1304 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins": [
+    "[Pressure] raw=1304 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "cal": [
+    "[Pressure] raw=1304 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "fault": [
+    "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=903364ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "fresh_samples": 100,
+  "baseline": {
+    "raw": {
+      "min": 1302,
+      "max": 1304,
+      "mean": 1303.28
+    },
+    "sensor": {
+      "min": 225,
+      "max": 225,
+      "mean": 225.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "baseline_valid": true,
+  "outcome": "preflight_only",
+  "raw_sha256": "10c35746068f1f6bdb1dae71a85ee4526e78899f658e68ef2351d1856ea5a6b8"
+}

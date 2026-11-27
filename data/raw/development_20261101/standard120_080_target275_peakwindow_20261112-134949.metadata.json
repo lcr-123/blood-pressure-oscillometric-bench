@@ -1,0 +1,29 @@
+{
+  "run_id": "standard120_080_target275_peakwindow_20261112-134949",
+  "captured_at": "134949",
+  "outcome": "aborted",
+  "dataset_role": "development_failure_example",
+  "export_path": null,
+  "export_sha256": null,
+  "export_bytes": null,
+  "firmware": null,
+  "firmware_hex_sha256": "61ca1da309439d9a4afa7f783aacbb56be56e4607cc09289a3729eb2e39f74ad",
+  "nonhuman_fixture_confirmed": true,
+  "leak_test_mmhg_per_min": 7.0,
+  "raw_log_path": "data/raw/development_20261101/standard120_080_target275_peakwindow_20261112-134949.ndjson",
+  "raw_log_bytes": 77985,
+  "missing_value_reasons": {
+    "export_path": "no capture export was produced; the run did not reach the export stage",
+    "firmware": "read from the first capture line only, and there are no capture lines"
+  },
+  "note": "metadata written on 2026-11-13 so that the file is not an unexplained orphan in the archive",
+  "panel_preset": 1,
+  "panel_sbp_mmhg": 120,
+  "panel_dbp_mmhg": 80,
+  "panel_map_mmhg": 93,
+  "panel_pulse_volume_profile_cc": 0.68,
+  "exclusion_category": "interrupted_before_inflation",
+  "exclusion_reason": "the run stopped after vent/seal during preflight and never inflated; no capture was exported. The raw bridge log is kept as evidence of the stop.",
+  "firmware_hex_bytes": 184146,
+  "firmware_hex_path": "blood pressure monitor/MDK-ARM/blood pressure monitor/blood pressure monitor.hex"
+}

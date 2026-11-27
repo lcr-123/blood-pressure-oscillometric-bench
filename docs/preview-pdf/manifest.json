@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "backend": "native",
+  "rasterEngine": "pdfium",
+  "source": "saved",
+  "inputPath": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-1\\doc.pdf",
+  "sourceSha256": "96ffa277f4606e956c16411567b37676f8d259ee535cf8893c5df6c1e887bd9b",
+  "dpi": 120,
+  "pageCount": 11,
+  "images": [
+    {
+      "index": 1,
+      "page": 1,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0001.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 248270
+    },
+    {
+      "index": 2,
+      "page": 2,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0002.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 330803
+    },
+    {
+      "index": 3,
+      "page": 3,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0003.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 323990
+    },
+    {
+      "index": 4,
+      "page": 4,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0004.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 248512
+    },
+    {
+      "index": 5,
+      "page": 5,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0005.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 313846
+    },
+    {
+      "index": 6,
+      "page": 6,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0006.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 324058
+    },
+    {
+      "index": 7,
+      "page": 7,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0007.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 236782
+    },
+    {
+      "index": 8,
+      "page": 8,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0008.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 273701
+    },
+    {
+      "index": 9,
+      "page": 9,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0009.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 313222
+    },
+    {
+      "index": 10,
+      "page": 10,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0010.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 214392
+    },
+    {
+      "index": 11,
+      "page": 11,
+      "path": "C:\\Users\\31800\\Desktop\\血压仪\\docs\\preview-pdf\\page-0011.png",
+      "width": 993,
+      "height": 1404,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 793.738607,
+        "height": 1122.519694
+      },
+      "byteLength": 106765
+    }
+  ],
+  "missingFonts": []
+}

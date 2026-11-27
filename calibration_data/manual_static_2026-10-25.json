@@ -1,0 +1,569 @@
+{
+  "date_local": "2026-10-25",
+  "stage": "calibration_written_and_runtime_verified",
+  "reference_unit": "mmHg",
+  "reference_unit_status": "assumed_from_protocol_not_explicitly_reconfirmed_in_manual_reports",
+  "reference_source": "BP Pump 2 panel Measured reported manually by user",
+  "collection_protocol": "User instructed to record panel and serial together 30 seconds after reaching pressure; exact timestamps and synchronization not available for nonzero points.",
+  "points": [
+    {
+      "reference_mmHg": 0,
+      "raw": 1379.325,
+      "sensor_mV": 238,
+      "est_mmHg": 1.0375,
+      "source": "previous_10s_open_atmosphere_mean"
+    },
+    {
+      "reference_mmHg": 48,
+      "raw": 4810,
+      "ads_mV": 601,
+      "sensor_mV": 830,
+      "est_mmHg": 53.3
+    },
+    {
+      "reference_mmHg": 92,
+      "raw": 7912,
+      "ads_mV": 989,
+      "sensor_mV": 1365,
+      "est_mmHg": 100.5
+    },
+    {
+      "reference_mmHg": 139,
+      "raw": 11220,
+      "ads_mV": 1403,
+      "sensor_mV": 1935,
+      "est_mmHg": 150.9
+    },
+    {
+      "reference_mmHg": 186,
+      "raw": 14543,
+      "ads_mV": 1818,
+      "sensor_mV": 2508,
+      "est_mmHg": 201.5
+    },
+    {
+      "reference_mmHg": 235,
+      "raw": 17965,
+      "ads_mV": 2246,
+      "sensor_mV": 3099,
+      "est_mmHg": 253.7
+    }
+  ],
+  "fit_including_open_atmosphere_zero": {
+    "slope_mmHg_per_V": 82.17435343634585,
+    "intercept_mmHg": -19.948195921258346,
+    "residuals_mmHg": [
+      {
+        "reference_mmHg": 0,
+        "predicted_mmHg": -0.3906998034080331,
+        "error_mmHg": -0.3906998034080331
+      },
+      {
+        "reference_mmHg": 48,
+        "predicted_mmHg": 48.256517430908715,
+        "error_mmHg": 0.2565174309087155
+      },
+      {
+        "reference_mmHg": 92,
+        "predicted_mmHg": 92.21979651935375,
+        "error_mmHg": 0.2197965193537499
+      },
+      {
+        "reference_mmHg": 139,
+        "predicted_mmHg": 139.05917797807086,
+        "error_mmHg": 0.059177978070863446
+      },
+      {
+        "reference_mmHg": 186,
+        "predicted_mmHg": 186.14508249709706,
+        "error_mmHg": 0.14508249709706433
+      },
+      {
+        "reference_mmHg": 235,
+        "predicted_mmHg": 234.71012537797748,
+        "error_mmHg": -0.28987462202252345
+      }
+    ]
+  },
+  "return_to_zero_check": {
+    "reference_mmHg": 0,
+    "reference_status": "User supplied reading after instruction to vent and open sensor side to atmosphere; physical state not remotely verified.",
+    "source": "user_reported_single_serial_reading",
+    "raw": 1440,
+    "ads_mV": 180,
+    "sensor_mV": 248,
+    "est_mmHg": 2.0,
+    "sensor_change_from_initial_zero_mV": 10,
+    "equivalent_pressure_change_using_preliminary_slope_mmHg": 0.8217435343634585,
+    "used_in_fit": false,
+    "later_repeat_check": {
+      "source": "user_reported_three_serial_readings_after_instruction_to_wait_60_seconds",
+      "timing_status": "Exact elapsed time and spacing not independently verified.",
+      "count": 3,
+      "all_readings_identical": true,
+      "raw_each": 1440,
+      "ads_mV_each": 180,
+      "sensor_mV_each": 248,
+      "est_mmHg_each": 2.0,
+      "interpretation": "No change observed at reported output resolution across three readings; initial-to-final zero shift remains. Not used to refit."
+    },
+    "bridge_followup": "Two 5-second snapshots returned no samples; stream start received transport ACK, firmware execution not confirmed. Stability unverified."
+  },
+  "independent_validation_points": [
+    {
+      "reference_mmHg": 65,
+      "reference_unit_status": "assumed_mmHg_from_protocol_not_explicitly_reconfirmed",
+      "raw": 6053,
+      "ads_mV": 757,
+      "sensor_mV": 1044,
+      "est_mmHg": 72.2,
+      "source": "user_reported_panel_and_serial_reading",
+      "timing_status": "Exact timestamps and synchronization not independently verified.",
+      "predicted_mmHg": 65.84182906628673,
+      "predicted_minus_reference_mmHg": 0.8418290662867349,
+      "old_est_minus_reference_mmHg": 7.200000000000003,
+      "used_in_fit": false
+    },
+    {
+      "reference_mmHg": 115,
+      "reference_unit_status": "assumed_mmHg_from_protocol_not_explicitly_reconfirmed",
+      "raw": 9535,
+      "ads_mV": 1192,
+      "sensor_mV": 1645,
+      "est_mmHg": 125.3,
+      "source": "user_reported_panel_and_serial_reading",
+      "timing_status": "Exact timestamps and synchronization not independently verified.",
+      "predicted_mmHg": 115.22861548153058,
+      "predicted_minus_reference_mmHg": 0.2286154815305821,
+      "old_est_minus_reference_mmHg": 10.299999999999997,
+      "used_in_fit": false
+    }
+  ],
+  "independent_validation_flagged_point": {
+    "reference_mmHg": 162,
+    "reference_unit_status": "assumed_mmHg_from_protocol_not_explicitly_reconfirmed",
+    "raw": 12464,
+    "ads_mV": 1558,
+    "sensor_mV": 2150,
+    "est_mmHg": 169.9,
+    "source": "user_reported_panel_and_serial_reading",
+    "timing_status": "Exact timestamps and synchronization not independently verified.",
+    "predicted_mmHg": 156.7266639668852,
+    "predicted_minus_reference_mmHg": -5.273336033114788,
+    "old_est_minus_reference_mmHg": 7.900000000000006,
+    "used_in_fit": false,
+    "assessment": "Deviation increased materially compared with preceding independent points; repeat synchronized readings before further pressure increase or calibration write."
+  },
+  "independent_validation_rechecks": [
+    {
+      "reference_mmHg": 167,
+      "reference_unit_status": "assumed_mmHg_from_protocol_not_explicitly_reconfirmed",
+      "raw": 12888,
+      "ads_mV": 1611,
+      "sensor_mV": 2223,
+      "est_mmHg": 176.3,
+      "source": "user_reported_panel_and_serial_reading_after_repeat_request",
+      "timing_status": "Exact timestamps and synchronization not independently verified.",
+      "predicted_mmHg": 162.72539176773847,
+      "predicted_minus_reference_mmHg": -4.274608232261528,
+      "old_est_minus_reference_mmHg": 9.300000000000011,
+      "used_in_fit": false
+    },
+    {
+      "reference_mmHg": 164,
+      "reference_unit_status": "assumed_mmHg_from_protocol_not_explicitly_reconfirmed",
+      "raw": 12888,
+      "ads_mV": 1611,
+      "sensor_mV": 2223,
+      "est_mmHg": 176.3,
+      "source": "user_reported_panel_and_serial_reading_after_repeat_request",
+      "timing_status": "Synchronization questionable: panel decreased from 167 to 164 while reported serial line was identical.",
+      "predicted_mmHg": 162.72539176773847,
+      "predicted_minus_reference_mmHg": -1.274608232261528,
+      "old_est_minus_reference_mmHg": 12.300000000000011,
+      "used_in_fit": false,
+      "assessment": "Check live serial reception and response to venting before accepting validation measurements.",
+      "bridge_observation": "5-second watch returned hello only; no telemetry or serial text observed."
+    }
+  ],
+  "vent_response_check": {
+    "reference_mmHg": 0,
+    "reference_status": "User reported this line following instruction to stop BP Pump 2 and vent to panel zero; atmospheric disconnection and actual panel value not explicitly reconfirmed.",
+    "raw": 1426,
+    "ads_mV": 178,
+    "sensor_mV": 246,
+    "est_mmHg": 1.8,
+    "predicted_mmHg": 0.2666950240827326,
+    "used_in_fit": false,
+    "assessment": "Reported raw decreased from 12888 to 1426 after vent instruction, demonstrating a changed reading across conditions. Continuous refresh and synchronization of earlier pairs remain unverified."
+  },
+  "repressurization_validation_check": {
+    "reference_mmHg": 164,
+    "reference_unit_status": "assumed_mmHg_from_protocol_not_explicitly_reconfirmed",
+    "raw": 12642,
+    "ads_mV": 1580,
+    "sensor_mV": 2181,
+    "est_mmHg": 172.6,
+    "predicted_mmHg": 159.27406892341196,
+    "predicted_minus_reference_mmHg": -4.72593107658804,
+    "old_est_minus_reference_mmHg": 8.599999999999994,
+    "source": "user_manual_report_after_vent_and_repressurize_repeat",
+    "timing_status": "No photograph or common timestamp supplied; exact synchronization unverified.",
+    "used_in_fit": false,
+    "assessment": "Material discrepancy recurred after pressure cycle; calibration validation incomplete. Confirm reference field, units and simultaneous fresh readings before parameter write."
+  },
+  "latest_reference_confirmation": {
+    "applies_to": "repressurization_validation_check",
+    "user_confirmed": true,
+    "reference_field": "Measured",
+    "reference_unit": "mmHg",
+    "reference_mmHg": 164,
+    "simultaneous_with_latest_serial_reading": "User explicitly confirmed; no independent timestamp record.",
+    "assessment": "Accept as user-confirmed synchronous pair. Preliminary fit error is -4.7259 mmHg; validation has not passed.",
+    "next_check": "Repeat the previously tested 125 mmHg source setting after safe venting; compare actual Measured and sensor voltage with prior validation pair."
+  },
+  "low_pressure_repeat_validation": {
+    "reference_mmHg": 114,
+    "reference_unit": "mmHg",
+    "reference_field": "Measured",
+    "raw": 9012,
+    "ads_mV": 1127,
+    "sensor_mV": 1554,
+    "est_mmHg": 117.3,
+    "predicted_mmHg": 107.75074931882311,
+    "predicted_minus_reference_mmHg": -6.249250681176889,
+    "source": "user_manual_report_after_instruction_to_vent_and_repeat_125_mmHg_source_setting",
+    "timing_status": "Reported under synchronous reading protocol; no independent timestamps.",
+    "used_in_fit": false,
+    "comparison_with_previous_low_point": {
+      "prior_reference_mmHg": 115,
+      "prior_sensor_mV": 1645,
+      "reference_change_mmHg": -1,
+      "sensor_change_mV": -91,
+      "formula_error_change_mmHg": -6.477866162707471
+    },
+    "assessment": "Low pressure validation is not repeatable across cycles. Pause calibration writes and examine common pneumatic path and measurement conditions; cause unproven."
+  },
+  "latest_validation_point": {
+    "reference_mmHg": 113,
+    "reference_field": "Measured",
+    "reference_unit": "mmHg",
+    "raw": 9358,
+    "ads_mV": 1170,
+    "sensor_mV": 1614,
+    "est_mmHg": 122.6,
+    "predicted_mmHg": 112.68121052500386,
+    "predicted_minus_reference_mmHg": -0.3187894749961373,
+    "old_est_minus_reference_mmHg": 9.599999999999994,
+    "source": "user_reported_panel_and_serial_reading_after_stable_bridge_zero_candidate",
+    "timing_status": "User reported synchronized pair; direct bridge zero snapshot was stable but direct high-pressure capture not performed in this call.",
+    "used_in_fit": false
+  },
+  "latest_high_pressure_validation": {
+    "reference_mmHg": 186,
+    "reference_field": "Measured",
+    "reference_unit": "mmHg",
+    "user_reported_serial_line": {
+      "raw": 14512,
+      "ads_mV": 1814,
+      "sensor_mV": 2503,
+      "est_mmHg": 201.1,
+      "formula_prediction_mmHg": 185.73421072991533,
+      "formula_error_mmHg": -0.26578927008466735
+    },
+    "direct_bridge_capture": {
+      "duration_s": 5,
+      "sample_count": 100,
+      "sample_rate_hz_reported": 0,
+      "raw_range": [14325, 14356],
+      "raw_mean": 14339.95,
+      "ads_mV_range": [1791, 1795],
+      "ads_mV_mean": 1792.55,
+      "sensor_mV_range": [2471, 2476],
+      "sensor_mV_mean": 2473.48,
+      "est_mmHg_range": [198.2, 198.7],
+      "est_mmHg_mean": 198.441,
+      "formula_prediction_from_sensor_mean_mmHg": 183.30842381647437,
+      "formula_error_if_reference_remained_186_mmHg": -2.691576183525626
+    },
+    "assessment": "The supplied line predicts close to 186 mmHg, but subsequent live bridge samples are lower by about 30 mV sensor and trend down slightly over 5 seconds. Panel reference was not reread during bridge capture; do not treat as synchronized validation."
+  },
+  "latest_panel_bridge_crosscheck": {
+    "panel_measured_mmHg": 181,
+    "user_reported_at": "Immediately before direct bridge 5s capture; no hardware timestamp",
+    "bridge_capture": {
+      "duration_s": 5,
+      "samples": 100,
+      "raw_mean": 14128.89,
+      "ads_mV_mean": 1766.15,
+      "sensor_mV_mean": 2437.09,
+      "est_mmHg_mean": 195.23,
+      "sensor_mV_range": [2435, 2439],
+      "sensor_first_mV": 2439,
+      "sensor_last_mV": 2436,
+      "formula_prediction_mmHg": 180.290,
+      "formula_minus_panel_mmHg": -0.710
+    },
+    "previous_bridge_capture_sensor_mean_mV": 2473.48,
+    "sensor_change_mV": -36.39,
+    "assessment": "Panel value and bridge sensor reading were collected consecutively, not proven simultaneous. Sensor output fell 36.39mV over two close 5s captures while panel report changed from 186 to 181 mmHg. Do not recalibrate from this pair; assess pressure decay and panel update latency."
+  },
+  "pressure_decay_check_panel_178": {
+    "panel_measured_mmHg": 178,
+    "reported_before_bridge_capture": true,
+    "bridge_capture": {
+      "duration_s": 5,
+      "samples": 100,
+      "raw_mean": 13965.02,
+      "ads_mV_mean": 1745.7,
+      "sensor_mV_mean": 2408.83,
+      "sensor_mV_range": [2407, 2410],
+      "est_mmHg_mean": 192.73,
+      "formula_prediction_mmHg": 177.99585186681463,
+      "formula_minus_panel_mmHg": -0.004148133185367442,
+      "sensor_first_mV": 2410,
+      "sensor_last_mV": 2407
+    },
+    "comparison_with_previous_crosscheck": {
+      "previous_panel_mmHg": 181,
+      "previous_sensor_mean_mV": 2437.09,
+      "panel_change_mmHg": -3,
+      "sensor_change_mV": -28.26,
+      "formula_prediction_change_mmHg": -2.294148133185331
+    },
+    "assessment": "Sensor decreases as reported panel pressure decreases, consistent in direction; readings were consecutive rather than timestamp-synchronized. Formula comparison remains provisional."
+  },
+  "latest_zero_after_pressure_test": {
+    "user_reported": "已归零",
+    "capture_duration_s": 5,
+    "sample_count": 100,
+    "raw_mean": 1509.13,
+    "raw_range": [1501, 1516],
+    "ads_mV_mean": 188.63,
+    "sensor_mV_mean": 260.25,
+    "sensor_mV_range": [259, 261],
+    "est_mmHg_mean": 3.025,
+    "est_mmHg_range": [2.9, 3.1],
+    "assessment": "Direct serial capture after user reported zero still reads approximately 3.0 mmHg. Treat as residual pressure or zero offset until vented to est=0; then seal. Not used in fit."
+  },
+  "post_vent_second_capture": {
+    "panel_measured_mmHg": 0,
+    "capture_duration_s": 5,
+    "sample_count": 100,
+    "raw_mean": 1410.08,
+    "raw_range": [1408, 1412],
+    "ads_mV_mean": 176.02,
+    "sensor_mV_mean": 243.02,
+    "sensor_mV_range": [243, 244],
+    "est_mmHg_mean": 1.5,
+    "est_mmHg_range": [1.5, 1.5],
+    "assessment": "After user stated BP Pump 2 panel is zero, local serial pressure was 1.5 mmHg and stable. This is near zero; do not adjust the calibration zero from one residual discrepancy. Current pressure at or near atmospheric; seal after venting is complete."
+  },
+  "automated_vent_seal_cycle": {
+    "commands": [
+      {"text": "vent", "transport_ack": true, "written_bytes": 6},
+      {"text": "seal", "transport_ack": true, "written_bytes": 6}
+    ],
+    "vent_capture": {
+      "duration_s": 10,
+      "sample_count": 200,
+      "est_mmHg_mean": 3.694,
+      "est_mmHg_range": [3.6, 3.9],
+      "sensor_mV_mean_approx": 267.98,
+      "assessment": "No further decrease to firmware est=0 while vent was open."
+    },
+    "after_seal_capture": {
+      "duration_s": 3,
+      "sample_count": 61,
+      "raw_mean": 1356.69,
+      "ads_mV_mean": 169.97,
+      "sensor_mV_mean": 234,
+      "est_mmHg_mean": 0.7,
+      "est_mmHg_range": [0.7, 0.7],
+      "assessment": "After seal, local reading settled near zero; valve2 is no longer left open. Transport ACK confirms write delivery, while the serial state line is the behavioral confirmation."
+    }
+  },
+  "latest_fixed_connection_validation": {
+    "panel_measured_mmHg": 112,
+    "raw": 9236,
+    "ads_mV": 1155,
+    "sensor_mV": 1593,
+    "est_mmHg": 120.7,
+    "formula_prediction_mmHg": 110.9555491028406,
+    "formula_minus_panel_mmHg": -1.0444508971593933,
+    "source": "user_reported_panel_and_serial_line",
+    "bridge_followup": {
+      "first_watch_sample_count": 0,
+      "after_stream_start_sample_count": 0,
+      "transport_ack": true,
+      "interpretation": "No live samples reached the bridge during this verification; use the user supplied line provisionally and restore live telemetry before final calibration write."
+    },
+    "used_in_fit": false
+  },
+  "latest_high_validation_187": {
+    "panel_measured_mmHg": 187,
+    "user_reported_line": {
+      "raw": 14516,
+      "ads_mV": 1815,
+      "sensor_mV": 2504,
+      "est_mmHg": 201.1,
+      "formula_prediction_mmHg": 185.8163850833517,
+      "formula_minus_panel_mmHg": -1.1836149166483096
+    },
+    "direct_bridge_capture_after_report": {
+      "duration_s": 5,
+      "sample_count": 100,
+      "raw_mean": 14338.57,
+      "ads_mV_mean": 1792.39,
+      "sensor_mV_mean": 2473.22,
+      "sensor_mV_range": [2470, 2476],
+      "est_mmHg_mean": 198.425,
+      "formula_prediction_mmHg": 183.28705848458094,
+      "formula_minus_panel_if_panel_still_187_mmHg": -3.712941515419061,
+      "assessment": "Bridge capture is lower than the user supplied line by 30.78mV sensor; panel value was not reread at capture end, so treat as pressure decay/synchronization evidence rather than a synchronized error."
+    },
+    "used_in_fit": false
+  },
+  "latest_static_point_189": {
+    "panel_measured_mmHg": 189,
+    "user_reported_line": {
+      "raw": 14692,
+      "ads_mV": 1837,
+      "sensor_mV": 2534,
+      "est_mmHg": 203.8,
+      "formula_prediction_mmHg": 188.28161568644202,
+      "formula_minus_panel_mmHg": -0.718384313557978
+    },
+    "direct_bridge_capture_after_report": {
+      "duration_s": 5,
+      "sample_count": 100,
+      "raw_mean": 14481.26,
+      "ads_mV_mean": 1810.24,
+      "sensor_mV_mean": 2497.84,
+      "est_mmHg_mean": 200.593,
+      "formula_prediction_mmHg": 185.3101910661838,
+      "assessment": "Direct window was lower than the supplied line; no valve command was sent. Treat as pressure decay or timing offset, not a synchronized validation pair."
+    },
+    "used_in_fit": false
+  },
+  "latest_static_point_47": {
+    "panel_measured_mmHg": 47,
+    "user_reported_line": {
+      "raw": 4725,
+      "ads_mV": 591,
+      "sensor_mV": 815,
+      "est_mmHg": 52.0,
+      "formula_prediction_mmHg": 47.02390212936352,
+      "formula_minus_panel_mmHg": 0.023902129363519915
+    },
+    "direct_bridge_capture_after_report": {
+      "duration_s": 5,
+      "sample_count": 100,
+      "raw_mean": 4649.11,
+      "ads_mV_mean": 581.28,
+      "sensor_mV_mean": 801.93,
+      "est_mmHg_mean": 50.846,
+      "formula_prediction_mmHg": 45.94988332995048,
+      "assessment": "Direct window was lower than supplied line; no valve command was sent. User supplied pair itself agrees with the provisional formula."
+    },
+    "used_in_fit": false
+  },
+  "latest_static_point_92": {
+    "panel_measured_mmHg": 92,
+    "direct_bridge_capture": {
+      "duration_s": 5,
+      "sample_count": 64,
+      "raw_mean": 7811.203125,
+      "ads_mV_mean": 976.453125,
+      "sensor_mV_mean": 1347.34375,
+      "sensor_mV_range": [1346, 1349],
+      "est_mmHg_mean": 99.0078125,
+      "formula_prediction_mmHg": 90.76890559149327,
+      "formula_minus_panel_mmHg": -1.231094408506728,
+      "assessment": "Bridge capture followed the user panel report; no user serial line was supplied. Provisional formula remains within about 1.3mmHg, but timing is not hardware-synchronized."
+    },
+    "used_in_fit": false
+  },
+  "timing_correction_from_user": {
+    "user_report": "When the user supplies a panel value, pressure has generally fallen by about 1 mmHg during the wait/communication interval.",
+    "processing_rule": "Treat a panel value and serial line supplied in the same user message as the synchronized calibration pair. Treat later direct bridge windows as trend checks only unless the panel is reread at the end of that exact window.",
+    "impact": "The approximately 1 mmHg lower direct-window predictions at 92 mmHg and similar points are consistent with timing/pressure decay and should not be interpreted as sensor calibration error."
+  },
+  "final_calibration_write": {
+    "slope_mmHg_per_V": 82.326,
+    "intercept_mmHg": -19.887,
+    "command": "cal write 82.326 -19.887",
+    "flash_sequence": ["cal clear", "cal write 82.326 -19.887"],
+    "firmware_ack": "[Cal] written+verified slope=82.326 intercept=-19.89 -> VALID",
+    "readback": "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "runtime_verification": {
+      "sensor_mV_mean": 1213.015625,
+      "est_mmHg_mean": 79.9953125,
+      "predicted_mmHg": 79.98,
+      "duration_s": 3,
+      "sample_count": 64
+    },
+    "rollback_command": "cal write 88.300 -19.960"
+  },
+  "post_write_repeatability_low": {
+    "target_description": "approximately 50 mmHg",
+    "samples": [
+      {"panel_measured_mmHg": 53, "sensor_mV": 875, "est_mmHg": 52.1},
+      {"panel_measured_mmHg": 52, "sensor_mV": 863, "est_mmHg": 51.1},
+      {"panel_measured_mmHg": 52, "sensor_mV": 864, "est_mmHg": 51.2}
+    ],
+    "panel_mean_mmHg": 52.3333,
+    "panel_sample_sd_mmHg": 0.5774,
+    "sensor_est_mean_mmHg": 51.5171,
+    "sensor_est_sample_sd_mmHg": 0.5482,
+    "mean_est_minus_panel_mmHg": -0.8162,
+    "status": "low_point_repeatability_passed_provisionally"
+  },
+  "post_write_repeatability_mid": {
+    "target_description": "approximately 150 mmHg",
+    "samples": [
+      {"panel_measured_mmHg": 136, "sensor_mV": 1882, "est_mmHg": 135.0},
+      {"panel_measured_mmHg": 141, "sensor_mV": 1939, "est_mmHg": 139.7},
+      {"panel_measured_mmHg": 140, "sensor_mV": 1937, "est_mmHg": 139.6}
+    ],
+    "panel_mean_mmHg": 139.0,
+    "panel_sample_sd_mmHg": 2.6458,
+    "sensor_est_mean_mmHg": 138.1,
+    "sensor_est_sample_sd_mmHg": 2.6851,
+    "mean_est_minus_panel_mmHg": -0.9,
+    "max_abs_est_minus_panel_mmHg": 1.3,
+    "status": "mid_point_repeatability_passed_provisionally_with_pressure_drift"
+  },
+  "post_write_repeatability_high": {
+    "target_description": "approximately 250 mmHg",
+    "samples": [
+      {"panel_measured_mmHg": 235, "sensor_mV": 3090, "est_mmHg": 234.5},
+      {"panel_measured_mmHg": 238, "sensor_mV": 3122, "est_mmHg": 237.2},
+      {"panel_measured_mmHg": 238, "sensor_mV": 3117, "est_mmHg": 236.7}
+    ],
+    "panel_mean_mmHg": 237.0,
+    "panel_sample_sd_mmHg": 1.7321,
+    "sensor_est_mean_mmHg": 236.1333,
+    "sensor_est_sample_sd_mmHg": 1.4364,
+    "mean_est_minus_panel_mmHg": -0.8667,
+    "max_abs_est_minus_panel_mmHg": 1.3,
+    "status": "high_point_repeatability_passed_provisionally"
+  },
+  "post_write_repeatability_summary": {
+    "sample_count": 9,
+    "pressure_groups_mmHg": [52.3333, 139.0, 237.0],
+    "mean_est_minus_panel_mmHg": -0.8778,
+    "mean_absolute_error_mmHg": 0.8778,
+    "rmse_mmHg": 0.9244,
+    "max_absolute_error_mmHg": 1.3,
+    "status": "bench_repeatability_passed_provisionally"
+  },
+  "limitations": [
+    "Low pressure repeat at 114 mmHg also deviates (-6.2493 mmHg); candidate coefficients are not validated for writing. Cause of cross-cycle discrepancy is undetermined.",
+    "Repeated identical serial line accompanied different panel pressures; live reception/synchronization must be checked before accepting latest validation points.",
+    "Nonzero values are individual manually reported serial readings, not window averages.",
+    "Residuals on fitting data do not establish independent accuracy.",
+    "Return-to-zero readings differ from initial zero; three later readings identical at reported resolution. Independent validation pending.",
+    "The active coefficients are fitted from manually synchronized static points; repeatability across separate pressure cycles still needs a dedicated 3-repeat run."
+  ]
+}

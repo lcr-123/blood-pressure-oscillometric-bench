@@ -1,0 +1,248 @@
+{
+  "name": "reference_bp_v2",
+  "frozen_on": "2026-11-07",
+  "supersedes": "reference_bp_v1",
+  "supersedes_for_new_captures_only": true,
+  "why": "v1 scored a Preset 2 round whose deflate valve never throttled in the 200-245 mmHg window (-15.49 mmHg/s against a healthy -1.56..-1.91). The capture decoded, the fault counters were clean and the closeout confirmed, so no v1 rule applied, and the frozen transient rule missed it because the failed valve raised the whole surrounding envelope (neighbourhood median 19.93 mV, ratio 1.90 against a 2.0 threshold). The lesson is that capture validity and waveform interpretation are different questions and need separate gates.",
+  "estimator": {
+    "path": "tools/reference_bp.py",
+    "sha256": "ddc9daf72a55ed5d32d9b8c832e61e76fc04011a8e462aa9be74a877a2ba8868",
+    "bytes": 17301,
+    "constants": {
+      "DEFAULT_SBP_RATIO": "0.5",
+      "DEFAULT_DBP_RATIO": "0.6",
+      "DEFAULT_SKIP_START_S": "2.0",
+      "DEFAULT_MAP_SMOOTHING_S": "2.0",
+      "RATIO_SWEEP": "(0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7)",
+      "PLATEAU_FRACTION": "0.9",
+      "PLATEAU_REFUSE_RATIO": "0.25",
+      "MIN_ENVELOPE_V": "0.0001",
+      "TRANSIENT_FACTOR": "2.0",
+      "SBP_SUSTAINED_SAMPLES": "3",
+      "DBP_SUSTAINED_SAMPLES": "3"
+    }
+  },
+  "validity_gate": {
+    "path": "tools\\validity_v2.py",
+    "sha256": "0857b93a172b027c4ff9c9835b29078cb9c92b848c6b759441d1d1b70bddf880",
+    "version": "validity_v2",
+    "constants": {
+      "PEAK_LOW_MMHG": "200.0",
+      "PEAK_HIGH_MMHG": "245.0",
+      "DEFLATE_RATE_MAX_MMHG_S": "4.0",
+      "MIN_PEAK_WINDOW_POINTS": "40",
+      "NORMAL_RATE_OBSERVED": "(1.56, 2.63)",
+      "FAILURE_RATE_OBSERVED": "(13.35, 15.49)"
+    },
+    "criterion": "peak-window (200-245 mmHg) OLS deflation rate; a capture is unusable when |slope| exceeds DEFLATE_RATE_MAX_MMHG_S",
+    "rejected_alternative": "a neighbourhood-median ceiling was considered and dropped on measurement: healthy development rounds reach 11.14 mV and healthy prospective rounds reach 10.32 mV, so a 10 mV threshold would refuse valid captures",
+    "threshold_provenance": "derived from the development set alone, whose maximum |slope| is 2.63 mmHg/s, so 4.0 sits above anything the fixture produces when it works; the two observed failures were 13.35 and 15.49",
+    "scope": "reads only the pressure trace and never the estimator output, so enabling it cannot bias the estimator error statistics",
+    "path_note": "moved from tmp\\validity_v2.py because tmp/ is gitignored and a freeze record must ship the code it hashes; file content and sha256 are unchanged"
+  },
+  "baseline_report": "data\\reports\\reference_bp_20261107.json",
+  "baseline_report_sha256": "a50a905b1476ccce14dabff1211f6e2af2b3f1add726f490e36ab8f7492743f2",
+  "baseline_rounds": [
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-141750",
+      "status": "ok",
+      "map_mmhg": 98.91,
+      "sbp_mmhg": 118.58,
+      "dbp_mmhg": 75.04,
+      "high_side_plateau_ratio": 0.0386,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-142446",
+      "status": "ok",
+      "map_mmhg": 102.52,
+      "sbp_mmhg": 119.96,
+      "dbp_mmhg": 77.48,
+      "high_side_plateau_ratio": 0.0379,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-143250",
+      "status": "ok",
+      "map_mmhg": 101.95,
+      "sbp_mmhg": 138.21,
+      "dbp_mmhg": 74.93,
+      "high_side_plateau_ratio": 0.0697,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-143637",
+      "status": "ok",
+      "map_mmhg": 94.61,
+      "sbp_mmhg": 111.82,
+      "dbp_mmhg": 90.56,
+      "high_side_plateau_ratio": 0.0466,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-195142",
+      "status": "ok",
+      "map_mmhg": 98.19,
+      "sbp_mmhg": 119.68,
+      "dbp_mmhg": 75.66,
+      "high_side_plateau_ratio": 0.0592,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-102352",
+      "status": "ok",
+      "map_mmhg": 100.84,
+      "sbp_mmhg": 130.62,
+      "dbp_mmhg": 79.36,
+      "high_side_plateau_ratio": 0.0288,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-102939",
+      "status": "ok",
+      "map_mmhg": 90.83,
+      "sbp_mmhg": 123.27,
+      "dbp_mmhg": 85.13,
+      "high_side_plateau_ratio": 0.0454,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-115807",
+      "status": "unresolved_map",
+      "map_mmhg": 252.03,
+      "sbp_mmhg": 254.17,
+      "dbp_mmhg": 224.47,
+      "high_side_plateau_ratio": 0.0631,
+      "envelope_transient_suspected": true
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144148",
+      "status": "ok",
+      "map_mmhg": 119.86,
+      "sbp_mmhg": 135.87,
+      "dbp_mmhg": 90.96,
+      "high_side_plateau_ratio": 0.0439,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144500",
+      "status": "ok",
+      "map_mmhg": 120.37,
+      "sbp_mmhg": 159.63,
+      "dbp_mmhg": 92.23,
+      "high_side_plateau_ratio": 0.034,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144826",
+      "status": "ok",
+      "map_mmhg": 122.37,
+      "sbp_mmhg": 160.04,
+      "dbp_mmhg": 93.86,
+      "high_side_plateau_ratio": 0.0286,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-145455",
+      "status": "ok",
+      "map_mmhg": 168.65,
+      "sbp_mmhg": 201.1,
+      "dbp_mmhg": 164.54,
+      "high_side_plateau_ratio": 0.0797,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-145808",
+      "status": "ok",
+      "map_mmhg": 176.76,
+      "sbp_mmhg": 196.93,
+      "dbp_mmhg": 173.15,
+      "high_side_plateau_ratio": 0.0842,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-150121",
+      "status": "ok",
+      "map_mmhg": 165.72,
+      "sbp_mmhg": 179.69,
+      "dbp_mmhg": 152.48,
+      "high_side_plateau_ratio": 0.1471,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-133524",
+      "status": "unresolved_sbp",
+      "map_mmhg": 209.97,
+      "sbp_mmhg": null,
+      "dbp_mmhg": 205.53,
+      "high_side_plateau_ratio": 0.3564,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-135004",
+      "status": "ok",
+      "map_mmhg": 214.91,
+      "sbp_mmhg": 258.27,
+      "dbp_mmhg": 182.71,
+      "high_side_plateau_ratio": 0.1451,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-135527",
+      "status": "ok",
+      "map_mmhg": 215.69,
+      "sbp_mmhg": 242.75,
+      "dbp_mmhg": 208.48,
+      "high_side_plateau_ratio": 0.2047,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261107-125444",
+      "status": "ok",
+      "map_mmhg": 221.22,
+      "sbp_mmhg": 254.92,
+      "dbp_mmhg": 192.24,
+      "high_side_plateau_ratio": 0.0632,
+      "envelope_transient_suspected": false
+    }
+  ],
+  "baseline_summary": {
+    "rounds": 18,
+    "status_ok": 16,
+    "map_error_sd_mmhg": 3.7,
+    "sbp_error_sd_mmhg": 9.7,
+    "dbp_error_sd_mmhg": 9.6,
+    "note": "these are descriptive statistics of the baseline, not a claim of accuracy; a prospective set is scored against them, not merged into them",
+    "sd_convention": "sample standard deviation (n-1); the freeze record stores 3.7/9.7/9.6 which are population sd values of the same 16 rounds, so the two differ in the second digit",
+    "population_sd": {
+      "map": 3.7,
+      "sbp": 9.68,
+      "dbp": 9.6
+    },
+    "sample_sd": {
+      "map": 3.82,
+      "sbp": 10.0,
+      "dbp": 9.92
+    }
+  },
+  "reproduce": "python tools/reference_bp.py --json <output.json> data/raw/development_20261101/*.export.ndjson",
+  "applies_to": "Presets 3 and 4, and any later capture; not to the 20 v1 rounds already scored",
+  "exclusion_rules_declared_before_any_v2_run": [
+    "a round is excluded if the strict decoder rejects it",
+    "a round is excluded if preflight rejected it and no inflation occurred",
+    "a round is excluded if the MCU reported a fault during the run",
+    "a round is excluded if the vent-to-seal closeout did not confirm a sealed zero",
+    "NEW a round is excluded if the validity gate marks the capture unusable",
+    "a round is flagged but NOT excluded if the estimator refuses it",
+    "no round may be excluded because its answer disagrees with the panel"
+  ],
+  "retrospective_check_of_the_gate": {
+    "note": "the gate was run over the 20 already-captured v1 rounds without changing any v1 result, to establish what it would have done",
+    "rejects": [
+      "standard120_080_target275_peakwindow_20261107-154020",
+      "standard150_100_target275_peakwindow_20261107-202606"
+    ],
+    "false_positives_on_development": 0,
+    "healthy_prospective_rounds_retained": 18
+  }
+}

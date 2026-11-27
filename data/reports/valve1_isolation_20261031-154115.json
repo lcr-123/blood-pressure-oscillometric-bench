@@ -1,0 +1,38 @@
+{
+  "outcome": "communication_loss_after_valve1_release",
+  "firmware": "ADS_BUS_DIAG_20261031",
+  "pump_started": false,
+  "pretest_pressure": {
+    "raw": {
+      "min": 1375,
+      "max": 1383,
+      "mean": 1377.84
+    },
+    "sensor": {
+      "min": 237,
+      "max": 239,
+      "mean": 237.92
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "last_confirmed_valve_close": {
+    "timestamp": 1793432481353,
+    "direction": "rx",
+    "text": "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "truncated": false
+  },
+  "post_close_fresh_samples": 0,
+  "post_close_snapshot_seconds": 5,
+  "post_close_snapshot_samples": 0,
+  "post_release_ads_counters": null,
+  "remote_vent_zero_seal_confirmed": false,
+  "operator_safe_state_confirmation_received": false,
+  "root_cause": "unresolved: valve switching association reproduced without pump, but absent bridge ACK also leaves host/transport failure possible",
+  "raw": "data/raw/development_20261031/valve1_only_20261031-154115.ndjson",
+  "raw_sha256": "ddb0da4d83e810e127de51eadb44b4c3e0d06be435cd4f332efd6136f752ca5a",
+  "collector_error": "empty-sample summary ValueError is secondary to missing data, not a firmware fault diagnosis"
+}

@@ -1,0 +1,80 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 50,
+  "host_ceiling_mmhg": 65,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1320,
+      "max": 1322,
+      "mean": 1321.0333333333333
+    },
+    "sensor": {
+      "min": 228,
+      "max": 228,
+      "mean": 228.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1321 ads=165mV sensor=228mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "pressure_during_test": {
+    "raw": {
+      "min": 1297,
+      "max": 5097,
+      "mean": 2100.097777777778
+    },
+    "sensor": {
+      "min": 224,
+      "max": 879,
+      "mean": 362.3466666666667
+    },
+    "est": {
+      "min": 0.0,
+      "max": 52.5,
+      "mean": 10.604444444444445
+    }
+  },
+  "test_event_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 50.5 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=59 capacity=3300 dropped=0 duration=1450ms interval=25ms"
+  ],
+  "post_capture_zero": {
+    "raw": {
+      "min": 895,
+      "max": 1427,
+      "mean": 1395.95
+    },
+    "sensor": {
+      "min": 154,
+      "max": 246,
+      "mean": 240.8
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.4,
+      "mean": 0.2725
+    }
+  },
+  "error": "TimeoutError('incomplete diagnostic export')",
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": true,
+  "raw_path": "data\\raw\\development_20261031\\restart_low50_20261031-135416.ndjson",
+  "raw_sha256": "6ae45da83adec2c6d1e843c35c9e2ca439f182d10ea680896344d8c07e742134"
+}

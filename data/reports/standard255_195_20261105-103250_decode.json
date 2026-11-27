@@ -1,0 +1,51 @@
+{
+  "n": 2825,
+  "duration_ms": 70600,
+  "header": {
+    "schema": "bp.capture/3",
+    "type": "begin",
+    "firmware": "HIGH_PRESSURE_CAPTURE_20261101",
+    "n": 2825,
+    "dropped": 0,
+    "interval_ms": 25,
+    "raw_kind": 2,
+    "cal_valid": 1,
+    "slope": 1118086889,
+    "intercept": 3248429203,
+    "calc": 2
+  },
+  "valve": {
+    "schema": "bp.capture/3",
+    "type": "valve",
+    "pulses": 354,
+    "period_min": 200,
+    "period_max": 200,
+    "on_min": 1,
+    "on_max": 15,
+    "threshold": 1084227584,
+    "steps": 0,
+    "phase": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rise_found": 0,
+    "rise_i": 0,
+    "rise_d": 0,
+    "rise_phase": 0,
+    "rise_on": 0,
+    "fall_found": 0,
+    "fall_i": 0,
+    "fall_d": 0,
+    "fall_phase": 0,
+    "fall_on": 0,
+    "trace_n": 0
+  },
+  "steps": []
+}

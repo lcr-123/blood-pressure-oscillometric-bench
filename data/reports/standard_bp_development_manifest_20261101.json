@@ -1,0 +1,188 @@
+{
+  "kind": "nonhuman_standard_bp_development_manifest",
+  "date_local": "2026-11-01",
+  "primary_pressure_sensor": "MPXV5050GP via ADS1115",
+  "static_calibration_record": "calibration_data/manual_static_2026-10-25.json",
+  "static_calibration_sha256": "8e8f65926a69c774718056ef3b1438cfdfc67fee9950a12102c40a6b43898be6",
+  "static_calibration_coefficients": {
+    "slope_mmhg_per_v": 82.326,
+    "intercept_mmhg": -19.887
+  },
+  "static_calibration_note": "completed BP Pump 2 Static Pressure / Pressure Source multi-point calibration",
+  "dynamic_reference_note": "no synchronized independent pressure trace; Standard BP panel values are settings",
+  "counts": {
+    "attempts": 7,
+    "complete_exports": 6
+  },
+  "runs": [
+    {
+      "run_id": "standard120_80_20261101-111311",
+      "dataset_role": "development",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "panel_bpm": 80,
+      "panel_pulse_volume_profile_cc": null,
+      "panel_photo_path": null,
+      "outcome": "export_received",
+      "closeout_confirmed": true,
+      "raw_path": "data/raw/development_20261101/standard120_80_20261101-111311.ndjson",
+      "raw_sha256": "aabaaef4ee319250e94192fce9f659ac14e96cca752757e98151c06bf9f8525a",
+      "metadata_path": "data/raw/development_20261101/standard120_80_20261101-111311.metadata.json",
+      "metadata_sha256": "c57befdcb231cf209e51c43026b6e934592ed17c426fd1f6cd85b8f19ca746e9",
+      "independent_dynamic_pressure_reference": false,
+      "sample_count": 2673,
+      "duration_ms": 66800,
+      "verified_path": "data/reports/standard120_80_20261101-111311.verified.ndjson",
+      "verified_sha256": "3157814682387a9d31f0da871b61e3440126814fd96e5efec5f2eecaac9b3556",
+      "replay_path": "data/reports/standard120_80_20261101-111311.replay.json",
+      "replay_sha256": "c4a62dcb00c55fe0327869c5749d5389c9e7b1ccc59d4d6bd251013be07bef01",
+      "transfer_and_same_source_replay": "passed"
+    },
+    {
+      "run_id": "standard120_80_20261101-114844",
+      "dataset_role": "development",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "panel_bpm": 80,
+      "panel_pulse_volume_profile_cc": null,
+      "panel_photo_path": null,
+      "outcome": "export_received",
+      "closeout_confirmed": true,
+      "raw_path": "data/raw/development_20261101/standard120_80_20261101-114844.ndjson",
+      "raw_sha256": "c746e835d7972e35196312fe6a3cdb4e409db9f67d18172fa9ae2837e98cf158",
+      "metadata_path": "data/raw/development_20261101/standard120_80_20261101-114844.metadata.json",
+      "metadata_sha256": "24d1bef5d5747edf2ace26aaab155187fea9dc1e27956cdfd99a79988198f6d0",
+      "independent_dynamic_pressure_reference": false,
+      "sample_count": 2289,
+      "duration_ms": 57200,
+      "verified_path": "data/reports/standard120_80_20261101-114844.verified.ndjson",
+      "verified_sha256": "684818927b7c1547e5ce0120859e21e289560b666a4e2b67826dfd304adfbca6",
+      "replay_path": "data/reports/standard120_80_20261101-114844.replay.json",
+      "replay_sha256": "f7351df20256500141f0d463f4b256cec55d35d2bfcb3c140369f5b4b68eb3c1",
+      "transfer_and_same_source_replay": "passed"
+    },
+    {
+      "run_id": "standard120_80_20261101-120429",
+      "dataset_role": "development",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "panel_bpm": 80,
+      "panel_pulse_volume_profile_cc": 0.68,
+      "panel_photo_path": null,
+      "outcome": "export_received",
+      "closeout_confirmed": true,
+      "raw_path": "data/raw/development_20261101/standard120_80_20261101-120429.ndjson",
+      "raw_sha256": "8acc7e1a9e02804edab6c66e9f83b0f49e934585d1c366c4f0bd7c777433c50b",
+      "metadata_path": "data/raw/development_20261101/standard120_80_20261101-120429.metadata.json",
+      "metadata_sha256": "3a5562f730e011d525b34c313619f55ade506186376e534b505d5cf95e0a0397",
+      "independent_dynamic_pressure_reference": false,
+      "sample_count": 2273,
+      "duration_ms": 56800,
+      "verified_path": "data/reports/standard120_80_20261101-120429.verified.ndjson",
+      "verified_sha256": "2e92de786265a69966e896ad3a5efa85279271542983b2297804767b8c7ebc08",
+      "replay_path": "data/reports/standard120_80_20261101-120429.replay.json",
+      "replay_sha256": "e0178b5fd2ec95fbeb4a65983a9aee81f96c2ec07058ce0c825f3ac651b17c90",
+      "transfer_and_same_source_replay": "passed"
+    },
+    {
+      "run_id": "standard120_80_20261101-152030",
+      "dataset_role": "development",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "panel_bpm": 80,
+      "panel_pulse_volume_profile_cc": 0.68,
+      "panel_photo_path": null,
+      "outcome": "export_received",
+      "closeout_confirmed": true,
+      "raw_path": "data/raw/development_20261101/standard120_80_20261101-152030.ndjson",
+      "raw_sha256": "d2b40fb4c98d3eac7d61554ca1fefc10ad68cf714c4cbab838325a3fd485393d",
+      "metadata_path": "data/raw/development_20261101/standard120_80_20261101-152030.metadata.json",
+      "metadata_sha256": "87cc9accd283558b204dd108575a903708fab556fe015b7090e3658dfd17489c",
+      "independent_dynamic_pressure_reference": false,
+      "sample_count": 2369,
+      "duration_ms": 59200,
+      "verified_path": "data/reports/standard120_80_20261101-152030.verified.ndjson",
+      "verified_sha256": "65469606895aeee1ac3ec76e15f403d1d96a4e99add26086c6801ebd78dad79b",
+      "replay_path": "data/reports/standard120_80_20261101-152030.replay.json",
+      "replay_sha256": "a7b47cb31ccbe55d88f862b21fdcd2611f9cf8f52f61a7a457cddc15066bea23",
+      "transfer_and_same_source_replay": "passed"
+    },
+    {
+      "run_id": "standard150_100_20261101-123247",
+      "dataset_role": "development",
+      "panel_setting_mmhg": [
+        150,
+        100
+      ],
+      "panel_bpm": 80,
+      "panel_pulse_volume_profile_cc": 0.65,
+      "panel_photo_path": null,
+      "outcome": "export_received",
+      "closeout_confirmed": true,
+      "raw_path": "data/raw/development_20261101/standard150_100_20261101-123247.ndjson",
+      "raw_sha256": "f055adfedc7f051d8d8c58bf4a1db057f2c0fc3ed17373680fd917b31e5b1b3e",
+      "metadata_path": "data/raw/development_20261101/standard150_100_20261101-123247.metadata.json",
+      "metadata_sha256": "f9446da28e44d12dca83578f9a858ca2d2a1903459c388bfdfedbb309ced250c",
+      "independent_dynamic_pressure_reference": false,
+      "sample_count": 2801,
+      "duration_ms": 70000,
+      "verified_path": "data/reports/standard150_100_20261101-123247.verified.ndjson",
+      "verified_sha256": "bc9f9893cc480df32d3aba6d0727c76d28a6c78a600ccf2c9222a50c1ef90f10",
+      "replay_path": "data/reports/standard150_100_20261101-123247.replay.json",
+      "replay_sha256": "f8fb0fc8406b675e7d65560fa240735eb380620240263eb8012168e75926d1c1",
+      "transfer_and_same_source_replay": "passed"
+    },
+    {
+      "run_id": "standard200_150_20261101-133011",
+      "dataset_role": "development",
+      "panel_setting_mmhg": [
+        200,
+        150
+      ],
+      "panel_bpm": 80,
+      "panel_pulse_volume_profile_cc": 0.6,
+      "panel_photo_path": null,
+      "outcome": "failed",
+      "closeout_confirmed": true,
+      "raw_path": "data/raw/development_20261101/standard200_150_20261101-133011.ndjson",
+      "raw_sha256": "b3c2634f038fbe1c627304d3d09bd2fc184e21e0fbfd600e6b3300b4830de4c7",
+      "metadata_path": "data/raw/development_20261101/standard200_150_20261101-133011.metadata.json",
+      "metadata_sha256": "52f7a94b5e53ba5b205112304fdd5a582039e2121b911b3bcd0e4d9ad7d59e9a",
+      "independent_dynamic_pressure_reference": false,
+      "transfer_and_same_source_replay": "not_applicable_failed_run"
+    },
+    {
+      "run_id": "standard200_150_20261101-134453",
+      "dataset_role": "development",
+      "panel_setting_mmhg": [
+        200,
+        150
+      ],
+      "panel_bpm": 80,
+      "panel_pulse_volume_profile_cc": 0.6,
+      "panel_photo_path": null,
+      "outcome": "export_received",
+      "closeout_confirmed": true,
+      "raw_path": "data/raw/development_20261101/standard200_150_20261101-134453.ndjson",
+      "raw_sha256": "bb79b9468b5e77bf90dec78d7b4dd5cdd2b8dbce39c8e798bcb956e57cf02cad",
+      "metadata_path": "data/raw/development_20261101/standard200_150_20261101-134453.metadata.json",
+      "metadata_sha256": "d3126c9796828f559b4de392edc7fd7d4685aada2558baf1128abed315685a91",
+      "independent_dynamic_pressure_reference": false,
+      "sample_count": 2289,
+      "duration_ms": 57200,
+      "verified_path": "data/reports/standard200_150_20261101-134453.verified.ndjson",
+      "verified_sha256": "c7b20ce564cd2d9c87ece5d403e24d13739753602c9728b8299f83981963452b",
+      "replay_path": "data/reports/standard200_150_20261101-134453.replay.json",
+      "replay_sha256": "6d461cd9278edf26d1115300f965ed07c6024421b8a15c757d4efdf75008cddd",
+      "transfer_and_same_source_replay": "passed"
+    }
+  ]
+}

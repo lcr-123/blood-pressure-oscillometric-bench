@@ -1,0 +1,28 @@
+{
+  "kind": "explicit_cross_version_numerical_comparison",
+  "historical_firmware": "HIGH_PRESSURE_CAPTURE_20261101",
+  "new_host_firmware": "CAPTURE4200_20261105",
+  "raw_path": "data\\raw\\development_20261101\\standard255_195_20261105-103250.ndjson",
+  "raw_sha256": "dd654025df8c98302dbbb1187c895c7e4bece313fe9fb9dbc85714b4fa2273c9",
+  "n": 2825,
+  "envelope_bits_equal": true,
+  "feature_bits_equal": true,
+  "validity_equal": true,
+  "result": {
+    "type": "replay",
+    "firmware": "CAPTURE4200_20261105",
+    "valid": 1,
+    "sbp": 221,
+    "dbp": 82,
+    "pulse": 84,
+    "map_i": 1812,
+    "map_p": 1119101279,
+    "sbp_found": 1,
+    "sbp_p": 1130858257,
+    "dbp_found": 1,
+    "dbp_p": 1118809063,
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6
+  },
+  "limitation": "Explicit comparison across different firmware identities; not a same-version replay or target accuracy check. Strict replay identity guard is retained."
+}

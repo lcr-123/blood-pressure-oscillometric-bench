@@ -1,0 +1,186 @@
+{
+  "run_id": "standard255_195_20261105-103250",
+  "dataset_role": "development",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 4",
+  "panel_sbp_mmhg": 255,
+  "panel_dbp_mmhg": 195,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.55,
+  "panel_evidence": "operator confirmed current settings and displayed pulse volume",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 250,
+  "host_abort_mmhg": 278,
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 78,
+  "host_target_reach_deadline_s": 20,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "outcome": "export_received",
+  "closeout_confirmed": true,
+  "firmware_readback": [
+    "[Pressure] raw=1305 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=HIGH_PRESSURE_CAPTURE_20261101 capacity=3300 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1307 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1304 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1307 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1305 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "initial_user_stop_latched": false,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1303,
+      "max": 1308,
+      "mean": 1305.36
+    },
+    "sensor": {
+      "min": 225,
+      "max": 226,
+      "mean": 225.01
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "measurement_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 250.5 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=2825 capacity=3300 dropped=0 duration=70600ms interval=25ms",
+    "[BP] SBP=221 DBP=82 Pulse=84 bpm valid=1",
+    "[DBG] n=2825 map=1812(90.1) sbp=1(231.5) dbp=1(87.8) fft=1(1.4Hz/84bpm/m=0.7/n=0.1/t=0.2) ff=84 pk=84"
+  ],
+  "active_pressure": {
+    "raw": {
+      "min": 1305,
+      "max": 18933,
+      "mean": 9811.434671765455
+    },
+    "sensor": {
+      "min": 225,
+      "max": 3266,
+      "mean": 1692.351179094965
+    },
+    "est": {
+      "min": 0.0,
+      "max": 249.0,
+      "mean": 119.43875079668578
+    }
+  },
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 100,
+      "pressure": {
+        "raw": {
+          "min": 1346,
+          "max": 1375,
+          "mean": 1364.44
+        },
+        "sensor": {
+          "min": 232,
+          "max": 237,
+          "mean": 235.34
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "target_restored_mmhg": 50,
+  "final_status": [
+    "[Pressure] raw=1375 ads=172mV sensor=237mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "final_fault": [
+    "[Pressure] raw=1374 ads=172mV sensor=237mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "stack": [
+    "[Pressure] raw=1439 ads=180mV sensor=248mV est=0.5mmHg VALID",
+    "[Stack] used=1624 free=2472 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=HIGH_PRESSURE_CAPTURE_20261101 capacity=3300 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Target] inflate target set to 250 mmHg (max safe=280)",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 250.5 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=2825 capacity=3300 dropped=0 duration=70600ms interval=25ms",
+    "[BP] SBP=221 DBP=82 Pulse=84 bpm valid=1",
+    "[DBG] n=2825 map=1812(90.1) sbp=1(231.5) dbp=1(87.8) fft=1(1.4Hz/84bpm/m=0.7/n=0.1/t=0.2) ff=84 pk=84",
+    "[Calc] work=2034ms wall=2946ms max_step=32ms extract=1891ms smooth=111ms finish=32ms steps=735",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Target] inflate target set to 50 mmHg (max safe=280)",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=2825 capacity=3300 dropped=0 duration=70600ms interval=25ms",
+    "[Stack] used=1624 free=2472 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "fresh_samples": 2866,
+  "capture_source_path": "data\\raw\\development_20261101\\standard255_195_20261105-103250.ndjson",
+  "capture_source_sha256": "dd654025df8c98302dbbb1187c895c7e4bece313fe9fb9dbc85714b4fa2273c9",
+  "script_sha256": "e20f3a4251eef76880751a04391fbc16d42bc76a6fb2d070befcc1761246d622",
+  "panel_preset": 4,
+  "panel_preset_source": "bp_mode",
+  "panel_map_mmhg": 215,
+  "panel_map_source": "manual Table 3-2 (derived from the preset number)",
+  "export_recovered_from_run_log": {
+    "why": "this capture was produced before the split tool existed, so its bp.capture records were carried inside the bridge log and no .export.ndjson was written",
+    "source_log": "standard255_195_20261105-103250.ndjson",
+    "records": 2829,
+    "points": 2825,
+    "firmware": "HIGH_PRESSURE_CAPTURE_20261101",
+    "schema": "bp.capture/3",
+    "recovered_on": "2026-11-07",
+    "sha256": "711432561c93e8c8feb50cb67305d59b79cc4a4caf01e12cfdca0e629e5cd91b",
+    "bytes": 342379
+  }
+}

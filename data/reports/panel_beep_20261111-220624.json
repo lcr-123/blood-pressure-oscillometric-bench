@@ -1,0 +1,15 @@
+{
+  "point_mmhg": 250,
+  "cues": 6,
+  "interval_seconds": 10.0,
+  "first_cue_seconds": 4.0,
+  "hold_seconds": 60.0,
+  "tester_port": "COM12",
+  "nonhuman_fixture_confirmed": true,
+  "operator_task": "read the panel Measured number at each beep, report in order",
+  "started": "20261111-220624",
+  "cue_ms": [],
+  "operator_panel_values": null,
+  "error": "RuntimeError(\"command 'vent' failed 3x: [WinError 10054] 远程主机强迫关闭了一个现有的连接。\")",
+  "finished": "20261111-220712"
+}

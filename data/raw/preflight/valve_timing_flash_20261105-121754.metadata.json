@@ -1,0 +1,176 @@
+{
+  "outcome": "download_verified_preflight_recorded",
+  "physical_trial": false,
+  "operator_confirmation": "User authorized direct flashing and continued nonhuman validation; existing fixture confirmation retained; actual current zero, pins and faults checked by script; no claim of load isolation",
+  "expected_firmware": "VALVE_TIMING_20261105",
+  "commands": [
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1326 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1328 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+        "[UART3] rx_errors=0 rx_state=0x22"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1326 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1328 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Fault] code=0 name=NONE age=0ms",
+        "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+        "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+        "[Capture] n=0 capacity=4200 dropped=0 duration=0ms interval=25ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Pressure] raw=1326 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Stack] used=1232 free=2864 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    }
+  ],
+  "calibration_written": true,
+  "flash_log": "blood pressure monitor\\MDK-ARM\\download_valve_timing_20261105-121754.log",
+  "hex_sha256": "b2b1f1791c98d631e9d6fa9d5cd47411c510dc70f7108f480c3c81a5182c3d07",
+  "before_sample_count": 100,
+  "before_pressure": {
+    "raw": {
+      "min": 1315,
+      "max": 1320,
+      "mean": 1317.61
+    },
+    "sensor": {
+      "min": 227,
+      "max": 228,
+      "mean": 227.3
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "initial_user_stop_latched": false,
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 99,
+      "pressure": {
+        "raw": {
+          "min": 1324,
+          "max": 1328,
+          "mean": 1325.8080808080808
+        },
+        "sensor": {
+          "min": 228,
+          "max": 229,
+          "mean": 228.9090909090909
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "before_flash_closeout_confirmed": true,
+  "keil_exit_code": 0,
+  "flash_output": "Load \"blood pressure monitor\\\\blood pressure monitor.axf\" \nFull Chip Erase Done.Programming Done.Verify OK.Application running ...\nFlash Load finished at 12:18:21\n",
+  "new_firmware_seen": true,
+  "after_sample_count": 100,
+  "after_pressure": {
+    "raw": {
+      "min": 1325,
+      "max": 1328,
+      "mean": 1326.58
+    },
+    "sensor": {
+      "min": 229,
+      "max": 229,
+      "mean": 229.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "closeout_confirmed": true,
+  "all_nonpressure_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3129 capacity=4200 dropped=0 duration=78200ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Motor] TMC2209 init: STEP=PA6(TIM3_CH1) DIR=PA7 EN=PB0 1/8ustep released",
+    "[Debug] USART3 ready",
+    "[Cal] no valid record; UNCAL defaults",
+    "[BP_Control] Init OK calibration=UNCAL",
+    "[Boot] after probe",
+    "[Boot] ADS1115 probe address=0x48",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Safety] MPXV5050GP range=0-375mmHg; adult BP 120/80 test supported",
+    "[Boot] Relay-only bring-up mode",
+    "[ESP8266] Skipped for pump/pressure bring-up",
+    "[Actuator] IDLE PB8=HIGH PC1=LOW PC8=HIGH",
+    "[Blood Pressure Monitor] System Ready @ 72MHz",
+    "USART1=ESP8266, USART2=RS232, USART3=Debug",
+    "I2C1=ADS1115(0x48), PC8=Pump relay active-low",
+    "Commands: start stop open close vent seal pressure p help status pins fault stack",
+    "Commands: stream start | stream stop | cal | cal clear | cal write <slope> <intercept>",
+    "Commands: motor <dir 0/1> <steps> <freq 50-2000Hz> | motor stop",
+    "Commands: end with Enter",
+    "[Safety] IWDG enabled nominal=4000ms debug-freeze=ON",
+    "[Stream] auto-started every 250ms; use stream stop to disable",
+    "algo=PULSE_STEP_DEFLATE sw=VALVE_TIMING_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Stack] used=896 free=3200 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Cal] UNCAL (no stored record); defaults zero=0.29V sens=0.085V/kPa",
+    "[Cal] written+verified slope=82.326 intercept=-19.89 -> VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=4200 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1232 free=2864 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=4200 dropped=0 duration=0ms interval=25ms",
+    "[Target] inflate target set to 275 mmHg (max safe=280)",
+    "[Target] usage: target <20-275 mmHg>",
+    "[Target] inflate target set to 50 mmHg (max safe=280)",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "raw_path": "data\\raw\\preflight\\valve_timing_flash_20261105-121754.ndjson",
+  "raw_sha256": "4bd2eb274c765d9ad1f9897c1b1cb26859989617588d78b8c79754111fd73b33"
+}

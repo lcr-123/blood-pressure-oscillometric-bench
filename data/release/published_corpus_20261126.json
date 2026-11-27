@@ -1,0 +1,533 @@
+{
+  "package": "bp_waveforms_20261126",
+  "built_from_commit": "d022013a698d9492f9c76aa1e28b5f58517a016b",
+  "generated_from_manifest": "data/manifest.json",
+  "rebuild": "python tools/release_package.py --out dist/bp_waveforms_20261126",
+  "verify": "python tools/verify_release_package.py dist/bp_waveforms_20261126",
+  "rounds": 62,
+  "files": 147,
+  "bytes": 30118689,
+  "with_telemetry": false,
+  "tiers": {
+    "frozen_baseline_v2": 18,
+    "prospective_v1": 20,
+    "prospective_v2": 20,
+    "supplementary": 4
+  },
+  "gate": {
+    "USABLE": 58,
+    "REJECTED": 4
+  },
+  "axis": {
+    "captures_in_this_package": "82.326 mmHg/V and -19.887 mmHg (all published rounds predate the 2026-11-26 refit)",
+    "firmware_after_refit": "81.529 mmHg/V and -20.03 mmHg",
+    "note": "read begin.slope and begin.intercept from each export instead of hard-coding either axis"
+  },
+  "licence": {
+    "data": "CC BY 4.0",
+    "code": "MIT",
+    "files": [
+      "data/LICENSE",
+      "LICENSE.md",
+      "LICENSE"
+    ]
+  },
+  "contents": [
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261106-141750",
+      "date": "20261106",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 469721
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261106-142446",
+      "date": "20261106",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 453182
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261106-143250",
+      "date": "20261106",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 445683
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261106-143637",
+      "date": "20261106",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 440134
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261106-195142",
+      "date": "20261106",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 442551
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-102352",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 474681
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-102939",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 479770
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-115807",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 411025
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-150908",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 474203
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-151234",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 504300
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-151610",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 489249
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-152619",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 483031
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-152950",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 485012
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-153320",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 473678
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-153646",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 493492
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-154020",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "REJECTED",
+      "export_bytes": 369654
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-154308",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 470765
+    },
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261107-154636",
+      "date": "20261107",
+      "preset": 1,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 481552
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261106-144148",
+      "date": "20261106",
+      "preset": 2,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 431999
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261106-144500",
+      "date": "20261106",
+      "preset": 2,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 444706
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261106-144826",
+      "date": "20261106",
+      "preset": 2,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 440948
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-201902",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 477267
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-202234",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 477721
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-202606",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "REJECTED",
+      "export_bytes": 279790
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-202825",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 473783
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-203151",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 456081
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-203512",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 493895
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-203849",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 487766
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-204223",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 463288
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-204545",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 490817
+    },
+    {
+      "run_id": "standard150_100_target275_peakwindow_20261107-204916",
+      "date": "20261107",
+      "preset": 2,
+      "tier": "prospective_v1",
+      "gate": "USABLE",
+      "export_bytes": 480258
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261106-145455",
+      "date": "20261106",
+      "preset": 3,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 437534
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261106-145808",
+      "date": "20261106",
+      "preset": 3,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 435247
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261106-150121",
+      "date": "20261106",
+      "preset": 3,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 425196
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-210903",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 457658
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-211221",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 487226
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-211546",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 457671
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-211901",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 478755
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-212226",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 480667
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-212549",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 478601
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-212915",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "REJECTED",
+      "export_bytes": 232848
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-213112",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 464495
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-213433",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 458227
+    },
+    {
+      "run_id": "standard200_150_target275_peakwindow_20261107-213751",
+      "date": "20261107",
+      "preset": 3,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 341689
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261105-123135",
+      "date": "20261105",
+      "preset": 4,
+      "tier": "supplementary",
+      "gate": "USABLE",
+      "export_bytes": 429770
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261106-133524",
+      "date": "20261106",
+      "preset": 4,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 515918
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261106-135004",
+      "date": "20261106",
+      "preset": 4,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 490063
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261106-135527",
+      "date": "20261106",
+      "preset": 4,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 458787
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-125444",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "frozen_baseline_v2",
+      "gate": "USABLE",
+      "export_bytes": 438527
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-214926",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 469003
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-215245",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "REJECTED",
+      "export_bytes": 373560
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-215530",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 417020
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-215831",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 463839
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-220147",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 474523
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-220508",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 470506
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-220827",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 465020
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-221143",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 477503
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-221505",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 467369
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261107-221823",
+      "date": "20261107",
+      "preset": 4,
+      "tier": "prospective_v2",
+      "gate": "USABLE",
+      "export_bytes": 457849
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261109-172104",
+      "date": "20261109",
+      "preset": 4,
+      "tier": "supplementary",
+      "gate": "USABLE",
+      "export_bytes": 447957
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261109-173028",
+      "date": "20261109",
+      "preset": 4,
+      "tier": "supplementary",
+      "gate": "USABLE",
+      "export_bytes": 441922
+    },
+    {
+      "run_id": "standard255_195_target275_peakwindow_20261109-174044",
+      "date": "20261109",
+      "preset": 4,
+      "tier": "supplementary",
+      "gate": "USABLE",
+      "export_bytes": 510788
+    }
+  ]
+}

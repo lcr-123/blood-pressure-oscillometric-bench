@@ -1,0 +1,48 @@
+{
+  "kind": "preset3_retry_vent_zero_seal",
+  "outcome": "failed_gate",
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 99,
+      "pressure": {
+        "raw": {
+          "min": 1265,
+          "max": 1329,
+          "mean": 1287.7272727272727
+        },
+        "sensor": {
+          "min": 218,
+          "max": 229,
+          "mean": 222.26262626262627
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "closeout_confirmed": true,
+  "post_zero_stable": false,
+  "post_zero": {
+    "raw": {
+      "min": 1267,
+      "max": 1329,
+      "mean": 1293.8375
+    },
+    "sensor": {
+      "min": 219,
+      "max": 229,
+      "mean": 223.2875
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "raw_path": "data/raw/preflight/high_retry_zero_20261101-133643.ndjson",
+  "raw_sha256": "09832e3b8f2e2250d20d68474fbd9a824cab4c2c425831ed979e4bdd1579180b"
+}

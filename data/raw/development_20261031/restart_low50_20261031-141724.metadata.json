@@ -1,0 +1,75 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 50,
+  "host_ceiling_mmhg": 65,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1319,
+      "max": 1321,
+      "mean": 1320.1666666666667
+    },
+    "sensor": {
+      "min": 228,
+      "max": 228,
+      "mean": 228.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1320 ads=165mV sensor=228mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "pressure_during_test": {
+    "raw": {
+      "min": 1319,
+      "max": 3598,
+      "mean": 1815.5266666666666
+    },
+    "sensor": {
+      "min": 228,
+      "max": 621,
+      "mean": 313.17
+    },
+    "est": {
+      "min": 0.0,
+      "max": 31.2,
+      "mean": 5.9030000000000005
+    }
+  },
+  "test_event_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout"
+  ],
+  "post_capture_zero": {
+    "raw": {
+      "min": 1329,
+      "max": 1337,
+      "mean": 1333.0
+    },
+    "sensor": {
+      "min": 229,
+      "max": 231,
+      "mean": 229.875
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "outcome": "planned_15s_stop",
+  "pneumatic_closeout_confirmed": true,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\restart_low50_20261031-141724.ndjson",
+  "raw_sha256": "749e6f5c6d4ca3e31ee60829a3560c6c2e05c1dea3cb47d68c4390946fd72539"
+}

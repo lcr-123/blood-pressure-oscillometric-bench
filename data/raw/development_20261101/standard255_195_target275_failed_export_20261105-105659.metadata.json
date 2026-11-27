@@ -1,0 +1,32 @@
+{
+  "dataset_role": "failed_partial_capture",
+  "measurement_valid": false,
+  "reason": "SAMPLE_OVERFLOW; retain dropped=1 unchanged",
+  "source_run": "standard255_195_target275_20261105-105309",
+  "transport_complete": false,
+  "final_status": [
+    "[Pressure] raw=1435 ads=179mV sensor=248mV est=0.5mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "final_fault": [
+    "[Pressure] raw=1436 ads=180mV sensor=248mV est=0.5mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=140898ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3300 capacity=3300 dropped=1 duration=82475ms interval=25ms"
+  ],
+  "final_pins": [
+    "[Pressure] raw=1435 ads=179mV sensor=248mV est=0.5mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "raw_sha256": "cf4b899d259c2bf38f18eb1bd8ac69cac9ace4fd072fa40d383487625f4eb5a4",
+  "panel_preset": 4,
+  "panel_preset_source": "run_id",
+  "panel_sbp_mmhg": 255,
+  "panel_dbp_mmhg": 195,
+  "panel_map_mmhg": 215,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.55,
+  "panel_map_source": "manual Table 3-2 (derived from the preset number)"
+}

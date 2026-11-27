@@ -1,0 +1,135 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 30,
+  "hold_seconds": 5,
+  "host_pressure_ceiling_mmhg": 40,
+  "host_freshness_limit_seconds": 2,
+  "nonhuman_fixture_confirmed": true,
+  "bp_stop_requested": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "outcome": "sealed_hold_completed",
+  "pneumatic_closeout_confirmed": true,
+  "calibration_readback": [
+    "[Pressure] raw=1352 ads=169mV sensor=233mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "baseline": {
+    "raw": {
+      "min": 1351,
+      "max": 1353,
+      "mean": 1351.9833333333333
+    },
+    "sensor": {
+      "min": 233,
+      "max": 233,
+      "mean": 233.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "hold": {
+    "sample_count": 82,
+    "summary": {
+      "raw": {
+        "min": 2625,
+        "max": 2792,
+        "mean": 2686.3048780487807
+      },
+      "sensor": {
+        "min": 453,
+        "max": 482,
+        "mean": 463.3536585365854
+      },
+      "est": {
+        "min": 17.4,
+        "max": 19.8,
+        "mean": 18.25487804878049
+      }
+    },
+    "first": {
+      "timestamp": 1793428391106,
+      "raw": 2780,
+      "ads": 348,
+      "sensor": 480,
+      "est": 19.6,
+      "valid": "VALID"
+    },
+    "last": {
+      "timestamp": 1793428395148,
+      "raw": 2629,
+      "ads": 329,
+      "sensor": 453,
+      "est": 17.4,
+      "valid": "VALID"
+    },
+    "host_timestamp_duration_s": 4.042,
+    "mean_loss_mmhg_per_s": 0.544285007422069
+  },
+  "test_pressure": {
+    "raw": {
+      "min": 1352,
+      "max": 3466,
+      "mean": 2658.917525773196
+    },
+    "sensor": {
+      "min": 233,
+      "max": 598,
+      "mean": 458.6185567010309
+    },
+    "est": {
+      "min": 0.0,
+      "max": 29.3,
+      "mean": 17.88041237113402
+    }
+  },
+  "test_events": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 30.7 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "��[Pressure] sample failed status=2; will retry init",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=0",
+    "[Stream] read failed; offline retry interval=1000ms",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "post_seal_pressure": {
+    "raw": {
+      "min": 1410,
+      "max": 1466,
+      "mean": 1449.050847457627
+    },
+    "sensor": {
+      "min": 243,
+      "max": 253,
+      "mean": 249.9322033898305
+    },
+    "est": {
+      "min": 0.1,
+      "max": 0.9,
+      "mean": 0.688135593220339
+    }
+  },
+  "final_status": [
+    "[Pressure] raw=1466 ads=183mV sensor=253mV est=0.9mmHg VALID",
+    "[Pressure] raw=1466 ads=183mV sensor=253mV est=0.9mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+  ],
+  "final_fault": [
+    "[Pressure] raw=1467 ads=183mV sensor=253mV est=0.9mmHg VALID",
+    "[Fault] code=4 name=SENSOR_READ age=9787ms",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "reset_events": [],
+  "source_clock_note": "hold timing from host serial RX timestamps; no MCU sampling-rate claim",
+  "raw_path": "data\\raw\\development_20261031\\sealed_hold30_20261031-143306.ndjson",
+  "raw_sha256": "c63004e949dae0ad28b7645c83ad9953f21a659d245beddc7f7ca5580ae2d014",
+  "script_sha256": "a54d27652a7b0c347a32fa40ed2effe67305094e091bf29fe7e63c24ce64a155"
+}

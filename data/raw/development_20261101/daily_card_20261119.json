@@ -1,0 +1,166 @@
+{
+  "stamp": "20261119",
+  "batch": "crosstday",
+  "batch_day": 4,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": -0.01,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "slope_mmhg_per_min": -25.58,
+    "p_start": 146.9,
+    "p_end": 105.8,
+    "n": 1200,
+    "duration_s": 59.95,
+    "target_mmhg": 150,
+    "hold_seconds": 60.0,
+    "outcome": "sealed_hold_completed",
+    "bands": [
+      {
+        "band_mmhg": [
+          100,
+          110
+        ],
+        "n": 367,
+        "span_s": 23.2,
+        "slope_mmhg_per_min": -8.954
+      },
+      {
+        "band_mmhg": [
+          110,
+          120
+        ],
+        "n": 553,
+        "span_s": 34.7,
+        "slope_mmhg_per_min": -19.009
+      },
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 197,
+        "span_s": 10.9,
+        "slope_mmhg_per_min": -57.237
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 68,
+        "span_s": 3.3,
+        "slope_mmhg_per_min": -167.291
+      }
+    ],
+    "source": "tmp\\omniprobe\\daily_leak_20261119.result.json",
+    "settled_slope_mmhg_per_min": -11.36,
+    "settled_window": "40-60 s after the peak of the hold",
+    "settled_windows": {
+      "0-10s": -118.13,
+      "10-20s": -36.92,
+      "20-40s": -18.91,
+      "40-60s": -11.36
+    },
+    "history_comparison": "D3 measured -11.11 on the same window; D2 -11.26; 11-16 -5.76; 11-07 -5.50. The roughly 2x step that appeared between 11-16 and 11-17 is stable across D3 and D4."
+  },
+  "valve": {
+    "flow_mmhg_per_open_ms": 0.31381,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "outcome": "completed",
+    "steps": null,
+    "source": "tmp\\omniprobe\\daily_valve_20261119.result.json"
+  },
+  "sealed_zero_notes": {
+    "source": "tmp/omniprobe/zero_sanity_20261119_rerun.json (four-state probe)",
+    "seal_true_mmhg": -0.01,
+    "vent_true_mmhg": 1.76,
+    "coil_offset_mmhg": 1.76,
+    "sensor_mV": "241..242",
+    "raw_p2p": 3,
+    "note": "two independent readings agree: a bare seal probe right after vent read +0.04, the four-state probe read -0.01. The sensor wire was not touched today."
+  },
+  "zero_arc": [
+    {
+      "time": "10:22",
+      "true_mmhg": -0.95,
+      "sensor_mV": "230",
+      "raw_p2p": 3,
+      "event": "open check"
+    },
+    {
+      "time": "10:25",
+      "true_mmhg": 0.04,
+      "sensor_mV": "242.0",
+      "raw_p2p": 3,
+      "event": "seal after vent"
+    },
+    {
+      "time": "10:29",
+      "true_mmhg": -0.01,
+      "sensor_mV": "241..242",
+      "raw_p2p": 3,
+      "event": "four-state probe"
+    },
+    {
+      "time": "10:31",
+      "true_mmhg": -0.01,
+      "sensor_mV": "241",
+      "raw_p2p": 3,
+      "event": "leak baseline"
+    }
+  ],
+  "zero_arc_note": "the zero held between -0.95 and +0.04 all morning with raw p2p 3, which is the same band as D3's post-repair value. It moved +1.0 mmHg over nine minutes without any touch, so the D3 loose-wire diagnosis has not recurred; the difference between the open-check value and the probe value is within the day-to-day scatter seen on D1/D2.",
+  "no_temperature_reason": "dropped from the card on 2026-11-18 at the operator request (no thermometer with one-decimal resolution). Kept null rather than back-filled; see crosstday_d03_20261118.md section 1.2.",
+  "valve_history": [
+    {
+      "date": "2026-11-07",
+      "flow_mmhg_per_open_ms": 0.075
+    },
+    {
+      "date": "2026-11-06",
+      "flow_mmhg_per_open_ms": 0.14
+    },
+    {
+      "date": "2026-11-14",
+      "flow_mmhg_per_open_ms": 0.132
+    },
+    {
+      "date": "2026-11-16",
+      "flow_mmhg_per_open_ms": 0.24713
+    },
+    {
+      "date": "2026-11-17",
+      "flow_mmhg_per_open_ms": 0.26805
+    },
+    {
+      "date": "2026-11-18",
+      "flow_mmhg_per_open_ms": 0.30063
+    },
+    {
+      "date": "2026-11-19",
+      "flow_mmhg_per_open_ms": 0.31381
+    }
+  ],
+  "valve_width_detail": {
+    "width_3ms": {
+      "pulses": 16,
+      "drop_mmhg": 15.2,
+      "total_open_ms": 48,
+      "flow_mmhg_per_open_ms": 0.31667,
+      "flow_from_slope": 0.28073
+    },
+    "width_4ms": {
+      "pulses": 16,
+      "drop_mmhg": 19.9,
+      "total_open_ms": 64,
+      "flow_mmhg_per_open_ms": 0.31094,
+      "flow_from_slope": 0.28441
+    },
+    "note": "the two widths now agree (0.31667 vs 0.31094), unlike D3 where the 4 ms probe read 0.32 against a 0.30063 blended answer. The series 0.24713 / 0.26805 / 0.30063 / 0.31381 keeps climbing but the increments are shrinking."
+  },
+  "switching_note": "the OmniProbe desktop app was not running at open; COM6 was reachable directly, so the first state check ran on the direct bridge. The app was started before the seal probe and every later command went through 127.0.0.1:8765, confirmed by the BRIDGE line."
+}

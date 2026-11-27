@@ -1,0 +1,199 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 50,
+  "hold_seconds": 75,
+  "host_pressure_ceiling_mmhg": 60,
+  "host_freshness_limit_seconds": 2,
+  "active_limit_seconds": 90,
+  "nonhuman_fixture_confirmed": true,
+  "bp_stop_requested": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "hardware_configuration": "operator-reported valve1 terminal diode common junction; not independently verified",
+  "outcome": "sealed_hold_completed",
+  "pneumatic_closeout_confirmed": true,
+  "initial_status": [
+    "[Pressure] raw=1405 ads=176mV sensor=242mV est=0.1mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1404 ads=176mV sensor=242mV est=0.1mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1405 ads=176mV sensor=242mV est=0.1mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "baseline": {
+    "raw": {
+      "min": 1403,
+      "max": 1407,
+      "mean": 1405.0166666666667
+    },
+    "sensor": {
+      "min": 242,
+      "max": 243,
+      "mean": 242.25
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.1,
+      "mean": 0.09833333333333334
+    }
+  },
+  "hold": {
+    "sample_count": 1500,
+    "summary": {
+      "raw": {
+        "min": 3412,
+        "max": 4468,
+        "mean": 3661.236
+      },
+      "sensor": {
+        "min": 589,
+        "max": 771,
+        "mean": 631.5086666666666
+      },
+      "est": {
+        "min": 28.6,
+        "max": 43.6,
+        "mean": 32.10386666666667
+      }
+    },
+    "first": {
+      "timestamp": 1793443927187,
+      "raw": 4468,
+      "ads": 559,
+      "sensor": 771,
+      "est": 43.6,
+      "valid": "VALID"
+    },
+    "last": {
+      "timestamp": 1793444002133,
+      "raw": 3413,
+      "ads": 427,
+      "sensor": 589,
+      "est": 28.6,
+      "valid": "VALID"
+    },
+    "host_timestamp_duration_s": 74.946,
+    "mean_loss_mmhg_per_s": 0.2001441037547034
+  },
+  "test_pressure": {
+    "raw": {
+      "min": 1406,
+      "max": 4964,
+      "mean": 3655.76741130092
+    },
+    "sensor": {
+      "min": 243,
+      "max": 856,
+      "mean": 630.5670170827858
+    },
+    "est": {
+      "min": 0.1,
+      "max": 50.6,
+      "mean": 32.02608409986859
+    }
+  },
+  "test_events": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 50.6 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "post_seal_pressure": {
+    "raw": {
+      "min": 1365,
+      "max": 1374,
+      "mean": 1369.6833333333334
+    },
+    "sensor": {
+      "min": 235,
+      "max": 237,
+      "mean": 236.3
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "final_status": [
+    "[Pressure] raw=1373 ads=172mV sensor=237mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "final_fault": [
+    "[Pressure] raw=1373 ads=172mV sensor=237mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "closeout_evidence": {
+    "closeout_attempts": [
+      {
+        "attempt": 1,
+        "count": 100,
+        "pressure": {
+          "raw": {
+            "min": 1341,
+            "max": 1365,
+            "mean": 1356.55
+          },
+          "sensor": {
+            "min": 231,
+            "max": 235,
+            "mean": 233.98
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      }
+    ],
+    "closeout_confirmed": true
+  },
+  "diagnostic_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Target] inflate target set to 50 mmHg (max safe=280)",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 50.6 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fresh_samples": 1854,
+  "reset_events": [],
+  "source_clock_note": "hold timing from host serial RX timestamps; no MCU sampling-rate claim",
+  "raw_path": "data\\raw\\development_20261031\\sealed_hold50_20261031-185202.ndjson",
+  "raw_sha256": "8bc9f46d0c4060e87045f98880f19f9bcc1d4d9beacacf11ba485cf79b86fd17",
+  "script_sha256": "a4c5ae7026929993413486c81aa27d00a68d29f3c8a7c9a3d90fcc3939adc88d"
+}

@@ -1,0 +1,557 @@
+{
+  "purpose": "external100_closeout_and_diagnostic_readback",
+  "internal_pump_start_sent": false,
+  "closeout_confirmed": true,
+  "status_before": [
+    "[Pressure] raw=1777 ads=222mV sensor=307mV est=5.3mmHg VALID",
+    "[Pressure] raw=1776 ads=222mV sensor=306mV est=5.3mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_before": [
+    "[Pressure] raw=1778 ads=222mV sensor=307mV est=5.4mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fault_before": [
+    "[Pressure] raw=1777 ads=222mV sensor=307mV est=5.3mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=1117564ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "before_vent": {
+    "raw": {
+      "min": 1777,
+      "max": 1779,
+      "mean": 1777.775
+    },
+    "sensor": {
+      "min": 307,
+      "max": 307,
+      "mean": 307.0
+    },
+    "est": {
+      "min": 5.3,
+      "max": 5.4,
+      "mean": 5.36
+    }
+  },
+  "zero_before_seal": [
+    {
+      "timestamp": 1793435290883,
+      "raw": 1416,
+      "ads": 177,
+      "sensor": 244,
+      "est": 0.2,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435290933,
+      "raw": 1406,
+      "ads": 176,
+      "sensor": 243,
+      "est": 0.1,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435290983,
+      "raw": 1397,
+      "ads": 175,
+      "sensor": 241,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291033,
+      "raw": 1389,
+      "ads": 174,
+      "sensor": 240,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291083,
+      "raw": 1381,
+      "ads": 173,
+      "sensor": 238,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291133,
+      "raw": 1376,
+      "ads": 172,
+      "sensor": 237,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291183,
+      "raw": 1369,
+      "ads": 171,
+      "sensor": 236,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291233,
+      "raw": 1364,
+      "ads": 171,
+      "sensor": 235,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291283,
+      "raw": 1360,
+      "ads": 170,
+      "sensor": 235,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291333,
+      "raw": 1356,
+      "ads": 170,
+      "sensor": 234,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291383,
+      "raw": 1351,
+      "ads": 169,
+      "sensor": 233,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291433,
+      "raw": 1348,
+      "ads": 169,
+      "sensor": 233,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291483,
+      "raw": 1343,
+      "ads": 168,
+      "sensor": 232,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291533,
+      "raw": 1341,
+      "ads": 168,
+      "sensor": 231,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291583,
+      "raw": 1338,
+      "ads": 167,
+      "sensor": 231,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291633,
+      "raw": 1335,
+      "ads": 167,
+      "sensor": 230,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291683,
+      "raw": 1333,
+      "ads": 167,
+      "sensor": 230,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291733,
+      "raw": 1331,
+      "ads": 166,
+      "sensor": 230,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291783,
+      "raw": 1328,
+      "ads": 166,
+      "sensor": 229,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291833,
+      "raw": 1327,
+      "ads": 166,
+      "sensor": 229,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291883,
+      "raw": 1325,
+      "ads": 166,
+      "sensor": 229,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291933,
+      "raw": 1325,
+      "ads": 166,
+      "sensor": 229,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435291983,
+      "raw": 1322,
+      "ads": 165,
+      "sensor": 228,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292033,
+      "raw": 1322,
+      "ads": 165,
+      "sensor": 228,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292083,
+      "raw": 1320,
+      "ads": 165,
+      "sensor": 228,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292133,
+      "raw": 1319,
+      "ads": 165,
+      "sensor": 228,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292183,
+      "raw": 1317,
+      "ads": 165,
+      "sensor": 227,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292233,
+      "raw": 1317,
+      "ads": 165,
+      "sensor": 227,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292283,
+      "raw": 1315,
+      "ads": 164,
+      "sensor": 227,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292333,
+      "raw": 1315,
+      "ads": 164,
+      "sensor": 227,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292383,
+      "raw": 1313,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292433,
+      "raw": 1313,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292483,
+      "raw": 1313,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292533,
+      "raw": 1312,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292583,
+      "raw": 1312,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292633,
+      "raw": 1311,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292683,
+      "raw": 1311,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292733,
+      "raw": 1311,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292783,
+      "raw": 1309,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292833,
+      "raw": 1309,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292883,
+      "raw": 1308,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292933,
+      "raw": 1308,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435292983,
+      "raw": 1307,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293033,
+      "raw": 1308,
+      "ads": 164,
+      "sensor": 226,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293083,
+      "raw": 1307,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293133,
+      "raw": 1307,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293183,
+      "raw": 1306,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293233,
+      "raw": 1307,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293283,
+      "raw": 1305,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293333,
+      "raw": 1306,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293383,
+      "raw": 1305,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293433,
+      "raw": 1305,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293483,
+      "raw": 1304,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293533,
+      "raw": 1305,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293583,
+      "raw": 1303,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293633,
+      "raw": 1303,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293683,
+      "raw": 1302,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293733,
+      "raw": 1305,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293783,
+      "raw": 1303,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435293833,
+      "raw": 1303,
+      "ads": 163,
+      "sensor": 225,
+      "est": 0.0,
+      "valid": "VALID"
+    }
+  ],
+  "post_seal_count": 99,
+  "post_seal": {
+    "raw": {
+      "min": 1307,
+      "max": 1332,
+      "mean": 1324.121212121212
+    },
+    "sensor": {
+      "min": 225,
+      "max": 230,
+      "mean": 228.41414141414143
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "status_after": [
+    "[Pressure] raw=1332 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Pressure] raw=1333 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_after": [
+    "[Pressure] raw=1332 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fault_after": [
+    "[Pressure] raw=1333 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=1128215ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "raw_sha256": "9be40ca66afc375ed0b8876899b49494af179bf7567d4169379ea5c3d5fc2b29"
+}

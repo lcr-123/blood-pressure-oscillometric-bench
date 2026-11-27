@@ -1,0 +1,149 @@
+{
+  "schema": "bp.multisetting_study/1",
+  "manifest_sha256": "629d6a6fdc362e7f1e2f9229a8967bb3eefc9339140564ac77deab5849bbf220",
+  "gate_sha256": "efb81facc77f2ba78c434cec447fc652c03de81d067c578227d8b6eb32bef471",
+  "scope": "post hoc development features; panel values are settings, not dynamic reference pressure",
+  "bp_model_fitted": false,
+  "bp_coefficients": null,
+  "bp_model_blockers": [
+    "no_independent_dynamic_pressure_reference",
+    "rule_selection_runs_are_not_holdout_validation",
+    "preset3_has_no_qualified_envelope"
+  ],
+  "settings": [
+    {
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "attempts": 4,
+      "envelope_candidates": 4,
+      "comparable_known_volume_repeats": 2,
+      "height_peak_range_mmhg": [
+        95.0,
+        99.47
+      ],
+      "feature_repeatability_ready": false,
+      "fit_blockers": [
+        "cross_run_zero_comparability_unresolved"
+      ],
+      "runs": [
+        {
+          "run_id": "standard120_80_20261101-111311",
+          "outcome": "export_received",
+          "pulse_volume_cc": null,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "height_peak_mmhg": 95.0,
+          "area_peak_mmhg": 94.85,
+          "clean_beats": 57
+        },
+        {
+          "run_id": "standard120_80_20261101-114844",
+          "outcome": "export_received",
+          "pulse_volume_cc": null,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "height_peak_mmhg": 99.47,
+          "area_peak_mmhg": 99.85,
+          "clean_beats": 45
+        },
+        {
+          "run_id": "standard120_80_20261101-120429",
+          "outcome": "export_received",
+          "pulse_volume_cc": 0.68,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "height_peak_mmhg": 98.57,
+          "area_peak_mmhg": 99.96,
+          "clean_beats": 44
+        },
+        {
+          "run_id": "standard120_80_20261101-152030",
+          "outcome": "export_received",
+          "pulse_volume_cc": 0.68,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "height_peak_mmhg": 98.11,
+          "area_peak_mmhg": 99.15,
+          "clean_beats": 49
+        }
+      ]
+    },
+    {
+      "panel_setting_mmhg": [
+        150,
+        100
+      ],
+      "attempts": 1,
+      "envelope_candidates": 1,
+      "comparable_known_volume_repeats": 1,
+      "height_peak_range_mmhg": [
+        123.79,
+        123.79
+      ],
+      "feature_repeatability_ready": false,
+      "fit_blockers": [
+        "no_repeated_candidate_with_recorded_same_pulse_volume",
+        "cross_run_zero_comparability_unresolved"
+      ],
+      "runs": [
+        {
+          "run_id": "standard150_100_20261101-123247",
+          "outcome": "export_received",
+          "pulse_volume_cc": 0.65,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "height_peak_mmhg": 123.79,
+          "area_peak_mmhg": 123.42,
+          "clean_beats": 66
+        }
+      ]
+    },
+    {
+      "panel_setting_mmhg": [
+        200,
+        150
+      ],
+      "attempts": 2,
+      "envelope_candidates": 0,
+      "comparable_known_volume_repeats": 0,
+      "height_peak_range_mmhg": null,
+      "feature_repeatability_ready": false,
+      "fit_blockers": [
+        "no_complete_envelope_candidate",
+        "no_repeated_candidate_with_recorded_same_pulse_volume",
+        "high_pressure_tail_or_bound_unresolved",
+        "cross_run_zero_comparability_unresolved"
+      ],
+      "runs": [
+        {
+          "run_id": "standard200_150_20261101-133011",
+          "outcome": "failed",
+          "pulse_volume_cc": 0.6,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "capture_incomplete"
+          ],
+          "height_peak_mmhg": null,
+          "area_peak_mmhg": null
+        },
+        {
+          "run_id": "standard200_150_20261101-134453",
+          "outcome": "export_received",
+          "pulse_volume_cc": 0.6,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "upper_bound_not_declared_for_preset3",
+            "height:incomplete_oscillogram",
+            "height:jackknife_unstable",
+            "area:incomplete_oscillogram",
+            "area:jackknife_unstable"
+          ],
+          "height_peak_mmhg": null,
+          "area_peak_mmhg": null
+        }
+      ]
+    }
+  ]
+}

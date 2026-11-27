@@ -1,0 +1,66 @@
+{
+  "outcome": "failed",
+  "nonhuman_fixture": true,
+  "dataset_role": "development",
+  "operator_confirmation": "OK after BP Stop / disconnect only pump-valve load-side12V; retain control power",
+  "load_power_disconnected_operator_confirmed": true,
+  "load_voltage_independently_measured": false,
+  "load_power_returned": false,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "target_changed": false,
+  "host_pressure_ceiling_mmhg": 5,
+  "freshness_limit_seconds": 2,
+  "on_seconds": 2,
+  "off_seconds": 2,
+  "cycles": [],
+  "closeout_confirmed": false,
+  "error": "TimeoutError('device echo help')",
+  "fault_final": [
+    "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Pressure] raw=1298 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "diag_final": {
+    "errors": 0,
+    "recoveries": 0,
+    "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+  },
+  "status_final": [
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_final": [
+    "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "diagnostic_lines": [
+    "[Help] start stop open close vent seal pressure p",
+    "[Help] help status pins fault stream start stream stop",
+    "[Help] holdopen (non-human sealed-path diagnostic, 15s timeout)",
+    "[Help] cal | cal clear | cal write <slope> <intercept>",
+    "[Help] target <20-250>  inflate target mmHg",
+    "[Help] motor <dir 0/1> <steps> <freq 50-2000Hz> | motor stop",
+    "[Help] capture export (stream on, sealed, fresh calibrated <=5mmHg)",
+    "[Help] zero pulse (non-human, sealed zero, pump off, 5s)",
+    "[Help] loaded pulse [1-4] (non-human, default 5ms, 40-80mmHg, auto vent)",
+    "[Help] deflate test (non-human, 1-4ms closed-loop rate probe, 10s/45mmHg limit)",
+    "[Help] stack (runtime stack high-water mark)",
+    "[Help] readtest (non-human, sealed zero, 10s at 25ms, no actuator writes)",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fresh_samples_total": 34,
+  "raw_path": "data/raw/preflight/load_off_switch_20261031-170303.ndjson",
+  "raw_sha256": "7940ba2a87f581f130f20c4659518dff64fd866ce6aee37656b2b79fe0b16fe9",
+  "script_sha256": "933cf869ad413f5f18195ad20bf5c79d9b8194409963d54c5e7d88240d1f0453"
+}

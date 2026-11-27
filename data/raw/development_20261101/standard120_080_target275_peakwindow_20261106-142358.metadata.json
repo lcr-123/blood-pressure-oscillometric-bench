@@ -1,0 +1,128 @@
+{
+  "run_id": "standard120_080_target275_peakwindow_20261106-142358",
+  "dataset_role": "development_failure_example",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 1",
+  "panel_sbp_mmhg": 120,
+  "panel_dbp_mmhg": 80,
+  "panel_map_mmhg": 93,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.68,
+  "panel_evidence": "operator confirmed Preset 1 before the run; no panel photo or independent readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 282,
+  "host_abort_note": "inflate stops on est >= target but the pump coasts a few mmHg: observed 275.2 and 278.1 for target 275, so a 278 ceiling aborted the run never mind the firmware max safe of 280",
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "peak fixed 200..245mmHg at1.8mmHg/s; outside3.0mmHg/s",
+  "peak_window_mmhg": [
+    200,
+    245
+  ],
+  "peak_window_target_speed_mmhg_s": 1.8,
+  "outside_target_speed_mmhg_s": 3.0,
+  "outcome": "aborted",
+  "closeout_confirmed": false,
+  "firmware_readback": [
+    "[Pressure] raw=1496 ads=187mV sensor=258mV est=1.4mmHg VALID",
+    "[Pressure] raw=1495 ads=187mV sensor=258mV est=1.3mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1495 ads=187mV sensor=258mV est=1.3mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=1261 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1495 ads=187mV sensor=258mV est=1.3mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1494 ads=187mV sensor=258mV est=1.3mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1495 ads=187mV sensor=258mV est=1.3mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "initial_rx_errors": 1261,
+  "accepted_rx_errors": 1261,
+  "initial_user_stop_latched": false,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1493,
+      "max": 1496,
+      "mean": 1494.65
+    },
+    "sensor": {
+      "min": 258,
+      "max": 258,
+      "mean": 258.0
+    },
+    "est": {
+      "min": 1.3,
+      "max": 1.4,
+      "mean": 1.31
+    }
+  },
+  "pre_capture_zero_true_mmhg": 1.353,
+  "pre_capture_zero_note": "firmware clamps negative pressure to 0 (ads1115.c:215-218); true zero derived from sensor mV with 82.326/-19.887",
+  "profile_query_before_set": [
+    "[Pressure] raw=1493 ads=187mV sensor=258mV est=1.3mmHg VALID",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "error": "TimeoutError('device echo profile peak')",
+  "profile_restore_error": "TimeoutError('device echo profile normal')",
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=1261 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3587 capacity=4200 dropped=0 duration=89650ms interval=25ms",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] rejected: require inactive sealed fresh calibrated zero",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] rejected: require inactive sealed fresh calibrated zero",
+    "[Profile] rejected: require inactive sealed fresh calibrated zero",
+    "[Profile] rejected: require inactive sealed fresh calibrated zero"
+  ],
+  "fresh_samples": 351,
+  "capture_source_path": "data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261106-142358.ndjson",
+  "capture_source_sha256": "09555bcd94fb42614c80e3552bb9334d9ed7af69f259240ba5d7a489f0cb533c",
+  "script_sha256": "3522d98350d1f68373e3a4bd209b18d008b5e374135f125ced7bf6aedd6e3946",
+  "exclusion_reason": "profile peak rejected: sealed zero 1.3 mmHg above the -1..+1 gate; no capture attempted",
+  "leak_test_mmhg_per_min": 10.0,
+  "leak_test_timing": "measured on 2026-11-06 after the matrix, same rig and same cuff, MCU in seal",
+  "leak_test_method": "BP Pump 2 PRESSURE TESTS > PRESSURE LEAK TEST > SETUP, setpoint 150 mmHg, Cuff: External; rate read from the panel at 136 mmHg after 60 s",
+  "leak_test_cross_check": {
+    "panel_mmhg_per_min": 10.0,
+    "mcu_trace_mmhg_per_min": 10.76,
+    "mcu_band_mmhg": [
+      130.0,
+      140.0
+    ],
+    "mcu_window_s": 83.2,
+    "mcu_raw_log": "tmp/omniprobe/leak_20261106.ndjson",
+    "agreement": "8 percent between the two independent sensors"
+  },
+  "leak_test_reason": "the rate is pressure dependent (130-140 mmHg: 10.8 mmHg/min, 120-130 mmHg: 6.4 mmHg/min), so it is recorded as a band value, not a single constant; the per-run leak was not measured separately because the rig was unchanged between the matrix and this test",
+  "panel_preset": 1,
+  "panel_preset_source": "bp_mode",
+  "panel_map_source": "manual Table 3-2 (derived from the preset number)"
+}

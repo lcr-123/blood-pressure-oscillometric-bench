@@ -1,0 +1,229 @@
+{
+  "name": "reference_bp_v1",
+  "frozen_on": "2026-11-07",
+  "estimator": {
+    "path": "tools/reference_bp.py",
+    "sha256": "ddc9daf72a55ed5d32d9b8c832e61e76fc04011a8e462aa9be74a877a2ba8868",
+    "bytes": 17301,
+    "constants": {
+      "DEFAULT_SBP_RATIO": "0.5",
+      "DEFAULT_DBP_RATIO": "0.6",
+      "DEFAULT_SKIP_START_S": "2.0",
+      "DEFAULT_MAP_SMOOTHING_S": "2.0",
+      "RATIO_SWEEP": "(0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7)",
+      "PLATEAU_FRACTION": "0.9",
+      "PLATEAU_REFUSE_RATIO": "0.25",
+      "MIN_ENVELOPE_V": "0.0001",
+      "TRANSIENT_FACTOR": "2.0",
+      "SBP_SUSTAINED_SAMPLES": "3",
+      "DBP_SUSTAINED_SAMPLES": "3"
+    }
+  },
+  "reproduce": "python tools/reference_bp.py --json <output.json> data/raw/development_20261101/*.export.ndjson",
+  "baseline_report": "data\\reports\\reference_bp_20261107.json",
+  "baseline_report_sha256": "a50a905b1476ccce14dabff1211f6e2af2b3f1add726f490e36ab8f7492743f2",
+  "determinism": "two runs of the estimator over all 18 exports produce byte-identical JSON (sha256 a50a905b1476ccce14dabff1211f6e2af2b3f1add726f490e36ab8f7492743f2)",
+  "baseline_rounds": [
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-141750",
+      "status": "ok",
+      "map_mmhg": 98.91,
+      "sbp_mmhg": 118.58,
+      "dbp_mmhg": 75.04,
+      "high_side_plateau_ratio": 0.0386,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-142446",
+      "status": "ok",
+      "map_mmhg": 102.52,
+      "sbp_mmhg": 119.96,
+      "dbp_mmhg": 77.48,
+      "high_side_plateau_ratio": 0.0379,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-143250",
+      "status": "ok",
+      "map_mmhg": 101.95,
+      "sbp_mmhg": 138.21,
+      "dbp_mmhg": 74.93,
+      "high_side_plateau_ratio": 0.0697,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-143637",
+      "status": "ok",
+      "map_mmhg": 94.61,
+      "sbp_mmhg": 111.82,
+      "dbp_mmhg": 90.56,
+      "high_side_plateau_ratio": 0.0466,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-195142",
+      "status": "ok",
+      "map_mmhg": 98.19,
+      "sbp_mmhg": 119.68,
+      "dbp_mmhg": 75.66,
+      "high_side_plateau_ratio": 0.0592,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-102352",
+      "status": "ok",
+      "map_mmhg": 100.84,
+      "sbp_mmhg": 130.62,
+      "dbp_mmhg": 79.36,
+      "high_side_plateau_ratio": 0.0288,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-102939",
+      "status": "ok",
+      "map_mmhg": 90.83,
+      "sbp_mmhg": 123.27,
+      "dbp_mmhg": 85.13,
+      "high_side_plateau_ratio": 0.0454,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-115807",
+      "status": "unresolved_map",
+      "map_mmhg": 252.03,
+      "sbp_mmhg": 254.17,
+      "dbp_mmhg": 224.47,
+      "high_side_plateau_ratio": 0.0631,
+      "envelope_transient_suspected": true
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144148",
+      "status": "ok",
+      "map_mmhg": 119.86,
+      "sbp_mmhg": 135.87,
+      "dbp_mmhg": 90.96,
+      "high_side_plateau_ratio": 0.0439,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144500",
+      "status": "ok",
+      "map_mmhg": 120.37,
+      "sbp_mmhg": 159.63,
+      "dbp_mmhg": 92.23,
+      "high_side_plateau_ratio": 0.034,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144826",
+      "status": "ok",
+      "map_mmhg": 122.37,
+      "sbp_mmhg": 160.04,
+      "dbp_mmhg": 93.86,
+      "high_side_plateau_ratio": 0.0286,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-145455",
+      "status": "ok",
+      "map_mmhg": 168.65,
+      "sbp_mmhg": 201.1,
+      "dbp_mmhg": 164.54,
+      "high_side_plateau_ratio": 0.0797,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-145808",
+      "status": "ok",
+      "map_mmhg": 176.76,
+      "sbp_mmhg": 196.93,
+      "dbp_mmhg": 173.15,
+      "high_side_plateau_ratio": 0.0842,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-150121",
+      "status": "ok",
+      "map_mmhg": 165.72,
+      "sbp_mmhg": 179.69,
+      "dbp_mmhg": 152.48,
+      "high_side_plateau_ratio": 0.1471,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-133524",
+      "status": "unresolved_sbp",
+      "map_mmhg": 209.97,
+      "sbp_mmhg": null,
+      "dbp_mmhg": 205.53,
+      "high_side_plateau_ratio": 0.3564,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-135004",
+      "status": "ok",
+      "map_mmhg": 214.91,
+      "sbp_mmhg": 258.27,
+      "dbp_mmhg": 182.71,
+      "high_side_plateau_ratio": 0.1451,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-135527",
+      "status": "ok",
+      "map_mmhg": 215.69,
+      "sbp_mmhg": 242.75,
+      "dbp_mmhg": 208.48,
+      "high_side_plateau_ratio": 0.2047,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261107-125444",
+      "status": "ok",
+      "map_mmhg": 221.22,
+      "sbp_mmhg": 254.92,
+      "dbp_mmhg": 192.24,
+      "high_side_plateau_ratio": 0.0632,
+      "envelope_transient_suspected": false
+    }
+  ],
+  "baseline_summary": {
+    "rounds": 18,
+    "status_ok": 16,
+    "map_error_sd_mmhg": 3.7,
+    "sbp_error_sd_mmhg": 9.7,
+    "dbp_error_sd_mmhg": 9.6,
+    "note": "these are descriptive statistics of the baseline, not a claim of accuracy; a prospective set is scored against them, not merged into them"
+  },
+  "exclusion_rules_declared_before_any_prospective_run": [
+    "a round is excluded if the strict decoder rejects it (incomplete end, checksum mismatch, dropped != 0, interval != 25 ms)",
+    "a round is excluded if preflight rejected it and no inflation occurred",
+    "a round is excluded if the MCU reported a fault during the run (the [Fault] counters grow, or a [Safety] line appears)",
+    "a round is excluded if the vent-to-seal closeout did not confirm a sealed zero",
+    "a round is flagged but NOT excluded if the estimator itself refuses it (unresolved_map / unresolved_sbp); refusal rate is a reported outcome",
+    "no round may be excluded because its answer disagrees with the panel, and no estimator parameter may change after the first prospective round is captured"
+  ],
+  "prospective_protocol": {
+    "target_per_preset": 10,
+    "why": "per-preset n is 3 today, which gives a standard deviation with about 50 percent relative uncertainty; 10 brings that under 25 percent",
+    "presets": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "expected_rounds": 40,
+    "per_round_work": "about 3 minutes of hardware time plus operator panel steps",
+    "dataset_role_to_set_before_capture": "prospective_validation",
+    "must_not_change_after_first_capture": [
+      "tools/reference_bp.py",
+      "the frozen constants above",
+      "the exclusion rules above"
+    ]
+  },
+  "conditions_verified": [
+    "two runs of the estimator over all 18 exports produce byte-identical JSON (sha256 a50a905b1476ccce14dabff1211f6e2af2b3f1add726f490e36ab8f7492743f2)",
+    "every export decodes with the strict bp.capture/4 decoder and all 18 are replay_exact = true",
+    "the estimator reads only the exported smooth envelope and cuff pressure; it does not consult the panel preset"
+  ]
+}

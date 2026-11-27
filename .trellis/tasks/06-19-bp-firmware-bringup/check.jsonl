@@ -1,0 +1,7 @@
+{"file": ".trellis/spec/firmware/core/index.md", "reason": "Check changes against the firmware project entry point."}
+{"file": ".trellis/spec/firmware/core/hardware-map.md", "reason": "Verify hardware assumptions remain consistent."}
+{"file": ".trellis/spec/firmware/core/control-flow.md", "reason": "Verify startup, main loop, state machine, and callback behavior."}
+{"file": ".trellis/spec/firmware/core/safety-rules.md", "reason": "Verify pump, valve, pressure, and calibration safety constraints."}
+{"file": ".trellis/spec/firmware/core/quality-guidelines.md", "reason": "Apply firmware review and verification checklist."}
+{"file": ".trellis/spec/firmware/core/capture-reliability.md", "reason": "Check RAM/stack, capture invalidation and cooperative scheduling."}
+{"file": ".trellis/spec/firmware/core/capture-export.md", "reason": "Check safety gate, evidence completeness, protocol validation and replay provenance."}

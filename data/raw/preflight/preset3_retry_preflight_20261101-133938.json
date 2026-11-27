@@ -1,0 +1,50 @@
+{
+  "kind": "preset3_retry_readonly_preflight",
+  "outcome": "failed_gate",
+  "baseline_reference_raw": [
+    1290,
+    1294
+  ],
+  "lines": [
+    "algo=PULSE_STEP_DEFLATE sw=HIGH_PRESSURE_CAPTURE_20261101 capacity=3300 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=1 name=USER_STOP age=549345ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "gates": {
+    "firmware": true,
+    "status": true,
+    "pins": true,
+    "calibration": true,
+    "fault": true,
+    "uart": true,
+    "ads": true,
+    "fresh": true,
+    "raw_baseline": false,
+    "no_boot": true
+  },
+  "zero": {
+    "raw": {
+      "min": 1347,
+      "max": 1357,
+      "mean": 1352.255
+    },
+    "sensor": {
+      "min": 232,
+      "max": 234,
+      "mean": 233.245
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "raw_path": "data/raw/preflight/preset3_retry_preflight_20261101-133938.ndjson",
+  "raw_sha256": "d50cea7f7e007e42097d7d092efae37c57ef137a7e2fbb70feae93173ef78277"
+}

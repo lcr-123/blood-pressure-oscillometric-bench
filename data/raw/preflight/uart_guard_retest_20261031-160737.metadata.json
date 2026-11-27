@@ -1,0 +1,85 @@
+{
+  "outcome": "read_only_preflight_passed",
+  "physical_trial": false,
+  "commands": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1292 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+        "[UART3] rx_errors=0 rx_state=0x22"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1293 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1292 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1292 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Fault] code=0 name=NONE age=0ms",
+        "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+        "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Pressure] raw=1293 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    }
+  ],
+  "last_operator_supply_state": "pump/valve 12V disconnected; relay 5V and MCU powered",
+  "current_supply_state_independently_observed": false,
+  "actuator_commands_sent": false,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "firmware_identity": "UART_RX_GUARD_20261031 observed at prior verified download; not re-read here",
+  "firmware_identity_evidence": "data/raw/preflight/uart_rx_guard_flash_20261031-160132.metadata.json",
+  "sample_count": 200,
+  "pressure": {
+    "raw": {
+      "min": 1291,
+      "max": 1294,
+      "mean": 1292.07
+    },
+    "sensor": {
+      "min": 223,
+      "max": 223,
+      "mean": 223.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "largest_host_arrival_gap_ms": 51,
+  "gates": {
+    "ready": true,
+    "pins": true,
+    "calibration": true,
+    "no_fault": true,
+    "no_ads_error": true,
+    "no_uart_error": true,
+    "stack": true,
+    "fresh_zero": true,
+    "no_boot": true
+  },
+  "raw_path": "data/raw/preflight/uart_guard_retest_20261031-160737.ndjson",
+  "raw_sha256": "792c6525f517f1c47c402ebb3cf2357dc45f6905eca3c6538da886f2d6933cc7",
+  "limitation": "Idle receive/query checks do not validate loaded switching. Displayed zero is clipped; host arrivals are not MCU sample ticks."
+}

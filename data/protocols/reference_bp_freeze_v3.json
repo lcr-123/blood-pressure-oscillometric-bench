@@ -1,0 +1,99 @@
+{
+  "name": "reference_bp_v3",
+  "frozen_on": "2026-11-11",
+  "supersedes": null,
+  "supersedes_for_new_captures_only": true,
+  "relationship_to_v2": "v3 is a wrapper module; it imports tools/reference_bp.py and overrides exactly one default (DEFAULT_MAP_SMOOTHING_S 2.0 -> 3.0). tools/reference_bp.py is untouched, so the v1 and v2 records still verify byte for byte.",
+  "why": "v2 publishes a Preset 2 round whose deflate valve never throttled (peak-window -15.49 mmHg/s) with MAP 202.9 against a panel 116 (+86.9 mmHg). A 3 s median window refuses that round. That is a safety argument, not an accuracy one; the accuracy test is pre-registered and must run on rounds captured after this record.",
+  "estimator": {
+    "path": "tools/reference_bp_v3.py",
+    "sha256": "0007c474e0b86838e431b9da7e7f7108de87f92f3e40114f97e24302a281afaa",
+    "bytes": 4602,
+    "imports": {
+      "path": "tools/reference_bp.py",
+      "sha256": "ddc9daf72a55ed5d32d9b8c832e61e76fc04011a8e462aa9be74a877a2ba8868"
+    },
+    "constants": {
+      "DEFAULT_SBP_RATIO": "0.5",
+      "DEFAULT_DBP_RATIO": "0.6",
+      "DEFAULT_SKIP_START_S": "2.0",
+      "DEFAULT_MAP_SMOOTHING_S": "3.0",
+      "RATIO_SWEEP": "(0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7)",
+      "PLATEAU_FRACTION": "0.9",
+      "PLATEAU_REFUSE_RATIO": "0.25",
+      "MIN_ENVELOPE_V": "0.0001",
+      "TRANSIENT_FACTOR": "2.0",
+      "SBP_SUSTAINED_SAMPLES": "3",
+      "DBP_SUSTAINED_SAMPLES": "3"
+    }
+  },
+  "validity_gate": {
+    "path": "tools\\validity_v2.py",
+    "sha256": "0857b93a172b027c4ff9c9835b29078cb9c92b848c6b759441d1d1b70bddf880",
+    "version": "validity_v2",
+    "constants": {
+      "PEAK_LOW_MMHG": "200.0",
+      "PEAK_HIGH_MMHG": "245.0",
+      "DEFLATE_RATE_MAX_MMHG_S": "4.0",
+      "MIN_PEAK_WINDOW_POINTS": "40",
+      "NORMAL_RATE_OBSERVED": "(1.56, 2.63)",
+      "FAILURE_RATE_OBSERVED": "(13.35, 15.49)"
+    },
+    "criterion": "peak-window (200-245 mmHg) OLS deflation rate; a capture is unusable when |slope| exceeds DEFLATE_RATE_MAX_MMHG_S",
+    "rejected_alternative": "a neighbourhood-median ceiling was considered and dropped on measurement: healthy development rounds reach 11.14 mV and healthy prospective rounds reach 10.32 mV, so a 10 mV threshold would refuse valid captures",
+    "threshold_provenance": "derived from the development set alone, whose maximum |slope| is 2.63 mmHg/s, so 4.0 sits above anything the fixture produces when it works; the two observed failures were 13.35 and 15.49",
+    "scope": "reads only the pressure trace and never the estimator output, so enabling it cannot bias the estimator error statistics",
+    "path_note": "moved from tmp\\validity_v2.py because tmp/ is gitignored and a freeze record must ship the code it hashes; file content and sha256 are unchanged"
+  },
+  "baseline_report": "data/reports/reference_bp_v3_baseline_20261111.json",
+  "baseline_report_sha256": "0d74bbbb323194d6ea978632fcd30e78a8863491641355bf743f8e9705e5c6ed",
+  "baseline_rounds": [
+    "standard120_080_target275_peakwindow_20261106-141750",
+    "standard120_080_target275_peakwindow_20261106-142446",
+    "standard120_080_target275_peakwindow_20261106-143250",
+    "standard120_080_target275_peakwindow_20261106-143637",
+    "standard120_080_target275_peakwindow_20261106-195142",
+    "standard120_080_target275_peakwindow_20261107-102352",
+    "standard120_080_target275_peakwindow_20261107-102939",
+    "standard120_080_target275_peakwindow_20261107-115807",
+    "standard150_100_target275_peakwindow_20261106-144148",
+    "standard150_100_target275_peakwindow_20261106-144500",
+    "standard150_100_target275_peakwindow_20261106-144826",
+    "standard200_150_target275_peakwindow_20261106-145455",
+    "standard200_150_target275_peakwindow_20261106-145808",
+    "standard200_150_target275_peakwindow_20261106-150121",
+    "standard255_195_target275_peakwindow_20261106-133524",
+    "standard255_195_target275_peakwindow_20261106-135004",
+    "standard255_195_target275_peakwindow_20261106-135527",
+    "standard255_195_target275_peakwindow_20261107-125444"
+  ],
+  "baseline_summary": {
+    "rounds": 18,
+    "status_ok": 16,
+    "note": "the 18 development rounds re-scored with v3; descriptive only. These rounds were used to choose the window, so they can never validate it."
+  },
+  "pre_registration": "data/protocols/reference_bp_freeze_v3_candidate.md",
+  "acceptance_test": {
+    "must_be_new_captures": true,
+    "rounds": "10 per preset, 40 total",
+    "criteria": [
+      "MAP published rounds >= 0.9 x v2's published count on the same batch",
+      "MAP error sd strictly lower than v2 by more than 1.0 mmHg",
+      "MAP median |error| not worse than v2 + 1.0 mmHg",
+      "count of |error| > 20 mmHg rounds not higher than v2"
+    ],
+    "outcome_report": "data/reports/reference_bp_v3_validation.json",
+    "verdict_rule": "any criterion failing means v3 is abandoned and v2 stays the frozen estimator"
+  },
+  "exclusion_rules_declared_before_any_v3_run": [
+    "a round is excluded if the strict decoder rejects it",
+    "a round is excluded if preflight rejected it and no inflation occurred",
+    "a round is excluded if the MCU reported a fault during the run",
+    "a round is excluded if the vent-to-seal closeout did not confirm a sealed zero",
+    "a round is excluded if the validity gate marks the capture unusable",
+    "a round is flagged but NOT excluded if the estimator refuses it",
+    "no round may be excluded because its answer disagrees with the panel",
+    "no round from the existing 62 may be counted in the acceptance test"
+  ],
+  "reproduce": "python tools/reference_bp_v3.py data/raw/development_20261101/*.export.ndjson"
+}

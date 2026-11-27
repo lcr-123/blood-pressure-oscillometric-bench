@@ -1,0 +1,59 @@
+{
+  "points_mmhg": [
+    150,
+    250
+  ],
+  "settle_seconds": 15.0,
+  "hold_seconds": 30.0,
+  "tester_port": "COM12",
+  "gauge_lag_dropped_s": 2.0,
+  "nonhuman_fixture_confirmed": true,
+  "operator_task": "read the panel Measured value during each hold",
+  "started": "20261111-211143",
+  "rows": [
+    {
+      "requested_mmhg": 150,
+      "plateau_at_pump_stop": {
+        "gauge_median": 34.0,
+        "gauge_min": 34.0,
+        "gauge_max": 34.0,
+        "gauge_points": 1,
+        "mcu_median": 83.0,
+        "mcu_points": 30
+      },
+      "gauge_points": 35,
+      "gauge_first": 128.0,
+      "gauge_median": 125.0,
+      "gauge_last": 123.0,
+      "gauge_min": 123.0,
+      "gauge_max": 128.0,
+      "mcu_median": 127.1,
+      "operator_panel_value": null
+    },
+    {
+      "requested_mmhg": 250,
+      "plateau_at_pump_stop": {
+        "gauge_median": 127.0,
+        "gauge_min": 127.0,
+        "gauge_max": 127.0,
+        "gauge_points": 1,
+        "mcu_median": 195.0,
+        "mcu_points": 30
+      },
+      "gauge_points": 35,
+      "gauge_first": 224.0,
+      "gauge_median": 214.0,
+      "gauge_last": 205.0,
+      "gauge_min": 205.0,
+      "gauge_max": 224.0,
+      "mcu_median": 217.0,
+      "operator_panel_value": null
+    }
+  ],
+  "zero": {
+    "mcu_mmhg": 0.0,
+    "tester_mmhg": 0.0
+  },
+  "final_pins": "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+  "finished": "20261111-211339"
+}

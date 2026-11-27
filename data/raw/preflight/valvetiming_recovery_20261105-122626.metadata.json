@@ -1,0 +1,47 @@
+{
+  "outcome": "recovered_and_exported",
+  "source_failed_trial": "standard255_195_target275_valvetiming_20261105-122006",
+  "closeout_confirmed": true,
+  "status": [
+    "[Pressure] raw=1286 ads=161mV sensor=222mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_before": [
+    "[Pressure] raw=1289 ads=161mV sensor=222mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF"
+  ],
+  "target_restored_mmhg": 50,
+  "postseal_pressure": {
+    "raw": {
+      "min": 1283,
+      "max": 1295,
+      "mean": 1288.2
+    },
+    "sensor": {
+      "min": 221,
+      "max": 223,
+      "mean": 222.23
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "pins_after": [
+    "[Pressure] raw=1290 ads=161mV sensor=223mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "stack": [
+    "[Pressure] raw=1308 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Stack] used=1624 free=2472 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "fault": [
+    "[Pressure] raw=1310 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "raw_sha256": "633dd33bc9525fc1760ee53323287d6e62c721f97378b5e2799fac68d4b82de0"
+}

@@ -1,0 +1,166 @@
+{
+  "points_mmhg": [
+    240,
+    250,
+    260
+  ],
+  "settle_seconds": 20.0,
+  "zero_settle_seconds": 90.0,
+  "hold_seconds": 36.0,
+  "repeats": 3,
+  "window_seconds": 12.0,
+  "tester_port": "COM12",
+  "gauge_lag_dropped_s": 2.0,
+  "nonhuman_fixture_confirmed": true,
+  "started": "20261111-195318",
+  "rows": [
+    {
+      "requested_mmhg": 240,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 212.8,
+          "tester_mmhg": 211.0,
+          "difference_mmhg": -1.8,
+          "mcu_first": 214.5,
+          "mcu_last": 211.4,
+          "mcu_points": 241,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 210.1,
+          "tester_mmhg": 208.5,
+          "difference_mmhg": -1.6,
+          "mcu_first": 211.4,
+          "mcu_last": 208.9,
+          "mcu_points": 241,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 207.8,
+          "tester_mmhg": 206.0,
+          "difference_mmhg": -1.8,
+          "mcu_first": 208.9,
+          "mcu_last": 206.8,
+          "mcu_points": 240,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 210.1,
+      "tester_mmhg": 208.5,
+      "difference_mmhg": -1.73,
+      "within_point_spread": 0.2
+    },
+    {
+      "requested_mmhg": 250,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 238.0,
+          "tester_mmhg": 236.0,
+          "difference_mmhg": -2.0,
+          "mcu_first": 238.9,
+          "mcu_last": 237.1,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 236.3,
+          "tester_mmhg": 234.0,
+          "difference_mmhg": -2.3,
+          "mcu_first": 237.1,
+          "mcu_last": 235.6,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 234.9,
+          "tester_mmhg": 233.0,
+          "difference_mmhg": -1.9,
+          "mcu_first": 235.6,
+          "mcu_last": 234.3,
+          "mcu_points": 240,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 236.3,
+      "tester_mmhg": 234.0,
+      "difference_mmhg": -2.07,
+      "within_point_spread": 0.4
+    },
+    {
+      "requested_mmhg": 260,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 253.6,
+          "tester_mmhg": 251.0,
+          "difference_mmhg": -2.6,
+          "mcu_first": 254.4,
+          "mcu_last": 252.8,
+          "mcu_points": 241,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 252.0,
+          "tester_mmhg": 249.0,
+          "difference_mmhg": -3.0,
+          "mcu_first": 252.8,
+          "mcu_last": 251.2,
+          "mcu_points": 241,
+          "tester_points": 13
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 250.4,
+          "tester_mmhg": 248.0,
+          "difference_mmhg": -2.4,
+          "mcu_first": 251.2,
+          "mcu_last": 249.6,
+          "mcu_points": 240,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 252.0,
+      "tester_mmhg": 249.0,
+      "difference_mmhg": -2.67,
+      "within_point_spread": 0.6
+    }
+  ],
+  "calibration": [
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "zero_start": {
+    "mcu_mmhg": 0.0,
+    "mcu_sensor_mv": 219.0,
+    "tester_mmhg": 0.0,
+    "settle_seconds": 90.0
+  },
+  "zero_end": {
+    "mcu_mmhg": 4.0,
+    "mcu_sensor_mv": 290.0,
+    "tester_mmhg": 5.0,
+    "settle_seconds": 90.0
+  },
+  "zero_drift": {
+    "mcu_mmhg": 4.0,
+    "mcu_sensor_mv": 71.0,
+    "tester_mmhg": 5.0
+  },
+  "summary": {
+    "n": 3,
+    "mean_difference": -2.16,
+    "min_difference": -2.67,
+    "max_difference": -1.73,
+    "spread": 0.94,
+    "max_abs": 2.67,
+    "mean_within_point_spread": 0.4
+  },
+  "final_pins": "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+  "finished": "20261111-195946"
+}

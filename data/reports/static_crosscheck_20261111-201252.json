@@ -1,0 +1,106 @@
+{
+  "points_mmhg": [
+    265,
+    270
+  ],
+  "settle_seconds": 10.0,
+  "zero_settle_seconds": 90.0,
+  "hold_seconds": 24.0,
+  "repeats": 2,
+  "window_seconds": 12.0,
+  "tester_port": "COM12",
+  "gauge_lag_dropped_s": 2.0,
+  "nonhuman_fixture_confirmed": true,
+  "started": "20261111-201252",
+  "rows": [
+    {
+      "requested_mmhg": 265,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 243.3,
+          "tester_mmhg": 240.0,
+          "difference_mmhg": -3.3,
+          "mcu_first": 245.7,
+          "mcu_last": 241.6,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 240.3,
+          "tester_mmhg": 237.0,
+          "difference_mmhg": -3.3,
+          "mcu_first": 241.6,
+          "mcu_last": 239.1,
+          "mcu_points": 240,
+          "tester_points": 13
+        }
+      ],
+      "mcu_mmhg": 241.8,
+      "tester_mmhg": 238.5,
+      "difference_mmhg": -3.3,
+      "within_point_spread": 0.0
+    },
+    {
+      "requested_mmhg": 270,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 263.4,
+          "tester_mmhg": 260.0,
+          "difference_mmhg": -3.4,
+          "mcu_first": 264.5,
+          "mcu_last": 262.3,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 261.45,
+          "tester_mmhg": 258.0,
+          "difference_mmhg": -3.45,
+          "mcu_first": 262.3,
+          "mcu_last": 260.6,
+          "mcu_points": 240,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 262.42,
+      "tester_mmhg": 259.0,
+      "difference_mmhg": -3.42,
+      "within_point_spread": 0.05
+    }
+  ],
+  "calibration": [
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "zero_start": {
+    "mcu_mmhg": 0.0,
+    "mcu_sensor_mv": 232.0,
+    "tester_mmhg": 0.0,
+    "settle_seconds": 90.0
+  },
+  "zero_end": {
+    "mcu_mmhg": 4.3,
+    "mcu_sensor_mv": 293.0,
+    "tester_mmhg": 4.0,
+    "settle_seconds": 90.0
+  },
+  "zero_drift": {
+    "mcu_mmhg": 4.3,
+    "mcu_sensor_mv": 61.0,
+    "tester_mmhg": 4.0
+  },
+  "summary": {
+    "n": 2,
+    "mean_difference": -3.36,
+    "min_difference": -3.42,
+    "max_difference": -3.3,
+    "spread": 0.12,
+    "max_abs": 3.42,
+    "mean_within_point_spread": 0.03
+  },
+  "final_pins": "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+  "finished": "20261111-201720"
+}

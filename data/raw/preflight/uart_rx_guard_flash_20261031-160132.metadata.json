@@ -1,0 +1,147 @@
+{
+  "outcome": "download_verified_preflight_recorded",
+  "physical_trial": false,
+  "operator_confirmation": "用户已授权直接烧录；当前仅泵阀12V已断开，继电器5V和MCU保持供电；BP Stop、非人体并已卸压；本次仅下载与零压查询，不接回12V、不充气。",
+  "expected_firmware": "UART_RX_GUARD_20261031",
+  "commands": [
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1295 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+        "[UART3] rx_errors=0 rx_state=0x22"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1293 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1293 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Fault] code=0 name=NONE age=0ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+        "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+        "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+        "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    }
+  ],
+  "calibration_written": true,
+  "flash_log": "blood pressure monitor\\MDK-ARM\\download_uart_rx_guard_20261031-160132.log",
+  "hex_sha256": "5e3a9c53796408ed1154fbb6362517bd0066f5932782f9c9598cc35d4b669e89",
+  "before_sample_count": 100,
+  "before_pressure": {
+    "raw": {
+      "min": 1292,
+      "max": 1295,
+      "mean": 1293.96
+    },
+    "sensor": {
+      "min": 223,
+      "max": 223,
+      "mean": 223.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "keil_exit_code": 0,
+  "flash_output": "Load \"blood pressure monitor\\\\blood pressure monitor.axf\" \nFull Chip Erase Done.Programming Done.Verify OK.Application running ...\nFlash Load finished at 16:01:49\n",
+  "new_firmware_seen": true,
+  "after_sample_count": 100,
+  "after_pressure": {
+    "raw": {
+      "min": 1293,
+      "max": 1296,
+      "mean": 1294.03
+    },
+    "sensor": {
+      "min": 223,
+      "max": 224,
+      "mean": 223.01
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "all_nonpressure_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "Horco CMSIS-DAP V2",
+    "Ver: Release 0.2",
+    "The DAPLink is an open source project:",
+    "https://oshwhub.com/ylj2000/dap_hs_esp_open",
+    "Contact author: ylj20000606@gmail.com",
+    "Unauthorized commercial use prohibited",
+    "\u0000[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Motor] TMC2209 init: STEP=PA6(TIM3_CH1) DIR=PA7 EN=PB0 1/8ustep released",
+    "[Debug] USART3 ready",
+    "[Cal] no valid record; UNCAL defaults",
+    "[BP_Control] Init OK calibration=UNCAL",
+    "[Boot] after probe",
+    "[Boot] ADS1115 probe address=0x48",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Safety] MPXV5050GP range=0-375mmHg; adult BP 120/80 test supported",
+    "[Boot] Relay-only bring-up mode",
+    "[ESP8266] Skipped for pump/pressure bring-up",
+    "[Actuator] IDLE PB8=HIGH PC1=LOW PC8=HIGH",
+    "[Blood Pressure Monitor] System Ready @ 72MHz",
+    "USART1=ESP8266, USART2=RS232, USART3=Debug",
+    "I2C1=ADS1115(0x48), PC8=Pump relay active-low",
+    "Commands: start stop open close vent seal pressure p help status pins fault stack",
+    "Commands: stream start | stream stop | cal | cal clear | cal write <slope> <intercept>",
+    "Commands: motor <dir 0/1> <steps> <freq 50-2000Hz> | motor stop",
+    "Commands: end with Enter",
+    "[Safety] IWDG enabled nominal=4000ms debug-freeze=ON",
+    "[Stream] auto-started every 250ms; use stream stop to disable",
+    "algo=PULSE_STEP_DEFLATE sw=UART_RX_GUARD_20261031 capacity=3300 deflate=200ms_open1ms",
+    "[Stack] used=896 free=3200 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Cal] UNCAL (no stored record); defaults zero=0.29V sens=0.085V/kPa",
+    "[Cal] written+verified slope=82.326 intercept=-19.89 -> VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "raw_path": "data\\raw\\preflight\\uart_rx_guard_flash_20261031-160132.ndjson",
+  "raw_sha256": "84fac653bd192062ca1e0e5269e8852ab841dae444c3dad9e90958c3e6a885e5"
+}

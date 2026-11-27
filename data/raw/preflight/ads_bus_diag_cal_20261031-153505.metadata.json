@@ -1,0 +1,90 @@
+{
+  "firmware": "ADS_BUS_DIAG_20261031",
+  "calibration_action": "restore established 82.326 -19.887 after full erase",
+  "physical_trial": false,
+  "commands": [
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1304 ads=163mV sensor=225mV est=0.0mmHg UNCAL",
+        "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg UNCAL",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1304 ads=163mV sensor=225mV est=0.0mmHg UNCAL",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=UNCAL ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "cal write 82.326 -19.887",
+      "response": [
+        "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg UNCAL",
+        "[Cal] written+verified slope=82.326 intercept=-19.89 -> VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1304 ads=163mV sensor=225mV est=0.0mmHg VALID",
+        "[Fault] code=0 name=NONE age=0ms",
+        "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+        "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+        "[Stack] used=1184 free=2912 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    }
+  ],
+  "sample_count": 200,
+  "summary": {
+    "raw": {
+      "min": 1302,
+      "max": 1305,
+      "mean": 1303.655
+    },
+    "sensor": {
+      "min": 225,
+      "max": 225,
+      "mean": 225.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "host_timestamp_span_ms": 9949,
+  "outcome": "calibration_restored_idle_preflight_passed",
+  "raw": "data\\raw\\preflight\\ads_bus_diag_cal_20261031-153505.ndjson",
+  "raw_sha256": "a2aa1745f3fee6057c0e04d2d981222ad4ba0dca2b5663f57d3422c7082bab6d"
+}

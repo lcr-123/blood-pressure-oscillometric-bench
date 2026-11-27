@@ -1,0 +1,50 @@
+{
+  "stamp": "20261116",
+  "batch": "crosstday",
+  "batch_day": 1,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": -0.87,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "slope_mmhg_per_min": -11.607,
+    "p_start": 146.8,
+    "p_end": 125.4,
+    "n": 1199,
+    "duration_s": 59.89,
+    "target_mmhg": 150,
+    "hold_seconds": 60.0,
+    "outcome": "sealed_hold_completed",
+    "bands": [
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 765,
+        "span_s": 40.4,
+        "slope_mmhg_per_min": -6.626
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 408,
+        "span_s": 23.6,
+        "slope_mmhg_per_min": -23.602
+      }
+    ],
+    "source": "tmp\\omniprobe\\daily_leak_20261116.result.json"
+  },
+  "valve": {
+    "flow_mmhg_per_open_ms": 0.24713,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "outcome": "completed",
+    "steps": null,
+    "source": "tmp\\omniprobe\\daily_valve_20261116.result.json"
+  }
+}

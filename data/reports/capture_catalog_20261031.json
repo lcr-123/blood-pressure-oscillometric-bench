@@ -1,0 +1,4113 @@
+{
+  "schema": "bp.dataset_catalog/1",
+  "input_directory": "data/raw/firmware_capture_exports",
+  "method": "strict bp_capture.decode; exact validated MCU record SHA-256; decode only",
+  "summary": {
+    "files": 102,
+    "decode_valid_files": 83,
+    "decode_failed_files": 19,
+    "unique_captures": 42,
+    "duplicate_files": 41,
+    "release_ready_captures": 0
+  },
+  "files": [
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-210212.ndjson",
+      "file_sha256": "6816cadbadb59b327ab50b339d836686bad49131f7e65426fdcede4a93201495",
+      "status": "decode_valid",
+      "capture_sha256": "e0d76bfaf63006189ec02f014027c6e9bd201998ddff7197f32b937823d66eec",
+      "schema": "bp.capture/1",
+      "firmware_marker": "CAPTURE_EXPORT_20261025",
+      "samples": 321,
+      "duration_ms": 8000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 31.38993263244629,
+        "end": 14.591096878051758,
+        "min": 14.591096878051758,
+        "max": 31.38993263244629
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": null,
+      "pressure_steps_ge_5mmhg": null,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-210212.verified.ndjson",
+      "file_sha256": "7ec23890a0f0e6d75456b820be01048f624a543541a4bdcd221abf3512733daa",
+      "status": "decode_valid",
+      "capture_sha256": "e0d76bfaf63006189ec02f014027c6e9bd201998ddff7197f32b937823d66eec",
+      "schema": "bp.capture/1",
+      "firmware_marker": "CAPTURE_EXPORT_20261025",
+      "samples": 321,
+      "duration_ms": 8000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 31.38993263244629,
+        "end": 14.591096878051758,
+        "min": 14.591096878051758,
+        "max": 31.38993263244629
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": null,
+      "pressure_steps_ge_5mmhg": null,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261025-210212.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-210420.ndjson",
+      "file_sha256": "58ea0f5e4a47a16a39571b4b1131d0f10a03dd7c481bb392bed7f829a99aca69",
+      "status": "decode_valid",
+      "capture_sha256": "e0d76bfaf63006189ec02f014027c6e9bd201998ddff7197f32b937823d66eec",
+      "schema": "bp.capture/1",
+      "firmware_marker": "CAPTURE_EXPORT_20261025",
+      "samples": 321,
+      "duration_ms": 8000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 31.38993263244629,
+        "end": 14.591096878051758,
+        "min": 14.591096878051758,
+        "max": 31.38993263244629
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": null,
+      "pressure_steps_ge_5mmhg": null,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261025-210212.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-211025.ndjson",
+      "file_sha256": "f215a7ae1dd2267499197aa39a165d2e894f69803f1d366f4da0cac6edd286e0",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-211047.ndjson",
+      "file_sha256": "82d3f0d7322c46038500510adbc6b6d4a5eff49ff52e511ba266317d019ed151",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-211153.ndjson",
+      "file_sha256": "07e0818e98b585be6444833b74c0fc76d779e2dcbc5ba1ae20fa9fa628ef959e",
+      "status": "decode_valid",
+      "capture_sha256": "ec22fce72784c096be1b20600925642b831d895273bdbe5de4e77639468c0c63",
+      "schema": "bp.capture/1",
+      "firmware_marker": "CAPTURE_EXPORT_20261025",
+      "samples": 2089,
+      "duration_ms": 52200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 132.140380859375,
+        "end": 14.875097274780273,
+        "min": 14.875097274780273,
+        "max": 132.28237915039062
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": null,
+      "pressure_steps_ge_5mmhg": null,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-211153.verified.ndjson",
+      "file_sha256": "f5a57067aeb07cf1063c784740e539b81695a4d5466fc053ae31a0a911741969",
+      "status": "decode_valid",
+      "capture_sha256": "ec22fce72784c096be1b20600925642b831d895273bdbe5de4e77639468c0c63",
+      "schema": "bp.capture/1",
+      "firmware_marker": "CAPTURE_EXPORT_20261025",
+      "samples": 2089,
+      "duration_ms": 52200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 132.140380859375,
+        "end": 14.875097274780273,
+        "min": 14.875097274780273,
+        "max": 132.28237915039062
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": null,
+      "pressure_steps_ge_5mmhg": null,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261025-211153.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261026-180333.ndjson",
+      "file_sha256": "f9db1c89121e821d9d93e61d6e816e17646126138567fd4f5304796c29f85649",
+      "status": "decode_valid",
+      "capture_sha256": "a5b0a21508e2b0f288a4820a16aae310a280d68971bd2e6dc103a2d93af1a4a3",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 377,
+      "duration_ms": 9400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 36.147003173828125,
+        "end": 14.321290969848633,
+        "min": 14.321290969848633,
+        "max": 36.147003173828125
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 48,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261026-180333.verified.ndjson",
+      "file_sha256": "f029994da7f4b97a43afeaf00ca6acd9f1883f50f68914adb1586ae6f2ef3bbd",
+      "status": "decode_valid",
+      "capture_sha256": "a5b0a21508e2b0f288a4820a16aae310a280d68971bd2e6dc103a2d93af1a4a3",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 377,
+      "duration_ms": 9400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 36.147003173828125,
+        "end": 14.321290969848633,
+        "min": 14.321290969848633,
+        "max": 36.147003173828125
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 48,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261026-180333.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261026-180835.ndjson",
+      "file_sha256": "01ec0024e755907b48a6f38b4b1c5a8e445cc4ccdd329ce84d1fe4bfd795dd4a",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261026-180916.ndjson",
+      "file_sha256": "46f3ac3f9a3956b083397a45110f14f67f3db472471b362813cce6db7a7a7a7c",
+      "status": "decode_valid",
+      "capture_sha256": "3acea5dfcbb31e3d118eccf02aacda3112fc402f4264a9450a398309adce20bd",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 2225,
+      "duration_ms": 55600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.29881286621094,
+        "end": 14.832498550415039,
+        "min": 14.832498550415039,
+        "max": 134.39822387695312
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 279,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261026-180916.verified.ndjson",
+      "file_sha256": "ef9ffcfafc5c5b6e4067cf1ba57564c748a673215ce40b3db38077cedbb8cd4c",
+      "status": "decode_valid",
+      "capture_sha256": "3acea5dfcbb31e3d118eccf02aacda3112fc402f4264a9450a398309adce20bd",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 2225,
+      "duration_ms": 55600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.29881286621094,
+        "end": 14.832498550415039,
+        "min": 14.832498550415039,
+        "max": 134.39822387695312
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 279,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261026-180916.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-214231.ndjson",
+      "file_sha256": "dcaff8fe5313a1259a335f96e29e17b5ed65ca26694aa09df6cbd94d887adbb0",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-214442.ndjson",
+      "file_sha256": "9651e9655201945681d2f8d840ce5b4e68f4989e5299035d28ff157521ee4f1f",
+      "status": "decode_valid",
+      "capture_sha256": "5b8552e86da5f64fd68b582d5d2d5170a5f95f74c37aff6f6310f336d93f2f6f",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 2129,
+      "duration_ms": 53200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 132.99240112304688,
+        "end": 14.704694747924805,
+        "min": 14.704694747924805,
+        "max": 133.78759765625
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 267,
+      "pressure_steps_ge_5mmhg": 4,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-214442.verified.ndjson",
+      "file_sha256": "18aa57741021c37b438a0f880a702318278d8c850a0cef76e393b8a93a1f15c7",
+      "status": "decode_valid",
+      "capture_sha256": "5b8552e86da5f64fd68b582d5d2d5170a5f95f74c37aff6f6310f336d93f2f6f",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 2129,
+      "duration_ms": 53200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 132.99240112304688,
+        "end": 14.704694747924805,
+        "min": 14.704694747924805,
+        "max": 133.78759765625
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 267,
+      "pressure_steps_ge_5mmhg": 4,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261027-214442.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-215951.ndjson",
+      "file_sha256": "5ee0011328bc57dfeb99d4af6d9226af1fbc1afc946f3bcbca8eeefc9081c17d",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-220211.ndjson",
+      "file_sha256": "5ec19b4accdba53c5acb693bd7550ac2ff576260cc3dc0068aab55d4ad3ea7f9",
+      "status": "decode_valid",
+      "capture_sha256": "1d336ed414b587ddb8b2b28cdda7739a8313e2b1c051422c9b856c5d354a7bf5",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 1921,
+      "duration_ms": 48000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.51181030273438,
+        "end": 14.733098983764648,
+        "min": 14.733098983764648,
+        "max": 135.33543395996094
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 241,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-220211.verified.ndjson",
+      "file_sha256": "685bec39f59913ce02c9484b8456d35e47ab5c4784c36158132a3d9fdc5461da",
+      "status": "decode_valid",
+      "capture_sha256": "1d336ed414b587ddb8b2b28cdda7739a8313e2b1c051422c9b856c5d354a7bf5",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 1921,
+      "duration_ms": 48000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.51181030273438,
+        "end": 14.733098983764648,
+        "min": 14.733098983764648,
+        "max": 135.33543395996094
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 241,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261027-220211.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-220537.ndjson",
+      "file_sha256": "a2f6336662b3a60122bd3f518490e379cf80da259e35ce507ecf556e5413493c",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-220714.ndjson",
+      "file_sha256": "440b5410335bef21f9c926c1cb14e2ed75cf411d801bb400d66831e84670193e",
+      "status": "decode_valid",
+      "capture_sha256": "7e76504f2e7fa367ed142767b65c65588df7756002fce238cc59e9a027c8a245",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 1737,
+      "duration_ms": 43400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.68222045898438,
+        "end": 14.591096878051758,
+        "min": 14.591096878051758,
+        "max": 134.68222045898438
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 218,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-220714.verified.ndjson",
+      "file_sha256": "dd620c1d3a9057bd87ebb8e624f000abb83a8f4e8e16035f393d6fb8a29e5fa4",
+      "status": "decode_valid",
+      "capture_sha256": "7e76504f2e7fa367ed142767b65c65588df7756002fce238cc59e9a027c8a245",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_VALVE_20261025",
+      "samples": 1737,
+      "duration_ms": 43400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.68222045898438,
+        "end": 14.591096878051758,
+        "min": 14.591096878051758,
+        "max": 134.68222045898438
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 218,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261027-220714.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-111017.ndjson",
+      "file_sha256": "e9f82b04e109ca1fcc31eb8fec79e2c257992c512c72f8aa2c626d71da5d6d31",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-113643.ndjson",
+      "file_sha256": "7fd0b329b582d9ab27517f5072319f6c7a60e8f814a1c04c8531dd98225e1b56",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-113752.ndjson",
+      "file_sha256": "51999a034dfcb4339526f33d6e4d059fe88d557aceae8cf1d54c86076b4d54a4",
+      "status": "decode_valid",
+      "capture_sha256": "451a21006ee27f26c28560c924050515c0fddb8b105b30e85a7c42bb0b39ae16",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2305,
+      "duration_ms": 57600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.60523986816406,
+        "end": 13.284677505493164,
+        "min": 13.284677505493164,
+        "max": 135.60523986816406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 289,
+      "pressure_steps_ge_5mmhg": 2,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-113752.verified.ndjson",
+      "file_sha256": "aedc8496d9329d72d174898ff7139294c58160112e4590aa1fd6c49d6ae8889c",
+      "status": "decode_valid",
+      "capture_sha256": "451a21006ee27f26c28560c924050515c0fddb8b105b30e85a7c42bb0b39ae16",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2305,
+      "duration_ms": 57600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.60523986816406,
+        "end": 13.284677505493164,
+        "min": 13.284677505493164,
+        "max": 135.60523986816406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 289,
+      "pressure_steps_ge_5mmhg": 2,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-113752.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-114638.ndjson",
+      "file_sha256": "e8cfc09f2ddb1054cff5b6eed0ee39763311eead351fe760d7f1c4db90f00bc3",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-114718.ndjson",
+      "file_sha256": "d73d502fc996ae42048af27dacfb91a8b26e8339a3a1250422527597ce765764",
+      "status": "decode_valid",
+      "capture_sha256": "a9b39f2e179b6fc6faa1f5fa0202426885352ff3b6d2b12d4fcb9374f9e51954",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2233,
+      "duration_ms": 55800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.6620330810547,
+        "end": 14.917703628540039,
+        "min": 14.917703628540039,
+        "max": 135.6620330810547
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 280,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-114718.verified.ndjson",
+      "file_sha256": "03ad60f96cafdf0a84b25df9da5d8d015dae18f732698781d7f67fc71291ee90",
+      "status": "decode_valid",
+      "capture_sha256": "a9b39f2e179b6fc6faa1f5fa0202426885352ff3b6d2b12d4fcb9374f9e51954",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2233,
+      "duration_ms": 55800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.6620330810547,
+        "end": 14.917703628540039,
+        "min": 14.917703628540039,
+        "max": 135.6620330810547
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 280,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-114718.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-115410.ndjson",
+      "file_sha256": "76805b02e8646dbb6ae41a5863bb5cc22c6464357292843580a8e07f3ae814d2",
+      "status": "decode_valid",
+      "capture_sha256": "22327b5416cbaf453fba66030fc1b7d964db8fb1dea6ec4ebd711194635f15ff",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2377,
+      "duration_ms": 59400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.7106170654297,
+        "end": 14.931901931762695,
+        "min": 14.931901931762695,
+        "max": 135.43482971191406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 298,
+      "pressure_steps_ge_5mmhg": 8,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-115410.verified.ndjson",
+      "file_sha256": "89bfe025ec8637c2086d6752bc8985ecc29515440a631be97a983870cc797ab4",
+      "status": "decode_valid",
+      "capture_sha256": "22327b5416cbaf453fba66030fc1b7d964db8fb1dea6ec4ebd711194635f15ff",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2377,
+      "duration_ms": 59400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.7106170654297,
+        "end": 14.931901931762695,
+        "min": 14.931901931762695,
+        "max": 135.43482971191406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 298,
+      "pressure_steps_ge_5mmhg": 8,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-115410.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-115720.ndjson",
+      "file_sha256": "5f4f360297aeafaf3f4c8bb8238dbc4771c81d48fa66373f894c151cc6194749",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-115823.ndjson",
+      "file_sha256": "87a7b08468afa3a9ccd43a43da9f9dfa751dad2c7950ac92ca3cbef8cb7d67e1",
+      "status": "decode_valid",
+      "capture_sha256": "6843c4fc539648da7fbaa3d05f939542d00df0a866fe4d25cb3ced5845b1fa61",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2241,
+      "duration_ms": 56000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 133.77340698242188,
+        "end": 14.52009391784668,
+        "min": 14.52009391784668,
+        "max": 135.36383056640625
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 281,
+      "pressure_steps_ge_5mmhg": 2,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-115823.verified.ndjson",
+      "file_sha256": "2755c630396a07a9c1ddb4bf37b5f2414227b8087e0f4100d8a4182321f17c3a",
+      "status": "decode_valid",
+      "capture_sha256": "6843c4fc539648da7fbaa3d05f939542d00df0a866fe4d25cb3ced5845b1fa61",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2241,
+      "duration_ms": 56000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 133.77340698242188,
+        "end": 14.52009391784668,
+        "min": 14.52009391784668,
+        "max": 135.36383056640625
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 281,
+      "pressure_steps_ge_5mmhg": 2,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-115823.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-120531.ndjson",
+      "file_sha256": "41f823666f6623b1a58b42f401ab7b2cdaa2d6847f4747a7577b5ba3b0612c22",
+      "status": "decode_valid",
+      "capture_sha256": "8b2760b3e8459f97ae4d89896f9dbb6f8ee3a0a3d4f50972b6a2692ac98ebe42",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2289,
+      "duration_ms": 57200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 133.9864044189453,
+        "end": 14.931901931762695,
+        "min": 14.931901931762695,
+        "max": 133.9864044189453
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 287,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-120531.verified.ndjson",
+      "file_sha256": "81e344a83607a7ea1aa095b35ddf7856ada980b142d8795a8e277bacae219d44",
+      "status": "decode_valid",
+      "capture_sha256": "8b2760b3e8459f97ae4d89896f9dbb6f8ee3a0a3d4f50972b6a2692ac98ebe42",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2289,
+      "duration_ms": 57200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 133.9864044189453,
+        "end": 14.931901931762695,
+        "min": 14.931901931762695,
+        "max": 133.9864044189453
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 287,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-120531.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-120843.ndjson",
+      "file_sha256": "350e5ce16ea6aed66a5ceb9b8ddfe31867d01ba60ba27394005cba1c975589ab",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-120941.ndjson",
+      "file_sha256": "2b4b7b95eeff86c6980ba2a1c2526ed6610d8ade0d571a6e8b10d37694a059a0",
+      "status": "decode_valid",
+      "capture_sha256": "f7b50096d1b6667ccb681facdb179d47e669bdc1d9e5eb0dd3636e0541959ddd",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2217,
+      "duration_ms": 55400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.20164489746094,
+        "end": 14.704694747924805,
+        "min": 14.704694747924805,
+        "max": 136.20164489746094
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 278,
+      "pressure_steps_ge_5mmhg": 4,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-120941.verified.ndjson",
+      "file_sha256": "88bb03d574d1be30ad076fc62ed01ce726a0f7c6a15f41d7c839b468f03f54a7",
+      "status": "decode_valid",
+      "capture_sha256": "f7b50096d1b6667ccb681facdb179d47e669bdc1d9e5eb0dd3636e0541959ddd",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2217,
+      "duration_ms": 55400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.20164489746094,
+        "end": 14.704694747924805,
+        "min": 14.704694747924805,
+        "max": 136.20164489746094
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 278,
+      "pressure_steps_ge_5mmhg": 4,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-120941.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-121428.ndjson",
+      "file_sha256": "639fd7bdaacd5dd04d9fe7519bbccb6591ce188e3cf399fbd49db6e8df8415c4",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-121553.ndjson",
+      "file_sha256": "43791a972baefac546faa2056d91f116750965015c64d1be3f7952eb2e0dab1f",
+      "status": "decode_valid",
+      "capture_sha256": "7279202f14d30955be0203184c4337aa76b4eb702c0e3dc530fb77411fbc3e1d",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2379,
+      "duration_ms": 59450,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.556640625,
+        "end": 14.988698959350586,
+        "min": 14.988698959350586,
+        "max": 136.556640625
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 298,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-121553.verified.ndjson",
+      "file_sha256": "1c40dee09ec5512c0e53f87f29217f14f415ccf94ffa2182c3f70fbb37070e41",
+      "status": "decode_valid",
+      "capture_sha256": "7279202f14d30955be0203184c4337aa76b4eb702c0e3dc530fb77411fbc3e1d",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2379,
+      "duration_ms": 59450,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.556640625,
+        "end": 14.988698959350586,
+        "min": 14.988698959350586,
+        "max": 136.556640625
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 298,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-121553.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-123123.ndjson",
+      "file_sha256": "fffef87924cb30e9268d63e238498ca0d93238f2310093d7eacfe4f943bd76a0",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-123230.ndjson",
+      "file_sha256": "ecc76693f1f9ac8761d1dec1efb4ab6e9c4aa06549d165330ea723856ce24a04",
+      "status": "decode_valid",
+      "capture_sha256": "894b5f6ba70622cb0714e873e5cd5fcd36b22a91f0662945ced6a576a7ee66a1",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2242,
+      "duration_ms": 56025,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.28460693359375,
+        "end": 14.903497695922852,
+        "min": 14.903497695922852,
+        "max": 135.43482971191406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 281,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-123230.verified.ndjson",
+      "file_sha256": "52d8a98d6ab6b3a36e2305ee79e0b72b34d3fb7ae434e2c50e441d50107d0480",
+      "status": "decode_valid",
+      "capture_sha256": "894b5f6ba70622cb0714e873e5cd5fcd36b22a91f0662945ced6a576a7ee66a1",
+      "schema": "bp.capture/2",
+      "firmware_marker": "STACK_WATERMARK_20261027",
+      "samples": 2242,
+      "duration_ms": 56025,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.28460693359375,
+        "end": 14.903497695922852,
+        "min": 14.903497695922852,
+        "max": 135.43482971191406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 281,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-123230.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-163445.ndjson",
+      "file_sha256": "3e878ac9dfc980af45a3328717fb27ad70d05220836665cb829f1cbb88e29110",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-163539.ndjson",
+      "file_sha256": "a8c6e4ca4cbb11db0c463b1f8948c6b2b41764a73c53fd71820c4b4d2d0e14ff",
+      "status": "decode_valid",
+      "capture_sha256": "9cbdef5050cd8750c03bdb6f8c1363cb354b45a6dafbe04747dd509387df6ddb",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2161,
+      "duration_ms": 54000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.99462890625,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 135.5342254638672
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 271,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-163539.verified.ndjson",
+      "file_sha256": "e85e127f32d3ed866e73ecad42ea19f149a0b57771016733d9b35c22cf5e9782",
+      "status": "decode_valid",
+      "capture_sha256": "9cbdef5050cd8750c03bdb6f8c1363cb354b45a6dafbe04747dd509387df6ddb",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2161,
+      "duration_ms": 54000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.99462890625,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 135.5342254638672
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 271,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-163539.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-170426.ndjson",
+      "file_sha256": "ae6f25292152ba533cd21b619a9e982cef8e262c7554d887956712b60aee234d",
+      "status": "decode_valid",
+      "capture_sha256": "e1054e835af8408c384ab53a7eafac61d6098e7c4a11a029abaeb33dadb9d61d",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 3153,
+      "duration_ms": 78800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 174.21559143066406,
+        "end": 14.988698959350586,
+        "min": 14.988698959350586,
+        "max": 174.21559143066406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 395,
+      "pressure_steps_ge_5mmhg": 12,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-170426.verified.ndjson",
+      "file_sha256": "de7e1538ce54b10c931cb7d807d4c573e13d49b9129372af294db79e69400d8a",
+      "status": "decode_valid",
+      "capture_sha256": "e1054e835af8408c384ab53a7eafac61d6098e7c4a11a029abaeb33dadb9d61d",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 3153,
+      "duration_ms": 78800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 174.21559143066406,
+        "end": 14.988698959350586,
+        "min": 14.988698959350586,
+        "max": 174.21559143066406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 395,
+      "pressure_steps_ge_5mmhg": 12,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-170426.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-172032.ndjson",
+      "file_sha256": "06f2d9d8737b3d3c7f58aa7392b21a3ed549cdb264112860e7ea6fea67d3920d",
+      "status": "decode_valid",
+      "capture_sha256": "e20a761ecd51daa9407a5cb357e73a442d0dcb480731d7ed35414cd80e9fba02",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2097,
+      "duration_ms": 52400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.5828094482422,
+        "end": 14.960302352905273,
+        "min": 14.960302352905273,
+        "max": 134.5828094482422
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 263,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-172032.verified.ndjson",
+      "file_sha256": "e7463918f7e00c9fff09025199cc296b5b3a82ca8552d8ea61e0616530f19315",
+      "status": "decode_valid",
+      "capture_sha256": "e20a761ecd51daa9407a5cb357e73a442d0dcb480731d7ed35414cd80e9fba02",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2097,
+      "duration_ms": 52400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.5828094482422,
+        "end": 14.960302352905273,
+        "min": 14.960302352905273,
+        "max": 134.5828094482422
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 263,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-172032.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-173648.ndjson",
+      "file_sha256": "374f1ecb696c1813d6de40543163a93f2c4aadd60cc0640f3df7e94cc4d6265a",
+      "status": "decode_valid",
+      "capture_sha256": "b77caeb7e90166310d3f84c6519c2c74f39cf3f51ded9172b009ea30dc21cce1",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2177,
+      "duration_ms": 54400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.48341369628906,
+        "end": 14.690496444702148,
+        "min": 14.690496444702148,
+        "max": 134.48341369628906
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 273,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-173648.verified.ndjson",
+      "file_sha256": "5cd58246945823d33912d03eb203bc6da2477501af29ee370cccc43504550bd0",
+      "status": "decode_valid",
+      "capture_sha256": "b77caeb7e90166310d3f84c6519c2c74f39cf3f51ded9172b009ea30dc21cce1",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2177,
+      "duration_ms": 54400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 134.48341369628906,
+        "end": 14.690496444702148,
+        "min": 14.690496444702148,
+        "max": 134.48341369628906
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 273,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-173648.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-175901.ndjson",
+      "file_sha256": "598a0ac81d529d79ff8bc4eabb8674e00259165d3da2378bbed182717fe9d13a",
+      "status": "decode_valid",
+      "capture_sha256": "40377f904083a1dec4da510f406a7f8a724bbf2fb177dea5de5fb46158154e75",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 1921,
+      "duration_ms": 48000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.28683471679688,
+        "end": 14.278692245483398,
+        "min": 14.278692245483398,
+        "max": 136.28683471679688
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 241,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-175901.verified.ndjson",
+      "file_sha256": "92006ae0d4b1ebd867f18196be4f7b054f25befea1fae02353f6488a43cc56c0",
+      "status": "decode_valid",
+      "capture_sha256": "40377f904083a1dec4da510f406a7f8a724bbf2fb177dea5de5fb46158154e75",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 1921,
+      "duration_ms": 48000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.28683471679688,
+        "end": 14.278692245483398,
+        "min": 14.278692245483398,
+        "max": 136.28683471679688
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 241,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-175901.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-180524.ndjson",
+      "file_sha256": "113343f4f6450974bacb2c745bb5c9d78673e92cff4ec0c4f4985673486666af",
+      "status": "decode_valid",
+      "capture_sha256": "99f312bbd8e76cc0be3bb8db72dc4f4c41c84ea296f5625c15231bb255d428ab",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2009,
+      "duration_ms": 50200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.0230255126953,
+        "end": 14.931901931762695,
+        "min": 14.931901931762695,
+        "max": 135.0230255126953
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 252,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-180524.verified.ndjson",
+      "file_sha256": "2d9e388203aa2ddd64119718112538909f0a12b1c0d4caee80a070eddef28911",
+      "status": "decode_valid",
+      "capture_sha256": "99f312bbd8e76cc0be3bb8db72dc4f4c41c84ea296f5625c15231bb255d428ab",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2009,
+      "duration_ms": 50200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.0230255126953,
+        "end": 14.931901931762695,
+        "min": 14.931901931762695,
+        "max": 135.0230255126953
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 252,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-180524.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-181030.ndjson",
+      "file_sha256": "c3a07a89cc1e9acaf6c6540dee4c790bb500e755e7aa8dd341e8cf72bdab2c5e",
+      "status": "decode_valid",
+      "capture_sha256": "8866cabe8ac7ef8457c75790ea1074559ad6c18a2c14659532647fcc0aeb7ea4",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2057,
+      "duration_ms": 51400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.17324829101562,
+        "end": 14.818296432495117,
+        "min": 14.818296432495117,
+        "max": 136.17324829101562
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 258,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-181030.verified.ndjson",
+      "file_sha256": "585ce9fc8762357bfe29ac8724ffba1d7505191936f32efb27ca539763b454eb",
+      "status": "decode_valid",
+      "capture_sha256": "8866cabe8ac7ef8457c75790ea1074559ad6c18a2c14659532647fcc0aeb7ea4",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2057,
+      "duration_ms": 51400,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.17324829101562,
+        "end": 14.818296432495117,
+        "min": 14.818296432495117,
+        "max": 136.17324829101562
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 258,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-181030.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-194221.ndjson",
+      "file_sha256": "fbf79b4efff00c01747b6c453b58b5d82cf4cf9cf17b3404bc2d1647a6f23a19",
+      "status": "decode_valid",
+      "capture_sha256": "9b6c510680762cf0dec091b0941671ba1677d3677408dfe09868e050a8b59596",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2409,
+      "duration_ms": 60200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 137.76365661621094,
+        "end": 14.676294326782227,
+        "min": 14.676294326782227,
+        "max": 137.76365661621094
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 302,
+      "pressure_steps_ge_5mmhg": 5,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-194221.verified.ndjson",
+      "file_sha256": "25ccc60009b10eea10c23e2be01e564c5a76a3689a4ab416003574c2e82126fc",
+      "status": "decode_valid",
+      "capture_sha256": "9b6c510680762cf0dec091b0941671ba1677d3677408dfe09868e050a8b59596",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2409,
+      "duration_ms": 60200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 137.76365661621094,
+        "end": 14.676294326782227,
+        "min": 14.676294326782227,
+        "max": 137.76365661621094
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 302,
+      "pressure_steps_ge_5mmhg": 5,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-194221.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-203147.ndjson",
+      "file_sha256": "0fbcebc19a0c65f6f6e4bf523ada0022229827d6d564eb1f0982f7b6ef36bbfd",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-203223.ndjson",
+      "file_sha256": "9b624b36cf19ec21f4fb387680ed3d55b55376cd686b78d77e03598d03c92787",
+      "status": "decode_valid",
+      "capture_sha256": "497e0d989919422ac4f1a9e2f8128e78f2455ccdb76dd2f17d34329da73fbb9c",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2882,
+      "duration_ms": 72025,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.60523986816406,
+        "end": 42.182090759277344,
+        "min": 41.54308319091797,
+        "max": 139.4534912109375
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 361,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-205246.ndjson",
+      "file_sha256": "0f56c7f38628937b465ea435ff2cf9531c3befa81c19b2cb8c17f037d5243845",
+      "status": "decode_valid",
+      "capture_sha256": "8e1a290402329cc96c71dac2e3c5afb122c43b19c2bfd73b184f828e8e63c079",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 643,
+      "duration_ms": 16050,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.22181701660156,
+        "end": 110.89685821533203,
+        "min": 109.2780532836914,
+        "max": 135.22181701660156
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 81,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-210148.ndjson",
+      "file_sha256": "68e82d89be200839005b5ae0376c670646ee6c76db8ee5e2da75651af310dc76",
+      "status": "decode_valid",
+      "capture_sha256": "ad0a96c3ba67d71b2eef4c5f5858529fd1a6b7d3d34f7d70b5ffe0153969258a",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 546,
+      "duration_ms": 13625,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 137.90567016601562,
+        "end": 110.58448028564453,
+        "min": 109.88866424560547,
+        "max": 137.90567016601562
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 69,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-211130.ndjson",
+      "file_sha256": "bba16d93878e72f440c7ab46fe09b0b3ce082d7b76bc75ca4b49ec41047a50b1",
+      "status": "decode_valid",
+      "capture_sha256": "58e1ac219fa881db5bd91597364629d75acaf65f52b2ea688e606e0e50d18d77",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 920,
+      "duration_ms": 22975,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 101.08452606201172,
+        "end": 44.283714294433594,
+        "min": 43.27550506591797,
+        "max": 101.08452606201172
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 116,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-212208.ndjson",
+      "file_sha256": "76403756429710776437dca4a4fedafa9f41ad568d14b4982e245381f9eebaa2",
+      "status": "decode_valid",
+      "capture_sha256": "a33a028df8c83720f308ce5c3e57ad7108f9c4ef64793282800215085f4e72a6",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2185,
+      "duration_ms": 54600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.95423889160156,
+        "end": 14.690496444702148,
+        "min": 14.690496444702148,
+        "max": 136.95423889160156
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 274,
+      "pressure_steps_ge_5mmhg": 9,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-212208.verified.ndjson",
+      "file_sha256": "dd59e6bef7f19d4f0c4fa471db03cb267e07e239c1df14224909294cf258cad4",
+      "status": "decode_valid",
+      "capture_sha256": "a33a028df8c83720f308ce5c3e57ad7108f9c4ef64793282800215085f4e72a6",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2185,
+      "duration_ms": 54600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.95423889160156,
+        "end": 14.690496444702148,
+        "min": 14.690496444702148,
+        "max": 136.95423889160156
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 274,
+      "pressure_steps_ge_5mmhg": 9,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-212208.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-222538.ndjson",
+      "file_sha256": "c316f268b35a6ff42eba55384a744a69f6ea812243138946041e3ca06a766f65",
+      "status": "decode_valid",
+      "capture_sha256": "a8ed6a6fd882b73f918d08b2500ce8c91d6bfbba33cbd4e9a3e33a5f3d66217f",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 739,
+      "duration_ms": 18450,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 164.7724609375,
+        "end": 125.0970687866211,
+        "min": 124.1030502319336,
+        "max": 164.7724609375
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 93,
+      "pressure_steps_ge_5mmhg": 2,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-222538.verified.ndjson",
+      "file_sha256": "f000697056df8187c736a209417a03c5fa5655691e47026e3e2cd5e8c26bb7ed",
+      "status": "decode_valid",
+      "capture_sha256": "a8ed6a6fd882b73f918d08b2500ce8c91d6bfbba33cbd4e9a3e33a5f3d66217f",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 739,
+      "duration_ms": 18450,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 164.7724609375,
+        "end": 125.0970687866211,
+        "min": 124.1030502319336,
+        "max": 164.7724609375
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 93,
+      "pressure_steps_ge_5mmhg": 2,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-222538.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-223729.ndjson",
+      "file_sha256": "844c7a664197b45d587d2624c4affaa3755ab7226bb6f3bff4f55ac5bfe133ac",
+      "status": "decode_valid",
+      "capture_sha256": "de239be2c04e76f48ba645f1c48cdf2da53dbf76c99a8799598cf5804e8f6878",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2569,
+      "duration_ms": 64200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.59605407714844,
+        "end": 14.647897720336914,
+        "min": 14.647897720336914,
+        "max": 165.59605407714844
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 322,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-223729.verified.ndjson",
+      "file_sha256": "b946e53581b51fad2428a87809879b7d066da051c2bc9185bbb9e072cb99fd39",
+      "status": "decode_valid",
+      "capture_sha256": "de239be2c04e76f48ba645f1c48cdf2da53dbf76c99a8799598cf5804e8f6878",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2569,
+      "duration_ms": 64200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.59605407714844,
+        "end": 14.647897720336914,
+        "min": 14.647897720336914,
+        "max": 165.59605407714844
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 322,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-223729.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-232144.ndjson",
+      "file_sha256": "15e76a4591217b7a0ce32a8accebc0a04cbc351df2e18e574c0d22a17a21b271",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-232501.ndjson",
+      "file_sha256": "1f9ff58f368bc4a44739d26b476c8c806d6a0dd17fbd1773e5069d931414e901",
+      "status": "decode_valid",
+      "capture_sha256": "b5093a219be20ae27d0bed41d20510f1f8b257bd99920d6357a2ae33de268776",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2921,
+      "duration_ms": 73000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.41146850585938,
+        "end": 14.633695602416992,
+        "min": 14.633695602416992,
+        "max": 165.90846252441406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 366,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-232501.verified.ndjson",
+      "file_sha256": "f35735a3ed13ca0297a5b77f919d5257eccdc2e89fc9b858e028c6137bc5d5c9",
+      "status": "decode_valid",
+      "capture_sha256": "b5093a219be20ae27d0bed41d20510f1f8b257bd99920d6357a2ae33de268776",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2921,
+      "duration_ms": 73000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.41146850585938,
+        "end": 14.633695602416992,
+        "min": 14.633695602416992,
+        "max": 165.90846252441406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 366,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-232501.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-001116.ndjson",
+      "file_sha256": "2808caeb29983ffec2882da5993e4f598d961ebfcab316ed9fe156609a339bc6",
+      "status": "decode_valid",
+      "capture_sha256": "b5093a219be20ae27d0bed41d20510f1f8b257bd99920d6357a2ae33de268776",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2921,
+      "duration_ms": 73000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.41146850585938,
+        "end": 14.633695602416992,
+        "min": 14.633695602416992,
+        "max": 165.90846252441406
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 366,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261028-232501.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-103539.ndjson",
+      "file_sha256": "6bdb71b70f9fbed78ea99a9393c60d6787c295c6ee28431bace6b68838232ddf",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-104132.ndjson",
+      "file_sha256": "b57f4236f5f76e6f62945f894256b36309c8f69a3d05edb029124a8b31c5244b",
+      "status": "decode_valid",
+      "capture_sha256": "9fd2d1d5f7f48874a52c5872f69e31cc88d9b46451475570acbdaeec34039b65",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2753,
+      "duration_ms": 68800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.38307189941406,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 166.249267578125
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 345,
+      "pressure_steps_ge_5mmhg": 6,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-104132.verified.ndjson",
+      "file_sha256": "297f11ce8c447b316f72393f92e3d2abae075a8a08ef97131610d72c955a0ce3",
+      "status": "decode_valid",
+      "capture_sha256": "9fd2d1d5f7f48874a52c5872f69e31cc88d9b46451475570acbdaeec34039b65",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2753,
+      "duration_ms": 68800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.38307189941406,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 166.249267578125
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 345,
+      "pressure_steps_ge_5mmhg": 6,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-104132.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-104258.ndjson",
+      "file_sha256": "5d0333722cd8bb0a80b74831761cac54f2c4d2a8a1db1e477e3f696fd9ff75fd",
+      "status": "decode_valid",
+      "capture_sha256": "9fd2d1d5f7f48874a52c5872f69e31cc88d9b46451475570acbdaeec34039b65",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2753,
+      "duration_ms": 68800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.38307189941406,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 166.249267578125
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 345,
+      "pressure_steps_ge_5mmhg": 6,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-104132.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-104420.ndjson",
+      "file_sha256": "681578d98daf8c10cd5a6598c9f4b09742cce5858d9fe1e291e32733901ecc9a",
+      "status": "decode_valid",
+      "capture_sha256": "9fd2d1d5f7f48874a52c5872f69e31cc88d9b46451475570acbdaeec34039b65",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2753,
+      "duration_ms": 68800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.38307189941406,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 166.249267578125
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 345,
+      "pressure_steps_ge_5mmhg": 6,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-104132.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-112422.ndjson",
+      "file_sha256": "9177da856b3408b572948f21e020427e610578beb4bc692276b964ce05fc6f3f",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-112521.ndjson",
+      "file_sha256": "359479fac47e38d50c8126b50e0384a37bc2a72d7347ecb2dc7f96ca1e24aed2",
+      "status": "decode_valid",
+      "capture_sha256": "aa79ac07367c13e0d8fa25c472d54108f95aa31c4d758f9d2058bba70154f813",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2761,
+      "duration_ms": 69000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 164.95703125,
+        "end": 14.562692642211914,
+        "min": 14.562692642211914,
+        "max": 165.5676727294922
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 346,
+      "pressure_steps_ge_5mmhg": 5,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-112521.verified.ndjson",
+      "file_sha256": "512e5604c14bd57b99abb91d32c9ca931da2190959b16cfaa40ecec48e954c0d",
+      "status": "decode_valid",
+      "capture_sha256": "aa79ac07367c13e0d8fa25c472d54108f95aa31c4d758f9d2058bba70154f813",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2761,
+      "duration_ms": 69000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 164.95703125,
+        "end": 14.562692642211914,
+        "min": 14.562692642211914,
+        "max": 165.5676727294922
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 346,
+      "pressure_steps_ge_5mmhg": 5,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-112521.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-112950.ndjson",
+      "file_sha256": "b3a95faf9ba4482f71a6cba43cfbcb85902d8f6ee95ae2152983187c576e84cc",
+      "status": "decode_valid",
+      "capture_sha256": "ace7ffa5058f386dfa47cd69f909f897dff2f6de84fbad2e58c40940698cf91a",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2889,
+      "duration_ms": 72200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.89425659179688,
+        "end": 13.341474533081055,
+        "min": 13.341474533081055,
+        "max": 166.05047607421875
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 362,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-112950.verified.ndjson",
+      "file_sha256": "afd30b9c041b3c127ae2089a275395eeffe06f345df351b1fef59948de3c0a75",
+      "status": "decode_valid",
+      "capture_sha256": "ace7ffa5058f386dfa47cd69f909f897dff2f6de84fbad2e58c40940698cf91a",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2889,
+      "duration_ms": 72200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.89425659179688,
+        "end": 13.341474533081055,
+        "min": 13.341474533081055,
+        "max": 166.05047607421875
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 362,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-112950.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-113351.ndjson",
+      "file_sha256": "e023bb8fb61e7ae12eccf73275407669ba7d49f58336948cf626623075ee8ffd",
+      "status": "decode_valid",
+      "capture_sha256": "5295261c9fc9ea9bad08feb65d640f1e36e69494d9eb2afda101b11470b5a48e",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2673,
+      "duration_ms": 66800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.6670684814453,
+        "end": 14.704694747924805,
+        "min": 14.704694747924805,
+        "max": 165.6670684814453
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 335,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-113351.verified.ndjson",
+      "file_sha256": "c0e8e332364683763d6b5bd9cc75b211921f2e85972de82ecb00a1e762bfa477",
+      "status": "decode_valid",
+      "capture_sha256": "5295261c9fc9ea9bad08feb65d640f1e36e69494d9eb2afda101b11470b5a48e",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2673,
+      "duration_ms": 66800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 165.6670684814453,
+        "end": 14.704694747924805,
+        "min": 14.704694747924805,
+        "max": 165.6670684814453
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 335,
+      "pressure_steps_ge_5mmhg": 1,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-113351.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-115718.ndjson",
+      "file_sha256": "bc67808c1c4a31100924e899450c32d6b6353182675c85cfec446d04f2ab507b",
+      "status": "decode_valid",
+      "capture_sha256": "86b4e3d965716c21087cdd42c8d472379a5c9e25e23a9d380a0f61d6a428f3c9",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2249,
+      "duration_ms": 56200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.56263732910156,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 135.56263732910156
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 282,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-115718.verified.ndjson",
+      "file_sha256": "7b634ab0131734330288571fd750ab8cde804bff68e27dd4831e52377ed25e6d",
+      "status": "decode_valid",
+      "capture_sha256": "86b4e3d965716c21087cdd42c8d472379a5c9e25e23a9d380a0f61d6a428f3c9",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2249,
+      "duration_ms": 56200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.56263732910156,
+        "end": 14.804098129272461,
+        "min": 14.804098129272461,
+        "max": 135.56263732910156
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 282,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-115718.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-120105.ndjson",
+      "file_sha256": "1dbe8a9fdc5400b6d3fae98b4ad66116069869d07dfcc75b23264169c7f80ac4",
+      "status": "decode_valid",
+      "capture_sha256": "521a9c2a03d293cb589ca965146a1a926b43fda299658d3ab9c1780271e4279e",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2193,
+      "duration_ms": 54800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.50582885742188,
+        "end": 14.775697708129883,
+        "min": 14.775697708129883,
+        "max": 135.50582885742188
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 275,
+      "pressure_steps_ge_5mmhg": 6,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-120105.verified.ndjson",
+      "file_sha256": "05053e1ecab8b38d5eb6ac5c7fa7c6faa135f7a09f728b52ef8865e5d580d750",
+      "status": "decode_valid",
+      "capture_sha256": "521a9c2a03d293cb589ca965146a1a926b43fda299658d3ab9c1780271e4279e",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2193,
+      "duration_ms": 54800,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.50582885742188,
+        "end": 14.775697708129883,
+        "min": 14.775697708129883,
+        "max": 135.50582885742188
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 3,
+      "valve_pulses": 275,
+      "pressure_steps_ge_5mmhg": 6,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-120105.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-120520.ndjson",
+      "file_sha256": "52fc1d6507fd3abd43fff0d3bc0fc117cd088160c650d5d0d329b94388cdfd0e",
+      "status": "decode_valid",
+      "capture_sha256": "c0c26becad764802ea7f679a7d1488b2acceb2f02dcf6aac905b87c06066372b",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2345,
+      "duration_ms": 58600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 137.2240447998047,
+        "end": 14.818296432495117,
+        "min": 14.818296432495117,
+        "max": 137.2240447998047
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 294,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-120520.verified.ndjson",
+      "file_sha256": "c0bcdcb60d0bde653a043d2134deb10601a70603015a6b8f6f5c07dbe69f8c40",
+      "status": "decode_valid",
+      "capture_sha256": "c0c26becad764802ea7f679a7d1488b2acceb2f02dcf6aac905b87c06066372b",
+      "schema": "bp.capture/2",
+      "firmware_marker": "CAPTURE_COMPACT_20261028",
+      "samples": 2345,
+      "duration_ms": 58600,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 137.2240447998047,
+        "end": 14.818296432495117,
+        "min": 14.818296432495117,
+        "max": 137.2240447998047
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 294,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-120520.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-123637.ndjson",
+      "file_sha256": "d982e852509a1f613e7137d313f726f4e39b38a0782132c15633127cc5191100",
+      "status": "decode_valid",
+      "capture_sha256": "3796193693959e508a22af2e1c4116ac76f5b22d62d28f9dedc19dcc95fee473",
+      "schema": "bp.capture/3",
+      "firmware_marker": "CAPTURE_STEP_TRACE_20261029",
+      "samples": 2201,
+      "duration_ms": 55000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.32943725585938,
+        "end": 14.789899826049805,
+        "min": 14.789899826049805,
+        "max": 136.32943725585938
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 276,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-123637.verified.ndjson",
+      "file_sha256": "74bed86b1e967c877e69f58c0f1f1f6e55f2b11b14095a3f01bbf3484da517a0",
+      "status": "decode_valid",
+      "capture_sha256": "3796193693959e508a22af2e1c4116ac76f5b22d62d28f9dedc19dcc95fee473",
+      "schema": "bp.capture/3",
+      "firmware_marker": "CAPTURE_STEP_TRACE_20261029",
+      "samples": 2201,
+      "duration_ms": 55000,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 136.32943725585938,
+        "end": 14.789899826049805,
+        "min": 14.789899826049805,
+        "max": 136.32943725585938
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 276,
+      "pressure_steps_ge_5mmhg": 7,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-123637.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-175604.ndjson",
+      "file_sha256": "545af1acaaa80a8cf76b0d49b7ec01d3dfd257a0b2896249d94dfbbbcfdf97e2",
+      "status": "decode_valid",
+      "capture_sha256": "824072ddf163e2635efc7587d07942f677950c096030a6262e105d7654f632bb",
+      "schema": "bp.capture/3",
+      "firmware_marker": "LOADED_PULSE_DIAG_20261029",
+      "samples": 160,
+      "duration_ms": 3974,
+      "estimated_rate_hz": 40.01,
+      "interval_ms": {
+        "min": 24,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 58.10051727294922,
+        "end": 57.50410461425781,
+        "min": 57.489906311035156,
+        "max": 58.10051727294922
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 15,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-175604.verified.ndjson",
+      "file_sha256": "cf21678398c06c02d40d6de45382b69c46a1a8c1676a4cfc31391b2a3cdde95a",
+      "status": "decode_valid",
+      "capture_sha256": "824072ddf163e2635efc7587d07942f677950c096030a6262e105d7654f632bb",
+      "schema": "bp.capture/3",
+      "firmware_marker": "LOADED_PULSE_DIAG_20261029",
+      "samples": 160,
+      "duration_ms": 3974,
+      "estimated_rate_hz": 40.01,
+      "interval_ms": {
+        "min": 24,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 58.10051727294922,
+        "end": 57.50410461425781,
+        "min": 57.489906311035156,
+        "max": 58.10051727294922
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 15,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-175604.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-211027.ndjson",
+      "file_sha256": "101156a9fe45d749c11c8fce36a59bec16cd7d31c2492fe82bd99d1b0e5e0d63",
+      "status": "decode_valid",
+      "capture_sha256": "4e8f6769eeb825f4c1f717d3cf04d685f3f21e78fd1c73d727dce351cba568ef",
+      "schema": "bp.capture/3",
+      "firmware_marker": "LOADED_PULSE_DIAG_20261029",
+      "samples": 2009,
+      "duration_ms": 50200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.63363647460938,
+        "end": 14.97450065612793,
+        "min": 14.97450065612793,
+        "max": 135.63363647460938
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 252,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-211027.verified.ndjson",
+      "file_sha256": "8446adba00ac521e3586168314b4c0da3bff37d39256f67b9689218f037ff5aa",
+      "status": "decode_valid",
+      "capture_sha256": "4e8f6769eeb825f4c1f717d3cf04d685f3f21e78fd1c73d727dce351cba568ef",
+      "schema": "bp.capture/3",
+      "firmware_marker": "LOADED_PULSE_DIAG_20261029",
+      "samples": 2009,
+      "duration_ms": 50200,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25.0,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 135.63363647460938,
+        "end": 14.97450065612793,
+        "min": 14.97450065612793,
+        "max": 135.63363647460938
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 2,
+      "valve_pulses": 252,
+      "pressure_steps_ge_5mmhg": 3,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": "data/raw/firmware_capture_exports/capture_export_20261029-211027.ndjson"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261030-194237.ndjson",
+      "file_sha256": "78dc39670d562f29bdb1c126feec79c3413f96e12f1fa466c5d01da0785ffede",
+      "status": "decode_failed",
+      "error": "no complete capture end; never accept cancelled/truncated export"
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261030-final.ndjson",
+      "file_sha256": "0a5ada0e57f86617815725fc73c8566c16bfd6638a9bbb7ba06ab311eaa5a021",
+      "status": "decode_valid",
+      "capture_sha256": "8cfa0cb0ebecd31a9fc51fa1e8682c93ac271bfc1c1872ff2bd820bb1fd4540d",
+      "schema": "bp.capture/3",
+      "firmware_marker": "DEFLATE_RATE_TEST_20261029",
+      "samples": 400,
+      "duration_ms": 9975,
+      "estimated_rate_hz": 40.0,
+      "interval_ms": {
+        "min": 25,
+        "median": 25,
+        "max": 25,
+        "over_nominal_25ms": 0
+      },
+      "pressure_mmhg": {
+        "start": 55.62968444824219,
+        "end": 54.025062561035156,
+        "min": 54.025062561035156,
+        "max": 55.62968444824219
+      },
+      "raw_kind": 2,
+      "cal_valid": true,
+      "calibration": {
+        "slope_mmhg_per_v": 82.32599639892578,
+        "intercept_mmhg": -19.886999130249023
+      },
+      "calc_state": 0,
+      "valve_pulses": 50,
+      "pressure_steps_ge_5mmhg": 0,
+      "metadata": {
+        "panel_mode": null,
+        "panel_sbp_mmhg": null,
+        "panel_dbp_mmhg": null,
+        "panel_bpm": null,
+        "panel_pulse_volume_profile_cc": null,
+        "pneumatic_configuration": null,
+        "firmware_hex_sha256": null,
+        "pre_capture_zero": null,
+        "post_capture_zero": null,
+        "reference_pressure_evidence": null
+      },
+      "dataset_role": "historical_development",
+      "release_ready": false,
+      "replay_status": "not_run",
+      "duplicate_of": null
+    }
+  ]
+}

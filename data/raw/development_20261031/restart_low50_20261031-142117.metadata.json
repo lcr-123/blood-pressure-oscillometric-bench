@@ -1,0 +1,38 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 50,
+  "host_ceiling_mmhg": 65,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1300,
+      "max": 1306,
+      "mean": 1302.6833333333334
+    },
+    "sensor": {
+      "min": 224,
+      "max": 225,
+      "mean": 224.8
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "error": "RuntimeError('device safety/offline event: [Safety] Pressure read failed during deflate; emergency vent')",
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": true,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\restart_low50_20261031-142117.ndjson",
+  "raw_sha256": "161b0d1623753791c0f57a50b4e33d5ca14311e027ee7042b82dcb6bbba654fb"
+}

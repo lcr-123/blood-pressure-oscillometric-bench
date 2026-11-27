@@ -1,0 +1,29 @@
+{
+  "kind": "post_flash_calibration_restore",
+  "outcome": "failed",
+  "command": "cal write 82.326 -19.887",
+  "preflight": {
+    "new_firmware": true,
+    "idle_uncal_online": true,
+    "safe_pins": true,
+    "uncal_record": true,
+    "fault_none": true,
+    "uart_zero": true,
+    "ads_zero": true,
+    "fresh_zero": false
+  },
+  "error": "RuntimeError('calibration restore preflight failed')",
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=HIGH_PRESSURE_CAPTURE_20261101 capacity=3300 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=UNCAL ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] UNCAL (no stored record); defaults zero=0.29V sens=0.085V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "raw_path": "data/raw/preflight/high_flash_cal_restore_20261101-132601.ndjson",
+  "raw_sha256": "27e206beeeb52aac10f8d644892114b1c00712a0f52714eabeabf04b81536730"
+}

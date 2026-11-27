@@ -1,0 +1,43 @@
+{
+  "run_id": "standard255_195_target275_peakwindow_20261109-165404",
+  "dataset_role": "development",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 4",
+  "panel_preset": 4,
+  "panel_sbp_mmhg": 255,
+  "panel_dbp_mmhg": 195,
+  "panel_map_mmhg": 215,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.55,
+  "panel_evidence": "operator confirmed Preset 4 before the run; no panel photo or independent readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 282,
+  "host_abort_note": "inflate stops on est >= target but the pump coasts a few mmHg: observed 275.2 and 278.1 for target 275, so a 278 ceiling aborted the run never mind the firmware max safe of 280",
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "peak fixed 200..245mmHg at1.8mmHg/s; outside3.0mmHg/s",
+  "peak_window_mmhg": [
+    200,
+    245
+  ],
+  "peak_window_target_speed_mmhg_s": 1.8,
+  "outside_target_speed_mmhg_s": 3.0,
+  "outcome": "failed",
+  "closeout_confirmed": false,
+  "error": "RuntimeError(\"bridge rejected: {'error': 'Serial port not connected', 'id': '7cfac0ce-a0b6-4d73-ae3f-5589a3a8ca85', 'ok': False, 'schema': 'ek.telemetry/v1', 'type': 'ack'}\")",
+  "nonpressure_lines": [],
+  "fresh_samples": 0,
+  "capture_source_path": "data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261109-165404.ndjson",
+  "capture_source_sha256": "71fd83f69a387e3c7e9de5581de87cb1349cbfc3b216b4b3daed45a63b94d7e3",
+  "script_sha256": "9e146f2bd3a24d09558ad3319e284cee0a779f728f15233dfed615755ca9a8a0"
+}

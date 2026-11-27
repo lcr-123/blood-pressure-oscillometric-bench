@@ -1,0 +1,72 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 30,
+  "host_ceiling_mmhg": 40,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "firmware_id": "HOLD_SAFETY_20261031",
+  "firmware_identity_evidence": "data/raw/preflight/hold_safety_flash_20261031-144929.ndjson",
+  "source_clock_note": "Host serial arrival timestamps are not MCU sample ticks.",
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1316,
+      "max": 1319,
+      "mean": 1317.71
+    },
+    "sensor": {
+      "min": 227,
+      "max": 228,
+      "mean": 227.04
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1318 ads=165mV sensor=227mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "error": "RuntimeError('device safety/offline event: [Safety] Pressure read failed during hold; emergency vent')",
+  "all_trial_nonpressure_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 31.2 mmHg; stopping puep",
+    "[Inflate] holding before deflate...",
+    "[Safety] Pressure read failed during hold; emergency vent",
+    "[DebugCmd] STOP",
+    "[Safety] STOP PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pressure] ADS1115 retry init",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "all_trial_pressure": {
+    "raw": {
+      "min": 1317,
+      "max": 3501,
+      "mean": 2014.59375
+    },
+    "sensor": {
+      "min": 227,
+      "max": 604,
+      "mean": 347.4375
+    },
+    "est": {
+      "min": 0.0,
+      "max": 29.8,
+      "mean": 8.790625
+    }
+  },
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": true,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\restart_low30_20261031-150649.ndjson",
+  "raw_sha256": "9f670129820ea1ba7d51a6c197b3d4e9829807b6f96dc6c995021862db3cc4e2"
+}

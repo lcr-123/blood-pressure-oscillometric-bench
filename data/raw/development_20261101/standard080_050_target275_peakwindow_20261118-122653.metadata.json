@@ -1,0 +1,283 @@
+{
+  "run_id": "standard080_050_target275_peakwindow_20261118-122653",
+  "dataset_role": "prospective_validation",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 6",
+  "panel_preset": 6,
+  "panel_sbp_mmhg": 80,
+  "panel_dbp_mmhg": 50,
+  "panel_map_mmhg": 60,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.71,
+  "panel_evidence": "operator confirmed Preset 6 before the run; no panel photo or independent readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 282,
+  "host_abort_note": "inflate stops on est >= target but the pump coasts a few mmHg: observed 275.2 and 278.1 for target 275, so a 278 ceiling aborted the run never mind the firmware max safe of 280",
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "peak fixed 200..245mmHg at1.8mmHg/s; outside3.0mmHg/s",
+  "peak_window_mmhg": [
+    200,
+    245
+  ],
+  "peak_window_target_speed_mmhg_s": 1.8,
+  "outside_target_speed_mmhg_s": 3.0,
+  "outcome": "export_received",
+  "closeout_confirmed": true,
+  "firmware_readback": [
+    "[UART3] rx_errors=533 rx_state=0x22",
+    "[Pressure] raw=1504 ads=188mV sensor=259mV est=1.5mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1504 ads=188mV sensor=259mV est=1.5mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=533 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1503 ads=188mV sensor=259mV est=1.5mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1504 ads=188mV sensor=259mV est=1.5mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1502 ads=188mV sensor=259mV est=1.4mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "initial_rx_errors": 533,
+  "accepted_rx_errors": 533,
+  "initial_fault_counters": [
+    [
+      0,
+      0
+    ]
+  ],
+  "initial_user_stop_latched": false,
+  "pre_capture_purge": true,
+  "pre_capture_zero_gate_mmhg": 5.0,
+  "pre_capture_zero_gate": "true sealed zero +0.07 mmHg",
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1402,
+      "max": 1407,
+      "mean": 1404.92
+    },
+    "sensor": {
+      "min": 242,
+      "max": 243,
+      "mean": 242.42
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.1,
+      "mean": 0.08200000000000002
+    }
+  },
+  "pre_capture_zero_true_mmhg": 0.07,
+  "pre_capture_zero_note": "firmware clamps negative pressure to 0 (ads1115.c:215-218); true zero derived from sensor mV with 82.326/-19.887, gated symmetrically at +/-5.0 mmHg",
+  "profile_query_before_set": [
+    "[Pressure] raw=1407 ads=176mV sensor=243mV est=0.1mmHg VALID",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "profile_attempts": [],
+  "profile_set_readback": [
+    "[Pressure] raw=1395 ads=174mV sensor=241mV est=0.0mmHg VALID",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "profile_query_readback": [
+    "[Pressure] raw=1395 ads=174mV sensor=241mV est=0.0mmHg VALID",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "measurement_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 276.7 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=3289 capacity=4200 dropped=0 duration=82200ms interval=25ms",
+    "[BP] calculation failed",
+    "[DBGFAIL] n=3289 map=2279(84.4) sbp=1(255.9) dbp=1(80.4)"
+  ],
+  "active_pressure": {
+    "raw": {
+      "min": 1395,
+      "max": 20883,
+      "mean": 10983.971062882581
+    },
+    "sensor": {
+      "min": 241,
+      "max": 3602,
+      "mean": 1894.5954368391765
+    },
+    "est": {
+      "min": 0.0,
+      "max": 276.7,
+      "mean": 136.0873121869783
+    }
+  },
+  "closeout_criterion": "vent to a settled plateau (the vented level carries the energised valve2 coil offset, so only its flatness is required), then seal and require the true sealed zero (sensor mV, unclamped) to be within +/-5.0 mmHg",
+  "valve2_offset_documented_mmhg": 3.94,
+  "closeout_zero_gate_mmhg": 5.0,
+  "closeout_vented_ceiling_mmhg": 10.0,
+  "closeout_settle_raw_p2p_max": 20,
+  "closeout_settle_est_span_max": 0.5,
+  "closeout_amendment": "amend2_20261116: vented level is an offset, not a zero; emptiness is proved by the sealed zero",
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 99,
+      "pressure": {
+        "raw": {
+          "min": 1413,
+          "max": 1443,
+          "mean": 1432.79797979798
+        },
+        "sensor": {
+          "min": 244,
+          "max": 249,
+          "mean": 247.17171717171718
+        },
+        "est": {
+          "min": 0.2,
+          "max": 0.6,
+          "mean": 0.4575757575757575
+        }
+      },
+      "true_zero_mean_mmhg": 0.462,
+      "true_zero_max_abs_mmhg": 0.612
+    }
+  ],
+  "closeout_sealed_zero": {
+    "raw": {
+      "min": 1413,
+      "max": 1443,
+      "mean": 1432.79797979798
+    },
+    "sensor": {
+      "min": 244,
+      "max": 249,
+      "mean": 247.17171717171718
+    },
+    "est": {
+      "min": 0.2,
+      "max": 0.6,
+      "mean": 0.4575757575757575
+    }
+  },
+  "closeout_true_zero_mmhg": 0.462,
+  "target_restored_mmhg": 50,
+  "profile_restored_readback": [
+    "[Pressure] raw=1443 ads=180mV sensor=249mV est=0.6mmHg VALID",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "final_status": [
+    "[Pressure] raw=1443 ads=180mV sensor=249mV est=0.6mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=533 rx_state=0x22"
+  ],
+  "final_fault": [
+    "[Pressure] raw=1445 ads=181mV sensor=249mV est=0.6mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3289 capacity=4200 dropped=0 duration=82200ms interval=25ms"
+  ],
+  "final_rx_errors": 533,
+  "final_fault_counters": [
+    [
+      0,
+      0
+    ]
+  ],
+  "stack": [
+    "[Pressure] raw=1511 ads=189mV sensor=261mV est=1.6mmHg VALID",
+    "[Stack] used=1624 free=2472 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "nonpressure_lines": [
+    "[UART3] rx_errors=533 rx_state=0x22",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=533 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3329 capacity=4200 dropped=0 duration=83200ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Target] inflate target set to 275 mmHg (max safe=280)",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 276.7 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=3289 capacity=4200 dropped=0 duration=82200ms interval=25ms",
+    "[BP] calculation failed",
+    "[DBGFAIL] n=3289 map=2279(84.4) sbp=1(255.9) dbp=1(80.4)",
+    "[Calc] work=2367ms wall=3438ms max_step=32ms extract=2203ms smooth=132ms finish=32ms steps=856",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Target] inflate target set to 50 mmHg (max safe=280)",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=533 rx_state=0x22",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3289 capacity=4200 dropped=0 duration=82200ms interval=25ms",
+    "[Stack] used=1624 free=2472 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "fresh_samples": 3513,
+  "capture_source_path": "data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261118-122653.ndjson",
+  "capture_source_sha256": "dee6745510eb6553e95f446a01039c998165dce21c79ad48fdc65a99559427f0",
+  "script_sha256": "849d1db38a4ddd4bb94f7114cb802b74dcf2948fbef7c6c57c00b7e406b48d47",
+  "batch_tag": "crosstday",
+  "batch_day": 3,
+  "wrap_block": "A",
+  "panel_state_established": true,
+  "panel_switch_command": "SIM_STD80_50",
+  "panel_switch_reply": "ACK",
+  "panel_switch_attempts": [
+    {
+      "attempt": 1,
+      "reply": "ACK",
+      "bytes": 1
+    }
+  ],
+  "panel_switch_policy": {
+    "amendment": "amend1_20261116",
+    "window_s": 12.0,
+    "max_attempts": 3,
+    "retry_gap_s": 2.0
+  },
+  "valve_working_point": "fast",
+  "daily_card_path": "data\\raw\\development_20261101\\daily_card_20261118.json",
+  "orchestrator_sha256": "e963e0fb5fd7960e6a289a139bc60790811abdbec5ff5aa3c021c2c98d55589e",
+  "orchestrator_path": "tmp/run_crosstday_20261116.py"
+}

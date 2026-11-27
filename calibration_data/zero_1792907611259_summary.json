@@ -1,0 +1,44 @@
+{
+  "reference_mmhg": 0,
+  "reference_source": "用户确认 BP Pump 2 面板已归零；未自动同步读取面板",
+  "point_type": "zero_candidate",
+  "duration_requested_s": 5,
+  "sample_count": 100,
+  "first_timestamp_ms": 1792907611259,
+  "last_timestamp_ms": 1792907616209,
+  "sample_rate_hz_reported": 0,
+  "channels": {
+    "raw": {
+      "mean": 1492.44,
+      "sd": 1.1038957643662997,
+      "min": 1490,
+      "max": 1497,
+      "first": 1491,
+      "last": 1495
+    },
+    "ads": {
+      "mean": 186.81,
+      "sd": 0.3942772444036628,
+      "min": 186,
+      "max": 187,
+      "first": 186,
+      "last": 187
+    },
+    "sensor": {
+      "mean": 257.45,
+      "sd": 0.5000000000000001,
+      "min": 257,
+      "max": 258,
+      "first": 257,
+      "last": 258
+    },
+    "est": {
+      "mean": 2.7810000000000055,
+      "sd": 0.03942772444036607,
+      "min": 2.7,
+      "max": 2.8,
+      "first": 2.7,
+      "last": 2.8
+    }
+  }
+}

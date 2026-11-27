@@ -1,0 +1,86 @@
+{
+  "report": "20261111-220931",
+  "point_mmhg": 250,
+  "rows": [
+    {
+      "index": 1,
+      "after_pump_stop_s": 4.05,
+      "mcu_mmhg": 235.25,
+      "gauge_mmhg": 233.0,
+      "panel_mmhg": 232.0,
+      "panel_minus_mcu": -3.25,
+      "panel_minus_gauge": -1.0
+    },
+    {
+      "index": 2,
+      "after_pump_stop_s": 14.16,
+      "mcu_mmhg": 229.05,
+      "gauge_mmhg": 226.0,
+      "panel_mmhg": 226.0,
+      "panel_minus_mcu": -3.05,
+      "panel_minus_gauge": 0.0
+    },
+    {
+      "index": 3,
+      "after_pump_stop_s": 24.1,
+      "mcu_mmhg": 226.25,
+      "gauge_mmhg": 223.0,
+      "panel_mmhg": 223.0,
+      "panel_minus_mcu": -3.25,
+      "panel_minus_gauge": 0.0
+    },
+    {
+      "index": 4,
+      "after_pump_stop_s": 34.19,
+      "mcu_mmhg": 224.2,
+      "gauge_mmhg": 221.0,
+      "panel_mmhg": 221.0,
+      "panel_minus_mcu": -3.2,
+      "panel_minus_gauge": 0.0
+    },
+    {
+      "index": 5,
+      "after_pump_stop_s": 44.14,
+      "mcu_mmhg": 222.7,
+      "gauge_mmhg": 220.0,
+      "panel_mmhg": 220.0,
+      "panel_minus_mcu": -2.7,
+      "panel_minus_gauge": 0.0
+    },
+    {
+      "index": 6,
+      "after_pump_stop_s": 54.05,
+      "mcu_mmhg": 221.3,
+      "gauge_mmhg": 219.0,
+      "panel_mmhg": 218.0,
+      "panel_minus_mcu": -3.3,
+      "panel_minus_gauge": -1.0
+    }
+  ],
+  "panel_minus_gauge": {
+    "n": 6,
+    "median": 0.0,
+    "mean": -0.33,
+    "sd": 0.47,
+    "min": -1.0,
+    "max": 0.0
+  },
+  "panel_minus_mcu": {
+    "n": 6,
+    "median": -3.23,
+    "mean": -3.12,
+    "sd": 0.21,
+    "min": -3.3,
+    "max": -2.7
+  },
+  "panel_equals_gauge_count": "4/6",
+  "serial_minus_mcu_dense": {
+    "n": 73,
+    "median": -2.8,
+    "mean": -2.65,
+    "sd": 1.0,
+    "min": -3.4,
+    "max": 5.05
+  },
+  "verdict": "the panel and the [GAUGE] string are the same number: the display path is not a separate measurement. The scale difference measured against the Tester lives in its sensor, not in how the number is shown."
+}

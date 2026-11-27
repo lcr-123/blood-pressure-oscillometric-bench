@@ -1,0 +1,240 @@
+{
+  "schema": "bp.envelope_gate/1",
+  "manifest_path": "data/reports/standard_bp_development_manifest_20261101.json",
+  "manifest_sha256": "629d6a6fdc362e7f1e2f9229a8967bb3eefc9339140564ac77deab5849bbf220",
+  "scope": "development data; 10 mmHg rule selected using seen runs",
+  "bp_output_allowed": false,
+  "runs": [
+    {
+      "run_id": "standard120_80_20261101-111311",
+      "dataset_role": "development",
+      "outcome": "export_received",
+      "bp_output_allowed": false,
+      "bp_estimate_mmhg": null,
+      "verified_path": "data/reports/standard120_80_20261101-111311.verified.ndjson",
+      "verified_sha256": "3157814682387a9d31f0da871b61e3440126814fd96e5efec5f2eecaac9b3556",
+      "upper_pressure_mmhg": 130,
+      "assessments": {
+        "5": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 57,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "area:unstable_peak",
+            "area:weak_peak_support"
+          ],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        },
+        "10": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 57,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        }
+      },
+      "envelope_decision": "analyzable_candidate",
+      "reasons": [],
+      "upper_pressure_role": "existing development study setting"
+    },
+    {
+      "run_id": "standard120_80_20261101-114844",
+      "dataset_role": "development",
+      "outcome": "export_received",
+      "bp_output_allowed": false,
+      "bp_estimate_mmhg": null,
+      "verified_path": "data/reports/standard120_80_20261101-114844.verified.ndjson",
+      "verified_sha256": "684818927b7c1547e5ce0120859e21e289560b666a4e2b67826dfd304adfbca6",
+      "upper_pressure_mmhg": 130,
+      "assessments": {
+        "5": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 45,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "height:weak_peak_support",
+            "area:unstable_peak",
+            "area:weak_peak_support",
+            "area:jackknife_unstable"
+          ],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        },
+        "10": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 45,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        }
+      },
+      "envelope_decision": "analyzable_candidate",
+      "reasons": [],
+      "upper_pressure_role": "existing development study setting"
+    },
+    {
+      "run_id": "standard120_80_20261101-120429",
+      "dataset_role": "development",
+      "outcome": "export_received",
+      "bp_output_allowed": false,
+      "bp_estimate_mmhg": null,
+      "verified_path": "data/reports/standard120_80_20261101-120429.verified.ndjson",
+      "verified_sha256": "2e92de786265a69966e896ad3a5efa85279271542983b2297804767b8c7ebc08",
+      "upper_pressure_mmhg": 130,
+      "assessments": {
+        "5": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 44,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "height:weak_peak_support",
+            "area:weak_peak_support"
+          ],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        },
+        "10": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 44,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        }
+      },
+      "envelope_decision": "analyzable_candidate",
+      "reasons": [],
+      "upper_pressure_role": "existing development study setting"
+    },
+    {
+      "run_id": "standard120_80_20261101-152030",
+      "dataset_role": "development",
+      "outcome": "export_received",
+      "bp_output_allowed": false,
+      "bp_estimate_mmhg": null,
+      "verified_path": "data/reports/standard120_80_20261101-152030.verified.ndjson",
+      "verified_sha256": "65469606895aeee1ac3ec76e15f403d1d96a4e99add26086c6801ebd78dad79b",
+      "upper_pressure_mmhg": 130,
+      "assessments": {
+        "5": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 49,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "height:weak_peak_support",
+            "area:weak_peak_support"
+          ],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        },
+        "10": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 49,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        }
+      },
+      "envelope_decision": "analyzable_candidate",
+      "reasons": [],
+      "upper_pressure_role": "existing development study setting"
+    },
+    {
+      "run_id": "standard150_100_20261101-123247",
+      "dataset_role": "development",
+      "outcome": "export_received",
+      "bp_output_allowed": false,
+      "bp_estimate_mmhg": null,
+      "verified_path": "data/reports/standard150_100_20261101-123247.verified.ndjson",
+      "verified_sha256": "bc9f9893cc480df32d3aba6d0727c76d28a6c78a600ccf2c9222a50c1ef90f10",
+      "upper_pressure_mmhg": 170,
+      "assessments": {
+        "5": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 66,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "height:weak_peak_support",
+            "area:unstable_peak",
+            "area:weak_peak_support"
+          ],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        },
+        "10": {
+          "study_status": "diagnostic_only",
+          "clean_beats": 66,
+          "envelope_decision": "analyzable_candidate",
+          "reasons": [],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        }
+      },
+      "envelope_decision": "analyzable_candidate",
+      "reasons": [],
+      "upper_pressure_role": "existing development study setting"
+    },
+    {
+      "run_id": "standard200_150_20261101-133011",
+      "dataset_role": "development",
+      "outcome": "failed",
+      "bp_output_allowed": false,
+      "bp_estimate_mmhg": null,
+      "envelope_decision": "abstain",
+      "reasons": [
+        "capture_incomplete"
+      ]
+    },
+    {
+      "run_id": "standard200_150_20261101-134453",
+      "dataset_role": "development",
+      "outcome": "export_received",
+      "bp_output_allowed": false,
+      "bp_estimate_mmhg": null,
+      "verified_path": "data/reports/standard200_150_20261101-134453.verified.ndjson",
+      "verified_sha256": "c7b20ce564cd2d9c87ece5d403e24d13739753602c9728b8299f83981963452b",
+      "upper_pressure_mmhg": 170,
+      "assessments": {
+        "5": {
+          "study_status": "incomplete_oscillogram",
+          "clean_beats": 47,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "height:incomplete_oscillogram",
+            "height:weak_peak_support",
+            "area:incomplete_oscillogram",
+            "area:weak_peak_support"
+          ],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        },
+        "10": {
+          "study_status": "incomplete_oscillogram",
+          "clean_beats": 47,
+          "envelope_decision": "abstain",
+          "reasons": [
+            "height:incomplete_oscillogram",
+            "height:jackknife_unstable",
+            "area:incomplete_oscillogram",
+            "area:jackknife_unstable"
+          ],
+          "bp_output_allowed": false,
+          "bp_estimate_mmhg": null
+        }
+      },
+      "envelope_decision": "abstain",
+      "reasons": [
+        "upper_bound_not_declared_for_preset3",
+        "height:incomplete_oscillogram",
+        "height:jackknife_unstable",
+        "area:incomplete_oscillogram",
+        "area:jackknife_unstable"
+      ],
+      "upper_pressure_role": "150/100 bound reused for diagnosis only"
+    }
+  ]
+}

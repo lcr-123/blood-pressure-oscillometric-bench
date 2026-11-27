@@ -1,0 +1,79 @@
+{
+  "recovered": [
+    {
+      "run": "standard120_80_20261101-111311",
+      "points": 2673,
+      "firmware": "READ_PATH_TEST_20261031",
+      "bytes": 323667,
+      "sha256": "3157814682387a9d31f0da871b61e3440126814fd96e5efec5f2eecaac9b3556",
+      "source_log": "standard120_80_20261101-111311.ndjson"
+    },
+    {
+      "run": "standard120_80_20261101-114844",
+      "points": 2289,
+      "firmware": "READ_PATH_TEST_20261031",
+      "bytes": 279145,
+      "sha256": "684818927b7c1547e5ce0120859e21e289560b666a4e2b67826dfd304adfbca6",
+      "source_log": "standard120_80_20261101-114844.ndjson"
+    },
+    {
+      "run": "standard120_80_20261101-120429",
+      "points": 2273,
+      "firmware": "READ_PATH_TEST_20261031",
+      "bytes": 277113,
+      "sha256": "2e92de786265a69966e896ad3a5efa85279271542983b2297804767b8c7ebc08",
+      "source_log": "standard120_80_20261101-120429.ndjson"
+    },
+    {
+      "run": "standard120_80_20261101-152030",
+      "points": 2369,
+      "firmware": "HIGH_PRESSURE_CAPTURE_20261101",
+      "bytes": 289006,
+      "sha256": "65469606895aeee1ac3ec76e15f403d1d96a4e99add26086c6801ebd78dad79b",
+      "source_log": "standard120_80_20261101-152030.ndjson"
+    },
+    {
+      "run": "standard150_100_20261101-123247",
+      "points": 2801,
+      "firmware": "READ_PATH_TEST_20261031",
+      "bytes": 341711,
+      "sha256": "bc9f9893cc480df32d3aba6d0727c76d28a6c78a600ccf2c9222a50c1ef90f10",
+      "source_log": "standard150_100_20261101-123247.ndjson"
+    },
+    {
+      "run": "standard200_150_20261101-134453",
+      "points": 2289,
+      "firmware": "HIGH_PRESSURE_CAPTURE_20261101",
+      "bytes": 280035,
+      "sha256": "c7b20ce564cd2d9c87ece5d403e24d13739753602c9728b8299f83981963452b",
+      "source_log": "standard200_150_20261101-134453.ndjson"
+    },
+    {
+      "run": "standard255_195_20261105-103250",
+      "points": 2825,
+      "firmware": "HIGH_PRESSURE_CAPTURE_20261101",
+      "bytes": 342379,
+      "sha256": "711432561c93e8c8feb50cb67305d59b79cc4a4caf01e12cfdca0e629e5cd91b",
+      "source_log": "standard255_195_20261105-103250.ndjson"
+    },
+    {
+      "run": "standard255_195_target275_capacity4200_20261105-111540",
+      "points": 3129,
+      "firmware": "CAPTURE4200_20261105",
+      "bytes": 377875,
+      "sha256": "cdbc1b87ad5938341cd4c1fe2d171f8b7c5e85fe7f45348cc2ac95187331e4da",
+      "source_log": "standard255_195_target275_capacity4200_20261105-111540.ndjson"
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261105-123135",
+      "points": 3273,
+      "firmware": "PEAK_WINDOW_20261105",
+      "bytes": 429770,
+      "sha256": "c92f5433cedc997c59cfbd7448e86f0bd3f1bf513107b488146aa4389c9383db",
+      "source_log": "standard255_195_target275_peakwindow_20261105-123135.ndjson"
+    }
+  ],
+  "note": "nine complete captures that existed only inside their run logs; all accepted by the strict bp.capture decoder",
+  "count": 9,
+  "total_points": 23921
+}

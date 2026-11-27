@@ -1,0 +1,202 @@
+{
+  "dataset_role": "development",
+  "nonhuman_fixture": true,
+  "bp_mode": "Pressure Source",
+  "bp_setpoint_mmhg": 100,
+  "panel_evidence": "operator OK after requested setup; not independently measured",
+  "internal_pump_start_sent": false,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "host_abort_mmhg": 120,
+  "host_freshness_seconds": 2,
+  "external_source_remote_control": false,
+  "closeout_confirmed": false,
+  "high_pressure_observed": true,
+  "status_before": [
+    "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_before": [
+    "[Pressure] raw=1302 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "cal_before": [
+    "[Pressure] raw=1302 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "diag_before": {
+    "errors": 1,
+    "recoveries": 1,
+    "line": "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1"
+  },
+  "baseline": {
+    "raw": {
+      "min": 1300,
+      "max": 1304,
+      "mean": 1302.12
+    },
+    "sensor": {
+      "min": 224,
+      "max": 225,
+      "mean": 224.87
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "crossing_sample": {
+    "timestamp": 1793435249186,
+    "raw": 7139,
+    "ads": 892,
+    "sensor": 1231,
+    "est": 81.5,
+    "valid": "VALID"
+  },
+  "high_window": {
+    "raw": {
+      "min": 7139,
+      "max": 9336,
+      "mean": 8344.72
+    },
+    "sensor": {
+      "min": 1231,
+      "max": 1610,
+      "mean": 1439.34
+    },
+    "est": {
+      "min": 81.5,
+      "max": 112.7,
+      "mean": 98.6065
+    }
+  },
+  "high_window_samples": 200,
+  "high_window_host_timestamp_span_ms": 9949,
+  "rise_and_high": {
+    "raw": {
+      "min": 1280,
+      "max": 9336,
+      "mean": 2953.2023554603857
+    },
+    "sensor": {
+      "min": 221,
+      "max": 1610,
+      "mean": 509.6134903640257
+    },
+    "est": {
+      "min": 0.0,
+      "max": 112.7,
+      "mean": 23.059957173447536
+    }
+  },
+  "vent_echo": [
+    "[Pressure] raw=8086 ads=1011mV sensor=1395mV est=94.9mmHg VALID",
+    "[Pressure] raw=8083 ads=1010mV sensor=1394mV est=94.9mmHg VALID",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH"
+  ],
+  "zero_before_seal": [
+    {
+      "timestamp": 1793435260935,
+      "raw": 1465,
+      "ads": 183,
+      "sensor": 253,
+      "est": 0.9,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435260985,
+      "raw": 1456,
+      "ads": 182,
+      "sensor": 251,
+      "est": 0.8,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261035,
+      "raw": 1447,
+      "ads": 181,
+      "sensor": 250,
+      "est": 0.7,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261085,
+      "raw": 1439,
+      "ads": 180,
+      "sensor": 248,
+      "est": 0.5,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261135,
+      "raw": 1433,
+      "ads": 179,
+      "sensor": 247,
+      "est": 0.5,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261185,
+      "raw": 1426,
+      "ads": 178,
+      "sensor": 246,
+      "est": 0.4,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261235,
+      "raw": 1419,
+      "ads": 177,
+      "sensor": 245,
+      "est": 0.3,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261285,
+      "raw": 1413,
+      "ads": 177,
+      "sensor": 244,
+      "est": 0.2,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261335,
+      "raw": 1408,
+      "ads": 176,
+      "sensor": 243,
+      "est": 0.1,
+      "valid": "VALID"
+    },
+    {
+      "timestamp": 1793435261385,
+      "raw": 1401,
+      "ads": 175,
+      "sensor": 242,
+      "est": 0.0,
+      "valid": "VALID"
+    }
+  ],
+  "seal_echo": [
+    "[Pressure] raw=1396 ads=175mV sensor=241mV est=0.0mmHg VALID",
+    "[Valve2] CLOSE PC1=LOW"
+  ],
+  "outcome": "failed",
+  "error": "RuntimeError('post-seal pressure rebound / missing fresh samples')",
+  "fresh_samples_total": 1144,
+  "diagnostic_lines": [
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=1 name=USER_STOP age=1036615ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW"
+  ],
+  "raw_path": "data\\raw\\development_20261031\\external_static100_20261031-162647.ndjson",
+  "raw_sha256": "55f2ba5929320c83b7d06e34f8d4a8bdc8ecb8ef5931d6e9f034980f9d7c628e"
+}

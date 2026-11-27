@@ -1,0 +1,8 @@
+{"file": ".trellis/spec/firmware/core/index.md", "reason": "Firmware project entry point and pre-development checklist."}
+{"file": ".trellis/spec/firmware/core/directory-structure.md", "reason": "STM32CubeMX, Keil, Core, Drivers, and custom module layout."}
+{"file": ".trellis/spec/firmware/core/hardware-map.md", "reason": "Pin, peripheral, sensor, pump, valve, and UART mapping."}
+{"file": ".trellis/spec/firmware/core/control-flow.md", "reason": "Startup order, main loop, state machine, and callback flow."}
+{"file": ".trellis/spec/firmware/core/safety-rules.md", "reason": "Pump, valve, pressure, blocking-call, and calibration safety rules."}
+{"file": ".trellis/spec/firmware/core/quality-guidelines.md", "reason": "Firmware review and verification expectations."}
+{"file": ".trellis/spec/firmware/core/capture-reliability.md", "reason": "Capture overflow, cooperative calculation, ADS recovery and memory contracts."}
+{"file": ".trellis/spec/firmware/core/capture-export.md", "reason": "Capture lifecycle, safe bounded export, wire format and production-C replay contracts."}

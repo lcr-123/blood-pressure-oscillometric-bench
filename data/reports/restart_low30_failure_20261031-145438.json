@@ -1,0 +1,172 @@
+{
+  "recorded_at": "2026-10-31T14:59:04.470281+08:00",
+  "outcome": "failed",
+  "raw_path": "data/raw/development_20261031/restart_low30_20261031-145438.ndjson",
+  "raw_sha256": "5c8156536067867c6165ce0ee0cb35f84a4695bfb8a89699eb33d9a7a668370e",
+  "target_mmhg": 30,
+  "host_ceiling_mmhg": 40,
+  "commands": [
+    {
+      "host_time": "2026-10-31T14:54:38.174127+08:00",
+      "type": "host.command",
+      "text": "status",
+      "id": "ea6ea420-dff8-41db-9f5d-a50eba2842ac",
+      "ack": {
+        "id": "ea6ea420-dff8-41db-9f5d-a50eba2842ac",
+        "ok": true,
+        "schema": "ek.telemetry/v1",
+        "type": "ack",
+        "written": 7
+      }
+    },
+    {
+      "host_time": "2026-10-31T14:54:38.236188+08:00",
+      "type": "host.command",
+      "text": "pins",
+      "id": "f139093b-a312-4bf4-b6b0-23a305c50762",
+      "ack": {
+        "id": "f139093b-a312-4bf4-b6b0-23a305c50762",
+        "ok": true,
+        "schema": "ek.telemetry/v1",
+        "type": "ack",
+        "written": 5
+      }
+    },
+    {
+      "host_time": "2026-10-31T14:54:38.305933+08:00",
+      "type": "host.command",
+      "text": "cal",
+      "id": "a30a7141-acb4-445d-9212-e205511bd48f",
+      "ack": {
+        "id": "a30a7141-acb4-445d-9212-e205511bd48f",
+        "ok": true,
+        "schema": "ek.telemetry/v1",
+        "type": "ack",
+        "written": 4
+      }
+    },
+    {
+      "host_time": "2026-10-31T14:54:38.361206+08:00",
+      "type": "host.command",
+      "text": "fault",
+      "id": "7a42cb08-cdf6-48ce-9f1d-8e3b76786028",
+      "ack": {
+        "id": "7a42cb08-cdf6-48ce-9f1d-8e3b76786028",
+        "ok": true,
+        "schema": "ek.telemetry/v1",
+        "type": "ack",
+        "written": 6
+      }
+    },
+    {
+      "host_time": "2026-10-31T14:54:43.420008+08:00",
+      "type": "host.command",
+      "text": "target 30",
+      "id": "7e750d67-937f-416c-90b5-b02220ec7700",
+      "ack": {
+        "id": "7e750d67-937f-416c-90b5-b02220ec7700",
+        "ok": true,
+        "schema": "ek.telemetry/v1",
+        "type": "ack",
+        "written": 10
+      }
+    },
+    {
+      "host_time": "2026-10-31T14:54:43.450175+08:00",
+      "type": "host.command",
+      "text": "start",
+      "id": "007470a4-5f86-4e0e-987c-06777d186599",
+      "ack": {
+        "id": "007470a4-5f86-4e0e-987c-06777d186599",
+        "ok": true,
+        "schema": "ek.telemetry/v1",
+        "type": "ack",
+        "written": 6
+      }
+    },
+    {
+      "host_time": "2026-10-31T14:54:46.172180+08:00",
+      "type": "host.command",
+      "text": "stop",
+      "id": "d347b892-4f97-4eb5-9a1b-6bf9a5b5ca4d",
+      "ack": null
+    },
+    {
+      "host_time": "2026-10-31T14:54:47.675792+08:00",
+      "type": "host.command",
+      "text": "vent",
+      "id": "f2903744-0f9a-4ce1-ac29-444c39a46d22",
+      "ack": null
+    }
+  ],
+  "active_pressure_line_count": 14,
+  "last_pressure_line": {
+    "timestamp": 1793429684122,
+    "direction": "rx",
+    "text": "[Pressure] raw=3370 ads=421mV sensor=581mV est=28.0mmHg VALID",
+    "truncated": false
+  },
+  "active_nonpressure_lines": [
+    {
+      "timestamp": 1793429683485,
+      "direction": "rx",
+      "text": "[DebugCmd] START",
+      "truncated": false
+    },
+    {
+      "timestamp": 1793429683507,
+      "direction": "rx",
+      "text": "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+      "truncated": false
+    }
+  ],
+  "last_observed_pressure_mmhg": 28.0,
+  "actual_peak_mmhg": null,
+  "target_stop_observed": false,
+  "hold_observed": false,
+  "pwm_start_observed": false,
+  "os_serial_enumeration": {
+    "ports": ["COM6"],
+    "device_name": "USB 串行设备 (COM6)",
+    "pnp_device_id": "USB\\VID_FAED&PID_4870&MI_02\\6&19B9AC61&1&0002",
+    "name_matching_ch340_ch341_found": false,
+    "note": "Current enumeration only; does not prove cause or time of interruption"
+  },
+  "root_cause": "undetermined",
+  "valid_capture_export_obtained": false,
+  "remote_vent_zero_seal_confirmed": false,
+  "operator_manual_safe_state_confirmed": true,
+  "operator_confirmation_text": "三项均已完成",
+  "operator_confirmation_scope": "Actuator supply disconnected; BP Stop; manually depressurized",
+  "operator_confirmation_not_remote_gpio_or_pressure_verification": true,
+  "post_failure_snapshot": {
+    "duration_seconds": 5,
+    "sample_count": 0
+  },
+  "ui_inspection": "Unavailable: native computer-use pipe missing on both attempts; UI state unknown",
+  "load_off_diagnostic": {
+    "raw_path": "data/raw/development_20261031/load_off_diagnostic_20261031-145904.ndjson",
+    "commands_permitted": [
+      "status"
+    ],
+    "actuator_commands_sent": false,
+    "hello": {
+      "maxCommandBytes": 1024,
+      "schema": "ek.telemetry/v1",
+      "type": "hello",
+      "writeEnabled": {
+        "ble": false,
+        "rtt": false,
+        "serial": true
+      }
+    },
+    "error": "TimeoutError('ACK status')",
+    "fresh_pressure_count": 0,
+    "received_message_types": [
+      "hello"
+    ],
+    "raw_sha256": "e3bb3239a28d60cb4bb21b6d9e5dd2145f4e864b1259a31bbe893c4565309319"
+  },
+  "source_clock_note": "Host serial arrival timestamps are not MCU sample ticks; sampleRateHz=0 means unknown",
+  "next_gate": "Restore communication while actuator supply remains disconnected; verify fresh firmware ID/status/pins/fault/stack/zero before planning another physical test"
+}

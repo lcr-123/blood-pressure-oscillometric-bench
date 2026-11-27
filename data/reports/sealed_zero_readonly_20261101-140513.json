@@ -1,0 +1,18 @@
+﻿{
+  "source": "data\\raw\\preflight\\sealed_zero_readonly_20261101-140513.ndjson",
+  "sha256": "8d379bd7e2eb167c0e52967ed7d89bdfa439f901e3de61e5471f7890191279be",
+  "sample_count": 601,
+  "duration_host_ms": 29998,
+  "raw_min": 1312.0,
+  "raw_max": 1316.0,
+  "raw_mean": 1313.9517470881863,
+  "first_5s_raw_mean": 1313.6534653465346,
+  "last_5s_raw_mean": 1313.91,
+  "first_last_5s_delta_raw": 0.2565346534654509,
+  "est_min": 0.0,
+  "est_max": 0.0,
+  "host_interval_median_ms": 50.0,
+  "host_interval_max_ms": 51,
+  "invalid_pressure_lines": [],
+  "caveat": "host timestamps and same-sensor raw values; not independent physical pressure or MCU sampling ticks"
+}

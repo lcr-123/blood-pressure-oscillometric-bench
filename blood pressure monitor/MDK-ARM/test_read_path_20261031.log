@@ -1,0 +1,232 @@
+﻿python : test_capacity_uses_observed_rate_and_reports_overflow (test_beat_analysis.BeatAnalysisTests.test_capacity_uses
+_observed_rate_and_reports_overflow) ... ok
+所在位置 行:2 字符: 1
++ python -m unittest discover -s 'blood pressure monitor/test' -v *> 'b ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_capacity_u...verflow) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_irregular_ticks_do_not_claim_raw_cadence (test_beat_analysis.BeatAnalysisTests.test_irregular_ticks_do_not_claim_r
+aw_cadence) ... ok
+test_raw_voltage_detects_80_bpm_despite_valve_frequency (test_beat_analysis.BeatAnalysisTests.test_raw_voltage_detects_
+80_bpm_despite_valve_frequency) ... ok
+test_raw_voltage_needs_pressure_window (test_beat_analysis.BeatAnalysisTests.test_raw_voltage_needs_pressure_window) ..
+. ok
+test_raw_voltage_rejects_wrong_cadence (test_beat_analysis.BeatAnalysisTests.test_raw_voltage_rejects_wrong_cadence) ..
+. ok
+test_regular_synthetic_beats_can_form_diagnostic_candidates (test_beat_analysis.BeatAnalysisTests.test_regular_syntheti
+c_beats_can_form_diagnostic_candidates) ... ok
+test_unlabeled_pulse_estimates_multiple_rates (test_beat_analysis.BeatAnalysisTests.test_unlabeled_pulse_estimates_mult
+iple_rates) ... ok
+test_unlabeled_pulse_rejects_unstable_and_irregular_series (test_beat_analysis.BeatAnalysisTests.test_unlabeled_pulse_r
+ejects_unstable_and_irregular_series) ... ok
+test_unlabeled_pulse_rejects_valve_only_and_low_noise (test_beat_analysis.BeatAnalysisTests.test_unlabeled_pulse_reject
+s_valve_only_and_low_noise) ... ok
+test_unlabeled_pulse_requires_pressure_span (test_beat_analysis.BeatAnalysisTests.test_unlabeled_pulse_requires_pressur
+e_span) ... ok
+test_valve_frequency_alone_is_not_detected_as_80_bpm (test_beat_analysis.BeatAnalysisTests.test_valve_frequency_alone_i
+s_not_detected_as_80_bpm) ... ok
+test_wrong_cadence_suppresses_bp_candidates (test_beat_analysis.BeatAnalysisTests.test_wrong_cadence_suppresses_bp_cand
+idates) ... ok
+test_dedup_bridge_and_partial_export (test_capture_catalog.CaptureCatalogTests.test_dedup_bridge_and_partial_export) ..
+. ok
+test_all_add_sample_callers_check_overflow (test_capture_contract.CaptureContractTests.test_all_add_sample_callers_chec
+k_overflow) ... ok
+test_diagnostics_follow_emergency_stop (test_capture_contract.CaptureContractTests.test_diagnostics_follow_emergency_st
+op) ... ok
+test_driver_defers_recovery_and_has_no_logging (test_capture_contract.CaptureContractTests.test_driver_defers_recovery_
+and_has_no_logging) ... ok
+test_export_command_cancels_before_other_commands_and_runs_after_safety (test_capture_contract.CaptureContractTests.tes
+t_export_command_cancels_before_other_commands_and_runs_after_safety) ... ok
+test_pending_calculation_cancel_does_not_change_actuators (test_capture_contract.CaptureContractTests.test_pending_calc
+ulation_cancel_does_not_change_actuators) ... ok
+test_production_callers_yield_instead_of_synchronous_calculation (test_capture_contract.CaptureContractTests.test_produ
+ction_callers_yield_instead_of_synchronous_calculation) ... ok
+test_stream_offline_retry_is_bounded_and_sample_interval_shared (test_capture_contract.CaptureContractTests.test_stream
+_offline_retry_is_bounded_and_sample_interval_shared) ... ok
+test_valve_diagnostics_record_only_after_actual_open (test_capture_contract.CaptureContractTests.test_valve_diagnostics
+_record_only_after_actual_open) ... ok
+test_accepts_budget_with_interrupt_margin (test_capture_contract.MemoryBudgetTests.test_accepts_budget_with_interrupt_m
+argin) ... ok
+test_rejects_insufficient_ram (test_capture_contract.MemoryBudgetTests.test_rejects_insufficient_ram) ... ok
+test_rejects_missing_linker_evidence (test_capture_contract.MemoryBudgetTests.test_rejects_missing_linker_evidence) ...
+ ok
+test_rejects_original_oversized_stack_usage (test_capture_contract.MemoryBudgetTests.test_rejects_original_oversized_st
+ack_usage) ... ok
+test_bp_capture_v1_remains_decodable (test_capture_export.CaptureExportTests.test_bp_capture_v1_remains_decodable) ... 
+ok
+test_bp_capture_v2_remains_decodable (test_capture_export.CaptureExportTests.test_bp_capture_v2_remains_decodable) ... 
+ok
+test_bridge_rx_only_and_csv_exact_bits (test_capture_export.CaptureExportTests.test_bridge_rx_only_and_csv_exact_bits) 
+... ok
+test_cli_end_to_end_and_no_overwrite (test_capture_export.CaptureExportTests.test_cli_end_to_end_and_no_overwrite) ... 
+ok
+test_failed_calculation_retains_complete_envelopes (test_capture_export.CaptureExportTests.test_failed_calculation_reta
+ins_complete_envelopes) ... ok
+test_irregular_ticks_survive_export_and_replay (test_capture_export.CaptureExportTests.test_irregular_ticks_survive_exp
+ort_and_replay) ... ok
+test_loss_duplicate_reorder_truncation_and_tampering_rejected (test_capture_export.CaptureExportTests.test_loss_duplica
+te_reorder_truncation_and_tampering_rejected) ... ok
+test_real_c_lifecycle_bounded_output_cancel_mutation_failure (test_capture_export.CaptureExportTests.test_real_c_lifecy
+cle_bounded_output_cancel_mutation_failure) ... ok
+test_replay_firmware_mismatch_rejected (test_capture_export.CaptureExportTests.test_replay_firmware_mismatch_rejected) 
+... ok
+test_same_source_roundtrip_success_and_capacity (test_capture_export.CaptureExportTests.test_same_source_roundtrip_succ
+ess_and_capacity) ... ok
+test_schema_nonfinite_overflow_ticks_null_and_duplicate_keys_rejected (test_capture_export.CaptureExportTests.test_sche
+ma_nonfinite_overflow_ticks_null_and_duplicate_keys_rejected) ... ok
+test_step_trace_loss_reorder_and_forgery_rejected (test_capture_export.CaptureExportTests.test_step_trace_loss_reorder_
+and_forgery_rejected) ... ok
+test_step_trace_matches_real_c_samples_and_caps_explicitly (test_capture_export.CaptureExportTests.test_step_trace_matc
+hes_real_c_samples_and_caps_explicitly) ... ok
+test_uncomputed_and_cancelled_envelopes_are_null (test_capture_export.CaptureExportTests.test_uncomputed_and_cancelled_
+envelopes_are_null) ... ok
+test_valve_missing_duplicate_reordered_and_tampered_rejected (test_capture_export.CaptureExportTests.test_valve_missing
+_duplicate_reordered_and_tampered_rejected) ... ok
+test_actual_gpio_init_and_active_low_valve_macros (test_host_firmware.HostFirmwareTests.test_actual_gpio_init_and_activ
+e_low_valve_macros) ... ok
+test_actual_hold_safety_faults_stream_and_deadline (test_host_firmware.HostFirmwareTests.test_actual_hold_safety_faults
+_stream_and_deadline) ... ok
+test_actual_i2c_scan_address_and_safety_gate (test_host_firmware.HostFirmwareTests.test_actual_i2c_scan_address_and_saf
+ety_gate) ... ok
+test_actual_main_export_safety_gate (test_host_firmware.HostFirmwareTests.test_actual_main_export_safety_gate) ... ok
+test_actual_read_path_ramp_hold_faults_and_static_diagnostic (test_host_firmware.HostFirmwareTests.test_actual_read_pat
+h_ramp_hold_faults_and_static_diagnostic) ... ok
+test_actual_uart_error_recovery_and_command_integrity (test_host_firmware.HostFirmwareTests.test_actual_uart_error_reco
+very_and_command_integrity) ... ok
+test_capacity_reset_timestamp_wrap_and_invalid_result (test_host_firmware.HostFirmwareTests.test_capacity_reset_timesta
+mp_wrap_and_invalid_result) ... ok
+test_control_deflate_failure_vents_before_recovery (test_host_firmware.HostFirmwareTests.test_control_deflate_failure_v
+ents_before_recovery) ... ok
+test_control_deflate_overflow_vents (test_host_firmware.HostFirmwareTests.test_control_deflate_overflow_vents) ... ok
+test_control_inflate_failure_vents_before_recovery (test_host_firmware.HostFirmwareTests.test_control_inflate_failure_v
+ents_before_recovery) ... ok
+test_control_nonrepresentable_tick_gap_vents (test_host_firmware.HostFirmwareTests.test_control_nonrepresentable_tick_g
+ap_vents) ... ok
+test_control_pending_calculation_cancellation (test_host_firmware.HostFirmwareTests.test_control_pending_calculation_ca
+ncellation) ... ok
+test_control_pressure_tick_overflow_vents (test_host_firmware.HostFirmwareTests.test_control_pressure_tick_overflow_ven
+ts) ... ok
+test_conversion_ready_timeout (test_host_firmware.HostFirmwareTests.test_conversion_ready_timeout) ... ok
+test_conversion_start_timeout (test_host_firmware.HostFirmwareTests.test_conversion_start_timeout) ... ok
+test_cooperative_arithmetic_bit_equivalence (test_host_firmware.HostFirmwareTests.test_cooperative_arithmetic_bit_equiv
+alence) ... ok
+test_cooperative_cancellation_yield_and_tick_wrap (test_host_firmware.HostFirmwareTests.test_cooperative_cancellation_y
+ield_and_tick_wrap) ... ok
+test_main_calculation_publish_once_and_cancel (test_host_firmware.HostFirmwareTests.test_main_calculation_publish_once_
+and_cancel) ... ok
+test_pressure_parser_accepts_optional_padding (test_host_firmware.HostFirmwareTests.test_pressure_parser_accepts_option
+al_padding) ... ok
+test_pressure_text_usb_packet_boundaries (test_host_firmware.HostFirmwareTests.test_pressure_text_usb_packet_boundaries
+) ... ok
+test_probe_and_recovery_failure_remain_offline (test_host_firmware.HostFirmwareTests.test_probe_and_recovery_failure_re
+main_offline) ... ok
+test_raw_receive_timeout_no_partial_sample (test_host_firmware.HostFirmwareTests.test_raw_receive_timeout_no_partial_sa
+mple) ... ok
+test_register_pointer_busy (test_host_firmware.HostFirmwareTests.test_register_pointer_busy) ... ok
+test_register_receive_timeout (test_host_firmware.HostFirmwareTests.test_register_receive_timeout) ... ok
+test_signal_gate_equivalent_to_sorted_percentile_all_capacities (test_host_firmware.HostFirmwareTests.test_signal_gate_
+equivalent_to_sorted_percentile_all_capacities) ... ok
+test_separates_sealed_leak_from_pulse_phase_notch (test_loaded_pulse_audit.LoadedPulseAuditTests.test_separates_sealed_
+leak_from_pulse_phase_notch) ... ok
+test_incomplete_calculation_is_not_analyzed (test_oscillogram_study.OscillogramStudyTests.test_incomplete_calculation_i
+s_not_analyzed) ... ok
+test_jackknife_rejects_saved_high_target_bin_shape (test_oscillogram_study.OscillogramStudyTests.test_jackknife_rejects
+_saved_high_target_bin_shape) ... ok
+test_label_free_map_tracks_two_pressure_settings_with_valve_noise (test_oscillogram_study.OscillogramStudyTests.test_la
+bel_free_map_tracks_two_pressure_settings_with_valve_noise) ... ok
+test_missing_upper_oscillogram_tail_is_reported (test_oscillogram_study.OscillogramStudyTests.test_missing_upper_oscill
+ogram_tail_is_reported) ... ok
+test_robustness_screen_rejects_sparse_peak_and_pressure_gap (test_oscillogram_study.OscillogramStudyTests.test_robustne
+ss_screen_rejects_sparse_peak_and_pressure_gap) ... ok
+test_step_padding_has_bounded_research_range (test_oscillogram_study.OscillogramStudyTests.test_step_padding_has_bounde
+d_research_range) ... ok
+test_upper_pressure_changes_only_research_search_range (test_oscillogram_study.OscillogramStudyTests.test_upper_pressur
+e_changes_only_research_search_range) ... ok
+test_valve_only_signal_has_no_map_candidate (test_oscillogram_study.OscillogramStudyTests.test_valve_only_signal_has_no
+_map_candidate) ... ok
+test_csv_round_trip_and_reports (test_pressure_calibration.PressureCalibrationTests.test_csv_round_trip_and_reports) ..
+. ok
+test_deterministic_simulation_passes (test_pressure_calibration.PressureCalibrationTests.test_deterministic_simulation_
+passes) ... ok
+test_exact_fit_uses_independent_verification_points (test_pressure_calibration.PressureCalibrationTests.test_exact_fit_
+uses_independent_verification_points) ... ok
+test_rejects_calibration_without_pressure_span (test_pressure_calibration.PressureCalibrationTests.test_rejects_calibra
+tion_without_pressure_span) ... ok
+test_boot_vents_residual_pressure_after_reset (test_safety_contract.SafetyContractTests.test_boot_vents_residual_pressu
+re_after_reset) ... ok
+test_cal_storage_has_flash_crc_and_verify_contract (test_safety_contract.SafetyContractTests.test_cal_storage_has_flash
+_crc_and_verify_contract) ... ok
+test_calibration_validity_is_runtime_flash_state (test_safety_contract.SafetyContractTests.test_calibration_validity_is
+_runtime_flash_state) ... ok
+test_continuous_pump_command_cannot_bypass_pressure_safety (test_safety_contract.SafetyContractTests.test_continuous_pu
+mp_command_cannot_bypass_pressure_safety) ... ok
+test_control_init_does_not_write_startup_transport (test_safety_contract.SafetyContractTests.test_control_init_does_not
+_write_startup_transport) ... ok
+test_cubemx_and_keil_include_watchdog (test_safety_contract.SafetyContractTests.test_cubemx_and_keil_include_watchdog) 
+... ok
+test_cubemx_valve1_is_released_open_drain_pb8 (test_safety_contract.SafetyContractTests.test_cubemx_valve1_is_released_
+open_drain_pb8) ... ok
+test_deflate_pulse_period_matches_reported_configuration (test_safety_contract.SafetyContractTests.test_deflate_pulse_p
+eriod_matches_reported_configuration) ... ok
+test_deflate_terminal_states_are_not_overwritten_by_pwm (test_safety_contract.SafetyContractTests.test_deflate_terminal
+_states_are_not_overwritten_by_pwm) ... ok
+test_deflate_test_finish_cancels_before_opening_vent_and_prevents_next_pwm (test_safety_contract.SafetyContractTests.te
+st_deflate_test_finish_cancels_before_opening_vent_and_prevents_next_pwm) ... ok
+test_deflate_test_has_bounded_gate_duration_floor_and_width (test_safety_contract.SafetyContractTests.test_deflate_test
+_has_bounded_gate_duration_floor_and_width)
+The closed-loop rate probe must remain a bounded non-human diagnostic. ... ok
+test_emergency_stop_is_nonblocking_and_ordered (test_safety_contract.SafetyContractTests.test_emergency_stop_is_nonbloc
+king_and_ordered) ... ok
+test_full_measurement_start_is_calibration_locked (test_safety_contract.SafetyContractTests.test_full_measurement_start
+_is_calibration_locked) ... ok
+test_holdopen_diagnostic_is_nonhuman_and_bounded (test_safety_contract.SafetyContractTests.test_holdopen_diagnostic_is_
+nonhuman_and_bounded) ... ok
+test_keil_still_contains_all_custom_sources (test_safety_contract.SafetyContractTests.test_keil_still_contains_all_cust
+om_sources) ... ok
+test_legacy_serial_commands_are_preserved (test_safety_contract.SafetyContractTests.test_legacy_serial_commands_are_pre
+served) ... ok
+test_loaded_pulse_has_baseline_pressure_gate_and_automatic_vent (test_safety_contract.SafetyContractTests.test_loaded_p
+ulse_has_baseline_pressure_gate_and_automatic_vent) ... ok
+test_manual_emergency_cancels_pulse_before_opening_vent (test_safety_contract.SafetyContractTests.test_manual_emergency
+_cancels_pulse_before_opening_vent) ... ok
+test_manual_inflate_samples_pressure_independently_and_vents_on_failure (test_safety_contract.SafetyContractTests.test_
+manual_inflate_samples_pressure_independently_and_vents_on_failure) ... ok
+test_manual_pump_has_bounded_timeout (test_safety_contract.SafetyContractTests.test_manual_pump_has_bounded_timeout) ..
+. ok
+test_manual_start_requires_calibration_and_sensor_preflight (test_safety_contract.SafetyContractTests.test_manual_start
+_requires_calibration_and_sensor_preflight) ... ok
+test_measurement_sensor_failures_vent (test_safety_contract.SafetyContractTests.test_measurement_sensor_failures_vent) 
+... ok
+test_mpxv5050_sensitivity_constant_matches_datasheet (test_safety_contract.SafetyContractTests.test_mpxv5050_sensitivit
+y_constant_matches_datasheet) ... ok
+test_new_diagnostics_are_available (test_safety_contract.SafetyContractTests.test_new_diagnostics_are_available) ... ok
+test_pressure_command_does_not_own_actuators (test_safety_contract.SafetyContractTests.test_pressure_command_does_not_o
+wn_actuators) ... ok
+test_pressure_conversion_routes_through_calibration_store (test_safety_contract.SafetyContractTests.test_pressure_conve
+rsion_routes_through_calibration_store) ... ok
+test_relay_only_and_serial_button_substitution_remain_enabled (test_safety_contract.SafetyContractTests.test_relay_only
+_and_serial_button_substitution_remain_enabled) ... ok
+test_relay_only_deflate_updates_pressure_without_stream (test_safety_contract.SafetyContractTests.test_relay_only_defla
+te_updates_pressure_without_stream) ... ok
+test_serial_cal_commands_are_available (test_safety_contract.SafetyContractTests.test_serial_cal_commands_are_available
+) ... ok
+test_systick_ends_deflate_pulse_independently_of_main_loop (test_safety_contract.SafetyContractTests.test_systick_ends_
+deflate_pulse_independently_of_main_loop) ... ok
+test_watchdog_is_nominal_four_seconds_and_debug_frozen (test_safety_contract.SafetyContractTests.test_watchdog_is_nomin
+al_four_seconds_and_debug_frozen) ... ok
+test_zero_pulse_is_bounded_and_preserves_emergency_exit (test_safety_contract.SafetyContractTests.test_zero_pulse_is_bo
+unded_and_preserves_emergency_exit) ... ok
+test_command_is_read_only_and_reports_all_budget_fields (test_stack_watermark.StackWatermarkContractTests.test_command_
+is_read_only_and_reports_all_budget_fields) ... ok
+test_configuration_and_keil_project_keep_4k_stack_and_sources (test_stack_watermark.StackWatermarkContractTests.test_co
+nfiguration_and_keil_project_keep_4k_stack_and_sources) ... ok
+test_startup_exports_exact_stack_and_main_initializes_first (test_stack_watermark.StackWatermarkContractTests.test_star
+tup_exports_exact_stack_and_main_initializes_first) ... ok
+test_scan_boundaries_and_invalid_arguments_in_production_c (test_stack_watermark.StackWatermarkScanTests.test_scan_boun
+daries_and_invalid_arguments_in_production_c) ... ok
+
+----------------------------------------------------------------------
+Ran 114 tests in 29.535s
+
+OK

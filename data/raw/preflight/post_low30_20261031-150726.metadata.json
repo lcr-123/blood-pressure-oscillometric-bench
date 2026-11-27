@@ -1,0 +1,41 @@
+{
+  "actuator_commands_sent": false,
+  "status": [
+    "[Pressure] raw=1420 ads=178mV sensor=245mV est=0.3mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+  ],
+  "pins": [
+    "[Pressure] raw=1421 ads=178mV sensor=245mV est=0.3mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fault": [
+    "[Pressure] raw=1419 ads=177mV sensor=245mV est=0.3mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=31248ms",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0010 sr2=0x0002 errors=1 recoveries=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "stack": [
+    "[Pressure] raw=1420 ads=178mV sensor=245mV est=0.3mmHg VALID",
+    "[Stack] used=1424 free=2672 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "fresh_count": 100,
+  "pressure": {
+    "raw": {
+      "min": 1416,
+      "max": 1421,
+      "mean": 1418.44
+    },
+    "sensor": {
+      "min": 244,
+      "max": 245,
+      "mean": 244.79
+    },
+    "est": {
+      "min": 0.2,
+      "max": 0.3,
+      "mean": 0.244
+    }
+  },
+  "raw_path": "data\\raw\\preflight\\post_low30_20261031-150726.ndjson",
+  "raw_sha256": "bb5655b9570caab06810040cfe97cdb6f4fcf8bbe6f6d49b48515aa9f0d6b47e"
+}

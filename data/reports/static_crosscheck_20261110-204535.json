@@ -1,0 +1,205 @@
+{
+  "points_mmhg": [
+    60,
+    120,
+    180,
+    260
+  ],
+  "settle_seconds": 90.0,
+  "zero_settle_seconds": 90.0,
+  "hold_seconds": 36.0,
+  "repeats": 3,
+  "window_seconds": 12.0,
+  "tester_port": "COM12",
+  "gauge_lag_dropped_s": 2.0,
+  "nonhuman_fixture_confirmed": true,
+  "started": "20261110-204535",
+  "rows": [
+    {
+      "requested_mmhg": 60,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 34.9,
+          "tester_mmhg": 34.0,
+          "difference_mmhg": -0.9,
+          "mcu_first": 35.4,
+          "mcu_last": 34.4,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 34.0,
+          "tester_mmhg": 33.0,
+          "difference_mmhg": -1.0,
+          "mcu_first": 34.4,
+          "mcu_last": 33.5,
+          "mcu_points": 240,
+          "tester_points": 13
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 33.1,
+          "tester_mmhg": 32.0,
+          "difference_mmhg": -1.1,
+          "mcu_first": 33.5,
+          "mcu_last": 32.7,
+          "mcu_points": 240,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 34.0,
+      "tester_mmhg": 33.0,
+      "difference_mmhg": -1.0,
+      "within_point_spread": 0.2
+    },
+    {
+      "requested_mmhg": 120,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 95.4,
+          "tester_mmhg": 94.0,
+          "difference_mmhg": -1.4,
+          "mcu_first": 95.9,
+          "mcu_last": 94.9,
+          "mcu_points": 240,
+          "tester_points": 13
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 94.3,
+          "tester_mmhg": 93.0,
+          "difference_mmhg": -1.3,
+          "mcu_first": 94.9,
+          "mcu_last": 93.8,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 93.2,
+          "tester_mmhg": 92.0,
+          "difference_mmhg": -1.2,
+          "mcu_first": 93.8,
+          "mcu_last": 92.7,
+          "mcu_points": 239,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 94.3,
+      "tester_mmhg": 93.0,
+      "difference_mmhg": -1.3,
+      "within_point_spread": 0.2
+    },
+    {
+      "requested_mmhg": 180,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 155.2,
+          "tester_mmhg": 154.0,
+          "difference_mmhg": -1.2,
+          "mcu_first": 156.0,
+          "mcu_last": 154.5,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 153.7,
+          "tester_mmhg": 152.0,
+          "difference_mmhg": -1.7,
+          "mcu_first": 154.5,
+          "mcu_last": 152.9,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 152.1,
+          "tester_mmhg": 151.0,
+          "difference_mmhg": -1.1,
+          "mcu_first": 152.9,
+          "mcu_last": 150.0,
+          "mcu_points": 240,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 153.7,
+      "tester_mmhg": 152.0,
+      "difference_mmhg": -1.33,
+      "within_point_spread": 0.6
+    },
+    {
+      "requested_mmhg": 260,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 234.2,
+          "tester_mmhg": 231.0,
+          "difference_mmhg": -3.2,
+          "mcu_first": 235.0,
+          "mcu_last": 233.4,
+          "mcu_points": 239,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 232.7,
+          "tester_mmhg": 230.0,
+          "difference_mmhg": -2.7,
+          "mcu_first": 233.4,
+          "mcu_last": 232.0,
+          "mcu_points": 239,
+          "tester_points": 13
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 231.2,
+          "tester_mmhg": 228.0,
+          "difference_mmhg": -3.2,
+          "mcu_first": 231.9,
+          "mcu_last": 230.5,
+          "mcu_points": 240,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 232.7,
+      "tester_mmhg": 230.0,
+      "difference_mmhg": -3.03,
+      "within_point_spread": 0.5
+    }
+  ],
+  "calibration": [
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "zero_start": {
+    "mcu_mmhg": 0.0,
+    "mcu_sensor_mv": 235.0,
+    "tester_mmhg": 0.0,
+    "settle_seconds": 90.0
+  },
+  "zero_end": {
+    "mcu_mmhg": 1.6,
+    "mcu_sensor_mv": 261.0,
+    "tester_mmhg": 1.0,
+    "settle_seconds": 90.0
+  },
+  "zero_drift": {
+    "mcu_mmhg": 1.6,
+    "mcu_sensor_mv": 26.0,
+    "tester_mmhg": 1.0
+  },
+  "summary": {
+    "n": 4,
+    "mean_difference": -1.67,
+    "min_difference": -3.03,
+    "max_difference": -1.0,
+    "spread": 2.03,
+    "max_abs": 3.03,
+    "mean_within_point_spread": 0.38
+  },
+  "finished": "20261110-205719"
+}

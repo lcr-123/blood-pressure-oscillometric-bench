@@ -1,0 +1,111 @@
+{
+  "outcome": "read_only_load_off_preflight_passed",
+  "physical_trial": false,
+  "actuator_supply": "remains operator-confirmed disconnected",
+  "actuator_commands_sent": false,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "reset_requested": false,
+  "firmware_identity": "Not re-observed; version is startup-only in current firmware",
+  "previous_identity_evidence": "data/raw/preflight/hold_safety_flash_20261031-144929.ndjson",
+  "commands": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1299 ads=162mV sensor=224mV est=0.0mmHg VALID",
+        "[Pressure] raw=1301 ads=163mV sensor=224mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1300 ads=163mV sensor=224mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1300 ads=163mV sensor=224mV est=0.0mmHg VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1300 ads=163mV sensor=224mV est=0.0mmHg VALID",
+        "[Fault] code=0 name=NONE age=0ms",
+        "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Pressure] raw=1302 ads=163mV sensor=225mV est=0.0mmHg VALID",
+        "[Stack] used=1424 free=2672 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    }
+  ],
+  "hello": {
+    "maxCommandBytes": 1024,
+    "schema": "ek.telemetry/v1",
+    "type": "hello",
+    "writeEnabled": {
+      "ble": false,
+      "rtt": false,
+      "serial": true
+    }
+  },
+  "fresh_sample_count": 200,
+  "pressure": {
+    "raw": {
+      "min": 1297,
+      "max": 1301,
+      "mean": 1299.035
+    },
+    "sensor": {
+      "min": 224,
+      "max": 224,
+      "mean": 224.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "host_timestamp_largest_gap_ms": 51,
+  "unclipped_raw_derived_mmhg": {
+    "min": -1.4693358879036786,
+    "max": -1.4125350733713837,
+    "mean": -1.440438473510369
+  },
+  "source_clock_note": "Host arrival timestamps are not MCU sample ticks. Displayed zero is clipped, not independent zero accuracy.",
+  "gates": {
+    "idle_online_calibrated": true,
+    "safe_pins": true,
+    "established_calibration": true,
+    "fault_none": true,
+    "ads_no_recorded_errors": true,
+    "stack_not_saturated": true,
+    "fresh_low_stable_samples": true,
+    "no_boot_during_observation": true
+  },
+  "nonpressure_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1424 free=2672 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "raw_path": "data/raw/preflight/reconnect_20261031-150248.ndjson",
+  "raw_sha256": "9d812591a1b4fb5ca63191d4370ac088f84351e9ffa74ed391bc106755526d45",
+  "operator_reported_mcu_restarted_during_recovery": true,
+  "operator_recovery_confirmation": "也重启或断电重上电过 STM32",
+  "post_reset_counter_limitation": "Zero fault/ADS counters describe the current post-reset runtime only; previous fault state may have been lost. Restart cause and exact interruption layer remain undetermined.",
+  "port_name_limitation": "Working telemetry received while Windows listed only COM6; absence of a CH340/CH341 device name alone does not prove the telemetry adapter disconnected."
+}

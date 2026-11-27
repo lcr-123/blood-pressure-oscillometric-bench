@@ -1,0 +1,1 @@
+0003094 E Error while initing target: SWD/JTAG communication failure (Unexpected ACK '0'); check USB cable, reduce debugger clock [commander]

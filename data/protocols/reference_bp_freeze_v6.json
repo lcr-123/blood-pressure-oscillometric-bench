@@ -1,0 +1,191 @@
+{
+  "name": "reference_bp_v6",
+  "frozen_on": "2026-11-26",
+  "supersedes": null,
+  "relates_to": {
+    "reference_bp_v2": "v6 keeps the v2 estimator and the validity gate byte for byte; what it adds is the pressure axis, the covered estimator and a recomputable baseline. v2 stays on disk and still verifies.",
+    "reference_bp_v3": "v3 is the MAP-smoothing-3.0 wrapper; untouched."
+  },
+  "why": "The three records before this one pin code hashes and constants but not the pressure axis. The axis is baked into each export by the firmware at capture time, so on 2026-11-26, after the refit to slope 81.5286 intercept -20.0279, tools/verify_freeze.py still reported every record intact while none of them could reproduce the baseline numbers they record: MAP sd 3.70 / SBP 9.70 / DBP 9.60 only come out on the old axis 82.326 / -19.887 (measured: 3.703 / 9.684 / 9.603 on the old axis against 3.819 / 9.770 / 9.416 on the new one). A record whose numbers cannot be recomputed cannot be checked, so v6 pins the axis and ships the tool that recomputes the baseline.",
+  "what_this_record_adds": [
+    "pressure_axis: the slope and intercept every future capture must be taken on, with the axis the baseline rounds were actually captured on, so the two can never be confused again",
+    "covered_estimator: tools/covered_bp.py was frozen only by prose in reference_bp_freeze_v5_candidate.md, which contains no sha256 literal at all; v6 pins its file hash and its nine constants in a record tools can read",
+    "baseline recomputation: tools/freeze_baseline.py rebuilds the baseline from the round set on the pinned axis and emits both population and sample sd, because the older records store population sd in baseline_summary and sample sd in baseline_summary.sample_sd and a comparison must not depend on which one a reader assumes",
+    "a hash of that recomputation tool, so the method cannot drift either"
+  ],
+  "pressure_axis": {
+    "name": "refit_20261126",
+    "slope": 81.5286,
+    "intercept": -20.0279,
+    "units": "mmHg per volt at the sensor, and mmHg at zero volts, as interpreted by cal write <slope> <intercept>",
+    "capture_slope": 82.326,
+    "capture_intercept": -19.887,
+    "capture_axis_meaning": "the axis every export in the corpus records in its begin line, because the firmware baked it into the p values at capture time; changing the firmware calibration does not rewrite history",
+    "source_commit": "c60ef1f",
+    "derivation": "p_new = (1 + b) * p_old + a with a = -0.3368, b = -0.009686 fitted on the 17-point static cross-check against BP Pump 2, so slope_new = 82.326 * (1 + b) and intercept_new = (-19.887 + a) * (1 + b)",
+    "calibration_write": {
+      "command": "cal clear; cal write 81.529 -20.03",
+      "why_clear_first": "blood pressure monitor/Core/Src/bp_cal.c:137 BP_Cal_Write() calls BP_Cal_FlashProgram() and never BP_Cal_FlashErasePage(), so writing different values over an existing record always fails and silently keeps the old one; cal clear erases the page",
+      "readback": "[Cal] VALID slope=81.529mmHg/V intercept=-20.03mmHg zero=0.246V sens=0.0920V/kPa",
+      "record": "tmp/omniprobe/calwrite_20261126-112724.json"
+    },
+    "rollback": {
+      "command": "cal clear; cal write 82.326 -19.887",
+      "note": "restores the axis the whole corpus before 2026-11-26 was captured on; the exports would then agree with the firmware again, which is the only configuration in which the three older records are directly reproducible"
+    },
+    "what_the_axis_does_not_explain": "axis error is 0.8-1.8 % of the error variance; fixing it moves the mean, not the spread, and single-measurement 95 % intervals remain about +/-7.9 MAP, +/-12.4 SBP, +/-7.3 DBP"
+  },
+  "estimator": {
+    "path": "tools/reference_bp.py",
+    "sha256": "ddc9daf72a55ed5d32d9b8c832e61e76fc04011a8e462aa9be74a877a2ba8868",
+    "bytes": 17301,
+    "constants": {
+      "DEFAULT_SBP_RATIO": "0.5",
+      "DEFAULT_DBP_RATIO": "0.6",
+      "DEFAULT_SKIP_START_S": "2.0",
+      "DEFAULT_MAP_SMOOTHING_S": "2.0",
+      "RATIO_SWEEP": "(0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7)",
+      "PLATEAU_FRACTION": "0.9",
+      "PLATEAU_REFUSE_RATIO": "0.25",
+      "MIN_ENVELOPE_V": "0.0001",
+      "TRANSIENT_FACTOR": "2.0",
+      "SBP_SUSTAINED_SAMPLES": "3",
+      "DBP_SUSTAINED_SAMPLES": "3"
+    },
+    "unchanged_from": "reference_bp_v2"
+  },
+  "validity_gate": {
+    "path": "tools/validity_v2.py",
+    "sha256": "0857b93a172b027c4ff9c9835b29078cb9c92b848c6b759441d1d1b70bddf880",
+    "bytes": 4777,
+    "version": "validity_v2",
+    "constants": {
+      "PEAK_LOW_MMHG": "200.0",
+      "PEAK_HIGH_MMHG": "245.0",
+      "DEFLATE_RATE_MAX_MMHG_S": "4.0",
+      "MIN_PEAK_WINDOW_POINTS": "40",
+      "NORMAL_RATE_OBSERVED": "(1.56, 2.63)",
+      "FAILURE_RATE_OBSERVED": "(13.35, 15.49)"
+    },
+    "criterion": "peak-window (200-245 mmHg) OLS deflation rate; a capture is unusable when |slope| exceeds DEFLATE_RATE_MAX_MMHG_S",
+    "unchanged_from": "reference_bp_v2",
+    "axis_sensitivity": "the gate reads the pressure trace, so the axis moves the measured slope slightly: recomputing all 645 exports on the new axis rejects one extra legacy round (standard255_195_20261105-103250, -3.977 -> -4.055 mmHg/s) and changes no other verdict"
+  },
+  "covered_estimator": {
+    "path": "tools/covered_bp.py",
+    "sha256": "37e088eee63ef3c55aeeb2ee3a75b2a4d50263ad86e239cfd3e68b0c89dfec5f",
+    "bytes": 18285,
+    "constants": {
+      "FS_HZ": "40.0",
+      "BAND_HZ": "(1.0, 2.0)",
+      "SMOOTH_S": "2.0",
+      "MIN_VIEWS": "2",
+      "PULSE_PRESSURE_FRACTION": "0.15",
+      "NOTE_GAP_MMHG": "10.0",
+      "MAP_OFFSET_MMHG": "-5.31",
+      "DBP_OFFSET_MMHG": "-1.16",
+      "SBP_OFFSET_MMHG": "0.0"
+    },
+    "preregistration": "data/protocols/reference_bp_freeze_v5_candidate.md",
+    "status": "candidate, not a validated estimator. Its prospective validation data/reports/v5_validation_20261114.md failed C1, C2, C4 and C5 of its own preregistered criteria, so the published reference output remains frozen v2 and the three-view median may only be reported as a parallel candidate with its failures stated",
+    "why_pinned_anyway": "the nine constants existed only as a markdown table; pinning them in a record makes an accidental edit detectable, which a markdown table cannot do"
+  },
+  "recompute_method": {
+    "path": "tools/freeze_baseline.py",
+    "sha256": "6ffde1a1c955e22b66da996a27a8cab0ba183d80df23b79f3f65447116ca89fc",
+    "bytes": 11665,
+    "what_it_does": "rebuilds this record baseline from the round set on the pinned axis and emits population and sample sd; with a differing capture axis it also emits the capture-axis reading so the two can be told apart",
+    "determinism": "the payload is a pure function of tier, axis, capture axis and round set; two runs produce byte-identical files, so the baseline report sha256 below is reproducible"
+  },
+  "baseline_tier": "frozen_baseline_v2",
+  "baseline_report": "data/reports/v6_baseline_20261126.json",
+  "baseline_report_sha256": "96ec6a948afa36c2ad332073c54dac360184af126be6151ebbac13b0b5360992",
+  "baseline_report_bytes": 6038,
+  "baseline_rounds": [
+    "standard120_080_target275_peakwindow_20261106-141750",
+    "standard120_080_target275_peakwindow_20261106-142446",
+    "standard120_080_target275_peakwindow_20261106-143250",
+    "standard120_080_target275_peakwindow_20261106-143637",
+    "standard120_080_target275_peakwindow_20261106-195142",
+    "standard120_080_target275_peakwindow_20261107-102352",
+    "standard120_080_target275_peakwindow_20261107-102939",
+    "standard120_080_target275_peakwindow_20261107-115807",
+    "standard150_100_target275_peakwindow_20261106-144148",
+    "standard150_100_target275_peakwindow_20261106-144500",
+    "standard150_100_target275_peakwindow_20261106-144826",
+    "standard200_150_target275_peakwindow_20261106-145455",
+    "standard200_150_target275_peakwindow_20261106-145808",
+    "standard200_150_target275_peakwindow_20261106-150121",
+    "standard255_195_target275_peakwindow_20261106-133524",
+    "standard255_195_target275_peakwindow_20261106-135004",
+    "standard255_195_target275_peakwindow_20261106-135527",
+    "standard255_195_target275_peakwindow_20261107-125444"
+  ],
+  "baseline_summary": {
+    "rounds": 18,
+    "gate_rejected": 0,
+    "published": 16,
+    "on_pinned_axis": {
+      "map_mmhg": {
+        "n": 16,
+        "mean": 2.7888,
+        "population_sd": 3.8192,
+        "sample_sd": 3.9444,
+        "max_abs": 8.71
+      },
+      "sbp_mmhg": {
+        "n": 16,
+        "mean": -2.1675,
+        "population_sd": 9.7696,
+        "sample_sd": 10.09,
+        "max_abs": 22.39
+      },
+      "dbp_mmhg": {
+        "n": 16,
+        "mean": -0.625,
+        "population_sd": 9.4159,
+        "sample_sd": 9.7247,
+        "max_abs": 21.14
+      }
+    },
+    "on_capture_axis": {
+      "map_mmhg": {
+        "n": 16,
+        "mean": 4.4625,
+        "population_sd": 3.7027,
+        "sample_sd": 3.8242,
+        "max_abs": 10.76
+      },
+      "sbp_mmhg": {
+        "n": 16,
+        "mean": -0.2288,
+        "population_sd": 9.6836,
+        "sample_sd": 10.0012,
+        "max_abs": 20.31
+      },
+      "dbp_mmhg": {
+        "n": 16,
+        "mean": 0.8631,
+        "population_sd": 9.6029,
+        "sample_sd": 9.9179,
+        "max_abs": 23.15
+      }
+    },
+    "note": "descriptive statistics of the 18 development rounds, not a claim of accuracy. These rounds were used to choose the estimator, so they can never validate it. Both axes are listed because the difference between them is exactly the defect this record exists to close: the older records store the capture-axis numbers and do not say so.",
+    "sd_convention": "population_sd is n, sample_sd is n-1. reference_bp_v2 stores population sd in baseline_summary and sample sd under baseline_summary.sample_sd; both are given here so a comparison never depends on which convention a reader assumes"
+  },
+  "applies_to": "captures taken on or after 2026-11-26, i.e. every export whose begin line records slope 81.5286 intercept -20.0279. It does not rescore the 645 exports already on disk: those were captured on 82.326 / -19.887 and any number quoted from them must be labelled with that axis.",
+  "does_not_supersede_published_numbers": "the published 62-round corpus keeps the numbers it was scored with (frozen v2 on the capture axis). Recomputing it on the new axis is a separate, clearly labelled exercise (data/reports/pressure_axis_rebook_20261126.md) and does not move any round in or out of the published set",
+  "reproduce": [
+    "python tools/verify_freeze.py",
+    "python tools/freeze_baseline.py --record data/protocols/reference_bp_freeze_v6.json --out /tmp/v6_baseline.json   # sha256 must equal baseline_report_sha256",
+    "python tools/freeze_baseline.py --record data/protocols/reference_bp_freeze_v6.json --print-record-axis"
+  ],
+  "known_limits": [
+    "the axis is pinned as a pair of numbers, not as a measurement protocol; nothing stops the physical supply rail drifting again the way it did between 5.133 and 5.149 V on 2026-11-10, which is 1.7 % of the slope and enough to undo this refit",
+    "268-275 mmHg remains unmeasured; the axis above 265 mmHg is extrapolation, held back by BP_MAX_PRESSURE_MMHG 280 in bp_control.h:29",
+    "temperature, pressure hysteresis and long-term offset stability are still unmeasured",
+    "the two hypotheses for the 1.7 % slope gap (rail drifted after the 2026-10-25 calibration, versus this part having 1.7 % more gain than the datasheet typical, against a 2.5 % allowance) are still not separated; separating them needs a precision 5.000 V source",
+    "pinning the covered estimator does not validate it: it failed its own preregistered criteria and stays a candidate"
+  ]
+}

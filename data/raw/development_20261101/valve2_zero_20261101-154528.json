@@ -1,0 +1,259 @@
+{
+  "kind": "nonhuman_pc1_vent_seal_zero_compare",
+  "cycles_requested": 2,
+  "pump_commanded_off": true,
+  "outcome": "completed",
+  "cycles": [
+    {
+      "cycle": 1,
+      "open": {
+        "count": 60,
+        "first": {
+          "timestamp": 1793519134093,
+          "raw": 1410,
+          "ads": 176,
+          "sensor": 243,
+          "est": 0.1,
+          "valid": "VALID"
+        },
+        "last": {
+          "timestamp": 1793519137043,
+          "raw": 1406,
+          "ads": 176,
+          "sensor": 243,
+          "est": 0.1,
+          "valid": "VALID"
+        },
+        "summary": {
+          "raw": {
+            "min": 1406,
+            "max": 1410,
+            "mean": 1407.2833333333333
+          },
+          "sensor": {
+            "min": 243,
+            "max": 243,
+            "mean": 243.0
+          },
+          "est": {
+            "min": 0.1,
+            "max": 0.1,
+            "mean": 0.1
+          }
+        }
+      },
+      "sealed": {
+        "count": 200,
+        "first": {
+          "timestamp": 1793519137193,
+          "raw": 1334,
+          "ads": 167,
+          "sensor": 230,
+          "est": 0.0,
+          "valid": "VALID"
+        },
+        "last": {
+          "timestamp": 1793519147143,
+          "raw": 1339,
+          "ads": 167,
+          "sensor": 231,
+          "est": 0.0,
+          "valid": "VALID"
+        },
+        "summary": {
+          "raw": {
+            "min": 1334,
+            "max": 1340,
+            "mean": 1337.975
+          },
+          "sensor": {
+            "min": 230,
+            "max": 231,
+            "mean": 230.91
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "raw_mean_change_from_baseline": -4.894999999999982
+    },
+    {
+      "cycle": 2,
+      "open": {
+        "count": 59,
+        "first": {
+          "timestamp": 1793519147293,
+          "raw": 1408,
+          "ads": 176,
+          "sensor": 243,
+          "est": 0.1,
+          "valid": "VALID"
+        },
+        "last": {
+          "timestamp": 1793519150193,
+          "raw": 1405,
+          "ads": 176,
+          "sensor": 242,
+          "est": 0.1,
+          "valid": "VALID"
+        },
+        "summary": {
+          "raw": {
+            "min": 1404,
+            "max": 1408,
+            "mean": 1406.3050847457628
+          },
+          "sensor": {
+            "min": 242,
+            "max": 243,
+            "mean": 242.94915254237287
+          },
+          "est": {
+            "min": 0.1,
+            "max": 0.1,
+            "mean": 0.1
+          }
+        }
+      },
+      "sealed": {
+        "count": 200,
+        "first": {
+          "timestamp": 1793519150393,
+          "raw": 1334,
+          "ads": 167,
+          "sensor": 230,
+          "est": 0.0,
+          "valid": "VALID"
+        },
+        "last": {
+          "timestamp": 1793519160342,
+          "raw": 1336,
+          "ads": 167,
+          "sensor": 230,
+          "est": 0.0,
+          "valid": "VALID"
+        },
+        "summary": {
+          "raw": {
+            "min": 1333,
+            "max": 1337,
+            "mean": 1335.43
+          },
+          "sensor": {
+            "min": 230,
+            "max": 231,
+            "mean": 230.185
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "raw_mean_change_from_baseline": -7.439999999999827
+    }
+  ],
+  "initial_status": [
+    "[Pressure] raw=1342 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1341 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1341 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1342 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=2369 capacity=3300 dropped=0 duration=59200ms interval=25ms"
+  ],
+  "baseline": {
+    "count": 100,
+    "first": {
+      "timestamp": 1793519128944,
+      "raw": 1341,
+      "ads": 168,
+      "sensor": 231,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    "last": {
+      "timestamp": 1793519133894,
+      "raw": 1344,
+      "ads": 168,
+      "sensor": 232,
+      "est": 0.0,
+      "valid": "VALID"
+    },
+    "summary": {
+      "raw": {
+        "min": 1340,
+        "max": 1344,
+        "mean": 1342.87
+      },
+      "sensor": {
+        "min": 231,
+        "max": 232,
+        "mean": 231.77
+      },
+      "est": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "final_status": [
+    "[Pressure] raw=1335 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "final_pins": [
+    "[Pressure] raw=1336 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "final_fault": [
+    "[Pressure] raw=1336 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=2369 capacity=3300 dropped=0 duration=59200ms interval=25ms"
+  ],
+  "events": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=2369 capacity=3300 dropped=0 duration=59200ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=2369 capacity=3300 dropped=0 duration=59200ms interval=25ms"
+  ],
+  "raw_path": "data\\raw\\development_20261101\\valve2_zero_20261101-154528.ndjson",
+  "raw_sha256": "046ec111d310c5ef25c340a0004a84f7d311422489e35b2f94733781fdd54a3e"
+}

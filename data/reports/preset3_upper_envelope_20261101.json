@@ -1,0 +1,174 @@
+{
+  "source": "data\\reports\\standard200_150_20261101-134453.verified.ndjson",
+  "source_sha256": "c7b20ce564cd2d9c87ece5d403e24d13739753602c9728b8299f83981963452b",
+  "role": "post_hoc_exploratory_development_diagnostic",
+  "cadence": {
+    "status": "estimated",
+    "eligible_count": 962,
+    "pressure_range_mmhg": [
+      40,
+      120
+    ],
+    "peak_count": 27,
+    "cadence_fraction": 0.808,
+    "spectral_ratio": 345.45,
+    "bandpass_rms_v": 0.003736,
+    "dominant_hz": 1.328,
+    "split_dominant_hz": [
+      1.301,
+      1.301
+    ],
+    "median_interpeak_ms": 800,
+    "pulse_bpm": 80
+  },
+  "detected_peaks": 63,
+  "pressure_steps_ge_5_mmhg": 0,
+  "clean_beats_50_to_210_mmhg": 57,
+  "method": "existing beat extraction and 40-sample step padding; descriptive 10-mmHg bins extended above the frozen 170-mmHg bound",
+  "bins": [
+    {
+      "low_mmhg": 50,
+      "high_mmhg_exclusive": 60,
+      "clean_beats": 4,
+      "median_height_v": 0.005875737199385148,
+      "median_area_v_s": 0.0020189486315633073
+    },
+    {
+      "low_mmhg": 60,
+      "high_mmhg_exclusive": 70,
+      "clean_beats": 4,
+      "median_height_v": 0.0038342997694201836,
+      "median_area_v_s": 0.0015581037259889113
+    },
+    {
+      "low_mmhg": 70,
+      "high_mmhg_exclusive": 80,
+      "clean_beats": 4,
+      "median_height_v": 0.010814422133257501,
+      "median_area_v_s": 0.004212156520396998
+    },
+    {
+      "low_mmhg": 80,
+      "high_mmhg_exclusive": 90,
+      "clean_beats": 4,
+      "median_height_v": 0.008526436770939734,
+      "median_area_v_s": 0.003186843324386371
+    },
+    {
+      "low_mmhg": 90,
+      "high_mmhg_exclusive": 100,
+      "clean_beats": 4,
+      "median_height_v": 0.011205931159828972,
+      "median_area_v_s": 0.004341112076842783
+    },
+    {
+      "low_mmhg": 100,
+      "high_mmhg_exclusive": 110,
+      "clean_beats": 4,
+      "median_height_v": 0.014636725246257646,
+      "median_area_v_s": 0.005423476088501644
+    },
+    {
+      "low_mmhg": 110,
+      "high_mmhg_exclusive": 120,
+      "clean_beats": 4,
+      "median_height_v": 0.015937987796913432,
+      "median_area_v_s": 0.006034240958199084
+    },
+    {
+      "low_mmhg": 120,
+      "high_mmhg_exclusive": 130,
+      "clean_beats": 3,
+      "median_height_v": 0.01876621016078573,
+      "median_area_v_s": 0.007016519260229898
+    },
+    {
+      "low_mmhg": 130,
+      "high_mmhg_exclusive": 140,
+      "clean_beats": 4,
+      "median_height_v": 0.01478421242767675,
+      "median_area_v_s": 0.005507840794835869
+    },
+    {
+      "low_mmhg": 140,
+      "high_mmhg_exclusive": 150,
+      "clean_beats": 4,
+      "median_height_v": 0.022085152896411893,
+      "median_area_v_s": 0.008193023336900068
+    },
+    {
+      "low_mmhg": 150,
+      "high_mmhg_exclusive": 160,
+      "clean_beats": 4,
+      "median_height_v": 0.019476968766578735,
+      "median_area_v_s": 0.006715825373366216
+    },
+    {
+      "low_mmhg": 160,
+      "high_mmhg_exclusive": 170,
+      "clean_beats": 4,
+      "median_height_v": 0.03470197730180178,
+      "median_area_v_s": 0.012939910334247181
+    },
+    {
+      "low_mmhg": 170,
+      "high_mmhg_exclusive": 180,
+      "clean_beats": 3,
+      "median_height_v": 0.023074466446586006,
+      "median_area_v_s": 0.0078099322857036095
+    },
+    {
+      "low_mmhg": 180,
+      "high_mmhg_exclusive": 190,
+      "clean_beats": 4,
+      "median_height_v": 0.03223552079343915,
+      "median_area_v_s": 0.012599638990529339
+    },
+    {
+      "low_mmhg": 190,
+      "high_mmhg_exclusive": 200,
+      "clean_beats": 3,
+      "median_height_v": 0.025689664934800426,
+      "median_area_v_s": 0.009387476675877561
+    },
+    {
+      "low_mmhg": 200,
+      "high_mmhg_exclusive": 210,
+      "clean_beats": 0,
+      "median_height_v": null,
+      "median_area_v_s": null
+    }
+  ],
+  "frozen_170_mmhg_10_mmhg_screen": {
+    "status": "incomplete_oscillogram",
+    "clean_beats": 47,
+    "height_status": "incomplete_oscillogram",
+    "height_robustness": {
+      "screen": "reject",
+      "reasons": [
+        "jackknife_unstable"
+      ],
+      "peak_bin_beats": 4,
+      "max_occupied_gap_mmhg": 10.0,
+      "jackknife_fit_range_mmhg": [
+        147.79,
+        170.0
+      ],
+      "jackknife_max_shift_mmhg": 22.21
+    },
+    "area_status": "incomplete_oscillogram",
+    "area_robustness": {
+      "screen": "reject",
+      "reasons": [
+        "jackknife_unstable"
+      ],
+      "peak_bin_beats": 4,
+      "max_occupied_gap_mmhg": 10.0,
+      "jackknife_fit_range_mmhg": [
+        139.08,
+        170.0
+      ],
+      "jackknife_max_shift_mmhg": 30.92
+    }
+  }
+}

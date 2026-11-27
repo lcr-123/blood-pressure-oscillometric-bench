@@ -1,0 +1,35 @@
+{
+  "purpose": "delayed_post_seal_read_only_check",
+  "actuator_commands_sent": false,
+  "count": 100,
+  "summary": {
+    "raw": {
+      "min": 1334,
+      "max": 1337,
+      "mean": 1335.26
+    },
+    "sensor": {
+      "min": 230,
+      "max": 231,
+      "mean": 230.02
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "fresh_near_zero": true,
+  "pins": [
+    "[Pressure] raw=1335 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Pressure] raw=1335 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fault": [
+    "[Pressure] raw=1335 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=1207865ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1"
+  ],
+  "raw_sha256": "0ad535e4d4bb14e6fa226ae84170a4bbe0a425d7cb2eccc6bcbee18e39ae8e27"
+}

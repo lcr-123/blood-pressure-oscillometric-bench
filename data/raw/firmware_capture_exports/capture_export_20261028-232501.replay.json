@@ -1,0 +1,72 @@
+{
+  "source": "offline production C; host floating point, not target validation",
+  "n": 2921,
+  "duration_ms": 73000,
+  "interval_min_ms": 25,
+  "interval_max_ms": 25,
+  "capture_cal_valid": 1,
+  "raw_voltage_source": "reconstructed sensor V",
+  "valve": {
+    "schema": "bp.capture/2",
+    "type": "valve",
+    "pulses": 366,
+    "period_min": 200,
+    "period_max": 200,
+    "on_min": 1,
+    "on_max": 6,
+    "threshold": 1084227584,
+    "steps": 7,
+    "phase": [
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rise_found": 0,
+    "rise_i": 0,
+    "rise_d": 0,
+    "rise_phase": 0,
+    "rise_on": 0,
+    "fall_found": 1,
+    "fall_i": 1464,
+    "fall_d": 3235638976,
+    "fall_phase": 17,
+    "fall_on": 5
+  },
+  "source_sha256": {
+    "Core\\Src\\bp_algorithm.c": "9eb78a5cca727dd3485ff3ab44c10b38661d634d7687611c6dd06cd92589532b",
+    "Core\\Inc\\bp_algorithm.h": "aaa7244179e183aec6f0072308e15c2c8a67b459bfd2809024672b6076612729",
+    "Core\\Src\\bp_capture_export.c": "01837fe399bf2d769608f0eefb81761d64384c797ce5c6339a240424f05fe9d2",
+    "Core\\Inc\\bp_capture_export.h": "d781642e468a6d9a437751b6a68d97b802f71de513ac1173c7f9e9d275a32b1e",
+    "Core\\Inc\\bp_control.h": "d7ff4f5401fdafbe765a818ca2d4a20fd99095b0c727e60256545786f5f47ff6",
+    "tools\\host\\bp_replay.c": "9bb8345be539ba68149de01d1daf3925bd94f197a41b6657417ede5ebf07ca11"
+  },
+  "result": {
+    "type": "replay",
+    "firmware": "CAPTURE_COMPACT_20261028",
+    "valid": 0,
+    "sbp": 0,
+    "dbp": 0,
+    "pulse": 0,
+    "map_i": 1484,
+    "map_p": 1118598742,
+    "sbp_found": 1,
+    "sbp_p": 1125862665,
+    "dbp_found": 1,
+    "dbp_p": 1118673191,
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6
+  },
+  "comparison": {
+    "max_envelope_abs_error_v": 0.0,
+    "max_smooth_abs_error_v": 0.0,
+    "envelope_bits_equal": true,
+    "feature_bits_equal": true,
+    "validity_equal": true
+  }
+}

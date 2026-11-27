@@ -1,0 +1,98 @@
+{
+  "run_id": "standard060_030_target275_peakwindow_20261115-101731",
+  "dataset_role": "prospective_validation",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 5",
+  "panel_preset": 5,
+  "panel_sbp_mmhg": 60,
+  "panel_dbp_mmhg": 30,
+  "panel_map_mmhg": 40,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.75,
+  "panel_evidence": "operator confirmed Preset 5 before the run; no panel photo or independent readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 282,
+  "host_abort_note": "inflate stops on est >= target but the pump coasts a few mmHg: observed 275.2 and 278.1 for target 275, so a 278 ceiling aborted the run never mind the firmware max safe of 280",
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "peak fixed 200..245mmHg at1.8mmHg/s; outside3.0mmHg/s",
+  "peak_window_mmhg": [
+    200,
+    245
+  ],
+  "peak_window_target_speed_mmhg_s": 1.8,
+  "outside_target_speed_mmhg_s": 3.0,
+  "outcome": "failed",
+  "closeout_confirmed": false,
+  "firmware_readback": [
+    "[UART3] rx_errors=507 rx_state=0x22",
+    "[Pressure] raw=1381 ads=173mV sensor=238mV est=0.0mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1381 ads=173mV sensor=238mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=507 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1381 ads=173mV sensor=238mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1385 ads=173mV sensor=239mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1382 ads=173mV sensor=238mV est=0.0mmHg VALID",
+    "[Fault] code=4 name=SENSOR_READ age=24900ms",
+    "[ADSdiag] stage=4 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0000 sr2=0x0002 errors=5 recoveries=5",
+    "[ADSbus] cr1=0x0501 pb=0xFD3B scl=0 sda=0"
+  ],
+  "initial_rx_errors": 507,
+  "accepted_rx_errors": 507,
+  "initial_fault_counters": [
+    [
+      5,
+      5
+    ]
+  ],
+  "initial_fault_latched_recovered": [
+    "[Pressure] raw=1382 ads=173mV sensor=238mV est=0.0mmHg VALID",
+    "[Fault] code=4 name=SENSOR_READ age=24900ms",
+    "[ADSdiag] stage=4 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0000 sr2=0x0002 errors=5 recoveries=5",
+    "[ADSbus] cr1=0x0501 pb=0xFD3B scl=0 sda=0"
+  ],
+  "initial_user_stop_latched": true,
+  "pre_capture_purge": true,
+  "pre_capture_zero_gate_mmhg": 5.0,
+  "pre_capture_zero_gate": "raw peak-to-peak 23 counts",
+  "error": "RuntimeError('unloaded zero baseline failed: raw peak-to-peak 23 counts')",
+  "nonpressure_lines": [
+    "[UART3] rx_errors=507 rx_state=0x22",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=507 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=4 name=SENSOR_READ age=24900ms",
+    "[ADSdiag] stage=4 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0000 sr2=0x0002 errors=5 recoveries=5",
+    "[ADSbus] cr1=0x0501 pb=0xFD3B scl=0 sda=0",
+    "[Capture] n=3111 capacity=4200 dropped=0 duration=77750ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW"
+  ],
+  "fresh_samples": 227,
+  "capture_source_path": "data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261115-101731.ndjson",
+  "capture_source_sha256": "14f012ef93a2f0d3fdf017e223c9c7a685fe81448d1867cfead70cdfabdd7af6",
+  "script_sha256": "59f6c46a6049bc076349fc9941b43d1a53f847f8b1b0979a11367576975c4490"
+}

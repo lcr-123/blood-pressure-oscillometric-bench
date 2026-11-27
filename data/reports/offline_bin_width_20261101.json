@@ -1,0 +1,2388 @@
+{
+  "schema": "bp.bin_width_sensitivity/1",
+  "catalog_sha256": "b1bc9e70cf409df0fa80ad62e7d0e5d5debc0822d565efa2588095758ed3236e",
+  "method": "strict decode; unchanged beat extraction; compare only bin_width_mmhg 5 versus 10",
+  "historical_set_is_independent": false,
+  "selection_set_is_independent": false,
+  "summary": {
+    "historical_development": {
+      "total": 42,
+      "5": {
+        "height": 11,
+        "area": 8
+      },
+      "10": {
+        "height": 11,
+        "area": 10
+      }
+    },
+    "rule_selection_20261101": {
+      "total": 4,
+      "5": {
+        "height": 1,
+        "area": 0
+      },
+      "10": {
+        "height": 4,
+        "area": 4
+      }
+    }
+  },
+  "runs": [
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-210212.ndjson",
+      "group": "historical_development",
+      "sha256": "6816cadbadb59b327ab50b339d836686bad49131f7e65426fdcede4a93201495",
+      "n": 321,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "pulse_unreliable",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "pulse_unreliable",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261025-211153.ndjson",
+      "group": "historical_development",
+      "sha256": "07e0818e98b585be6444833b74c0fc76d779e2dcbc5ba1ae20fa9fa628ef959e",
+      "n": 2089,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "insufficient_bins",
+          "clean_beats": 20,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 20,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261026-180333.ndjson",
+      "group": "historical_development",
+      "sha256": "f9db1c89121e821d9d93e61d6e816e17646126138567fd4f5304796c29f85649",
+      "n": 377,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "pulse_unreliable",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "pulse_unreliable",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261026-180916.ndjson",
+      "group": "historical_development",
+      "sha256": "46f3ac3f9a3956b083397a45110f14f67f3db472471b362813cce6db7a7a7a7c",
+      "n": 2225,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "unstable_peak",
+          "clean_beats": 46,
+          "height": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 95.29,
+            "r2": 0.806
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 95.33,
+            "r2": 0.687
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 46,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 8,
+            "peak_mmhg": 93.58,
+            "r2": 0.837
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 8,
+            "peak_mmhg": 91.57,
+            "r2": 0.761
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-214442.ndjson",
+      "group": "historical_development",
+      "sha256": "9651e9655201945681d2f8d840ce5b4e68f4989e5299035d28ff157521ee4f1f",
+      "n": 2129,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 38,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 97.84,
+            "r2": 0.752
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 95.93,
+            "r2": 0.64
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 38,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 96.87,
+            "r2": 0.893
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 96.31,
+            "r2": 0.841
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-220211.ndjson",
+      "group": "historical_development",
+      "sha256": "5ec19b4accdba53c5acb693bd7550ac2ff576260cc3dc0068aab55d4ad3ea7f9",
+      "n": 1921,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 37,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 93.39,
+            "r2": 0.765
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 91.04,
+            "r2": 0.656
+          }
+        },
+        "10": {
+          "status": "unstable_peak",
+          "clean_beats": 37,
+          "height": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 90.15,
+            "r2": 0.733
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 89.61,
+            "r2": 0.689
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261027-220714.ndjson",
+      "group": "historical_development",
+      "sha256": "440b5410335bef21f9c926c1cb14e2ed75cf411d801bb400d66831e84670193e",
+      "n": 1737,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 33,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 95.38,
+            "r2": 0.719
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 96.67,
+            "r2": 0.6
+          }
+        },
+        "10": {
+          "status": "unstable_peak",
+          "clean_beats": 33,
+          "height": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 96.91,
+            "r2": 0.737
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 91.11,
+            "r2": 0.587
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-113752.ndjson",
+      "group": "historical_development",
+      "sha256": "51999a034dfcb4339526f33d6e4d059fe88d557aceae8cf1d54c86076b4d54a4",
+      "n": 2305,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 45,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 94.79,
+            "r2": 0.869
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 96.28,
+            "r2": 0.696
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 45,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 5,
+            "peak_mmhg": 93.2,
+            "r2": 0.818
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 5,
+            "peak_mmhg": 92.82,
+            "r2": 0.756
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-114718.ndjson",
+      "group": "historical_development",
+      "sha256": "d73d502fc996ae42048af27dacfb91a8b26e8339a3a1250422527597ce765764",
+      "n": 2233,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 40,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 78.58,
+            "r2": 0.841
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 77.92,
+            "r2": 0.704
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 40,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-115410.ndjson",
+      "group": "historical_development",
+      "sha256": "76805b02e8646dbb6ae41a5863bb5cc22c6464357292843580a8e07f3ae814d2",
+      "n": 2377,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "incomplete_oscillogram",
+          "clean_beats": 31,
+          "height": {
+            "status": "incomplete_oscillogram",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 114.63,
+            "r2": 0.901
+          },
+          "area": {
+            "status": "incomplete_oscillogram",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 113.85,
+            "r2": 0.848
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 31,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-115823.ndjson",
+      "group": "historical_development",
+      "sha256": "87a7b08468afa3a9ccd43a43da9f9dfa751dad2c7950ac92ca3cbef8cb7d67e1",
+      "n": 2241,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 45,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 115.92,
+            "r2": 0.785
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 116.66,
+            "r2": 0.691
+          }
+        },
+        "10": {
+          "status": "incomplete_oscillogram",
+          "clean_beats": 45,
+          "height": {
+            "status": "incomplete_oscillogram",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 7,
+            "peak_mmhg": 113.76,
+            "r2": 0.967
+          },
+          "area": {
+            "status": "incomplete_oscillogram",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 7,
+            "peak_mmhg": 113.78,
+            "r2": 0.952
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-120531.ndjson",
+      "group": "historical_development",
+      "sha256": "41f823666f6623b1a58b42f401ab7b2cdaa2d6847f4747a7577b5ba3b0612c22",
+      "n": 2289,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 43,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 79.21,
+            "r2": 0.857
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 79.57,
+            "r2": 0.794
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 43,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 79.19,
+            "r2": 0.986
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 7,
+            "peak_mmhg": 79.91,
+            "r2": 0.979
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-120941.ndjson",
+      "group": "historical_development",
+      "sha256": "2b4b7b95eeff86c6980ba2a1c2526ed6610d8ade0d571a6e8b10d37694a059a0",
+      "n": 2217,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 33,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 78.96,
+            "r2": 0.785
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 77.65,
+            "r2": 0.664
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 33,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-121553.ndjson",
+      "group": "historical_development",
+      "sha256": "43791a972baefac546faa2056d91f116750965015c64d1be3f7952eb2e0dab1f",
+      "n": 2379,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "unstable_peak",
+          "clean_beats": 47,
+          "height": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 78.24,
+            "r2": 0.786
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 76.38,
+            "r2": 0.658
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 47,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-123230.ndjson",
+      "group": "historical_development",
+      "sha256": "ecc76693f1f9ac8761d1dec1efb4ab6e9c4aa06549d165330ea723856ce24a04",
+      "n": 2242,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 43,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 116.11,
+            "r2": 0.822
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 116.5,
+            "r2": 0.711
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 43,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-163539.ndjson",
+      "group": "historical_development",
+      "sha256": "a8c6e4ca4cbb11db0c463b1f8948c6b2b41764a73c53fd71820c4b4d2d0e14ff",
+      "n": 2161,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "insufficient_bins",
+          "clean_beats": 26,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 26,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-170426.ndjson",
+      "group": "historical_development",
+      "sha256": "ae6f25292152ba533cd21b619a9e982cef8e262c7554d887956712b60aee234d",
+      "n": 3153,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "unstable_peak",
+          "clean_beats": 46,
+          "height": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support",
+              "pressure_coverage_gap",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 117.37,
+            "r2": 0.745
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support",
+              "pressure_coverage_gap",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 117.65,
+            "r2": 0.678
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 46,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 119.52,
+            "r2": 0.75
+          },
+          "area": {
+            "status": "incomplete_oscillogram",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 119.69,
+            "r2": 0.626
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-172032.ndjson",
+      "group": "historical_development",
+      "sha256": "06f2d9d8737b3d3c7f58aa7392b21a3ed549cdb264112860e7ea6fea67d3920d",
+      "n": 2097,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 38,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 78.3,
+            "r2": 0.749
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 78.07,
+            "r2": 0.649
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 38,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-173648.ndjson",
+      "group": "historical_development",
+      "sha256": "374f1ecb696c1813d6de40543163a93f2c4aadd60cc0640f3df7e94cc4d6265a",
+      "n": 2177,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "unstable_peak",
+          "clean_beats": 38,
+          "height": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 78.68,
+            "r2": 0.829
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 78.71,
+            "r2": 0.763
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 38,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 81.53,
+            "r2": 0.869
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 76.8,
+            "r2": 0.762
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-175901.ndjson",
+      "group": "historical_development",
+      "sha256": "598a0ac81d529d79ff8bc4eabb8674e00259165d3da2378bbed182717fe9d13a",
+      "n": 1921,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "unstable_peak",
+          "clean_beats": 32,
+          "height": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 78.58,
+            "r2": 0.672
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 78.26,
+            "r2": 0.562
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 32,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-180524.ndjson",
+      "group": "historical_development",
+      "sha256": "113343f4f6450974bacb2c745bb5c9d78673e92cff4ec0c4f4985673486666af",
+      "n": 2009,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 36,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 80.82,
+            "r2": 0.857
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 80.04,
+            "r2": 0.778
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 36,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 81.52,
+            "r2": 0.926
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 82.19,
+            "r2": 0.862
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-181030.ndjson",
+      "group": "historical_development",
+      "sha256": "c3a07a89cc1e9acaf6c6540dee4c790bb500e755e7aa8dd341e8cf72bdab2c5e",
+      "n": 2057,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 32,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 80.19,
+            "r2": 0.711
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 80.74,
+            "r2": 0.589
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 32,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-194221.ndjson",
+      "group": "historical_development",
+      "sha256": "fbf79b4efff00c01747b6c453b58b5d82cf4cf9cf17b3404bc2d1647a6f23a19",
+      "n": 2409,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "incomplete_oscillogram",
+          "clean_beats": 38,
+          "height": {
+            "status": "incomplete_oscillogram",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 118.26,
+            "r2": 0.8
+          },
+          "area": {
+            "status": "incomplete_oscillogram",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 118.22,
+            "r2": 0.712
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 38,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-203223.ndjson",
+      "group": "historical_development",
+      "sha256": "9b624b36cf19ec21f4fb387680ed3d55b55376cd686b78d77e03598d03c92787",
+      "n": 2882,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-205246.ndjson",
+      "group": "historical_development",
+      "sha256": "0f56c7f38628937b465ea435ff2cf9531c3befa81c19b2cb8c17f037d5243845",
+      "n": 643,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-210148.ndjson",
+      "group": "historical_development",
+      "sha256": "68e82d89be200839005b5ae0376c670646ee6c76db8ee5e2da75651af310dc76",
+      "n": 546,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-211130.ndjson",
+      "group": "historical_development",
+      "sha256": "bba16d93878e72f440c7ab46fe09b0b3ce082d7b76bc75ca4b49ec41047a50b1",
+      "n": 920,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-212208.ndjson",
+      "group": "historical_development",
+      "sha256": "76403756429710776437dca4a4fedafa9f41ad568d14b4982e245381f9eebaa2",
+      "n": 2185,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "incomplete_oscillogram",
+          "clean_beats": 34,
+          "height": {
+            "status": "incomplete_oscillogram",
+            "screen": "reject",
+            "reasons": [
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 130.0,
+            "r2": 0.807
+          },
+          "area": {
+            "status": "incomplete_oscillogram",
+            "screen": "reject",
+            "reasons": [
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 130.0,
+            "r2": 0.704
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 34,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-222538.ndjson",
+      "group": "historical_development",
+      "sha256": "c316f268b35a6ff42eba55384a744a69f6ea812243138946041e3ca06a766f65",
+      "n": 739,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-223729.ndjson",
+      "group": "historical_development",
+      "sha256": "844c7a664197b45d587d2624c4affaa3755ab7226bb6f3bff4f55ac5bfe133ac",
+      "n": 2569,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 43,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 123.23,
+            "r2": 0.842
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 123.26,
+            "r2": 0.769
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 43,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 122.11,
+            "r2": 0.875
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 121.71,
+            "r2": 0.79
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261028-232501.ndjson",
+      "group": "historical_development",
+      "sha256": "1f9ff58f368bc4a44739d26b476c8c806d6a0dd17fbd1773e5069d931414e901",
+      "n": 2921,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 59,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 117.02,
+            "r2": 0.863
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 115.88,
+            "r2": 0.794
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 59,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap"
+            ],
+            "peak_bin_beats": 7,
+            "peak_mmhg": 118.72,
+            "r2": 0.914
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap"
+            ],
+            "peak_bin_beats": 7,
+            "peak_mmhg": 118.76,
+            "r2": 0.862
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-104132.ndjson",
+      "group": "historical_development",
+      "sha256": "b57f4236f5f76e6f62945f894256b36309c8f69a3d05edb029124a8b31c5244b",
+      "n": 2753,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "incomplete_oscillogram",
+          "clean_beats": 55,
+          "height": {
+            "status": "incomplete_oscillogram",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 122.6,
+            "r2": 0.904
+          },
+          "area": {
+            "status": "incomplete_oscillogram",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 122.69,
+            "r2": 0.879
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 55,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 123.42,
+            "r2": 0.919
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 122.6,
+            "r2": 0.923
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-112521.ndjson",
+      "group": "historical_development",
+      "sha256": "359479fac47e38d50c8126b50e0384a37bc2a72d7347ecb2dc7f96ca1e24aed2",
+      "n": 2761,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 58,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 118.26,
+            "r2": 0.801
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 116.96,
+            "r2": 0.706
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 58,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 118.81,
+            "r2": 0.888
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 118.86,
+            "r2": 0.84
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-112950.ndjson",
+      "group": "historical_development",
+      "sha256": "b3a95faf9ba4482f71a6cba43cfbcb85902d8f6ee95ae2152983187c576e84cc",
+      "n": 2889,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 66,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 119.26,
+            "r2": 0.777
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 118.75,
+            "r2": 0.708
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 66,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 118.54,
+            "r2": 0.93
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 118.39,
+            "r2": 0.899
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-113351.ndjson",
+      "group": "historical_development",
+      "sha256": "e023bb8fb61e7ae12eccf73275407669ba7d49f58336948cf626623075ee8ffd",
+      "n": 2673,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 58,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 119.88,
+            "r2": 0.795
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 120.44,
+            "r2": 0.701
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 58,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 118.27,
+            "r2": 0.81
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 118.44,
+            "r2": 0.743
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-115718.ndjson",
+      "group": "historical_development",
+      "sha256": "bc67808c1c4a31100924e899450c32d6b6353182675c85cfec446d04f2ab507b",
+      "n": 2249,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 44,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 79.49,
+            "r2": 0.895
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 79.09,
+            "r2": 0.826
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 44,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 80.9,
+            "r2": 0.983
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 81.78,
+            "r2": 0.986
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-120105.ndjson",
+      "group": "historical_development",
+      "sha256": "1dbe8a9fdc5400b6d3fae98b4ad66116069869d07dfcc75b23264169c7f80ac4",
+      "n": 2193,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "insufficient_bins",
+          "clean_beats": 24,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 24,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-120520.ndjson",
+      "group": "historical_development",
+      "sha256": "52fc1d6507fd3abd43fff0d3bc0fc117cd088160c650d5d0d329b94388cdfd0e",
+      "n": 2345,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 45,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 79.97,
+            "r2": 0.794
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 79.29,
+            "r2": 0.666
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 45,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-123637.ndjson",
+      "group": "historical_development",
+      "sha256": "d982e852509a1f613e7137d313f726f4e39b38a0782132c15633127cc5191100",
+      "n": 2201,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 32,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 79.5,
+            "r2": 0.818
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 79.79,
+            "r2": 0.653
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 32,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-175604.ndjson",
+      "group": "historical_development",
+      "sha256": "545af1acaaa80a8cf76b0d49b7ec01d3dfd257a0b2896249d94dfbbbcfdf97e2",
+      "n": 160,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261029-211027.ndjson",
+      "group": "historical_development",
+      "sha256": "101156a9fe45d749c11c8fce36a59bec16cd7d31c2492fe82bd99d1b0e5e0d63",
+      "n": 2009,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 29,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap"
+            ],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 79.0,
+            "r2": 0.991
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "pressure_coverage_gap"
+            ],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 79.05,
+            "r2": 0.986
+          }
+        },
+        "10": {
+          "status": "insufficient_bins",
+          "clean_beats": 29,
+          "height": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": "insufficient_bins",
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/raw/firmware_capture_exports/capture_export_20261030-final.ndjson",
+      "group": "historical_development",
+      "sha256": "0a5ada0e57f86617815725fc73c8566c16bfd6638a9bbb7ba06ab311eaa5a021",
+      "n": 400,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        },
+        "10": {
+          "status": "calculation_incomplete",
+          "clean_beats": null,
+          "height": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          },
+          "area": {
+            "status": null,
+            "screen": null,
+            "reasons": [],
+            "peak_bin_beats": null,
+            "peak_mmhg": null,
+            "r2": null
+          }
+        }
+      }
+    },
+    {
+      "path": "data/reports/standard120_80_20261101-111311.verified.ndjson",
+      "group": "rule_selection_20261101",
+      "sha256": "3157814682387a9d31f0da871b61e3440126814fd96e5efec5f2eecaac9b3556",
+      "n": 2673,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 57,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 94.69,
+            "r2": 0.723
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 93.56,
+            "r2": 0.624
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 57,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 95.0,
+            "r2": 0.963
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 6,
+            "peak_mmhg": 94.85,
+            "r2": 0.967
+          }
+        }
+      }
+    },
+    {
+      "path": "data/reports/standard120_80_20261101-114844.verified.ndjson",
+      "group": "rule_selection_20261101",
+      "sha256": "684818927b7c1547e5ce0120859e21e289560b666a4e2b67826dfd304adfbca6",
+      "n": 2289,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 45,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 102.79,
+            "r2": 0.743
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support",
+              "jackknife_unstable"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 105.41,
+            "r2": 0.581
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 45,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 99.47,
+            "r2": 0.995
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 4,
+            "peak_mmhg": 99.85,
+            "r2": 0.986
+          }
+        }
+      }
+    },
+    {
+      "path": "data/reports/standard120_80_20261101-120429.verified.ndjson",
+      "group": "rule_selection_20261101",
+      "sha256": "2e92de786265a69966e896ad3a5efa85279271542983b2297804767b8c7ebc08",
+      "n": 2273,
+      "upper_pressure_mmhg": 130,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 44,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 99.28,
+            "r2": 0.85
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 99.16,
+            "r2": 0.775
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 44,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 98.57,
+            "r2": 0.891
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 99.96,
+            "r2": 0.862
+          }
+        }
+      }
+    },
+    {
+      "path": "data/reports/standard150_100_20261101-123247.verified.ndjson",
+      "group": "rule_selection_20261101",
+      "sha256": "bc9f9893cc480df32d3aba6d0727c76d28a6c78a600ccf2c9222a50c1ef90f10",
+      "n": 2801,
+      "upper_pressure_mmhg": 170,
+      "results": {
+        "5": {
+          "status": "diagnostic_only",
+          "clean_beats": 66,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 124.1,
+            "r2": 0.739
+          },
+          "area": {
+            "status": "unstable_peak",
+            "screen": "reject",
+            "reasons": [
+              "weak_peak_support"
+            ],
+            "peak_bin_beats": 2,
+            "peak_mmhg": 123.28,
+            "r2": 0.534
+          }
+        },
+        "10": {
+          "status": "diagnostic_only",
+          "clean_beats": 66,
+          "height": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 123.79,
+            "r2": 0.869
+          },
+          "area": {
+            "status": "diagnostic_only",
+            "screen": "pass",
+            "reasons": [],
+            "peak_bin_beats": 3,
+            "peak_mmhg": 123.42,
+            "r2": 0.816
+          }
+        }
+      }
+    }
+  ]
+}

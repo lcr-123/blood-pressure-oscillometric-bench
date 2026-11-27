@@ -1,0 +1,2117 @@
+{
+ "v5_pooled": {
+  "map_mmhg": {
+   "n": 51,
+   "mean": 0.2119607843137258,
+   "sd": 11.598410584146063,
+   "aami_pass": false
+  },
+  "sbp_mmhg": {
+   "n": 51,
+   "mean": 2.234901960784314,
+   "sd": 11.173544535651883,
+   "aami_pass": false
+  },
+  "dbp_mmhg": {
+   "n": 51,
+   "mean": 2.9386274509803916,
+   "sd": 12.963070009778985,
+   "aami_pass": false
+  }
+ },
+ "v2_pooled": {
+  "map_mmhg": {
+   "n": 62,
+   "mean": 3.2317741935483877,
+   "sd": 10.757807766835006,
+   "aami_pass": false
+  },
+  "sbp_mmhg": {
+   "n": 62,
+   "mean": 8.938387096774195,
+   "sd": 34.264861281893026,
+   "aami_pass": false
+  },
+  "dbp_mmhg": {
+   "n": 62,
+   "mean": 4.943870967741935,
+   "sd": 13.97058670803357,
+   "aami_pass": false
+  }
+ },
+ "v2_status_counts": {
+  "ok": 62,
+  "unresolved_map": 8,
+  "unresolved_sbp": 1
+ },
+ "v5_status_counts": {
+  "ok": 51,
+  "unresolved_pulse_pressure": 10,
+  "unresolved_self_consistent": 8,
+  "unresolved_views": 2
+ },
+ "v5_intersection": {
+  "map_mmhg": {
+   "n": 48,
+   "mean": 0.3718749999999999,
+   "sd": 11.94165348261857,
+   "aami_pass": false
+  },
+  "sbp_mmhg": {
+   "n": 48,
+   "mean": 2.8106250000000004,
+   "sd": 11.218405356823222,
+   "aami_pass": false
+  },
+  "dbp_mmhg": {
+   "n": 48,
+   "mean": 3.086874999999999,
+   "sd": 13.354790543176918,
+   "aami_pass": false
+  }
+ },
+ "v2_intersection": {
+  "map_mmhg": {
+   "n": 48,
+   "mean": 4.034583333333334,
+   "sd": 11.787221345878661,
+   "aami_pass": false
+  },
+  "sbp_mmhg": {
+   "n": 48,
+   "mean": 13.790000000000001,
+   "sd": 36.87794370507789,
+   "aami_pass": false
+  },
+  "dbp_mmhg": {
+   "n": 48,
+   "mean": 3.405625,
+   "sd": 14.849945469668489,
+   "aami_pass": false
+  }
+ },
+ "intersection": 48,
+ "per_preset": {
+  "1": {
+   "exports": 11,
+   "published": 11,
+   "map_mmhg": {
+    "n": 11,
+    "mean": -2.6254545454545477,
+    "sd": 3.787126519239524,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 11,
+    "mean": -1.4709090909090876,
+    "sd": 6.623288389531976,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 11,
+    "mean": 1.771818181818184,
+    "sd": 3.820784783737023,
+    "aami_pass": true
+   }
+  },
+  "2": {
+   "exports": 10,
+   "published": 7,
+   "map_mmhg": {
+    "n": 7,
+    "mean": 17.051428571428577,
+    "sd": 25.376124887100364,
+    "aami_pass": false
+   },
+   "sbp_mmhg": {
+    "n": 7,
+    "mean": 11.994285714285715,
+    "sd": 24.00593111236114,
+    "aami_pass": false
+   },
+   "dbp_mmhg": {
+    "n": 7,
+    "mean": 21.252857142857142,
+    "sd": 29.537424122789105,
+    "aami_pass": false
+   }
+  },
+  "3": {
+   "exports": 10,
+   "published": 4,
+   "map_mmhg": {
+    "n": 4,
+    "mean": -1.3399999999999963,
+    "sd": 5.1802509591717705,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 4,
+    "mean": -3.552499999999995,
+    "sd": 8.159307057996207,
+    "aami_pass": false
+   },
+   "dbp_mmhg": {
+    "n": 4,
+    "mean": 0.7399999999999949,
+    "sd": 4.57910471598979,
+    "aami_pass": true
+   }
+  },
+  "4": {
+   "exports": 10,
+   "published": 2,
+   "map_mmhg": {
+    "n": 2,
+    "mean": -1.9499999999999886,
+    "sd": 1.4142135623730951,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 2,
+    "mean": -6.335000000000008,
+    "sd": 7.375123727775695,
+    "aami_pass": false
+   },
+   "dbp_mmhg": {
+    "n": 2,
+    "mean": 0.060000000000002274,
+    "sd": 0.33941125496955565,
+    "aami_pass": true
+   }
+  },
+  "5": {
+   "exports": 10,
+   "published": 9,
+   "map_mmhg": {
+    "n": 9,
+    "mean": 0.33555555555555433,
+    "sd": 3.403381080304963,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 9,
+    "mean": 7.391111111111111,
+    "sd": 5.41486482851706,
+    "aami_pass": false
+   },
+   "dbp_mmhg": {
+    "n": 9,
+    "mean": 0.027777777777777776,
+    "sd": 1.1924950500712541,
+    "aami_pass": true
+   }
+  },
+  "6": {
+   "exports": 10,
+   "published": 9,
+   "map_mmhg": {
+    "n": 9,
+    "mean": -3.8300000000000005,
+    "sd": 2.4753787588973113,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 9,
+    "mean": 0.13444444444444217,
+    "sd": 5.682372108352092,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 9,
+    "mean": 0.928888888888888,
+    "sd": 2.5487960120635598,
+    "aami_pass": true
+   }
+  },
+  "7": {
+   "exports": 10,
+   "published": 9,
+   "map_mmhg": {
+    "n": 9,
+    "mean": -4.32888888888889,
+    "sd": 2.9494297942333025,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 9,
+    "mean": 0.5944444444444438,
+    "sd": 4.964501765311174,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 9,
+    "mean": -3.342222222222223,
+    "sd": 1.8887613519035282,
+    "aami_pass": true
+   }
+  }
+ },
+ "published": 51,
+ "batch": 71,
+ "silent": [
+  "standard150_100_target275_peakwindow_20261114-120952",
+  "standard150_100_target275_peakwindow_20261114-121253"
+ ],
+ "criteria": {
+  "C1_accuracy": {
+   "met": false,
+   "rule": "pooled sd <= 8.0 and |mean| <= 5.0 for MAP/SBP/DBP"
+  },
+  "C2_sd_lower_than_v2": {
+   "met": false,
+   "rule": "each sd lower than frozen v2 by >= 1.0 mmHg on the rounds both publish"
+  },
+  "C3_mean_not_worse": {
+   "met": true,
+   "rule": "each |mean| no worse than frozen v2 by more than 1.0 mmHg on the rounds both publish"
+  },
+  "C4_publish_rate": {
+   "met": false,
+   "rule": "published share of the batch >= 0.8"
+  },
+  "C5_no_silent_blunder": {
+   "met": false,
+   "rule": "no published round with any |error| > 20.0 mmHg"
+  }
+ },
+ "verdict": "v5 FAILS: C1_accuracy, C2_sd_lower_than_v2, C4_publish_rate, C5_no_silent_blunder",
+ "registered_at": "2026-11-13T21:09:53",
+ "frozen_constants": {
+  "FS_HZ": 40.0,
+  "BAND_HZ": [
+   1.0,
+   2.0
+  ],
+  "SMOOTH_S": 2.0,
+  "MIN_VIEWS": 2,
+  "PULSE_PRESSURE_FRACTION": 0.15,
+  "NOTE_GAP_MMHG": 10.0,
+  "MAP_OFFSET_MMHG": -5.31,
+  "DBP_OFFSET_MMHG": -1.16,
+  "SBP_OFFSET_MMHG": 0.0
+ },
+ "excluded": [],
+ "rows": [
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-131932",
+   "captured_at": "2026-11-14T13:19:32",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-131932.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.296,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 35.75,
+    "sbp_mmhg": 66.91,
+    "dbp_mmhg": 30.55
+   },
+   "v5_error": {
+    "map_mmhg": -4.25,
+    "sbp_mmhg": 6.909999999999997,
+    "dbp_mmhg": 0.5500000000000007
+   },
+   "v5_worst_abs_error": 6.909999999999997,
+   "v2": {
+    "map_mmhg": 41.06,
+    "sbp_mmhg": 199.8,
+    "dbp_mmhg": 31.71
+   },
+   "v2_error": {
+    "map_mmhg": 1.0600000000000023,
+    "sbp_mmhg": 139.8,
+    "dbp_mmhg": 1.7100000000000009
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-132241",
+   "captured_at": "2026-11-14T13:22:41",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-132241.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.145,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 41.88,
+    "sbp_mmhg": 68.76,
+    "dbp_mmhg": 29.39
+   },
+   "v5_error": {
+    "map_mmhg": 1.8800000000000026,
+    "sbp_mmhg": 8.760000000000005,
+    "dbp_mmhg": -0.6099999999999994
+   },
+   "v5_worst_abs_error": 8.760000000000005,
+   "v2": {
+    "map_mmhg": 46.81,
+    "sbp_mmhg": 69.64,
+    "dbp_mmhg": 30.55
+   },
+   "v2_error": {
+    "map_mmhg": 6.810000000000002,
+    "sbp_mmhg": 9.64,
+    "dbp_mmhg": 0.5500000000000007
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-132558",
+   "captured_at": "2026-11-14T13:25:58",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-132558.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.19,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 37.47,
+    "sbp_mmhg": 72.0,
+    "dbp_mmhg": 28.91
+   },
+   "v5_error": {
+    "map_mmhg": -2.530000000000001,
+    "sbp_mmhg": 12.0,
+    "dbp_mmhg": -1.0899999999999999
+   },
+   "v5_worst_abs_error": 12.0,
+   "v2": {
+    "map_mmhg": 41.6,
+    "sbp_mmhg": 207.51,
+    "dbp_mmhg": 28.08
+   },
+   "v2_error": {
+    "map_mmhg": 1.6000000000000014,
+    "sbp_mmhg": 147.51,
+    "dbp_mmhg": -1.9200000000000017
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-132912",
+   "captured_at": "2026-11-14T13:29:12",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-132912.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.201,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 45.48,
+    "sbp_mmhg": 74.0,
+    "dbp_mmhg": 28.12
+   },
+   "v5_error": {
+    "map_mmhg": 5.479999999999997,
+    "sbp_mmhg": 14.0,
+    "dbp_mmhg": -1.879999999999999
+   },
+   "v5_worst_abs_error": 14.0,
+   "v2": {
+    "map_mmhg": 39.63,
+    "sbp_mmhg": 76.39,
+    "dbp_mmhg": 29.28
+   },
+   "v2_error": {
+    "map_mmhg": -0.36999999999999744,
+    "sbp_mmhg": 16.39,
+    "dbp_mmhg": -0.7199999999999989
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-133229",
+   "captured_at": "2026-11-14T13:32:29",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-133229.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.169,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 37.51,
+    "sbp_mmhg": 72.07,
+    "dbp_mmhg": 31.0
+   },
+   "v5_error": {
+    "map_mmhg": -2.490000000000002,
+    "sbp_mmhg": 12.069999999999993,
+    "dbp_mmhg": 1.0
+   },
+   "v5_worst_abs_error": 12.069999999999993,
+   "v2": {
+    "map_mmhg": 42.82,
+    "sbp_mmhg": 214.3,
+    "dbp_mmhg": 28.49
+   },
+   "v2_error": {
+    "map_mmhg": 2.8200000000000003,
+    "sbp_mmhg": 154.3,
+    "dbp_mmhg": -1.5100000000000016
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-133545",
+   "captured_at": "2026-11-14T13:35:45",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-133545.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.196,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 37.41,
+    "sbp_mmhg": 65.86,
+    "dbp_mmhg": 32.19
+   },
+   "v5_error": {
+    "map_mmhg": -2.5900000000000034,
+    "sbp_mmhg": 5.859999999999999,
+    "dbp_mmhg": 2.1899999999999977
+   },
+   "v5_worst_abs_error": 5.859999999999999,
+   "v2": {
+    "map_mmhg": 42.72,
+    "sbp_mmhg": 66.11,
+    "dbp_mmhg": 32.28
+   },
+   "v2_error": {
+    "map_mmhg": 2.719999999999999,
+    "sbp_mmhg": 6.109999999999999,
+    "dbp_mmhg": 2.280000000000001
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-133901",
+   "captured_at": "2026-11-14T13:39:01",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-133901.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.179,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 41.05,
+    "sbp_mmhg": 68.91,
+    "dbp_mmhg": 30.06
+   },
+   "v5_error": {
+    "map_mmhg": 1.0499999999999972,
+    "sbp_mmhg": 8.909999999999997,
+    "dbp_mmhg": 0.05999999999999872
+   },
+   "v5_worst_abs_error": 8.909999999999997,
+   "v2": {
+    "map_mmhg": 43.2,
+    "sbp_mmhg": 72.84,
+    "dbp_mmhg": 28.05
+   },
+   "v2_error": {
+    "map_mmhg": 3.200000000000003,
+    "sbp_mmhg": 12.840000000000003,
+    "dbp_mmhg": -1.9499999999999993
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-134219",
+   "captured_at": "2026-11-14T13:42:19",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-134219.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.165,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 43.83,
+    "sbp_mmhg": 58.59,
+    "dbp_mmhg": 29.71
+   },
+   "v5_error": {
+    "map_mmhg": 3.8299999999999983,
+    "sbp_mmhg": -1.4099999999999966,
+    "dbp_mmhg": -0.28999999999999915
+   },
+   "v5_worst_abs_error": 3.8299999999999983,
+   "v2": {
+    "map_mmhg": 49.14,
+    "sbp_mmhg": 61.4,
+    "dbp_mmhg": 29.77
+   },
+   "v2_error": {
+    "map_mmhg": 9.14,
+    "sbp_mmhg": 1.3999999999999986,
+    "dbp_mmhg": -0.23000000000000043
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-134537",
+   "captured_at": "2026-11-14T13:45:37",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-134537.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.178,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 42.64,
+    "sbp_mmhg": 59.42,
+    "dbp_mmhg": 30.32
+   },
+   "v5_error": {
+    "map_mmhg": 2.6400000000000006,
+    "sbp_mmhg": -0.5799999999999983,
+    "dbp_mmhg": 0.3200000000000003
+   },
+   "v5_worst_abs_error": 2.6400000000000006,
+   "v2": {
+    "map_mmhg": 48.19,
+    "sbp_mmhg": 75.54,
+    "dbp_mmhg": 29.01
+   },
+   "v2_error": {
+    "map_mmhg": 8.189999999999998,
+    "sbp_mmhg": 15.540000000000006,
+    "dbp_mmhg": -0.9899999999999984
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-134855",
+   "captured_at": "2026-11-14T13:48:55",
+   "preset": 5,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard060_030_target275_peakwindow_20261114-134855.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.162,
+   "v5_status": "unresolved_views",
+   "v2_status": "unresolved_map"
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-135216",
+   "captured_at": "2026-11-14T13:52:16",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-135216.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.181,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 54.98,
+    "sbp_mmhg": 81.89,
+    "dbp_mmhg": 49.64
+   },
+   "v5_error": {
+    "map_mmhg": -5.020000000000003,
+    "sbp_mmhg": 1.8900000000000006,
+    "dbp_mmhg": -0.35999999999999943
+   },
+   "v5_worst_abs_error": 5.020000000000003,
+   "v2": {
+    "map_mmhg": 60.0,
+    "sbp_mmhg": 84.22,
+    "dbp_mmhg": 49.8
+   },
+   "v2_error": {
+    "map_mmhg": 0.0,
+    "sbp_mmhg": 4.219999999999999,
+    "dbp_mmhg": -0.20000000000000284
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-135529",
+   "captured_at": "2026-11-14T13:55:29",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-135529.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.223,
+   "v5_status": "ok",
+   "v2_status": "unresolved_map",
+   "v5": {
+    "map_mmhg": 56.86,
+    "sbp_mmhg": 71.74,
+    "dbp_mmhg": 51.58
+   },
+   "v5_error": {
+    "map_mmhg": -3.1400000000000006,
+    "sbp_mmhg": -8.260000000000005,
+    "dbp_mmhg": 1.5799999999999983
+   },
+   "v5_worst_abs_error": 8.260000000000005
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-135840",
+   "captured_at": "2026-11-14T13:58:40",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-135840.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.155,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 61.48,
+    "sbp_mmhg": 78.46,
+    "dbp_mmhg": 45.81
+   },
+   "v5_error": {
+    "map_mmhg": 1.4799999999999969,
+    "sbp_mmhg": -1.5400000000000063,
+    "dbp_mmhg": -4.189999999999998
+   },
+   "v5_worst_abs_error": 4.189999999999998,
+   "v2": {
+    "map_mmhg": 65.78,
+    "sbp_mmhg": 97.11,
+    "dbp_mmhg": 44.13
+   },
+   "v2_error": {
+    "map_mmhg": 5.780000000000001,
+    "sbp_mmhg": 17.11,
+    "dbp_mmhg": -5.869999999999997
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-140157",
+   "captured_at": "2026-11-14T14:01:57",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-140157.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.281,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 58.51,
+    "sbp_mmhg": 85.03,
+    "dbp_mmhg": 53.29
+   },
+   "v5_error": {
+    "map_mmhg": -1.490000000000002,
+    "sbp_mmhg": 5.030000000000001,
+    "dbp_mmhg": 3.289999999999999
+   },
+   "v5_worst_abs_error": 5.030000000000001,
+   "v2": {
+    "map_mmhg": 60.12,
+    "sbp_mmhg": 86.46,
+    "dbp_mmhg": 55.14
+   },
+   "v2_error": {
+    "map_mmhg": 0.11999999999999744,
+    "sbp_mmhg": 6.459999999999994,
+    "dbp_mmhg": 5.140000000000001
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-140513",
+   "captured_at": "2026-11-14T14:05:13",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-140513.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.206,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 55.82,
+    "sbp_mmhg": 74.58,
+    "dbp_mmhg": 52.72
+   },
+   "v5_error": {
+    "map_mmhg": -4.18,
+    "sbp_mmhg": -5.420000000000002,
+    "dbp_mmhg": 2.719999999999999
+   },
+   "v5_worst_abs_error": 5.420000000000002,
+   "v2": {
+    "map_mmhg": 60.36,
+    "sbp_mmhg": 74.58,
+    "dbp_mmhg": 54.62
+   },
+   "v2_error": {
+    "map_mmhg": 0.35999999999999943,
+    "sbp_mmhg": -5.420000000000002,
+    "dbp_mmhg": 4.619999999999997
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-140829",
+   "captured_at": "2026-11-14T14:08:29",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-140829.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.294,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 56.99,
+    "sbp_mmhg": 91.39,
+    "dbp_mmhg": 48.41
+   },
+   "v2_error": {
+    "map_mmhg": -3.009999999999998,
+    "sbp_mmhg": 11.39,
+    "dbp_mmhg": -1.5900000000000034
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-141139",
+   "captured_at": "2026-11-14T14:11:39",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-141139.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.301,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 54.85,
+    "sbp_mmhg": 86.86,
+    "dbp_mmhg": 52.87
+   },
+   "v5_error": {
+    "map_mmhg": -5.149999999999999,
+    "sbp_mmhg": 6.859999999999999,
+    "dbp_mmhg": 2.8699999999999974
+   },
+   "v5_worst_abs_error": 6.859999999999999,
+   "v2": {
+    "map_mmhg": 60.16,
+    "sbp_mmhg": 98.64,
+    "dbp_mmhg": 53.6
+   },
+   "v2_error": {
+    "map_mmhg": 0.1599999999999966,
+    "sbp_mmhg": 18.64,
+    "dbp_mmhg": 3.6000000000000014
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-141453",
+   "captured_at": "2026-11-14T14:14:53",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-141453.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.296,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 53.39,
+    "sbp_mmhg": 83.7,
+    "dbp_mmhg": 48.48
+   },
+   "v5_error": {
+    "map_mmhg": -6.609999999999999,
+    "sbp_mmhg": 3.700000000000003,
+    "dbp_mmhg": -1.5200000000000031
+   },
+   "v5_worst_abs_error": 6.609999999999999,
+   "v2": {
+    "map_mmhg": 58.7,
+    "sbp_mmhg": 95.31,
+    "dbp_mmhg": 44.91
+   },
+   "v2_error": {
+    "map_mmhg": -1.2999999999999972,
+    "sbp_mmhg": 15.310000000000002,
+    "dbp_mmhg": -5.090000000000003
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-141805",
+   "captured_at": "2026-11-14T14:18:05",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-141805.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.299,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 55.15,
+    "sbp_mmhg": 73.63,
+    "dbp_mmhg": 53.19
+   },
+   "v5_error": {
+    "map_mmhg": -4.850000000000001,
+    "sbp_mmhg": -6.3700000000000045,
+    "dbp_mmhg": 3.1899999999999977
+   },
+   "v5_worst_abs_error": 6.3700000000000045,
+   "v2": {
+    "map_mmhg": 60.46,
+    "sbp_mmhg": 74.53,
+    "dbp_mmhg": 54.35
+   },
+   "v2_error": {
+    "map_mmhg": 0.46000000000000085,
+    "sbp_mmhg": -5.469999999999999,
+    "dbp_mmhg": 4.350000000000001
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-142119",
+   "captured_at": "2026-11-14T14:21:19",
+   "preset": 6,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard080_050_target275_peakwindow_20261114-142119.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.149,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 54.49,
+    "sbp_mmhg": 85.32,
+    "dbp_mmhg": 50.78
+   },
+   "v5_error": {
+    "map_mmhg": -5.509999999999998,
+    "sbp_mmhg": 5.319999999999993,
+    "dbp_mmhg": 0.7800000000000011
+   },
+   "v5_worst_abs_error": 5.509999999999998,
+   "v2": {
+    "map_mmhg": 57.46,
+    "sbp_mmhg": 86.43,
+    "dbp_mmhg": 51.92
+   },
+   "v2_error": {
+    "map_mmhg": -2.539999999999999,
+    "sbp_mmhg": 6.430000000000007,
+    "dbp_mmhg": 1.9200000000000017
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-142438",
+   "captured_at": "2026-11-14T14:24:38",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-142438.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.782,
+   "v5_status": "unresolved_views",
+   "v2_status": "unresolved_map"
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-142804",
+   "captured_at": "2026-11-14T14:28:04",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-142804.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.165,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 75.94,
+    "sbp_mmhg": 93.72,
+    "dbp_mmhg": 59.44
+   },
+   "v5_error": {
+    "map_mmhg": -0.060000000000002274,
+    "sbp_mmhg": -6.280000000000001,
+    "dbp_mmhg": -5.560000000000002
+   },
+   "v5_worst_abs_error": 6.280000000000001,
+   "v2": {
+    "map_mmhg": 78.22,
+    "sbp_mmhg": 93.07,
+    "dbp_mmhg": 60.6
+   },
+   "v2_error": {
+    "map_mmhg": 2.219999999999999,
+    "sbp_mmhg": -6.930000000000007,
+    "dbp_mmhg": -4.399999999999999
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-143118",
+   "captured_at": "2026-11-14T14:31:18",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-143118.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.345,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 71.83,
+    "sbp_mmhg": 104.22,
+    "dbp_mmhg": 62.2
+   },
+   "v5_error": {
+    "map_mmhg": -4.170000000000002,
+    "sbp_mmhg": 4.219999999999999,
+    "dbp_mmhg": -2.799999999999997
+   },
+   "v5_worst_abs_error": 4.219999999999999,
+   "v2": {
+    "map_mmhg": 77.14,
+    "sbp_mmhg": 105.13,
+    "dbp_mmhg": 62.02
+   },
+   "v2_error": {
+    "map_mmhg": 1.1400000000000006,
+    "sbp_mmhg": 5.1299999999999955,
+    "dbp_mmhg": -2.979999999999997
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-143424",
+   "captured_at": "2026-11-14T14:34:24",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-143424.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.324,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 68.25,
+    "sbp_mmhg": 104.11,
+    "dbp_mmhg": 59.91
+   },
+   "v5_error": {
+    "map_mmhg": -7.75,
+    "sbp_mmhg": 4.109999999999999,
+    "dbp_mmhg": -5.090000000000003
+   },
+   "v5_worst_abs_error": 7.75,
+   "v2": {
+    "map_mmhg": 73.41,
+    "sbp_mmhg": 109.8,
+    "dbp_mmhg": 59.89
+   },
+   "v2_error": {
+    "map_mmhg": -2.5900000000000034,
+    "sbp_mmhg": 9.799999999999997,
+    "dbp_mmhg": -5.109999999999999
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-143731",
+   "captured_at": "2026-11-14T14:37:31",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-143731.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.43,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 69.33,
+    "sbp_mmhg": 104.94,
+    "dbp_mmhg": 62.91
+   },
+   "v5_error": {
+    "map_mmhg": -6.670000000000002,
+    "sbp_mmhg": 4.939999999999998,
+    "dbp_mmhg": -2.0900000000000034
+   },
+   "v5_worst_abs_error": 6.670000000000002,
+   "v2": {
+    "map_mmhg": 74.64,
+    "sbp_mmhg": 108.03,
+    "dbp_mmhg": 62.68
+   },
+   "v2_error": {
+    "map_mmhg": -1.3599999999999994,
+    "sbp_mmhg": 8.030000000000001,
+    "dbp_mmhg": -2.3200000000000003
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144035",
+   "captured_at": "2026-11-14T14:40:35",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-144035.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.592,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 74.86,
+    "sbp_mmhg": 94.78,
+    "dbp_mmhg": 63.01
+   },
+   "v5_error": {
+    "map_mmhg": -1.1400000000000006,
+    "sbp_mmhg": -5.219999999999999,
+    "dbp_mmhg": -1.990000000000002
+   },
+   "v5_worst_abs_error": 5.219999999999999,
+   "v2": {
+    "map_mmhg": 74.69,
+    "sbp_mmhg": 108.23,
+    "dbp_mmhg": 56.35
+   },
+   "v2_error": {
+    "map_mmhg": -1.3100000000000023,
+    "sbp_mmhg": 8.230000000000004,
+    "dbp_mmhg": -8.649999999999999
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144334",
+   "captured_at": "2026-11-14T14:43:34",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-144334.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.27,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 69.5,
+    "sbp_mmhg": 104.81,
+    "dbp_mmhg": 61.21
+   },
+   "v5_error": {
+    "map_mmhg": -6.5,
+    "sbp_mmhg": 4.810000000000002,
+    "dbp_mmhg": -3.789999999999999
+   },
+   "v5_worst_abs_error": 6.5,
+   "v2": {
+    "map_mmhg": 74.81,
+    "sbp_mmhg": 107.72,
+    "dbp_mmhg": 60.69
+   },
+   "v2_error": {
+    "map_mmhg": -1.1899999999999977,
+    "sbp_mmhg": 7.719999999999999,
+    "dbp_mmhg": -4.310000000000002
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144639",
+   "captured_at": "2026-11-14T14:46:39",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-144639.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.153,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 69.01,
+    "sbp_mmhg": 104.85,
+    "dbp_mmhg": 65.33
+   },
+   "v5_error": {
+    "map_mmhg": -6.989999999999995,
+    "sbp_mmhg": 4.849999999999994,
+    "dbp_mmhg": 0.3299999999999983
+   },
+   "v5_worst_abs_error": 6.989999999999995,
+   "v2": {
+    "map_mmhg": 73.17,
+    "sbp_mmhg": 108.7,
+    "dbp_mmhg": 64.89
+   },
+   "v2_error": {
+    "map_mmhg": -2.8299999999999983,
+    "sbp_mmhg": 8.700000000000003,
+    "dbp_mmhg": -0.10999999999999943
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144948",
+   "captured_at": "2026-11-14T14:49:48",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-144948.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.358,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 75.13,
+    "sbp_mmhg": 94.79,
+    "dbp_mmhg": 60.84
+   },
+   "v5_error": {
+    "map_mmhg": -0.8700000000000045,
+    "sbp_mmhg": -5.209999999999994,
+    "dbp_mmhg": -4.159999999999997
+   },
+   "v5_worst_abs_error": 5.209999999999994,
+   "v2": {
+    "map_mmhg": 77.04,
+    "sbp_mmhg": 94.96,
+    "dbp_mmhg": 56.94
+   },
+   "v2_error": {
+    "map_mmhg": 1.0400000000000063,
+    "sbp_mmhg": -5.040000000000006,
+    "dbp_mmhg": -8.060000000000002
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-145253",
+   "captured_at": "2026-11-14T14:52:53",
+   "preset": 7,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard100_065_target275_peakwindow_20261114-145253.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.387,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 71.19,
+    "sbp_mmhg": 99.13,
+    "dbp_mmhg": 60.07
+   },
+   "v5_error": {
+    "map_mmhg": -4.810000000000002,
+    "sbp_mmhg": -0.8700000000000045,
+    "dbp_mmhg": -4.93
+   },
+   "v5_worst_abs_error": 4.93,
+   "v2": {
+    "map_mmhg": 72.12,
+    "sbp_mmhg": 99.13,
+    "dbp_mmhg": 61.15
+   },
+   "v2_error": {
+    "map_mmhg": -3.8799999999999955,
+    "sbp_mmhg": -0.8700000000000045,
+    "dbp_mmhg": -3.8500000000000014
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-103254",
+   "captured_at": "2026-11-14T10:32:54",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-103254.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.88,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 91.83,
+    "sbp_mmhg": 126.73,
+    "dbp_mmhg": 83.34
+   },
+   "v5_error": {
+    "map_mmhg": -1.1700000000000017,
+    "sbp_mmhg": 6.730000000000004,
+    "dbp_mmhg": 3.3400000000000034
+   },
+   "v5_worst_abs_error": 6.730000000000004,
+   "v2": {
+    "map_mmhg": 92.07,
+    "sbp_mmhg": 109.03,
+    "dbp_mmhg": 84.5
+   },
+   "v2_error": {
+    "map_mmhg": -0.9300000000000068,
+    "sbp_mmhg": -10.969999999999999,
+    "dbp_mmhg": 4.5
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-103610",
+   "captured_at": "2026-11-14T10:36:10",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-103610.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.869,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 90.39,
+    "sbp_mmhg": 117.73,
+    "dbp_mmhg": 81.7
+   },
+   "v5_error": {
+    "map_mmhg": -2.6099999999999994,
+    "sbp_mmhg": -2.269999999999996,
+    "dbp_mmhg": 1.7000000000000028
+   },
+   "v5_worst_abs_error": 2.6099999999999994,
+   "v2": {
+    "map_mmhg": 94.98,
+    "sbp_mmhg": 123.9,
+    "dbp_mmhg": 82.86
+   },
+   "v2_error": {
+    "map_mmhg": 1.980000000000004,
+    "sbp_mmhg": 3.9000000000000057,
+    "dbp_mmhg": 2.8599999999999994
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-103940",
+   "captured_at": "2026-11-14T10:39:40",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-103940.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.93,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 91.0,
+    "sbp_mmhg": 122.57,
+    "dbp_mmhg": 77.27
+   },
+   "v5_error": {
+    "map_mmhg": -2.0,
+    "sbp_mmhg": 2.569999999999993,
+    "dbp_mmhg": -2.730000000000004
+   },
+   "v5_worst_abs_error": 2.730000000000004,
+   "v2": {
+    "map_mmhg": 96.17,
+    "sbp_mmhg": 122.79,
+    "dbp_mmhg": 77.5
+   },
+   "v2_error": {
+    "map_mmhg": 3.1700000000000017,
+    "sbp_mmhg": 2.7900000000000063,
+    "dbp_mmhg": -2.5
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-104311",
+   "captured_at": "2026-11-14T10:43:11",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-104311.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.913,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 89.6,
+    "sbp_mmhg": 120.9,
+    "dbp_mmhg": 86.45
+   },
+   "v5_error": {
+    "map_mmhg": -3.4000000000000057,
+    "sbp_mmhg": 0.9000000000000057,
+    "dbp_mmhg": 6.450000000000003
+   },
+   "v5_worst_abs_error": 6.450000000000003,
+   "v2": {
+    "map_mmhg": 94.48,
+    "sbp_mmhg": 120.9,
+    "dbp_mmhg": 88.14
+   },
+   "v2_error": {
+    "map_mmhg": 1.480000000000004,
+    "sbp_mmhg": 0.9000000000000057,
+    "dbp_mmhg": 8.14
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-104639",
+   "captured_at": "2026-11-14T10:46:39",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-104639.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.784,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 87.21,
+    "sbp_mmhg": 115.93,
+    "dbp_mmhg": 83.73
+   },
+   "v5_error": {
+    "map_mmhg": -5.790000000000006,
+    "sbp_mmhg": -4.069999999999993,
+    "dbp_mmhg": 3.730000000000004
+   },
+   "v5_worst_abs_error": 5.790000000000006,
+   "v2": {
+    "map_mmhg": 91.49,
+    "sbp_mmhg": 115.87,
+    "dbp_mmhg": 84.89
+   },
+   "v2_error": {
+    "map_mmhg": -1.5100000000000051,
+    "sbp_mmhg": -4.1299999999999955,
+    "dbp_mmhg": 4.890000000000001
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-105015",
+   "captured_at": "2026-11-14T10:50:15",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-105015.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.893,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 96.8,
+    "sbp_mmhg": 127.09,
+    "dbp_mmhg": 76.31
+   },
+   "v5_error": {
+    "map_mmhg": 3.799999999999997,
+    "sbp_mmhg": 7.090000000000003,
+    "dbp_mmhg": -3.6899999999999977
+   },
+   "v5_worst_abs_error": 7.090000000000003,
+   "v2": {
+    "map_mmhg": 98.61,
+    "sbp_mmhg": 127.09,
+    "dbp_mmhg": 76.57
+   },
+   "v2_error": {
+    "map_mmhg": 5.609999999999999,
+    "sbp_mmhg": 7.090000000000003,
+    "dbp_mmhg": -3.430000000000007
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-105345",
+   "captured_at": "2026-11-14T10:53:45",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-105345.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.911,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 90.08,
+    "sbp_mmhg": 118.31,
+    "dbp_mmhg": 86.52
+   },
+   "v5_error": {
+    "map_mmhg": -2.9200000000000017,
+    "sbp_mmhg": -1.6899999999999977,
+    "dbp_mmhg": 6.519999999999996
+   },
+   "v5_worst_abs_error": 6.519999999999996,
+   "v2": {
+    "map_mmhg": 95.8,
+    "sbp_mmhg": 118.21,
+    "dbp_mmhg": 88.16
+   },
+   "v2_error": {
+    "map_mmhg": 2.799999999999997,
+    "sbp_mmhg": -1.7900000000000063,
+    "dbp_mmhg": 8.159999999999997
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-105941",
+   "captured_at": "2026-11-14T10:59:41",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-105941.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.934,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 86.46,
+    "sbp_mmhg": 115.23,
+    "dbp_mmhg": 83.29
+   },
+   "v5_error": {
+    "map_mmhg": -6.540000000000006,
+    "sbp_mmhg": -4.769999999999996,
+    "dbp_mmhg": 3.2900000000000063
+   },
+   "v5_worst_abs_error": 6.540000000000006,
+   "v2": {
+    "map_mmhg": 90.7,
+    "sbp_mmhg": 129.35,
+    "dbp_mmhg": 84.38
+   },
+   "v2_error": {
+    "map_mmhg": -2.299999999999997,
+    "sbp_mmhg": 9.349999999999994,
+    "dbp_mmhg": 4.3799999999999955
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-110735",
+   "captured_at": "2026-11-14T11:07:35",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-110735.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.863,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 87.35,
+    "sbp_mmhg": 121.84,
+    "dbp_mmhg": 84.43
+   },
+   "v5_error": {
+    "map_mmhg": -5.650000000000006,
+    "sbp_mmhg": 1.8400000000000034,
+    "dbp_mmhg": 4.430000000000007
+   },
+   "v5_worst_abs_error": 5.650000000000006,
+   "v2": {
+    "map_mmhg": 91.93,
+    "sbp_mmhg": 121.84,
+    "dbp_mmhg": 85.56
+   },
+   "v2_error": {
+    "map_mmhg": -1.0699999999999932,
+    "sbp_mmhg": 1.8400000000000034,
+    "dbp_mmhg": 5.560000000000002
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-111100",
+   "captured_at": "2026-11-14T11:11:00",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-111100.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.83,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 86.18,
+    "sbp_mmhg": 103.48,
+    "dbp_mmhg": 80.53
+   },
+   "v5_error": {
+    "map_mmhg": -6.819999999999993,
+    "sbp_mmhg": -16.519999999999996,
+    "dbp_mmhg": 0.5300000000000011
+   },
+   "v5_worst_abs_error": 16.519999999999996,
+   "v2": {
+    "map_mmhg": 91.49,
+    "sbp_mmhg": 103.26,
+    "dbp_mmhg": 77.01
+   },
+   "v2_error": {
+    "map_mmhg": -1.5100000000000051,
+    "sbp_mmhg": -16.739999999999995,
+    "dbp_mmhg": -2.989999999999995
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-111445",
+   "captured_at": "2026-11-14T11:14:45",
+   "preset": 1,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261114-111445.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.905,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 97.22,
+    "sbp_mmhg": 114.01,
+    "dbp_mmhg": 75.92
+   },
+   "v5_error": {
+    "map_mmhg": 4.219999999999999,
+    "sbp_mmhg": -5.989999999999995,
+    "dbp_mmhg": -4.079999999999998
+   },
+   "v5_worst_abs_error": 5.989999999999995,
+   "v2": {
+    "map_mmhg": 100.57,
+    "sbp_mmhg": 114.01,
+    "dbp_mmhg": 74.24
+   },
+   "v2_error": {
+    "map_mmhg": 7.569999999999993,
+    "sbp_mmhg": -5.989999999999995,
+    "dbp_mmhg": -5.760000000000005
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-111849",
+   "captured_at": "2026-11-14T11:18:49",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-111849.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.929,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 116.01,
+    "sbp_mmhg": 157.88,
+    "dbp_mmhg": 103.43
+   },
+   "v2_error": {
+    "map_mmhg": 0.010000000000005116,
+    "sbp_mmhg": 7.8799999999999955,
+    "dbp_mmhg": 3.430000000000007
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-112222",
+   "captured_at": "2026-11-14T11:22:22",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-112222.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.917,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 114.99,
+    "sbp_mmhg": 158.73,
+    "dbp_mmhg": 105.87
+   },
+   "v2_error": {
+    "map_mmhg": -1.0100000000000051,
+    "sbp_mmhg": 8.72999999999999,
+    "dbp_mmhg": 5.8700000000000045
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-112550",
+   "captured_at": "2026-11-14T11:25:50",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-112550.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.807,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 120.47,
+    "sbp_mmhg": 148.4,
+    "dbp_mmhg": 102.25
+   },
+   "v5_error": {
+    "map_mmhg": 4.469999999999999,
+    "sbp_mmhg": -1.5999999999999943,
+    "dbp_mmhg": 2.25
+   },
+   "v5_worst_abs_error": 4.469999999999999,
+   "v2": {
+    "map_mmhg": 122.54,
+    "sbp_mmhg": 150.33,
+    "dbp_mmhg": 111.95
+   },
+   "v2_error": {
+    "map_mmhg": 6.540000000000006,
+    "sbp_mmhg": 0.3300000000000125,
+    "dbp_mmhg": 11.950000000000003
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-112923",
+   "captured_at": "2026-11-14T11:29:23",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-112923.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.885,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 111.15,
+    "sbp_mmhg": 141.01,
+    "dbp_mmhg": 108.03
+   },
+   "v5_error": {
+    "map_mmhg": -4.849999999999994,
+    "sbp_mmhg": -8.990000000000009,
+    "dbp_mmhg": 8.030000000000001
+   },
+   "v5_worst_abs_error": 8.990000000000009,
+   "v2": {
+    "map_mmhg": 114.39,
+    "sbp_mmhg": 139.3,
+    "dbp_mmhg": 109.63
+   },
+   "v2_error": {
+    "map_mmhg": -1.6099999999999994,
+    "sbp_mmhg": -10.699999999999989,
+    "dbp_mmhg": 9.629999999999995
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-113256",
+   "captured_at": "2026-11-14T11:32:56",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-113256.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.794,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 114.14,
+    "sbp_mmhg": 147.36,
+    "dbp_mmhg": 105.59
+   },
+   "v5_error": {
+    "map_mmhg": -1.8599999999999994,
+    "sbp_mmhg": -2.6399999999999864,
+    "dbp_mmhg": 5.590000000000003
+   },
+   "v5_worst_abs_error": 5.590000000000003,
+   "v2": {
+    "map_mmhg": 115.84,
+    "sbp_mmhg": 150.14,
+    "dbp_mmhg": 106.75
+   },
+   "v2_error": {
+    "map_mmhg": -0.1599999999999966,
+    "sbp_mmhg": 0.13999999999998636,
+    "dbp_mmhg": 6.75
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-113621",
+   "captured_at": "2026-11-14T11:36:21",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-113621.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.833,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 119.7,
+    "sbp_mmhg": 151.42,
+    "dbp_mmhg": 101.16
+   },
+   "v5_error": {
+    "map_mmhg": 3.700000000000003,
+    "sbp_mmhg": 1.4199999999999875,
+    "dbp_mmhg": 1.1599999999999966
+   },
+   "v5_worst_abs_error": 3.700000000000003,
+   "v2": {
+    "map_mmhg": 125.01,
+    "sbp_mmhg": 151.42,
+    "dbp_mmhg": 86.4
+   },
+   "v2_error": {
+    "map_mmhg": 9.010000000000005,
+    "sbp_mmhg": 1.4199999999999875,
+    "dbp_mmhg": -13.599999999999994
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-113954",
+   "captured_at": "2026-11-14T11:39:54",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-113954.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.777,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 127.58,
+    "sbp_mmhg": 152.74,
+    "dbp_mmhg": 103.1
+   },
+   "v5_error": {
+    "map_mmhg": 11.579999999999998,
+    "sbp_mmhg": 2.740000000000009,
+    "dbp_mmhg": 3.0999999999999943
+   },
+   "v5_worst_abs_error": 11.579999999999998,
+   "v2": {
+    "map_mmhg": 132.89,
+    "sbp_mmhg": 152.8,
+    "dbp_mmhg": 102.06
+   },
+   "v2_error": {
+    "map_mmhg": 16.889999999999986,
+    "sbp_mmhg": 2.8000000000000114,
+    "dbp_mmhg": 2.0600000000000023
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-114316",
+   "captured_at": "2026-11-14T11:43:16",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-114316.export.ndjson",
+   "peak_window_slope_mmhg_s": -1.638,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 115.58,
+    "sbp_mmhg": 160.19,
+    "dbp_mmhg": 107.53
+   },
+   "v2_error": {
+    "map_mmhg": -0.4200000000000017,
+    "sbp_mmhg": 10.189999999999998,
+    "dbp_mmhg": 7.530000000000001
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-120952",
+   "captured_at": "2026-11-14T12:09:52",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-120952.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.201,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 164.05,
+    "sbp_mmhg": 192.18,
+    "dbp_mmhg": 162.01
+   },
+   "v5_error": {
+    "map_mmhg": 48.05000000000001,
+    "sbp_mmhg": 42.18000000000001,
+    "dbp_mmhg": 62.00999999999999
+   },
+   "v5_worst_abs_error": 62.00999999999999,
+   "v2": {
+    "map_mmhg": 167.3,
+    "sbp_mmhg": 192.65,
+    "dbp_mmhg": 163.1
+   },
+   "v2_error": {
+    "map_mmhg": 51.30000000000001,
+    "sbp_mmhg": 42.650000000000006,
+    "dbp_mmhg": 63.099999999999994
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-121253",
+   "captured_at": "2026-11-14T12:12:53",
+   "preset": 2,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-121253.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.012,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 174.27,
+    "sbp_mmhg": 200.85,
+    "dbp_mmhg": 166.63
+   },
+   "v5_error": {
+    "map_mmhg": 58.27000000000001,
+    "sbp_mmhg": 50.849999999999994,
+    "dbp_mmhg": 66.63
+   },
+   "v5_worst_abs_error": 66.63,
+   "v2": {
+    "map_mmhg": 177.48,
+    "sbp_mmhg": 202.71,
+    "dbp_mmhg": 174.37
+   },
+   "v2_error": {
+    "map_mmhg": 61.47999999999999,
+    "sbp_mmhg": 52.71000000000001,
+    "dbp_mmhg": 74.37
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-121628",
+   "captured_at": "2026-11-14T12:16:28",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-121628.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.134,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 153.63,
+    "sbp_mmhg": 176.61,
+    "dbp_mmhg": 147.88
+   },
+   "v2_error": {
+    "map_mmhg": -12.370000000000005,
+    "sbp_mmhg": -23.389999999999986,
+    "dbp_mmhg": -2.1200000000000045
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-121938",
+   "captured_at": "2026-11-14T12:19:38",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-121938.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.202,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 165.24,
+    "sbp_mmhg": 195.57,
+    "dbp_mmhg": 148.94
+   },
+   "v5_error": {
+    "map_mmhg": -0.7599999999999909,
+    "sbp_mmhg": -4.430000000000007,
+    "dbp_mmhg": -1.0600000000000023
+   },
+   "v5_worst_abs_error": 4.430000000000007,
+   "v2": {
+    "map_mmhg": 166.83,
+    "sbp_mmhg": 201.28,
+    "dbp_mmhg": 162.91
+   },
+   "v2_error": {
+    "map_mmhg": 0.8300000000000125,
+    "sbp_mmhg": 1.2800000000000011,
+    "dbp_mmhg": 12.909999999999997
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-122245",
+   "captured_at": "2026-11-14T12:22:45",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-122245.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.421,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 163.68,
+    "sbp_mmhg": 186.9,
+    "dbp_mmhg": 156.95
+   },
+   "v5_error": {
+    "map_mmhg": -2.319999999999993,
+    "sbp_mmhg": -13.099999999999994,
+    "dbp_mmhg": 6.949999999999989
+   },
+   "v5_worst_abs_error": 13.099999999999994,
+   "v2": {
+    "map_mmhg": 165.84,
+    "sbp_mmhg": 184.73,
+    "dbp_mmhg": 158.09
+   },
+   "v2_error": {
+    "map_mmhg": -0.1599999999999966,
+    "sbp_mmhg": -15.27000000000001,
+    "dbp_mmhg": 8.090000000000003
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-122551",
+   "captured_at": "2026-11-14T12:25:51",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-122551.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.198,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 177.08,
+    "sbp_mmhg": 188.73,
+    "dbp_mmhg": 171.57
+   },
+   "v2_error": {
+    "map_mmhg": 11.080000000000013,
+    "sbp_mmhg": -11.27000000000001,
+    "dbp_mmhg": 21.569999999999993
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-122905",
+   "captured_at": "2026-11-14T12:29:05",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-122905.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.223,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 170.21,
+    "sbp_mmhg": 195.84,
+    "dbp_mmhg": 165.81
+   },
+   "v2_error": {
+    "map_mmhg": 4.210000000000008,
+    "sbp_mmhg": -4.159999999999997,
+    "dbp_mmhg": 15.810000000000002
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-123209",
+   "captured_at": "2026-11-14T12:32:09",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-123209.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.005,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 165.43,
+    "sbp_mmhg": 178.1,
+    "dbp_mmhg": 153.38
+   },
+   "v2_error": {
+    "map_mmhg": -0.5699999999999932,
+    "sbp_mmhg": -21.900000000000006,
+    "dbp_mmhg": 3.3799999999999955
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-123528",
+   "captured_at": "2026-11-14T12:35:28",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-123528.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.076,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 158.57,
+    "sbp_mmhg": 196.49,
+    "dbp_mmhg": 150.92
+   },
+   "v5_error": {
+    "map_mmhg": -7.430000000000007,
+    "sbp_mmhg": -3.509999999999991,
+    "dbp_mmhg": 0.9199999999999875
+   },
+   "v5_worst_abs_error": 7.430000000000007,
+   "v2": {
+    "map_mmhg": 163.88,
+    "sbp_mmhg": 197.9,
+    "dbp_mmhg": 151.83
+   },
+   "v2_error": {
+    "map_mmhg": -2.1200000000000045,
+    "sbp_mmhg": -2.0999999999999943,
+    "dbp_mmhg": 1.8300000000000125
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-123843",
+   "captured_at": "2026-11-14T12:38:43",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-123843.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.229,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 165.23,
+    "sbp_mmhg": 180.84,
+    "dbp_mmhg": 161.84
+   },
+   "v2_error": {
+    "map_mmhg": -0.7700000000000102,
+    "sbp_mmhg": -19.159999999999997,
+    "dbp_mmhg": 11.840000000000003
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-124151",
+   "captured_at": "2026-11-14T12:41:51",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-124151.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.061,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 162.3,
+    "sbp_mmhg": 210.31,
+    "dbp_mmhg": 150.97
+   },
+   "v2_error": {
+    "map_mmhg": -3.6999999999999886,
+    "sbp_mmhg": 10.310000000000002,
+    "dbp_mmhg": 0.9699999999999989
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-124505",
+   "captured_at": "2026-11-14T12:45:05",
+   "preset": 3,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261114-124505.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.16,
+   "v5_status": "ok",
+   "v2_status": "ok",
+   "v5": {
+    "map_mmhg": 171.15,
+    "sbp_mmhg": 206.83,
+    "dbp_mmhg": 146.15
+   },
+   "v5_error": {
+    "map_mmhg": 5.150000000000006,
+    "sbp_mmhg": 6.8300000000000125,
+    "dbp_mmhg": -3.8499999999999943
+   },
+   "v5_worst_abs_error": 6.8300000000000125,
+   "v2": {
+    "map_mmhg": 172.92,
+    "sbp_mmhg": 206.83,
+    "dbp_mmhg": 146.67
+   },
+   "v2_error": {
+    "map_mmhg": 6.9199999999999875,
+    "sbp_mmhg": 6.8300000000000125,
+    "dbp_mmhg": -3.3300000000000125
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-124819",
+   "captured_at": "2026-11-14T12:48:19",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-124819.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.675,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "unresolved_map"
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-125123",
+   "captured_at": "2026-11-14T12:51:23",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-125123.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.608,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 215.54,
+    "sbp_mmhg": 240.73,
+    "dbp_mmhg": 208.54
+   },
+   "v2_error": {
+    "map_mmhg": 0.539999999999992,
+    "sbp_mmhg": -14.27000000000001,
+    "dbp_mmhg": 13.539999999999992
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-125433",
+   "captured_at": "2026-11-14T12:54:33",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-125433.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.826,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 222.85,
+    "sbp_mmhg": 237.24,
+    "dbp_mmhg": 219.64
+   },
+   "v2_error": {
+    "map_mmhg": 7.849999999999994,
+    "sbp_mmhg": -17.75999999999999,
+    "dbp_mmhg": 24.639999999999986
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-125734",
+   "captured_at": "2026-11-14T12:57:34",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-125734.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.761,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 216.11,
+    "sbp_mmhg": 230.91,
+    "dbp_mmhg": 212.87
+   },
+   "v2_error": {
+    "map_mmhg": 1.1100000000000136,
+    "sbp_mmhg": -24.090000000000003,
+    "dbp_mmhg": 17.870000000000005
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-130034",
+   "captured_at": "2026-11-14T13:00:34",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-130034.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.243,
+   "v5_status": "ok",
+   "v2_status": "unresolved_map",
+   "v5": {
+    "map_mmhg": 212.05,
+    "sbp_mmhg": 253.88,
+    "dbp_mmhg": 194.82
+   },
+   "v5_error": {
+    "map_mmhg": -2.9499999999999886,
+    "sbp_mmhg": -1.1200000000000045,
+    "dbp_mmhg": -0.18000000000000682
+   },
+   "v5_worst_abs_error": 2.9499999999999886
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-130351",
+   "captured_at": "2026-11-14T13:03:51",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-130351.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.299,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "unresolved_map"
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-130703",
+   "captured_at": "2026-11-14T13:07:03",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-130703.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.715,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "unresolved_sbp"
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-131012",
+   "captured_at": "2026-11-14T13:10:12",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-131012.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.47,
+   "v5_status": "unresolved_self_consistent",
+   "v2_status": "unresolved_map"
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-131321",
+   "captured_at": "2026-11-14T13:13:21",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-131321.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.452,
+   "v5_status": "ok",
+   "v2_status": "unresolved_map",
+   "v5": {
+    "map_mmhg": 214.05,
+    "sbp_mmhg": 243.45,
+    "dbp_mmhg": 195.3
+   },
+   "v5_error": {
+    "map_mmhg": -0.9499999999999886,
+    "sbp_mmhg": -11.550000000000011,
+    "dbp_mmhg": 0.30000000000001137
+   },
+   "v5_worst_abs_error": 11.550000000000011
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-131626",
+   "captured_at": "2026-11-14T13:16:26",
+   "preset": 4,
+   "path": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261114-131626.export.ndjson",
+   "peak_window_slope_mmhg_s": -2.793,
+   "v5_status": "unresolved_pulse_pressure",
+   "v2_status": "ok",
+   "v2": {
+    "map_mmhg": 218.76,
+    "sbp_mmhg": 234.76,
+    "dbp_mmhg": 215.31
+   },
+   "v2_error": {
+    "map_mmhg": 3.759999999999991,
+    "sbp_mmhg": -20.24000000000001,
+    "dbp_mmhg": 20.310000000000002
+   }
+  }
+ ]
+}

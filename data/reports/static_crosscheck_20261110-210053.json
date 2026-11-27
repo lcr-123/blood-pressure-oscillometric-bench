@@ -1,0 +1,69 @@
+{
+  "points_mmhg": [
+    260,
+    180,
+    120,
+    60
+  ],
+  "settle_seconds": 90.0,
+  "zero_settle_seconds": 90.0,
+  "hold_seconds": 36.0,
+  "repeats": 3,
+  "window_seconds": 12.0,
+  "tester_port": "COM12",
+  "gauge_lag_dropped_s": 2.0,
+  "nonhuman_fixture_confirmed": true,
+  "started": "20261110-210053",
+  "rows": [
+    {
+      "requested_mmhg": 260,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 226.1,
+          "tester_mmhg": 224.0,
+          "difference_mmhg": -2.1,
+          "mcu_first": 226.7,
+          "mcu_last": 225.5,
+          "mcu_points": 240,
+          "tester_points": 13
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 224.9,
+          "tester_mmhg": 223.0,
+          "difference_mmhg": -1.9,
+          "mcu_first": 225.5,
+          "mcu_last": 224.3,
+          "mcu_points": 239,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 223.7,
+          "tester_mmhg": 222.0,
+          "difference_mmhg": -1.7,
+          "mcu_first": 224.3,
+          "mcu_last": 223.2,
+          "mcu_points": 239,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 224.9,
+      "tester_mmhg": 223.0,
+      "difference_mmhg": -1.9,
+      "within_point_spread": 0.4
+    }
+  ],
+  "calibration": [
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "zero_start": {
+    "mcu_mmhg": 0.0,
+    "mcu_sensor_mv": 240.0,
+    "tester_mmhg": 0.0,
+    "settle_seconds": 90.0
+  },
+  "error": "RuntimeError(\"command 'target 180' failed 3x: reported pressure reached 210 mmHg\")",
+  "finished": "20261110-210443"
+}

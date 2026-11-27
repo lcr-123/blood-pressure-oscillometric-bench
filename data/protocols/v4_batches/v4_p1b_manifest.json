@@ -1,0 +1,175 @@
+{
+  "tag": "v4_p1b",
+  "preset": 1,
+  "panel_sbp": 120,
+  "panel_dbp": 80,
+  "panel_map": 93,
+  "pulse_volume_cc": 0.68,
+  "target_mmhg": 275,
+  "requested_rounds": 17,
+  "started": "2026-11-12T14:19:48",
+  "rounds": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-141948",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.82"
+    },
+    {
+      "attempt": 2,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-142312",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.86"
+    },
+    {
+      "attempt": 3,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-142638",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.75"
+    },
+    {
+      "attempt": 4,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-143005",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.76"
+    },
+    {
+      "attempt": 5,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-143328",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.81"
+    },
+    {
+      "attempt": 6,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-143657",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.77"
+    },
+    {
+      "attempt": 7,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-143956",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.79"
+    },
+    {
+      "attempt": 8,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-144324",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.73"
+    },
+    {
+      "attempt": 9,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-144652",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.60"
+    },
+    {
+      "attempt": 10,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-145033",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.79"
+    },
+    {
+      "attempt": 11,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-145340",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.67"
+    },
+    {
+      "attempt": 12,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-145715",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.90"
+    },
+    {
+      "attempt": 13,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-150053",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.02"
+    },
+    {
+      "attempt": 14,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-150425",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.76"
+    },
+    {
+      "attempt": 15,
+      "exit_code": 0,
+      "outcome": "failed",
+      "run_id": null
+    },
+    {
+      "attempt": 16,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-150843",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.82"
+    },
+    {
+      "attempt": 17,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-151151",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.86"
+    },
+    {
+      "attempt": 18,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-151525",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.89"
+    }
+  ],
+  "finished": "2026-11-12T15:18:50",
+  "captures_kept": 17,
+  "attempts": 18
+}

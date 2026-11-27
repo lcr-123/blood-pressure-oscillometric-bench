@@ -1,0 +1,97 @@
+{
+  "record_type": "read_only_preflight_not_waveform_run",
+  "started_local": "2026-10-31T13:25:12.862422+08:00",
+  "panel_settings": {
+    "mode": "Standard BP",
+    "preset": 1,
+    "cuff": "External",
+    "sbp_mmhg": 120,
+    "dbp_mmhg": 80,
+    "bpm": 80,
+    "evidence": "User confirmed settings match in this conversation",
+    "pulse_volume_cc": null,
+    "pulse_volume_missing_reason": "Actual displayed volume not separately confirmed; manual preset value not substituted"
+  },
+  "nonhuman_fixture_confirmed_this_batch": null,
+  "physical_zero_confirmed_this_batch": null,
+  "pneumatic_configuration": null,
+  "summary": {
+    "durationSeconds": 9.801825500035193,
+    "sampleCount": 197,
+    "sampleRateHz": 0,
+    "channels": {
+      "ads": {
+        "unit": null,
+        "count": 197,
+        "min": 167.0,
+        "max": 167.0,
+        "mean": 167.0,
+        "stddev": 0.0,
+        "last": 167.0
+      },
+      "est": {
+        "unit": null,
+        "count": 197,
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0,
+        "stddev": 0.0,
+        "last": 0.0
+      },
+      "raw": {
+        "unit": null,
+        "count": 197,
+        "min": 1333.0,
+        "max": 1338.0,
+        "mean": 1334.766497461929,
+        "stddev": 0.6731201808832803,
+        "last": 1333.0
+      },
+      "sensor": {
+        "unit": null,
+        "count": 197,
+        "min": 230.0,
+        "max": 231.0,
+        "mean": 230.00507614213197,
+        "stddev": 0.07106598984771574,
+        "last": 230.0
+      }
+    }
+  },
+  "device_query_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+  ],
+  "bridge_hello": {
+    "maxCommandBytes": 1024,
+    "schema": "ek.telemetry/v1",
+    "type": "hello",
+    "writeEnabled": {
+      "ble": false,
+      "rtt": false,
+      "serial": true
+    }
+  },
+  "raw_bridge_path": "data\\raw\\preflight\\prospective_preflight_20261031-132512-832862.ndjson",
+  "raw_bridge_sha256": "9bb6a1252963777eaf29f2c8830bf3d94dad2b0a6d81234c1176d1763128e9ae",
+  "commands": [
+    "status",
+    "pins",
+    "cal",
+    "fault"
+  ],
+  "actuator_commands_sent": false,
+  "calibration_changed": false,
+  "sample_timing_note": "sampleRateHz=0; this is host telemetry, not proof of MCU acquisition cadence",
+  "pre_capture_zero_gate": "pending physical unloaded-state confirmation and zero-offset assessment",
+  "unclipped_calibrated_equivalent_mmhg_from_raw": {
+    "min": -0.9581285571130316,
+    "max": -0.8871275389476629,
+    "mean": -0.9330439334363316,
+    "note": "Diagnostic recomputation using current source constants and recorded active calibration, not independent pressure truth"
+  }
+}

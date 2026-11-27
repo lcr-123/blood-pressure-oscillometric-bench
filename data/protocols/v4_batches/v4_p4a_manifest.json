@@ -1,0 +1,175 @@
+{
+  "tag": "v4_p4a",
+  "preset": 4,
+  "panel_sbp": 255,
+  "panel_dbp": 195,
+  "panel_map": 215,
+  "pulse_volume_cc": 0.55,
+  "target_mmhg": 275,
+  "requested_rounds": 17,
+  "started": "2026-11-12T16:44:39",
+  "rounds": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-164439",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.37"
+    },
+    {
+      "attempt": 2,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-164755",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.52"
+    },
+    {
+      "attempt": 3,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-165121",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.69"
+    },
+    {
+      "attempt": 4,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-165449",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.76"
+    },
+    {
+      "attempt": 5,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-165821",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.17"
+    },
+    {
+      "attempt": 6,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-170138",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.28"
+    },
+    {
+      "attempt": 7,
+      "exit_code": 0,
+      "outcome": "failed",
+      "run_id": null
+    },
+    {
+      "attempt": 8,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-170503",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.24"
+    },
+    {
+      "attempt": 9,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-170822",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.66"
+    },
+    {
+      "attempt": 10,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-171200",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.04"
+    },
+    {
+      "attempt": 11,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-171527",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.15"
+    },
+    {
+      "attempt": 12,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-171854",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.01"
+    },
+    {
+      "attempt": 13,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-172220",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.70"
+    },
+    {
+      "attempt": 14,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-172554",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.65"
+    },
+    {
+      "attempt": 15,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-172931",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.66"
+    },
+    {
+      "attempt": 16,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-173305",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.76"
+    },
+    {
+      "attempt": 17,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-173631",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.08"
+    },
+    {
+      "attempt": 18,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard255_195_target275_peakwindow_20261112-173948",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.95"
+    }
+  ],
+  "finished": "2026-11-12T17:43:12",
+  "captures_kept": 17,
+  "attempts": 18
+}

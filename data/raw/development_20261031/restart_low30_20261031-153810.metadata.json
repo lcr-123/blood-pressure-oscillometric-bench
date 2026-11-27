@@ -1,0 +1,112 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 30,
+  "host_ceiling_mmhg": 40,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": null,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "firmware_id": "ADS_BUS_DIAG_20261031",
+  "firmware_identity_evidence": "data/raw/preflight/ads_bus_diag_flash_20261031-153418.ndjson",
+  "source_clock_note": "Host serial arrival timestamps are not MCU sample ticks.",
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1301,
+      "max": 1304,
+      "mean": 1302.41
+    },
+    "sensor": {
+      "min": 224,
+      "max": 225,
+      "mean": 224.96
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1303 ads=163mV sensor=225mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "error": "RuntimeError('device safety/offline event: [Safety] Pressure read failed during hold; emergency vent')",
+  "terminal_diagnostics": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1405 ads=176mV sensor=242mV est=0.1mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1409 ads=176mV sensor=243mV est=0.1mmHg VALID",
+        "[Fault] code=1 name=USER_STOP age=1759ms",
+        "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+        "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Pressure] raw=1411 ads=176mV sensor=243mV est=0.1mmHg VALID",
+        "[Stack] used=1184 free=2912 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1412 ads=177mV sensor=244mV est=0.2mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    }
+  ],
+  "all_trial_nonpressure_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 30.9 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Safety] Pressure read failed during hold; emergency vent",
+    "[DebugCmd] STOP",
+    "[Safety] STOP PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pressure] ADS1115 retry init",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[Fault] code=1 name=USER_STOP age=1759ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1184 free=2912 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "all_trial_pressure": {
+    "raw": {
+      "min": 1302,
+      "max": 3500,
+      "mean": 1908.857142857143
+    },
+    "sensor": {
+      "min": 225,
+      "max": 604,
+      "mean": 329.22857142857146
+    },
+    "est": {
+      "min": 0.0,
+      "max": 29.8,
+      "mean": 7.3028571428571425
+    }
+  },
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": true,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\restart_low30_20261031-153810.ndjson",
+  "raw_sha256": "bf4ec5c19f5f1a7aaeda356081af6c757cdc6f1379644d62ff057e009390332b"
+}

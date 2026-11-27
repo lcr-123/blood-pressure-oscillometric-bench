@@ -1,0 +1,5354 @@
+[
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261106-141750.export.ndjson",
+    "n": 3587,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 89.65,
+    "checksum": 3157898633,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 98.91,
+    "map_index": 2433,
+    "envelope_peak_v": 0.012502852827310562,
+    "envelope_peak_raw_mv": 12.503,
+    "envelope_peak_median_filtered_mv": 11.65,
+    "envelope_peak_raw_at_mmhg": 95.62,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 118.58,
+    "dbp_mmhg": 75.04,
+    "high_side_point_count": 2356,
+    "high_side_plateau_count": 91,
+    "high_side_plateau_ratio": 0.0386,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 258.25,
+    "deflation_range_mmhg": [
+      258.25,
+      20.0
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 119.33
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 118.66
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 118.58
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 118.44
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 117.32
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 114.49
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 112.33
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 23.11
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 52.32
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 53.02
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 73.9
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 75.04
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 76.28
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 93.81
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261106-142446.export.ndjson",
+    "n": 3451,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 86.25,
+    "checksum": 1408269350,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 102.52,
+    "map_index": 2242,
+    "envelope_peak_v": 0.011919576674699783,
+    "envelope_peak_raw_mv": 11.92,
+    "envelope_peak_median_filtered_mv": 11.369,
+    "envelope_peak_raw_at_mmhg": 102.52,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 119.96,
+    "dbp_mmhg": 77.48,
+    "high_side_point_count": 2162,
+    "high_side_plateau_count": 82,
+    "high_side_plateau_ratio": 0.0379,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.46,
+    "deflation_range_mmhg": [
+      259.46,
+      20.04
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 231.88
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 120.93
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 119.96
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 119.36
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 116.36
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 116.74
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 117.93
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 50.75
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 57.51
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 75.61
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 77.49
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 77.48
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 77.44
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 78.8
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261106-143250.export.ndjson",
+    "n": 3395,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 84.85,
+    "checksum": 4063845591,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 101.95,
+    "map_index": 2160,
+    "envelope_peak_v": 0.01268438994884491,
+    "envelope_peak_raw_mv": 12.684,
+    "envelope_peak_median_filtered_mv": 11.396,
+    "envelope_peak_raw_at_mmhg": 100.8,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 138.21,
+    "dbp_mmhg": 74.93,
+    "high_side_point_count": 2109,
+    "high_side_plateau_count": 147,
+    "high_side_plateau_ratio": 0.0697,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 255.4,
+    "deflation_range_mmhg": [
+      255.4,
+      20.13
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 138.26
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 138.17
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 138.21
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 138.25
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 136.7
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 121.31
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 117.57
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 74.85
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 74.96
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 75.09
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 75.15
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 74.93
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 99.24
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 99.23
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261106-143637.export.ndjson",
+    "n": 3353,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 83.8,
+    "checksum": 2062447296,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 94.61,
+    "map_index": 2252,
+    "envelope_peak_v": 0.012559473514556885,
+    "envelope_peak_raw_mv": 12.559,
+    "envelope_peak_median_filtered_mv": 11.521,
+    "envelope_peak_raw_at_mmhg": 91.95,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 111.82,
+    "dbp_mmhg": 90.56,
+    "high_side_point_count": 2191,
+    "high_side_plateau_count": 102,
+    "high_side_plateau_ratio": 0.0466,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 257.36,
+    "deflation_range_mmhg": [
+      257.36,
+      20.0
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 232.82
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 115.46
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 111.82
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 112.36
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 111.56
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 112.34
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 109.35
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 69.15
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 69.1
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 71.95
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 90.9
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 90.56
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 90.26
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 91.23
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261106-195142.export.ndjson",
+    "n": 3409,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 85.2,
+    "checksum": 3385799924,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 98.19,
+    "map_index": 2372,
+    "envelope_peak_v": 0.014935724437236786,
+    "envelope_peak_raw_mv": 14.936,
+    "envelope_peak_median_filtered_mv": 13.31,
+    "envelope_peak_raw_at_mmhg": 95.02,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 119.68,
+    "dbp_mmhg": 75.66,
+    "high_side_point_count": 2280,
+    "high_side_plateau_count": 135,
+    "high_side_plateau_ratio": 0.0592,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 260.03,
+    "deflation_range_mmhg": [
+      260.03,
+      20.33
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 199.92
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 120.84
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 119.68
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 119.17
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 118.0
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 113.17
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 115.21
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 62.09
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 68.88
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 68.55
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 75.67
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 75.66
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 77.88
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 88.93
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-102352.export.ndjson",
+    "n": 3665,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 91.6,
+    "checksum": 3053696492,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 100.84,
+    "map_index": 2435,
+    "envelope_peak_v": 0.012086544185876846,
+    "envelope_peak_raw_mv": 12.087,
+    "envelope_peak_median_filtered_mv": 11.263,
+    "envelope_peak_raw_at_mmhg": 101.44,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 130.62,
+    "dbp_mmhg": 79.36,
+    "high_side_point_count": 2361,
+    "high_side_plateau_count": 68,
+    "high_side_plateau_ratio": 0.0288,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 256.76,
+    "deflation_range_mmhg": [
+      256.76,
+      20.23
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 130.9
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 130.59
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 130.62
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 116.63
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 116.46
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 110.67
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 109.58
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 62.25
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 78.61
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 79.74
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 79.78
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 79.36
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 81.23
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 81.24
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-102939.export.ndjson",
+    "n": 3705,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 92.6,
+    "checksum": 2482564038,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 90.83,
+    "map_index": 2621,
+    "envelope_peak_v": 0.012603752315044403,
+    "envelope_peak_raw_mv": 12.604,
+    "envelope_peak_median_filtered_mv": 11.735,
+    "envelope_peak_raw_at_mmhg": 94.96,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 123.27,
+    "dbp_mmhg": 85.13,
+    "high_side_point_count": 2554,
+    "high_side_plateau_count": 116,
+    "high_side_plateau_ratio": 0.0454,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.8,
+    "deflation_range_mmhg": [
+      259.8,
+      20.19
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 126.67
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 125.36
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 123.27
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 121.42
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 120.91
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 103.53
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 104.59
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 60.52
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 65.35
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 69.25
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 72.09
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 85.13
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 85.18
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 85.36
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-115807.export.ndjson",
+    "n": 3137,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 78.4,
+    "checksum": 2671599088,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 252.03,
+    "map_index": 187,
+    "envelope_peak_v": 0.023535452783107758,
+    "envelope_peak_raw_mv": 23.535,
+    "envelope_peak_median_filtered_mv": 14.885,
+    "envelope_peak_raw_at_mmhg": 242.82,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 254.17,
+    "dbp_mmhg": 224.47,
+    "high_side_point_count": 111,
+    "high_side_plateau_count": 7,
+    "high_side_plateau_ratio": 0.0631,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 258.65,
+    "deflation_range_mmhg": [
+      258.65,
+      20.02
+    ],
+    "reason": "the envelope maximum (23.535 mV at 242.82 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 254.45
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 254.64
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 254.17
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 254.2
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 254.15
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 254.11
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 254.11
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 224.64
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 224.85
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 224.76
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 224.72
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 224.47
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 225.1
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 224.64
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-150908.export.ndjson",
+    "n": 3625,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 90.6,
+    "checksum": 4118676417,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 96.54,
+    "map_index": 2562,
+    "envelope_peak_v": 0.012386295944452286,
+    "envelope_peak_raw_mv": 12.386,
+    "envelope_peak_median_filtered_mv": 11.597,
+    "envelope_peak_raw_at_mmhg": 92.72,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 128.61,
+    "dbp_mmhg": 75.82,
+    "high_side_point_count": 2482,
+    "high_side_plateau_count": 64,
+    "high_side_plateau_ratio": 0.0258,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.08,
+    "deflation_range_mmhg": [
+      261.08,
+      20.16
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 134.67
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 128.59
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 128.61
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 116.11
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 114.94
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 112.81
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 113.47
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 63.89
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 71.91
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 71.68
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 75.81
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 75.82
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 89.21
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 91.19
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-151234.export.ndjson",
+    "n": 3857,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 96.4,
+    "checksum": 3414083044,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 92.64,
+    "map_index": 2840,
+    "envelope_peak_v": 0.011445939540863037,
+    "envelope_peak_raw_mv": 11.446,
+    "envelope_peak_median_filtered_mv": 10.854,
+    "envelope_peak_raw_at_mmhg": 98.16,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 116.52,
+    "dbp_mmhg": 77.82,
+    "high_side_point_count": 2766,
+    "high_side_plateau_count": 105,
+    "high_side_plateau_ratio": 0.038,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.52,
+    "deflation_range_mmhg": [
+      261.52,
+      20.33
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 131.05
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 130.89
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 116.52
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 115.69
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 113.64
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 102.16
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 103.35
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 56.48
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 57.8
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 78.97
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 78.44
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 77.82
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 80.1
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 80.41
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-151610.export.ndjson",
+    "n": 3737,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 93.4,
+    "checksum": 2161606602,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 95.05,
+    "map_index": 2631,
+    "envelope_peak_v": 0.011355403810739517,
+    "envelope_peak_raw_mv": 11.355,
+    "envelope_peak_median_filtered_mv": 10.62,
+    "envelope_peak_raw_at_mmhg": 94.41,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 131.47,
+    "dbp_mmhg": 80.25,
+    "high_side_point_count": 2558,
+    "high_side_plateau_count": 61,
+    "high_side_plateau_ratio": 0.0238,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.75,
+    "deflation_range_mmhg": [
+      262.75,
+      20.07
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 199.63
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 147.11
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 131.47
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 118.57
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 118.66
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 116.32
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 114.88
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 50.65
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 63.18
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 77.03
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 80.29
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 80.25
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 80.3
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 81.93
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-152619.export.ndjson",
+    "n": 3689,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 92.2,
+    "checksum": 681275146,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 92.91,
+    "map_index": 2631,
+    "envelope_peak_v": 0.013123158365488052,
+    "envelope_peak_raw_mv": 13.123,
+    "envelope_peak_median_filtered_mv": 11.489,
+    "envelope_peak_raw_at_mmhg": 90.7,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 121.35,
+    "dbp_mmhg": 84.09,
+    "high_side_point_count": 2537,
+    "high_side_plateau_count": 125,
+    "high_side_plateau_ratio": 0.0493,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 260.88,
+    "deflation_range_mmhg": [
+      260.88,
+      20.02
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 128.37
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 128.38
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 121.35
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 121.58
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 108.52
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 109.92
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 110.78
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 69.22
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 70.23
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 70.35
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 77.72
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 84.09
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 84.15
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 84.05
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-152950.export.ndjson",
+    "n": 3705,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 92.6,
+    "checksum": 2770112057,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 91.85,
+    "map_index": 2624,
+    "envelope_peak_v": 0.012366339564323425,
+    "envelope_peak_raw_mv": 12.366,
+    "envelope_peak_median_filtered_mv": 11.739,
+    "envelope_peak_raw_at_mmhg": 94.69,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 130.64,
+    "dbp_mmhg": 82.77,
+    "high_side_point_count": 2563,
+    "high_side_plateau_count": 86,
+    "high_side_plateau_ratio": 0.0336,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.36,
+    "deflation_range_mmhg": [
+      259.36,
+      20.27
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 137.85
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 137.95
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 130.64
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 121.01
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 106.43
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 107.76
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 108.56
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 66.05
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 65.55
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 76.57
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 77.66
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 82.77
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 82.77
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 82.96
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-153320.export.ndjson",
+    "n": 3625,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 90.6,
+    "checksum": 2459185962,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 93.77,
+    "map_index": 2563,
+    "envelope_peak_v": 0.012531835585832596,
+    "envelope_peak_raw_mv": 12.532,
+    "envelope_peak_median_filtered_mv": 11.653,
+    "envelope_peak_raw_at_mmhg": 95.76,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 130.67,
+    "dbp_mmhg": 83.89,
+    "high_side_point_count": 2494,
+    "high_side_plateau_count": 67,
+    "high_side_plateau_ratio": 0.0269,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.39,
+    "deflation_range_mmhg": [
+      261.39,
+      20.09
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 147.58
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 132.71
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 130.67
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 130.22
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 126.42
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 127.07
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 107.17
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 59.41
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 59.21
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 83.9
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 83.84
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 83.89
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 84.87
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 85.75
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-153646.export.ndjson",
+    "n": 3769,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 94.2,
+    "checksum": 931696066,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 92.85,
+    "map_index": 2671,
+    "envelope_peak_v": 0.012667782604694366,
+    "envelope_peak_raw_mv": 12.668,
+    "envelope_peak_median_filtered_mv": 11.578,
+    "envelope_peak_raw_at_mmhg": 93.8,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 120.1,
+    "dbp_mmhg": 84.61,
+    "high_side_point_count": 2602,
+    "high_side_plateau_count": 80,
+    "high_side_plateau_ratio": 0.0307,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.94,
+    "deflation_range_mmhg": [
+      261.94,
+      20.14
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 132.22
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 132.17
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 120.1
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 118.85
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 117.2
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 105.02
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 106.49
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 62.17
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 62.5
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 77.13
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 81.27
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 84.61
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 83.78
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 83.27
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-154020.export.ndjson",
+    "n": 2817,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 70.4,
+    "checksum": 1776554726,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 257.07,
+    "map_index": 235,
+    "envelope_peak_v": 0.037806279957294464,
+    "envelope_peak_raw_mv": 37.806,
+    "envelope_peak_median_filtered_mv": 21.722,
+    "envelope_peak_raw_at_mmhg": 237.9,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 258.04,
+    "dbp_mmhg": 203.47,
+    "high_side_point_count": 158,
+    "high_side_plateau_count": 6,
+    "high_side_plateau_ratio": 0.038,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 263.31,
+    "deflation_range_mmhg": [
+      263.31,
+      20.13
+    ],
+    "reason": "the envelope maximum (37.806 mV at 237.9 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 257.94
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 258.12
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 258.04
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 258.03
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 258.04
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 258.02
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 258.01
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 197.76
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 198.48
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 199.04
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 200.74
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 203.47
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 205.37
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 207.59
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-154308.export.ndjson",
+    "n": 3601,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 90.0,
+    "checksum": 725996109,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 100.74,
+    "map_index": 2480,
+    "envelope_peak_v": 0.013445466756820679,
+    "envelope_peak_raw_mv": 13.445,
+    "envelope_peak_median_filtered_mv": 11.374,
+    "envelope_peak_raw_at_mmhg": 254.87,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 117.83,
+    "dbp_mmhg": 77.29,
+    "high_side_point_count": 2401,
+    "high_side_plateau_count": 112,
+    "high_side_plateau_ratio": 0.0466,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.36,
+    "deflation_range_mmhg": [
+      262.36,
+      20.19
+    ],
+    "reason": "the envelope maximum (13.445 mV at 254.87 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 120.24
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 119.61
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 117.83
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 117.11
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 117.46
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 117.9
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 114.74
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 74.76
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 75.51
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 75.21
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 76.39
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 77.29
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 79.42
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 94.97
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-154636.export.ndjson",
+    "n": 3681,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 92.0,
+    "checksum": 1553043180,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 94.38,
+    "map_index": 2632,
+    "envelope_peak_v": 0.012152064591646194,
+    "envelope_peak_raw_mv": 12.152,
+    "envelope_peak_median_filtered_mv": 11.481,
+    "envelope_peak_raw_at_mmhg": 92.01,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 116.48,
+    "dbp_mmhg": 82.09,
+    "high_side_point_count": 2552,
+    "high_side_plateau_count": 64,
+    "high_side_plateau_ratio": 0.0251,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.2,
+    "deflation_range_mmhg": [
+      259.2,
+      20.11
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 141.63
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 118.3
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 116.48
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 115.17
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 116.35
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 103.26
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 105.23
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 61.92
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 74.85
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 82.44
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 82.54
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 82.09
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 84.11
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 84.54
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261106-144148.export.ndjson",
+    "n": 3291,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 82.25,
+    "checksum": 315890661,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 119.86,
+    "map_index": 1923,
+    "envelope_peak_v": 0.01333136111497879,
+    "envelope_peak_raw_mv": 13.331,
+    "envelope_peak_median_filtered_mv": 12.66,
+    "envelope_peak_raw_at_mmhg": 118.35,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 135.87,
+    "dbp_mmhg": 90.96,
+    "high_side_point_count": 1844,
+    "high_side_plateau_count": 81,
+    "high_side_plateau_ratio": 0.0439,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 258.18,
+    "deflation_range_mmhg": [
+      258.18,
+      20.06
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 233.93
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 161.37
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 135.87
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 133.07
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 134.05
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 130.8
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 131.31
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 65.31
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 86.48
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 87.22
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 88.19
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 90.96
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 106.56
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 108.75
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261106-144500.export.ndjson",
+    "n": 3393,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 84.8,
+    "checksum": 3909427246,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 120.37,
+    "map_index": 1984,
+    "envelope_peak_v": 0.01248900219798088,
+    "envelope_peak_raw_mv": 12.489,
+    "envelope_peak_median_filtered_mv": 12.045,
+    "envelope_peak_raw_at_mmhg": 119.74,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 159.63,
+    "dbp_mmhg": 92.23,
+    "high_side_point_count": 1912,
+    "high_side_plateau_count": 65,
+    "high_side_plateau_ratio": 0.034,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 258.79,
+    "deflation_range_mmhg": [
+      258.79,
+      20.31
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 163.31
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 161.59
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 159.63
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 159.95
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 160.26
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 137.79
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 133.78
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 89.36
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 89.42
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 89.82
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 90.03
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 92.23
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 99.61
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 113.01
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261106-144826.export.ndjson",
+    "n": 3361,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 84.0,
+    "checksum": 429351245,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 122.37,
+    "map_index": 1960,
+    "envelope_peak_v": 0.012748144567012787,
+    "envelope_peak_raw_mv": 12.748,
+    "envelope_peak_median_filtered_mv": 12.086,
+    "envelope_peak_raw_at_mmhg": 122.07,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 160.04,
+    "dbp_mmhg": 93.86,
+    "high_side_point_count": 1856,
+    "high_side_plateau_count": 53,
+    "high_side_plateau_ratio": 0.0286,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 258.59,
+    "deflation_range_mmhg": [
+      258.59,
+      20.4
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 163.53
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 162.13
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 160.04
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 160.5
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 157.48
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 138.13
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 136.48
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 74.29
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 92.46
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 93.77
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 93.8
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 93.86
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 99.01
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 112.8
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-201902.export.ndjson",
+    "n": 3689,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 92.2,
+    "checksum": 1111546297,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 119.56,
+    "map_index": 2257,
+    "envelope_peak_v": 0.013276614248752594,
+    "envelope_peak_raw_mv": 13.277,
+    "envelope_peak_median_filtered_mv": 12.188,
+    "envelope_peak_raw_at_mmhg": 116.79,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 140.83,
+    "dbp_mmhg": 96.54,
+    "high_side_point_count": 2192,
+    "high_side_plateau_count": 80,
+    "high_side_plateau_ratio": 0.0365,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 260.94,
+    "deflation_range_mmhg": [
+      260.94,
+      20.41
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 158.61
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 140.86
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 140.83
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 138.76
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 134.94
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 134.6
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 134.59
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 86.35
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 87.02
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 94.79
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 94.8
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 96.54
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 111.06
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 113.05
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-202234.export.ndjson",
+    "n": 3689,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 92.2,
+    "checksum": 1224209424,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 126.28,
+    "map_index": 2225,
+    "envelope_peak_v": 0.012154638767242432,
+    "envelope_peak_raw_mv": 12.155,
+    "envelope_peak_median_filtered_mv": 10.941,
+    "envelope_peak_raw_at_mmhg": 125.93,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 158.45,
+    "dbp_mmhg": 98.26,
+    "high_side_point_count": 2164,
+    "high_side_plateau_count": 100,
+    "high_side_plateau_ratio": 0.0462,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.04,
+    "deflation_range_mmhg": [
+      262.04,
+      20.29
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 168.45
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 158.48
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 158.45
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 156.08
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 142.98
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 142.45
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 138.3
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 74.78
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 74.57
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 97.17
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 98.26
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 98.26
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 121.27
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 121.38
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-202606.export.ndjson",
+    "n": 2153,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 53.8,
+    "checksum": 2985729627,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 202.93,
+    "map_index": 575,
+    "envelope_peak_v": 0.03779112547636032,
+    "envelope_peak_raw_mv": 37.791,
+    "envelope_peak_median_filtered_mv": 33.202,
+    "envelope_peak_raw_at_mmhg": 176.45,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 238.24,
+    "dbp_mmhg": 130.94,
+    "high_side_point_count": 489,
+    "high_side_plateau_count": 9,
+    "high_side_plateau_ratio": 0.0184,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 263.65,
+    "deflation_range_mmhg": [
+      263.65,
+      20.4
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 248.43
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 238.33
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 238.24
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 230.62
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 228.76
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 218.37
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 218.94
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 113.72
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 116.89
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 118.66
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 127.47
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 130.94
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 138.05
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 145.58
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-202825.export.ndjson",
+    "n": 3657,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 91.4,
+    "checksum": 3735369765,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 119.2,
+    "map_index": 2301,
+    "envelope_peak_v": 0.013447124511003494,
+    "envelope_peak_raw_mv": 13.447,
+    "envelope_peak_median_filtered_mv": 12.595,
+    "envelope_peak_raw_at_mmhg": 133.09,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 155.96,
+    "dbp_mmhg": 115.02,
+    "high_side_point_count": 2237,
+    "high_side_plateau_count": 90,
+    "high_side_plateau_ratio": 0.0402,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.14,
+    "deflation_range_mmhg": [
+      261.14,
+      20.43
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 164.44
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 157.28
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 155.96
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 154.26
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 133.83
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 127.77
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 128.34
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 94.15
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 94.11
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 94.87
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 115.76
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 115.02
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 114.64
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 115.6
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-203151.export.ndjson",
+    "n": 3513,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 87.8,
+    "checksum": 3540314261,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 117.09,
+    "map_index": 2204,
+    "envelope_peak_v": 0.014118842780590057,
+    "envelope_peak_raw_mv": 14.119,
+    "envelope_peak_median_filtered_mv": 12.918,
+    "envelope_peak_raw_at_mmhg": 113.98,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 135.93,
+    "dbp_mmhg": 112.1,
+    "high_side_point_count": 2140,
+    "high_side_plateau_count": 83,
+    "high_side_plateau_ratio": 0.0388,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 258.64,
+    "deflation_range_mmhg": [
+      258.64,
+      20.44
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 159.05
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 157.43
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 135.93
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 135.89
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 135.84
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 130.27
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 130.59
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 92.51
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 92.36
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 94.16
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 112.16
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 112.1
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 112.04
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 112.1
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-203512.export.ndjson",
+    "n": 3777,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 94.4,
+    "checksum": 3070743711,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 120.7,
+    "map_index": 2399,
+    "envelope_peak_v": 0.013134565204381943,
+    "envelope_peak_raw_mv": 13.135,
+    "envelope_peak_median_filtered_mv": 12.332,
+    "envelope_peak_raw_at_mmhg": 119.73,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 149.79,
+    "dbp_mmhg": 94.64,
+    "high_side_point_count": 2310,
+    "high_side_plateau_count": 75,
+    "high_side_plateau_ratio": 0.0325,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.48,
+    "deflation_range_mmhg": [
+      262.48,
+      20.43
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 150.82
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 150.35
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 149.79
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 149.73
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 136.35
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 134.93
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 130.63
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 92.78
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 93.26
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 93.86
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 93.74
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 94.64
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 96.75
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 113.37
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-203849.export.ndjson",
+    "n": 3729,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 93.2,
+    "checksum": 3629017243,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 129.16,
+    "map_index": 2258,
+    "envelope_peak_v": 0.011871952563524246,
+    "envelope_peak_raw_mv": 11.872,
+    "envelope_peak_median_filtered_mv": 10.472,
+    "envelope_peak_raw_at_mmhg": 113.07,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 160.73,
+    "dbp_mmhg": 100.14,
+    "high_side_point_count": 2183,
+    "high_side_plateau_count": 97,
+    "high_side_plateau_ratio": 0.0444,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.34,
+    "deflation_range_mmhg": [
+      262.34,
+      20.54
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 170.75
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 160.89
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 160.73
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 153.55
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 142.76
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 143.88
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 138.82
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 76.09
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 76.17
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 76.25
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 99.0
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 100.14
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 100.21
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 101.62
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-204223.export.ndjson",
+    "n": 3545,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 88.6,
+    "checksum": 191518921,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 118.25,
+    "map_index": 2237,
+    "envelope_peak_v": 0.013815227895975113,
+    "envelope_peak_raw_mv": 13.815,
+    "envelope_peak_median_filtered_mv": 12.651,
+    "envelope_peak_raw_at_mmhg": 115.0,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 137.7,
+    "dbp_mmhg": 113.36,
+    "high_side_point_count": 2173,
+    "high_side_plateau_count": 101,
+    "high_side_plateau_ratio": 0.0465,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.97,
+    "deflation_range_mmhg": [
+      261.97,
+      20.07
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 160.76
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 140.06
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 137.7
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 137.45
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 137.02
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 138.58
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 134.75
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 94.01
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 93.96
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 93.78
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 113.56
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 113.36
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 113.31
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 112.91
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-204545.export.ndjson",
+    "n": 3753,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 93.8,
+    "checksum": 3615418424,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 117.73,
+    "map_index": 2300,
+    "envelope_peak_v": 0.01381869986653328,
+    "envelope_peak_raw_mv": 13.819,
+    "envelope_peak_median_filtered_mv": 12.656,
+    "envelope_peak_raw_at_mmhg": 116.95,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 136.28,
+    "dbp_mmhg": 108.85,
+    "high_side_point_count": 2238,
+    "high_side_plateau_count": 109,
+    "high_side_plateau_ratio": 0.0487,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.91,
+    "deflation_range_mmhg": [
+      259.91,
+      20.04
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 139.7
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 139.67
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 136.28
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 136.23
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 135.54
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 135.9
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 133.23
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 104.12
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 104.04
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 103.64
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 104.8
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 108.85
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 114.5
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 114.16
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261107-204916.export.ndjson",
+    "n": 3673,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 91.8,
+    "checksum": 2802775704,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 125.98,
+    "map_index": 2240,
+    "envelope_peak_v": 0.012943141162395477,
+    "envelope_peak_raw_mv": 12.943,
+    "envelope_peak_median_filtered_mv": 11.742,
+    "envelope_peak_raw_at_mmhg": 122.57,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 155.55,
+    "dbp_mmhg": 121.36,
+    "high_side_point_count": 2168,
+    "high_side_plateau_count": 68,
+    "high_side_plateau_ratio": 0.0314,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.43,
+    "deflation_range_mmhg": [
+      262.43,
+      20.53
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 157.61
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 158.04
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 155.55
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 156.59
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 142.74
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 139.57
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 136.83
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 97.54
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 97.42
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 98.06
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 121.77
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 121.36
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 121.28
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 121.27
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261106-145455.export.ndjson",
+    "n": 3337,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 83.4,
+    "checksum": 448045037,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 168.65,
+    "map_index": 1405,
+    "envelope_peak_v": 0.013900719583034515,
+    "envelope_peak_raw_mv": 13.901,
+    "envelope_peak_median_filtered_mv": 12.703,
+    "envelope_peak_raw_at_mmhg": 165.37,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 201.1,
+    "dbp_mmhg": 164.54,
+    "high_side_point_count": 1342,
+    "high_side_plateau_count": 107,
+    "high_side_plateau_ratio": 0.0797,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 257.41,
+    "deflation_range_mmhg": [
+      257.41,
+      20.33
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 201.11
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 201.03
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 201.1
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 200.45
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 192.34
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 193.28
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 184.84
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 164.67
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 164.33
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 164.36
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 164.21
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 164.54
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 164.95
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 165.25
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261106-145808.export.ndjson",
+    "n": 3315,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 82.85,
+    "checksum": 1523833401,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 176.76,
+    "map_index": 1264,
+    "envelope_peak_v": 0.014705561101436615,
+    "envelope_peak_raw_mv": 14.706,
+    "envelope_peak_median_filtered_mv": 12.814,
+    "envelope_peak_raw_at_mmhg": 174.2,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 196.93,
+    "dbp_mmhg": 173.15,
+    "high_side_point_count": 1199,
+    "high_side_plateau_count": 101,
+    "high_side_plateau_ratio": 0.0842,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.56,
+    "deflation_range_mmhg": [
+      259.56,
+      20.07
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 199.1
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 196.95
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 196.93
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 195.1
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 194.74
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 194.9
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 193.52
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 146.83
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 146.43
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 173.21
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 173.22
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 173.15
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 172.92
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 173.15
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261106-150121.export.ndjson",
+    "n": 3241,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 81.0,
+    "checksum": 2137523929,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 165.72,
+    "map_index": 1378,
+    "envelope_peak_v": 0.013123944401741028,
+    "envelope_peak_raw_mv": 13.124,
+    "envelope_peak_median_filtered_mv": 11.974,
+    "envelope_peak_raw_at_mmhg": 182.66,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 179.69,
+    "dbp_mmhg": 152.48,
+    "high_side_point_count": 1312,
+    "high_side_plateau_count": 193,
+    "high_side_plateau_ratio": 0.1471,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.67,
+    "deflation_range_mmhg": [
+      259.67,
+      20.04
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 204.43
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 181.18
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 179.69
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 177.69
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 177.41
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 177.07
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 176.35
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 130.55
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 153.36
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 152.48
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 152.45
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 152.48
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 152.59
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 152.95
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-210903.export.ndjson",
+    "n": 3497,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 87.4,
+    "checksum": 3219409170,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 169.43,
+    "map_index": 1547,
+    "envelope_peak_v": 0.014262884855270386,
+    "envelope_peak_raw_mv": 14.263,
+    "envelope_peak_median_filtered_mv": 11.187,
+    "envelope_peak_raw_at_mmhg": 164.15,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 199.81,
+    "dbp_mmhg": 151.06,
+    "high_side_point_count": 1460,
+    "high_side_plateau_count": 78,
+    "high_side_plateau_ratio": 0.0534,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 258.27,
+    "deflation_range_mmhg": [
+      258.27,
+      20.04
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 200.81
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 200.0
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 199.81
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 196.78
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 198.49
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 194.03
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 173.68
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 129.62
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 129.97
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 149.41
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 151.03
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 151.06
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 150.48
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 151.86
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-211221.export.ndjson",
+    "n": 3721,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 93.0,
+    "checksum": 193564538,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 166.55,
+    "map_index": 1774,
+    "envelope_peak_v": 0.012651421129703522,
+    "envelope_peak_raw_mv": 12.651,
+    "envelope_peak_median_filtered_mv": 10.782,
+    "envelope_peak_raw_at_mmhg": 194.61,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 194.17,
+    "dbp_mmhg": 143.3,
+    "high_side_point_count": 1683,
+    "high_side_plateau_count": 174,
+    "high_side_plateau_ratio": 0.1034,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.6,
+    "deflation_range_mmhg": [
+      259.6,
+      20.04
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 207.17
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 204.87
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 194.17
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 191.48
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 177.77
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 179.2
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 178.56
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 141.02
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 141.92
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 141.99
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 143.25
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 143.3
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 148.22
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 155.11
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-211546.export.ndjson",
+    "n": 3497,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 87.4,
+    "checksum": 3126606779,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 182.44,
+    "map_index": 1427,
+    "envelope_peak_v": 0.013726748526096344,
+    "envelope_peak_raw_mv": 13.727,
+    "envelope_peak_median_filtered_mv": 11.329,
+    "envelope_peak_raw_at_mmhg": 179.88,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 198.31,
+    "dbp_mmhg": 146.03,
+    "high_side_point_count": 1350,
+    "high_side_plateau_count": 32,
+    "high_side_plateau_ratio": 0.0237,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 260.57,
+    "deflation_range_mmhg": [
+      260.57,
+      20.09
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 202.42
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 203.08
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 198.31
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 199.56
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 195.87
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 196.67
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 192.42
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 146.24
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 146.28
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 146.3
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 146.38
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 146.03
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 176.81
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 175.92
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-211901.export.ndjson",
+    "n": 3657,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 91.4,
+    "checksum": 1513467730,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 168.61,
+    "map_index": 1768,
+    "envelope_peak_v": 0.011736243963241577,
+    "envelope_peak_raw_mv": 11.736,
+    "envelope_peak_median_filtered_mv": 11.265,
+    "envelope_peak_raw_at_mmhg": 180.55,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 205.64,
+    "dbp_mmhg": 137.2,
+    "high_side_point_count": 1656,
+    "high_side_plateau_count": 97,
+    "high_side_plateau_ratio": 0.0586,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 263.04,
+    "deflation_range_mmhg": [
+      263.04,
+      20.44
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 206.07
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 206.48
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 205.64
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 194.48
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 191.44
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 189.58
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 191.55
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 136.02
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 136.79
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 136.58
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 136.63
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 137.2
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 160.44
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 160.68
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-212226.export.ndjson",
+    "n": 3673,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 91.8,
+    "checksum": 3202178602,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 181.22,
+    "map_index": 1522,
+    "envelope_peak_v": 0.014061197638511658,
+    "envelope_peak_raw_mv": 14.061,
+    "envelope_peak_median_filtered_mv": 11.109,
+    "envelope_peak_raw_at_mmhg": 163.42,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 196.63,
+    "dbp_mmhg": 175.11,
+    "high_side_point_count": 1445,
+    "high_side_plateau_count": 45,
+    "high_side_plateau_ratio": 0.0311,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.83,
+    "deflation_range_mmhg": [
+      259.83,
+      20.24
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 209.93
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 206.33
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 196.63
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 194.25
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 194.97
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 191.54
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 191.24
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 132.76
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 133.64
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 152.03
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 153.81
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 175.11
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 175.0
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 175.09
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-212549.export.ndjson",
+    "n": 3657,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 91.4,
+    "checksum": 3552910578,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 160.74,
+    "map_index": 1635,
+    "envelope_peak_v": 0.01335781067609787,
+    "envelope_peak_raw_mv": 13.358,
+    "envelope_peak_median_filtered_mv": 11.201,
+    "envelope_peak_raw_at_mmhg": 191.67,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 202.2,
+    "dbp_mmhg": 149.62,
+    "high_side_point_count": 1566,
+    "high_side_plateau_count": 156,
+    "high_side_plateau_ratio": 0.0996,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 260.01,
+    "deflation_range_mmhg": [
+      260.01,
+      20.13
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 206.3
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 204.41
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 202.2
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 191.68
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 175.67
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 173.9
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 171.43
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 144.62
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 144.45
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 144.76
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 144.97
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 149.62
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 150.55
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 156.32
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-212915.export.ndjson",
+    "n": 1777,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 44.4,
+    "checksum": 2179141963,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 219.05,
+    "map_index": 452,
+    "envelope_peak_v": 0.05201162397861481,
+    "envelope_peak_raw_mv": 52.012,
+    "envelope_peak_median_filtered_mv": 39.825,
+    "envelope_peak_raw_at_mmhg": 228.19,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 252.99,
+    "dbp_mmhg": 124.45,
+    "high_side_point_count": 373,
+    "high_side_plateau_count": 36,
+    "high_side_plateau_ratio": 0.0965,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 263.31,
+    "deflation_range_mmhg": [
+      263.31,
+      20.11
+    ],
+    "reason": "the envelope maximum (52.012 mV at 228.19 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 252.55
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 252.54
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 252.99
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 252.0
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 251.77
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 251.75
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 251.85
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 102.2
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 109.28
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 113.98
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 117.09
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 124.45
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 120.53
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 135.07
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-213112.export.ndjson",
+    "n": 3545,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 88.6,
+    "checksum": 2918166659,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 258.54,
+    "map_index": 182,
+    "envelope_peak_v": 0.019817642867565155,
+    "envelope_peak_raw_mv": 19.818,
+    "envelope_peak_median_filtered_mv": 13.984,
+    "envelope_peak_raw_at_mmhg": 249.93,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 260.34,
+    "dbp_mmhg": 239.19,
+    "high_side_point_count": 101,
+    "high_side_plateau_count": 6,
+    "high_side_plateau_ratio": 0.0594,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 263.9,
+    "deflation_range_mmhg": [
+      263.9,
+      20.27
+    ],
+    "reason": "the envelope maximum (19.818 mV at 249.93 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 260.69
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 260.68
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 260.34
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 260.03
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 260.27
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 260.19
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 260.18
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 238.03
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 237.37
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 238.29
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 238.17
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 239.19
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 239.32
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 239.37
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-213433.export.ndjson",
+    "n": 3497,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 87.4,
+    "checksum": 2522408368,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 257.39,
+    "map_index": 182,
+    "envelope_peak_v": 0.019429609179496765,
+    "envelope_peak_raw_mv": 19.43,
+    "envelope_peak_median_filtered_mv": 13.922,
+    "envelope_peak_raw_at_mmhg": 248.89,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 258.98,
+    "dbp_mmhg": 237.25,
+    "high_side_point_count": 99,
+    "high_side_plateau_count": 3,
+    "high_side_plateau_ratio": 0.0303,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.77,
+    "deflation_range_mmhg": [
+      262.77,
+      20.31
+    ],
+    "reason": "the envelope maximum (19.43 mV at 248.89 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 259.5
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 259.47
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 258.98
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 258.89
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 259.07
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 258.96
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 258.96
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 236.85
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 236.87
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 237.34
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 237.7
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 237.25
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 238.39
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 238.39
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard200_150_target275_peakwindow_20261107-213751.export.ndjson",
+    "n": 2609,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 65.2,
+    "checksum": 809876155,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 225.61,
+    "map_index": 788,
+    "envelope_peak_v": 0.04268722981214523,
+    "envelope_peak_raw_mv": 42.687,
+    "envelope_peak_median_filtered_mv": 28.027,
+    "envelope_peak_raw_at_mmhg": 202.94,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 228.37,
+    "dbp_mmhg": 145.21,
+    "high_side_point_count": 708,
+    "high_side_plateau_count": 3,
+    "high_side_plateau_ratio": 0.0042,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 259.66,
+    "deflation_range_mmhg": [
+      259.66,
+      20.37
+    ],
+    "reason": "the envelope maximum (42.687 mV at 202.94 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 228.93
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 228.39
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 228.37
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 228.25
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 228.18
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 228.25
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 228.26
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 138.25
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 140.18
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 142.15
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 141.51
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 145.21
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 151.57
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 158.31
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261106-133524.export.ndjson",
+    "n": 3929,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 98.2,
+    "checksum": 694850431,
+    "status": "unresolved_sbp",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 209.97,
+    "map_index": 1107,
+    "envelope_peak_v": 0.015556685626506805,
+    "envelope_peak_raw_mv": 15.557,
+    "envelope_peak_median_filtered_mv": 10.133,
+    "envelope_peak_raw_at_mmhg": 206.32,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": null,
+    "dbp_mmhg": 205.53,
+    "high_side_point_count": 1024,
+    "high_side_plateau_count": 365,
+    "high_side_plateau_ratio": 0.3564,
+    "sbp_plateau_suspected": true,
+    "sbp_origin_pressure_mmhg": 259.52,
+    "deflation_range_mmhg": [
+      259.52,
+      20.27
+    ],
+    "reason": "365 of 1024 points above MAP (35.6%) still exceed 90% of the peak, so the envelope is a plateau rather than a decay and the systolic ratio crossing is not identifiable; a rigid bench chamber holds the pulse amplitude up instead of collapsing it the way a compressed artery does",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 258.47
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 257.68
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 256.89
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 249.12
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 248.73
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 240.97
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 236.78
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 155.69
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 155.65
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 206.15
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 206.19
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 205.53
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 205.32
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 205.37
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261106-135004.export.ndjson",
+    "n": 3731,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 93.25,
+    "checksum": 3529145817,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 214.91,
+    "map_index": 952,
+    "envelope_peak_v": 0.014765791594982147,
+    "envelope_peak_raw_mv": 14.766,
+    "envelope_peak_median_filtered_mv": 10.135,
+    "envelope_peak_raw_at_mmhg": 227.35,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 258.27,
+    "dbp_mmhg": 182.71,
+    "high_side_point_count": 896,
+    "high_side_plateau_count": 130,
+    "high_side_plateau_ratio": 0.1451,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.83,
+    "deflation_range_mmhg": [
+      261.83,
+      20.06
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 259.33
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 257.93
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 258.27
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 240.69
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 241.92
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 228.66
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 225.71
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 161.89
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 162.15
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 162.79
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 182.35
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 182.71
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 202.42
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 203.65
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261106-135527.export.ndjson",
+    "n": 3497,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 87.4,
+    "checksum": 567184620,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 215.69,
+    "map_index": 738,
+    "envelope_peak_v": 0.0112876296043396,
+    "envelope_peak_raw_mv": 11.288,
+    "envelope_peak_median_filtered_mv": 10.927,
+    "envelope_peak_raw_at_mmhg": 220.95,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 242.75,
+    "dbp_mmhg": 208.48,
+    "high_side_point_count": 674,
+    "high_side_plateau_count": 138,
+    "high_side_plateau_ratio": 0.2047,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 260.54,
+    "deflation_range_mmhg": [
+      260.54,
+      20.16
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 244.5
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 244.34
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 242.75
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 228.01
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 227.75
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 226.14
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 225.53
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 198.83
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 198.77
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 198.88
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 209.39
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 208.48
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 208.34
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 208.98
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-125444.export.ndjson",
+    "n": 3377,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 84.4,
+    "checksum": 3555205098,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 221.22,
+    "map_index": 688,
+    "envelope_peak_v": 0.013079933822154999,
+    "envelope_peak_raw_mv": 13.08,
+    "envelope_peak_median_filtered_mv": 10.769,
+    "envelope_peak_raw_at_mmhg": 216.83,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 254.92,
+    "dbp_mmhg": 192.24,
+    "high_side_point_count": 601,
+    "high_side_plateau_count": 38,
+    "high_side_plateau_ratio": 0.0632,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 260.35,
+    "deflation_range_mmhg": [
+      260.35,
+      20.29
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 257.07
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 254.81
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 254.92
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 254.29
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 232.11
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 231.89
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 231.25
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 191.68
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 192.17
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 192.16
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 192.2
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 192.24
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 192.32
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 211.93
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-214926.export.ndjson",
+    "n": 3577,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 89.4,
+    "checksum": 1854541898,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 216.9,
+    "map_index": 756,
+    "envelope_peak_v": 0.012059830129146576,
+    "envelope_peak_raw_mv": 12.06,
+    "envelope_peak_median_filtered_mv": 9.919,
+    "envelope_peak_raw_at_mmhg": 248.72,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 256.98,
+    "dbp_mmhg": 200.69,
+    "high_side_point_count": 672,
+    "high_side_plateau_count": 148,
+    "high_side_plateau_ratio": 0.2202,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.15,
+    "deflation_range_mmhg": [
+      261.15,
+      20.54
+    ],
+    "reason": "the envelope maximum (12.06 mV at 248.72 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 257.75
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 257.23
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 256.98
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 256.08
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 239.78
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 238.7
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 237.66
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 180.66
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 180.74
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 180.61
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 200.52
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 200.69
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 201.62
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 207.9
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-215245.export.ndjson",
+    "n": 2849,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 71.2,
+    "checksum": 1184799189,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 238.17,
+    "map_index": 323,
+    "envelope_peak_v": 0.02817918360233307,
+    "envelope_peak_raw_mv": 28.179,
+    "envelope_peak_median_filtered_mv": 23.845,
+    "envelope_peak_raw_at_mmhg": 243.74,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 254.97,
+    "dbp_mmhg": 195.05,
+    "high_side_point_count": 243,
+    "high_side_plateau_count": 32,
+    "high_side_plateau_ratio": 0.1317,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.88,
+    "deflation_range_mmhg": [
+      262.88,
+      20.02
+    ],
+    "reason": "the envelope maximum (28.179 mV at 243.74 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 255.5
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 255.44
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 254.97
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 255.04
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 255.62
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 255.89
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 256.28
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 184.66
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 188.05
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 187.14
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 192.75
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 195.05
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 195.43
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 201.91
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-215530.export.ndjson",
+    "n": 3177,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 79.4,
+    "checksum": 515811492,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 253.71,
+    "map_index": 287,
+    "envelope_peak_v": 0.030380435287952423,
+    "envelope_peak_raw_mv": 30.38,
+    "envelope_peak_median_filtered_mv": 20.207,
+    "envelope_peak_raw_at_mmhg": 243.57,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 255.61,
+    "dbp_mmhg": 216.01,
+    "high_side_point_count": 207,
+    "high_side_plateau_count": 6,
+    "high_side_plateau_ratio": 0.029,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 262.17,
+    "deflation_range_mmhg": [
+      262.17,
+      20.02
+    ],
+    "reason": "the envelope maximum (30.38 mV at 243.57 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 256.18
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 255.97
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 255.61
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 255.61
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 255.53
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 255.46
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 255.42
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 211.9
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 212.72
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 213.42
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 214.75
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 216.01
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 216.26
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 222.32
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-215831.export.ndjson",
+    "n": 3537,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 88.4,
+    "checksum": 2630416576,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 220.78,
+    "map_index": 812,
+    "envelope_peak_v": 0.011790528893470764,
+    "envelope_peak_raw_mv": 11.791,
+    "envelope_peak_median_filtered_mv": 10.481,
+    "envelope_peak_raw_at_mmhg": 181.29,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 259.1,
+    "dbp_mmhg": 200.69,
+    "high_side_point_count": 719,
+    "high_side_plateau_count": 63,
+    "high_side_plateau_ratio": 0.0876,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 263.08,
+    "deflation_range_mmhg": [
+      263.08,
+      20.16
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 261.26
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 259.14
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 259.1
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 242.03
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 242.07
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 229.21
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 230.19
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 145.69
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 162.43
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 180.25
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 200.73
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 200.69
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 201.58
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 201.86
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-220147.export.ndjson",
+    "n": 3617,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 90.4,
+    "checksum": 1877888806,
+    "status": "ok",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 221.81,
+    "map_index": 794,
+    "envelope_peak_v": 0.011979624629020691,
+    "envelope_peak_raw_mv": 11.98,
+    "envelope_peak_median_filtered_mv": 9.643,
+    "envelope_peak_raw_at_mmhg": 230.09,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 258.19,
+    "dbp_mmhg": 205.62,
+    "high_side_point_count": 731,
+    "high_side_plateau_count": 132,
+    "high_side_plateau_ratio": 0.1806,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.53,
+    "deflation_range_mmhg": [
+      261.53,
+      20.02
+    ],
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 260.24
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 259.11
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 258.19
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 241.82
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 240.7
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 232.87
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 233.13
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 132.16
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 190.91
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 191.24
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 205.56
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 205.62
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 205.67
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 206.39
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-220508.export.ndjson",
+    "n": 3585,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 89.6,
+    "checksum": 2685158617,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 193.64,
+    "map_index": 1327,
+    "envelope_peak_v": 0.015185154974460602,
+    "envelope_peak_raw_mv": 15.185,
+    "envelope_peak_median_filtered_mv": 10.112,
+    "envelope_peak_raw_at_mmhg": 194.37,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": null,
+    "dbp_mmhg": 192.67,
+    "high_side_point_count": 1246,
+    "high_side_plateau_count": 330,
+    "high_side_plateau_ratio": 0.2648,
+    "sbp_plateau_suspected": true,
+    "sbp_origin_pressure_mmhg": 262.88,
+    "deflation_range_mmhg": [
+      262.88,
+      20.14
+    ],
+    "reason": "the envelope maximum (15.185 mV at 194.37 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 261.52
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 260.71
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 256.1
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 202.73
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 202.44
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 201.72
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 200.96
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 184.97
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 184.93
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 184.74
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 184.97
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 192.67
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 192.07
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 192.53
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-220827.export.ndjson",
+    "n": 3545,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 88.6,
+    "checksum": 5915861,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 217.75,
+    "map_index": 832,
+    "envelope_peak_v": 0.014568045735359192,
+    "envelope_peak_raw_mv": 14.568,
+    "envelope_peak_median_filtered_mv": 9.752,
+    "envelope_peak_raw_at_mmhg": 195.22,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 246.51,
+    "dbp_mmhg": 200.84,
+    "high_side_point_count": 742,
+    "high_side_plateau_count": 119,
+    "high_side_plateau_ratio": 0.1604,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 261.45,
+    "deflation_range_mmhg": [
+      261.45,
+      20.0
+    ],
+    "reason": "the envelope maximum (14.568 mV at 195.22 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 260.54
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 256.85
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 246.51
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 245.3
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 231.71
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 231.69
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 229.47
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 185.62
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 186.05
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 186.29
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 201.36
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 200.84
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 200.86
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 201.06
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-221143.export.ndjson",
+    "n": 3641,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 91.0,
+    "checksum": 1035312046,
+    "status": "unresolved_map",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 260.92,
+    "map_index": 143,
+    "envelope_peak_v": 0.015103444457054138,
+    "envelope_peak_raw_mv": 15.103,
+    "envelope_peak_median_filtered_mv": 9.815,
+    "envelope_peak_raw_at_mmhg": 254.86,
+    "envelope_transient_suspected": true,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": 261.31,
+    "dbp_mmhg": 247.74,
+    "high_side_point_count": 57,
+    "high_side_plateau_count": 3,
+    "high_side_plateau_ratio": 0.0526,
+    "sbp_plateau_suspected": false,
+    "sbp_origin_pressure_mmhg": 263.56,
+    "deflation_range_mmhg": [
+      263.56,
+      20.3
+    ],
+    "reason": "the envelope maximum (15.103 mV at 254.86 mmHg) is more than 2.0x its own neighbourhood, which is the signature of a deflation-valve transient; inspect the run or widen --skip-start-s before trusting MAP",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 261.96
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 261.56
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 261.31
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 260.66
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 261.2
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 260.81
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 261.18
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 191.89
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 191.92
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 246.31
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 246.58
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 247.74
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 248.19
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 249.74
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-221505.export.ndjson",
+    "n": 3561,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 89.0,
+    "checksum": 3766969909,
+    "status": "unresolved_sbp",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 215.61,
+    "map_index": 918,
+    "envelope_peak_v": 0.012905389070510864,
+    "envelope_peak_raw_mv": 12.905,
+    "envelope_peak_median_filtered_mv": 9.533,
+    "envelope_peak_raw_at_mmhg": 242.09,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": null,
+    "dbp_mmhg": 189.42,
+    "high_side_point_count": 836,
+    "high_side_plateau_count": 275,
+    "high_side_plateau_ratio": 0.3289,
+    "sbp_plateau_suspected": true,
+    "sbp_origin_pressure_mmhg": 261.02,
+    "deflation_range_mmhg": [
+      261.02,
+      20.48
+    ],
+    "reason": "275 of 836 points above MAP (32.9%) still exceed 90% of the peak, so the envelope is a plateau rather than a decay and the systolic ratio crossing is not identifiable; a rigid bench chamber holds the pulse amplitude up instead of collapsing it the way a compressed artery does",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 262.34
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 260.92
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 254.89
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 254.41
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 242.77
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 242.49
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 231.19
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 188.7
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 189.0
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 189.34
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 189.41
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 189.42
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 208.39
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 208.52
+      }
+    ]
+  },
+  {
+    "export": "C:\\Users\\31800\\Desktop\\血压仪\\data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-221823.export.ndjson",
+    "n": 3489,
+    "firmware": "PEAK_WINDOW_20261105",
+    "duration_s": 87.2,
+    "checksum": 1576598134,
+    "status": "unresolved_sbp",
+    "method": "oscillometric ratio, full deflation range",
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6,
+    "map_mmhg": 220.75,
+    "map_index": 757,
+    "envelope_peak_v": 0.012144900858402252,
+    "envelope_peak_raw_mv": 12.145,
+    "envelope_peak_median_filtered_mv": 9.607,
+    "envelope_peak_raw_at_mmhg": 212.54,
+    "envelope_transient_suspected": false,
+    "map_smoothing_s": 2.0,
+    "skip_start_s": 2.0,
+    "min_pressure_mmhg": 20.0,
+    "sbp_mmhg": null,
+    "dbp_mmhg": 196.33,
+    "high_side_point_count": 684,
+    "high_side_plateau_count": 193,
+    "high_side_plateau_ratio": 0.2822,
+    "sbp_plateau_suspected": true,
+    "sbp_origin_pressure_mmhg": 261.89,
+    "deflation_range_mmhg": [
+      261.89,
+      20.0
+    ],
+    "reason": "193 of 684 points above MAP (28.2%) still exceed 90% of the peak, so the envelope is a plateau rather than a decay and the systolic ratio crossing is not identifiable; a rigid bench chamber holds the pulse amplitude up instead of collapsing it the way a compressed artery does",
+    "sbp_ratio_sweep": [
+      {
+        "sbp_ratio": 0.4,
+        "sbp_mmhg": 261.74
+      },
+      {
+        "sbp_ratio": 0.45,
+        "sbp_mmhg": 260.39
+      },
+      {
+        "sbp_ratio": 0.5,
+        "sbp_mmhg": 245.15
+      },
+      {
+        "sbp_ratio": 0.55,
+        "sbp_mmhg": 244.85
+      },
+      {
+        "sbp_ratio": 0.6,
+        "sbp_mmhg": 245.4
+      },
+      {
+        "sbp_ratio": 0.65,
+        "sbp_mmhg": 243.34
+      },
+      {
+        "sbp_ratio": 0.7,
+        "sbp_mmhg": 243.68
+      }
+    ],
+    "dbp_ratio_sweep": [
+      {
+        "dbp_ratio": 0.4,
+        "dbp_mmhg": 179.83
+      },
+      {
+        "dbp_ratio": 0.45,
+        "dbp_mmhg": 179.81
+      },
+      {
+        "dbp_ratio": 0.5,
+        "dbp_mmhg": 180.37
+      },
+      {
+        "dbp_ratio": 0.55,
+        "dbp_mmhg": 180.42
+      },
+      {
+        "dbp_ratio": 0.6,
+        "dbp_mmhg": 196.33
+      },
+      {
+        "dbp_ratio": 0.65,
+        "dbp_mmhg": 196.55
+      },
+      {
+        "dbp_ratio": 0.7,
+        "dbp_mmhg": 196.8
+      }
+    ]
+  }
+]

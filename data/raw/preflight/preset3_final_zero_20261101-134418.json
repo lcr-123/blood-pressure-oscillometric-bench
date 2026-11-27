@@ -1,0 +1,48 @@
+{
+  "kind": "preset3_final_zero_gate",
+  "outcome": "pass",
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 100,
+      "pressure": {
+        "raw": {
+          "min": 1294,
+          "max": 1296,
+          "mean": 1295.2
+        },
+        "sensor": {
+          "min": 223,
+          "max": 224,
+          "mean": 223.36
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "closeout_confirmed": true,
+  "post_seal": {
+    "raw": {
+      "min": 1293,
+      "max": 1297,
+      "mean": 1295.1608040201006
+    },
+    "sensor": {
+      "min": 223,
+      "max": 224,
+      "mean": 223.2964824120603
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "post_seal_gate": true,
+  "raw_path": "data/raw/preflight/preset3_final_zero_20261101-134418.ndjson",
+  "sha256": "d0c2038c4cf538ff99ab25a17fae6d1e0d5452012268b2306782881e1dbfa66c"
+}

@@ -1,0 +1,312 @@
+{
+  "flow_median": 0.0978,
+  "per_preset": {
+    "1": {
+      "buckets": {
+        "0.085-0.105": {
+          "median_rate": 0.9487,
+          "n": 39,
+          "v2_rate": 0.9744
+        },
+        "0.105-0.120": {
+          "median_rate": 1.0,
+          "n": 3,
+          "v2_rate": 0.6667
+        },
+        "<0.085": {
+          "median_rate": 0.9583,
+          "n": 48,
+          "v2_rate": 0.9167
+        },
+        ">=0.120": {
+          "median_rate": 0.8,
+          "n": 5,
+          "v2_rate": 0.8
+        }
+      },
+      "fast_day_share": 0.2316,
+      "median_published": 90,
+      "median_rate": 0.9474,
+      "median_rate_clean": 0.9452,
+      "n": 95,
+      "refusals": {
+        "median": {
+          "between": 1,
+          "cost": 1,
+          "n": 3,
+          "saved": 1
+        },
+        "v2": {
+          "between": 0,
+          "cost": 6,
+          "n": 6,
+          "saved": 0
+        }
+      },
+      "v2_published": 88,
+      "v2_rate": 0.9263,
+      "v2_rate_clean": 0.9315
+    },
+    "2": {
+      "buckets": {
+        "0.085-0.105": {
+          "median_rate": 0.8333,
+          "n": 18,
+          "v2_rate": 1.0
+        },
+        "0.105-0.120": {
+          "median_rate": 0.0,
+          "n": 1,
+          "v2_rate": 0.0
+        },
+        "<0.085": {
+          "median_rate": 0.6667,
+          "n": 9,
+          "v2_rate": 1.0
+        },
+        ">=0.120": {
+          "median_rate": 1.0,
+          "n": 5,
+          "v2_rate": 1.0
+        }
+      },
+      "fast_day_share": 0.3939,
+      "median_published": 26,
+      "median_rate": 0.7879,
+      "median_rate_clean": 0.8,
+      "n": 33,
+      "refusals": {
+        "median": {
+          "between": 4,
+          "cost": 2,
+          "n": 6,
+          "saved": 0
+        },
+        "v2": {
+          "between": 0,
+          "cost": 0,
+          "n": 1,
+          "saved": 1
+        }
+      },
+      "v2_published": 32,
+      "v2_rate": 0.9697,
+      "v2_rate_clean": 0.95
+    },
+    "3": {
+      "buckets": {
+        "0.085-0.105": {
+          "median_rate": 0.8889,
+          "n": 9,
+          "v2_rate": 1.0
+        },
+        "0.105-0.120": {
+          "median_rate": 0.0,
+          "n": 1,
+          "v2_rate": 1.0
+        },
+        "<0.085": {
+          "median_rate": 0.7,
+          "n": 10,
+          "v2_rate": 0.7
+        },
+        ">=0.120": {
+          "median_rate": 0.3846,
+          "n": 13,
+          "v2_rate": 0.9231
+        }
+      },
+      "fast_day_share": 0.3939,
+      "median_published": 20,
+      "median_rate": 0.6061,
+      "median_rate_clean": 0.75,
+      "n": 33,
+      "refusals": {
+        "median": {
+          "between": 6,
+          "cost": 1,
+          "n": 11,
+          "saved": 4
+        },
+        "v2": {
+          "between": 0,
+          "cost": 2,
+          "n": 2,
+          "saved": 0
+        }
+      },
+      "v2_published": 29,
+      "v2_rate": 0.8788,
+      "v2_rate_clean": 0.8
+    },
+    "4": {
+      "buckets": {
+        "0.085-0.105": {
+          "median_rate": 0.7586,
+          "n": 29,
+          "v2_rate": 0.7931
+        },
+        "0.105-0.120": {
+          "median_rate": 0.7333,
+          "n": 15,
+          "v2_rate": 0.5333
+        },
+        "<0.085": {
+          "median_rate": 0.7857,
+          "n": 14,
+          "v2_rate": 0.5
+        },
+        ">=0.120": {
+          "median_rate": 0.25,
+          "n": 16,
+          "v2_rate": 0.5
+        }
+      },
+      "fast_day_share": 0.1733,
+      "median_published": 49,
+      "median_rate": 0.6533,
+      "median_rate_clean": 0.7419,
+      "n": 75,
+      "refusals": {
+        "median": {
+          "between": 6,
+          "cost": 1,
+          "n": 12,
+          "saved": 5
+        },
+        "v2": {
+          "between": 2,
+          "cost": 12,
+          "n": 14,
+          "saved": 0
+        }
+      },
+      "v2_published": 47,
+      "v2_rate": 0.6267,
+      "v2_rate_clean": 0.6613
+    },
+    "5": {
+      "buckets": {
+        "0.085-0.105": {
+          "median_rate": 1.0,
+          "n": 7,
+          "v2_rate": 1.0
+        },
+        "0.105-0.120": {
+          "median_rate": 1.0,
+          "n": 1,
+          "v2_rate": 0.0
+        },
+        "<0.085": {
+          "median_rate": 1.0,
+          "n": 3,
+          "v2_rate": 1.0
+        },
+        ">=0.120": {
+          "median_rate": 0.9,
+          "n": 10,
+          "v2_rate": 0.9
+        }
+      },
+      "fast_day_share": 0.4762,
+      "median_published": 20,
+      "median_rate": 0.9524,
+      "median_rate_clean": 1.0,
+      "n": 21,
+      "refusals": {
+        "v2": {
+          "between": 0,
+          "cost": 1,
+          "n": 1,
+          "saved": 0
+        }
+      },
+      "v2_published": 19,
+      "v2_rate": 0.9048,
+      "v2_rate_clean": 0.9091
+    },
+    "6": {
+      "buckets": {
+        "0.085-0.105": {
+          "median_rate": 1.0,
+          "n": 5,
+          "v2_rate": 1.0
+        },
+        "0.105-0.120": {
+          "median_rate": 1.0,
+          "n": 5,
+          "v2_rate": 0.8
+        },
+        "<0.085": null,
+        ">=0.120": {
+          "median_rate": 0.9,
+          "n": 10,
+          "v2_rate": 0.9
+        }
+      },
+      "fast_day_share": 0.4762,
+      "median_published": 19,
+      "median_rate": 0.9048,
+      "median_rate_clean": 0.9091,
+      "n": 21,
+      "refusals": {
+        "median": {
+          "between": 1,
+          "cost": 0,
+          "n": 1,
+          "saved": 0
+        },
+        "v2": {
+          "between": 0,
+          "cost": 2,
+          "n": 2,
+          "saved": 0
+        }
+      },
+      "v2_published": 18,
+      "v2_rate": 0.8571,
+      "v2_rate_clean": 0.8182
+    },
+    "7": {
+      "buckets": {
+        "0.085-0.105": {
+          "median_rate": 1.0,
+          "n": 2,
+          "v2_rate": 1.0
+        },
+        "0.105-0.120": {
+          "median_rate": 0.6667,
+          "n": 3,
+          "v2_rate": 0.6667
+        },
+        "<0.085": {
+          "median_rate": 1.0,
+          "n": 1,
+          "v2_rate": 1.0
+        },
+        ">=0.120": {
+          "median_rate": 0.9333,
+          "n": 15,
+          "v2_rate": 1.0
+        }
+      },
+      "fast_day_share": 0.4762,
+      "median_published": 19,
+      "median_rate": 0.9048,
+      "median_rate_clean": 0.9091,
+      "n": 21,
+      "refusals": {
+        "median": {
+          "between": 1,
+          "cost": 0,
+          "n": 1,
+          "saved": 0
+        }
+      },
+      "v2_published": 20,
+      "v2_rate": 0.9524,
+      "v2_rate_clean": 1.0
+    }
+  },
+  "records": 299
+}

@@ -1,0 +1,120 @@
+{
+  "run_id": "standard200_150_20261101-133011",
+  "dataset_role": "development",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 3",
+  "panel_sbp_mmhg": 200,
+  "panel_dbp_mmhg": 150,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.6,
+  "panel_evidence": "operator confirmed current settings and displayed pulse volume",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 220,
+  "host_abort_mmhg": 235,
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 78,
+  "host_target_reach_deadline_s": 12,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "outcome": "failed",
+  "closeout_confirmed": true,
+  "firmware_readback": [
+    "[Pressure] raw=1290 ads=161mV sensor=223mV est=0.0mmHg VALID",
+    "[Pressure] raw=1291 ads=161mV sensor=223mV est=0.0mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=HIGH_PRESSURE_CAPTURE_20261101 capacity=3300 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1291 ads=161mV sensor=223mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1291 ads=161mV sensor=223mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1290 ads=161mV sensor=223mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1292 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1290,
+      "max": 1293,
+      "mean": 1291.06
+    },
+    "sensor": {
+      "min": 223,
+      "max": 223,
+      "mean": 223.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "error": "TimeoutError('220 mmHg target not reached within 12 seconds')",
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 100,
+      "pressure": {
+        "raw": {
+          "min": 1296,
+          "max": 1300,
+          "mean": 1298.27
+        },
+        "sensor": {
+          "min": 224,
+          "max": 224,
+          "mean": 224.0
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "target_restored_mmhg": 50,
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=HIGH_PRESSURE_CAPTURE_20261101 capacity=3300 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Target] inflate target set to 220 mmHg (max safe=280)",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[DebugCmd] STOP",
+    "[Safety] STOP PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Target] inflate target set to 50 mmHg (max safe=280)"
+  ],
+  "fresh_samples": 513,
+  "capture_source_path": "data\\raw\\development_20261101\\standard200_150_20261101-133011.ndjson",
+  "capture_source_sha256": "b3c2634f038fbe1c627304d3d09bd2fc184e21e0fbfd600e6b3300b4830de4c7",
+  "script_sha256": "8f70eadd3bf574f94b3e97bb59554b59e7c3644e52b7379ccb573ccc37cce52a",
+  "panel_preset": 3,
+  "panel_preset_source": "bp_mode",
+  "panel_map_mmhg": 166,
+  "panel_map_source": "manual Table 3-2 (derived from the preset number)"
+}

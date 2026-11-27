@@ -1,0 +1,205 @@
+{
+  "stamp": "20261123",
+  "batch": "crosstday",
+  "batch_day": 8,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": -0.01,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "slope_mmhg_per_min": -25.302,
+    "p_start": 147.2,
+    "p_end": 106.9,
+    "n": 1200,
+    "duration_s": 59.95,
+    "target_mmhg": 150,
+    "hold_seconds": 60.0,
+    "outcome": "sealed_hold_completed",
+    "bands": [
+      {
+        "band_mmhg": [
+          100,
+          110
+        ],
+        "n": 337,
+        "span_s": 16.8,
+        "slope_mmhg_per_min": -10.908
+      },
+      {
+        "band_mmhg": [
+          110,
+          120
+        ],
+        "n": 576,
+        "span_s": 28.7,
+        "slope_mmhg_per_min": -20.027
+      },
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 201,
+        "span_s": 10.0,
+        "slope_mmhg_per_min": -57.616
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 70,
+        "span_s": 3.5,
+        "slope_mmhg_per_min": -163.356
+      }
+    ],
+    "source": "tmp\\omniprobe\\daily_leak_20261123b.result.json",
+    "settled_slope_mmhg_per_min": -11.27,
+    "settled_window": "40-60 s after the peak of the hold",
+    "settled_windows": {
+      "0-10s": -120.5,
+      "10-20s": -36.74,
+      "20-40s": -18.7,
+      "40-60s": -11.27
+    },
+    "history_comparison": "the settled 40-60 s slope came back to -11.27, so the -9.25 read on 11-22 did not repeat and now looks like a one-day excursion rather than a new regime. The 11-18..11-21 plateau was -11.11/-11.36/-11.64/-11.13.",
+    "leak_first_attempt": {
+      "source": "tmp/omniprobe/daily_leak_20261123.result.json",
+      "outcome": "failed",
+      "error": "RuntimeError('hold sensor/transport discontinuity: [Boot] after probe')",
+      "detail": "the MCU reset 15.3 s after start, while the pump had only reached about 0.8 mmHg. The full bring-up banner stream then appeared mid-capture and the \"hold sensor/transport discontinuity: [Boot] after probe\" guard voided the round. The retry 2 min later completed normally with an identical baseline.",
+      "reset_evidence": {
+        "reset_csr": "0x04000000",
+        "decoded": "PIN",
+        "local_time": "2026-11-23T11:14:37.846",
+        "seconds_after_start": 15.3,
+        "pressure_at_reset_mmhg": 0.8,
+        "pins_after": "PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF",
+        "fault_after": "code=0 NONE, ADSdiag errors=0 recoveries=0",
+        "interpretation": "pure PIN means NRST was pulled low while VDD stayed up. A power dip would also set PORRSTF, an IWDG timeout (4000 ms, debug-freeze=ON) would set IWDGRSTF, and a software reset would set SFTRSTF. None did."
+      }
+    }
+  },
+  "valve": {
+    "flow_mmhg_per_open_ms": 0.22057,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "outcome": "completed",
+    "steps": null,
+    "source": "tmp\\omniprobe\\daily_valve_20261123.result.json"
+  },
+  "sealed_zero_notes": {
+    "source": "tmp/omniprobe/zero_sanity_20261123_rerun.json (four-state probe)",
+    "seal_true_mmhg": -0.05,
+    "seal2_true_mmhg": 0.04,
+    "vent_true_mmhg": 0.04,
+    "coil_offset_mmhg": 0.09,
+    "sensor_mV": "241",
+    "raw_p2p": 3,
+    "note": "sealed zero -0.05 / +0.04 across the two sealed states, vent +0.04, so the coil offset is +0.09 by the first pair and +0.57 by the second. Both states sit inside +/-1; this is the smallest vent/seal spread of the batch."
+  },
+  "zero_arc": [
+    {
+      "time": "11:12",
+      "true_mmhg": -0.38,
+      "sensor_mV": "236..237",
+      "raw_p2p": 4,
+      "event": "open check; state IDLE, fault code=0 NONE, rx_errors=0, profile mode=normal"
+    },
+    {
+      "time": "11:13",
+      "true_mmhg": -0.01,
+      "sensor_mV": "241",
+      "raw_p2p": 3,
+      "event": "four-state probe: seal -0.05 / vent +0.04 / seal again +0.04"
+    },
+    {
+      "time": "11:14",
+      "true_mmhg": null,
+      "sensor_mV": null,
+      "raw_p2p": null,
+      "event": "MCU reset (reset_csr=0x04000000 PIN) 15.3 s after start; leak attempt voided"
+    },
+    {
+      "time": "11:14",
+      "true_mmhg": 0.45,
+      "sensor_mV": "246..248",
+      "raw_p2p": 10,
+      "event": "after reboot: state IDLE, fault code=0 NONE, ADSdiag errors=0 recoveries=0"
+    }
+  ],
+  "zero_arc_note": "the day opened without a latched fault (code=0 NONE, ADSdiag errors=0 recoveries=0) and with the profile in mode=normal, so unlike D6 the SENSOR_INIT workaround was not needed. The only disturbance was an MCU reset during the first leak hold, see leak_first_attempt.reset_evidence.",
+  "reset_evidence": {
+    "banner": "[Boot] reset_csr=0x04000000 PIN ",
+    "firmware_source": "blood pressure monitor/Core/Src/main.c:1877-1900",
+    "corpus_scan": "1991 ndjson files under tmp/omniprobe and data/raw contain exactly four reset banners, all 0x04000000 PIN-only: 2026-11-09T11:01:14 (dataset_step240b_20261109), 2026-11-10T18:11:09 (sag_test_20261110), 2026-11-21T11:11:52 (d6_state3), 2026-11-23T11:14:37 (daily_leak_20261123). data/raw contains none, so no recorded capture round has ever been cut short by a reset.",
+    "suspects": "NRST is reachable from the USB-serial DTR/RTS lines and the ST-Link. tmp/direct_serial_bridge_20261107.py:95 opens the port with serial.Serial(port, BAUD, timeout=0.05) and never asserts dtr/rts=False, so pyserial drives those lines on open. This matches the earlier D4/D5 note that \"dtr/rts 1/1 sometimes helps\" on a dead COM12, but the two were never correlated with RCC_CSR before today. Not fixed during the batch: changing the bridge would restart the batch."
+  },
+  "valve_history": [
+    {
+      "date": "2026-11-07",
+      "flow_mmhg_per_open_ms": 0.075
+    },
+    {
+      "date": "2026-11-06",
+      "flow_mmhg_per_open_ms": 0.14
+    },
+    {
+      "date": "2026-11-14",
+      "flow_mmhg_per_open_ms": 0.132
+    },
+    {
+      "date": "2026-11-16",
+      "flow_mmhg_per_open_ms": 0.24713
+    },
+    {
+      "date": "2026-11-17",
+      "flow_mmhg_per_open_ms": 0.26805
+    },
+    {
+      "date": "2026-11-18",
+      "flow_mmhg_per_open_ms": 0.30063
+    },
+    {
+      "date": "2026-11-19",
+      "flow_mmhg_per_open_ms": 0.31381
+    },
+    {
+      "date": "2026-11-20",
+      "flow_mmhg_per_open_ms": 0.33333
+    },
+    {
+      "date": "2026-11-21",
+      "flow_mmhg_per_open_ms": 0.32042
+    },
+    {
+      "date": "2026-11-22",
+      "flow_mmhg_per_open_ms": 0.1763
+    },
+    {
+      "date": "2026-11-23",
+      "flow_mmhg_per_open_ms": 0.22057
+    }
+  ],
+  "valve_width_detail": {
+    "width_3ms": {
+      "pulses": 16,
+      "drop_mmhg": 13.6,
+      "total_open_ms": 48,
+      "flow_mmhg_per_open_ms": 0.28333,
+      "flow_from_slope": 0.09927
+    },
+    "width_4ms": {
+      "pulses": 16,
+      "drop_mmhg": 10.1,
+      "total_open_ms": 64,
+      "flow_mmhg_per_open_ms": 0.15781,
+      "flow_from_slope": 0.13479
+    },
+    "note": "the blended flow recovered from 0.17630 to 0.22057, but unlike yesterday the two widths moved in opposite directions: 3 ms 0.11042 -> 0.28333 (up) and 4 ms 0.24219 -> 0.15781 (down). The blend therefore reflects which width dominates, not a common shift."
+  },
+  "no_temperature_reason": "dropped from the card on 2026-11-18 at the operator request (no thermometer with one-decimal resolution). Kept null rather than back-filled; see crosstday_d03_20261118.md section 1.2.",
+  "profile_note": "the profile was mode=normal at 11:12 for the second day running, so the per-round \"set peak on site\" path applies. D6's worry that peak mode would survive across days still has not materialised."
+}

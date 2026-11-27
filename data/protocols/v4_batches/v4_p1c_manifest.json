@@ -1,0 +1,25 @@
+{
+  "tag": "v4_p1c",
+  "preset": 1,
+  "panel_sbp": 120,
+  "panel_dbp": 80,
+  "panel_map": 93,
+  "pulse_volume_cc": 0.68,
+  "target_mmhg": 275,
+  "requested_rounds": 1,
+  "started": "2026-11-12T15:19:59",
+  "rounds": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-152000",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.69"
+    }
+  ],
+  "finished": "2026-11-12T15:23:34",
+  "captures_kept": 1,
+  "attempts": 1
+}

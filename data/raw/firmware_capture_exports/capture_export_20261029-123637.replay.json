@@ -1,0 +1,124 @@
+{
+  "source": "offline production C; host floating point, not target validation",
+  "n": 2201,
+  "duration_ms": 55000,
+  "interval_min_ms": 25,
+  "interval_max_ms": 25,
+  "capture_cal_valid": 1,
+  "raw_voltage_source": "reconstructed sensor V",
+  "valve": {
+    "schema": "bp.capture/3",
+    "type": "valve",
+    "pulses": 276,
+    "period_min": 200,
+    "period_max": 200,
+    "on_min": 1,
+    "on_max": 6,
+    "threshold": 1084227584,
+    "steps": 7,
+    "phase": [
+      6,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rise_found": 1,
+    "rise_i": 153,
+    "rise_d": 1086755648,
+    "rise_phase": 48,
+    "rise_on": 6,
+    "fall_found": 1,
+    "fall_i": 152,
+    "fall_d": 3239292568,
+    "fall_phase": 23,
+    "fall_on": 6,
+    "trace_n": 7
+  },
+  "steps": [
+    {
+      "schema": "bp.capture/3",
+      "type": "step",
+      "i": 152,
+      "phase": 23,
+      "on": 6
+    },
+    {
+      "schema": "bp.capture/3",
+      "type": "step",
+      "i": 153,
+      "phase": 48,
+      "on": 6
+    },
+    {
+      "schema": "bp.capture/3",
+      "type": "step",
+      "i": 168,
+      "phase": 23,
+      "on": 5
+    },
+    {
+      "schema": "bp.capture/3",
+      "type": "step",
+      "i": 1000,
+      "phase": 23,
+      "on": 5
+    },
+    {
+      "schema": "bp.capture/3",
+      "type": "step",
+      "i": 1232,
+      "phase": 23,
+      "on": 5
+    },
+    {
+      "schema": "bp.capture/3",
+      "type": "step",
+      "i": 1504,
+      "phase": 23,
+      "on": 5
+    },
+    {
+      "schema": "bp.capture/3",
+      "type": "step",
+      "i": 1744,
+      "phase": 23,
+      "on": 5
+    }
+  ],
+  "source_sha256": {
+    "Core\\Src\\bp_algorithm.c": "b7ff3b2d8cab12b2003c6e63af9c6c6701ac5a319d1d364e1e4b6cefe99e72e3",
+    "Core\\Inc\\bp_algorithm.h": "ac54c84765d03795313902cc098202003254bfc03843929fd850d9f6b54250f8",
+    "Core\\Src\\bp_capture_export.c": "2d51f726c99d2a7e5cb0e1c291cf666595d5b4eab5b3acf5a4c152deef4799ea",
+    "Core\\Inc\\bp_capture_export.h": "d781642e468a6d9a437751b6a68d97b802f71de513ac1173c7f9e9d275a32b1e",
+    "Core\\Inc\\bp_control.h": "d7ff4f5401fdafbe765a818ca2d4a20fd99095b0c727e60256545786f5f47ff6",
+    "tools\\host\\bp_replay.c": "ac51a20a9e1f691f231c302c32ec025ab046238b5096da3fe59fcf23cf4f3c42"
+  },
+  "result": {
+    "type": "replay",
+    "firmware": "CAPTURE_STEP_TRACE_20261029",
+    "valid": 1,
+    "sbp": 120,
+    "dbp": 68,
+    "pulse": 33,
+    "map_i": 983,
+    "map_p": 1117837490,
+    "sbp_found": 1,
+    "sbp_p": 1124235933,
+    "dbp_found": 1,
+    "dbp_p": 1116916172,
+    "sbp_ratio": 0.5,
+    "dbp_ratio": 0.6
+  },
+  "comparison": {
+    "max_envelope_abs_error_v": 0.0,
+    "max_smooth_abs_error_v": 0.0,
+    "envelope_bits_equal": true,
+    "feature_bits_equal": true,
+    "validity_equal": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "outcome": "load_off_logic_switch_pass",
+  "load_power": "OFF per operator confirmation",
+  "bp_stop": true,
+  "nonhuman": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "nominal_open_seconds": 0.25,
+  "pneumatic_closeout_confirmed": true,
+  "baseline": {
+    "count": 100,
+    "summary": {
+      "raw": {
+        "min": 1311,
+        "max": 1314,
+        "mean": 1312.05
+      },
+      "sensor": {
+        "min": 226,
+        "max": 227,
+        "mean": 226.01
+      },
+      "est": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "holdopen_host_start": "2026-10-31T15:48:44.656554+08:00",
+  "close_host_confirmed": "2026-10-31T15:48:44.979534+08:00",
+  "post_switch": {
+    "count": 100,
+    "summary": {
+      "raw": {
+        "min": 1310,
+        "max": 1313,
+        "mean": 1311.74
+      },
+      "sensor": {
+        "min": 226,
+        "max": 226,
+        "mean": 226.0
+      },
+      "est": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "post_fault": [
+    "[Pressure] raw=1312 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "stack": [
+    "[Pressure] raw=1310 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Stack] used=1184 free=2912 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "events": [
+    "[HoldOpen] PB8=LOW PC1=LOW PC8=HIGH timeout=15s NONHUMAN",
+    "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Stack] used=1184 free=2912 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "raw_path": "data\\raw\\development_20261031\\valve1_load_off_20261031-154839.ndjson",
+  "raw_sha256": "0178829c6bb360cf607c06e2a1a3852d27f4614776148c1f9515fc374709f202"
+}

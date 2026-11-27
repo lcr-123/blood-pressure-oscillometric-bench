@@ -1,0 +1,73 @@
+{
+  "outcome": "passed",
+  "nonhuman_fixture": true,
+  "inflation": false,
+  "closeout_confirmed": true,
+  "before": {
+    "raw": {
+      "min": 1325,
+      "max": 1329,
+      "mean": 1326.89
+    },
+    "sensor": {
+      "min": 229,
+      "max": 229,
+      "mean": 229.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 99,
+      "pressure": {
+        "raw": {
+          "min": 1326,
+          "max": 1329,
+          "mean": 1327.5656565656566
+        },
+        "sensor": {
+          "min": 229,
+          "max": 229,
+          "mean": 229.0
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "timing": {
+    "schema": "bp.capture/4",
+    "type": "timing",
+    "n": 25,
+    "errors": 0,
+    "complete": 1
+  },
+  "point_count": 200,
+  "widths_ms": [
+    5
+  ],
+  "stack": [
+    "[Pressure] raw=1327 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Pressure] raw=1328 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Stack] used=1624 free=2472 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "pins": [
+    "[Pressure] raw=1327 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fault": [
+    "[Pressure] raw=1328 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "raw_sha256": "38d3e5cfc6af3d7b9a8052182cba127b585385b0de2433c46e440c28ffe26ad7"
+}

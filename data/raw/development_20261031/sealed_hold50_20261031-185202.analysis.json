@@ -1,0 +1,66 @@
+{
+  "source_metadata": "data\\raw\\development_20261031\\sealed_hold50_20261031-185202.metadata.json",
+  "timing": "host serial receive timestamps",
+  "pressure_points": {
+    "0": {
+      "elapsed_s": 0.0,
+      "mmhg": 43.6
+    },
+    "5": {
+      "elapsed_s": 5.0,
+      "mmhg": 36.7
+    },
+    "15": {
+      "elapsed_s": 14.999,
+      "mmhg": 34.2
+    },
+    "30": {
+      "elapsed_s": 29.998,
+      "mmhg": 32.3
+    },
+    "45": {
+      "elapsed_s": 44.998,
+      "mmhg": 30.9
+    },
+    "60": {
+      "elapsed_s": 59.997,
+      "mmhg": 29.7
+    },
+    "75": {
+      "elapsed_s": 74.946,
+      "mmhg": 28.6
+    }
+  },
+  "windows": [
+    {
+      "start_s": 0,
+      "end_s": 15,
+      "count": 301,
+      "first_mmhg": 43.6,
+      "last_mmhg": 34.2,
+      "actual_duration_s": 14.999,
+      "endpoint_loss_mmhg_per_min": 37.60250683378891,
+      "linear_fit_loss_mmhg_per_min": 24.29616752377619
+    },
+    {
+      "start_s": 15,
+      "end_s": 75,
+      "count": 1199,
+      "first_mmhg": 34.2,
+      "last_mmhg": 28.6,
+      "actual_duration_s": 59.897,
+      "endpoint_loss_mmhg_per_min": 5.6096298646009,
+      "linear_fit_loss_mmhg_per_min": 5.3592264953417725
+    },
+    {
+      "start_s": 45,
+      "end_s": 75,
+      "count": 599,
+      "first_mmhg": 30.9,
+      "last_mmhg": 28.6,
+      "actual_duration_s": 29.897999999999996,
+      "endpoint_loss_mmhg_per_min": 4.615693357415207,
+      "linear_fit_loss_mmhg_per_min": 4.668718375102488
+    }
+  ]
+}

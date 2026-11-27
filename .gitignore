@@ -1,0 +1,58 @@
+# 工作区临时目录（含工具副本、嵌套仓库、一次性抓包）
+tmp/
+
+# 发布包暂存区（由 tools/release_package.py 生成，字节已在 data/raw 里）
+dist/
+
+# 厂商工具安装包（体积大，可从厂商获取，不入库）
+软件下载/
+
+# 逐样本遥测：每轮 3.3 MB，全库 2.2 GB，占 data/raw 的 88%。
+# 没有任何估计器读它（tools/reference_bp.py 只读 export 里的 p/e/s），
+# 唯一被报告引用的内容是固件自己打的 [BP] SBP/DBP/Pulse 那一行，
+# 已由 tools/extract_device_verdicts.py 抽成 data/device_verdicts.json 入库。
+# 2026-11-26 起不再跟踪；工作区副本保留，需要时可重新生成本地索引。
+data/raw/**/*.ndjson
+data/raw/*.ndjson
+data/raw/**/*.jsonl
+data/raw/*.jsonl
+# 但导出帧是数据集本体，必须继续跟踪。
+!data/raw/**/*.export.ndjson
+!data/raw/*.export.ndjson
+
+# 来源未确认的早期遥测（2026-09-23 / 10-17 / 10-18 三次实验）。
+# human_* 与 nonhuman_160_test 同一晚、同一固件、同一 160 mmHg 目标，
+# 现有任何指标都无法区分二者，无法排除含真人数据。
+# 在不确认来源前不得随数据集发布，见 data/reports/dataset_scope_statement.md。
+data/raw/human_*.ndjson
+data/raw/human_v2_*.ndjson
+data/raw/nonhuman_160_test.ndjson
+data/raw/bppump_*.ndjson
+data/raw/pulse_step_*.ndjson
+data/raw/static_cal_*.jsonl
+data/raw/cal_watch*.jsonl
+
+# 历史归档：第三方 Ansur 插件（8.7 MB exe）与 12 张论文页 PNG。
+# LICENSE.md 已声明"未获授权再分发"，2026-11-26 从 HEAD 移除，工作区保留。
+archive/
+
+# 上位机/云桥接原型（未完成、未审查；内含明码 broker 地址与口令，
+# 见 cloud/dashboard/bp_dashboard.html 与 cloud/esp8266/bp_gateway/bp_gateway.ino）。
+# 2026-11-26 加入：此目录从未被提交过，加进来是为了让 `git add -A` 不会失手带上去。
+# 要用它之前先脱敏（改成从环境变量/本地配置读），并跑 python tools/scan_secrets.py。
+cloud/
+
+# 代码索引 / 编辑器 / 工具链状态
+.codegraph/
+.codeartsdoer/
+.arts/
+.codex/
+.spec-workflow/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# Windows 系统文件
+Thumbs.db
+desktop.ini

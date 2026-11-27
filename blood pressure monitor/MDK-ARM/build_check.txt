@@ -1,0 +1,13 @@
+*** Using Compiler 'V6.22', folder: 'D:\Keli5\ARM\ARMCLANG\Bin'
+Build target 'blood pressure monitor'
+../Core/Src/bp_cal.c(56): error: no member named 'Page' in 'FLASH_EraseInitTypeDef'
+   56 |     erase.Page = BP_CAL_FLASH_ADDR;
+      |     ~~~~~ ^
+1 error generated.
+compiling bp_cal.c...
+compiling ads1115.c...
+compiling bp_control.c...
+compiling main.c...
+"blood pressure monitor\blood pressure monitor.axf" - 1 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:03

@@ -1,0 +1,83 @@
+{
+  "outcome": "passed",
+  "closeout_confirmed": true,
+  "physical_inflation": false,
+  "related_run": "standard255_195_target275_peakwindow_20261105-123135",
+  "initial_pins": [
+    "[Pressure] raw=1450 ads=181mV sensor=250mV est=0.7mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "before": {
+    "raw": {
+      "min": 1446,
+      "max": 1450,
+      "mean": 1448.07
+    },
+    "sensor": {
+      "min": 249,
+      "max": 250,
+      "mean": 249.95
+    },
+    "est": {
+      "min": 0.6,
+      "max": 0.7,
+      "mean": 0.695
+    }
+  },
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 99,
+      "pressure": {
+        "raw": {
+          "min": 1337,
+          "max": 1351,
+          "mean": 1346.5252525252524
+        },
+        "sensor": {
+          "min": 231,
+          "max": 233,
+          "mean": 232.34343434343435
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "extended_sealed_observation": {
+    "raw": {
+      "min": 1349,
+      "max": 1359,
+      "mean": 1355.2933333333333
+    },
+    "sensor": {
+      "min": 233,
+      "max": 234,
+      "mean": 233.77666666666667
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "profile": [
+    "[Pressure] raw=1357 ads=170mV sensor=234mV est=0.0mmHg VALID",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "fault": [
+    "[Pressure] raw=1358 ads=170mV sensor=234mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3273 capacity=4200 dropped=0 duration=81800ms interval=25ms"
+  ],
+  "pins": [
+    "[Pressure] raw=1359 ads=170mV sensor=234mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "raw_sha256": "b90ca4c71d2b18d64ff24a16e9b0d101008c09e258c22b1f6c2e115a9611029d"
+}

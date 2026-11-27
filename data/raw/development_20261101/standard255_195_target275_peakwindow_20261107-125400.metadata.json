@@ -1,0 +1,84 @@
+{
+  "run_id": "standard255_195_target275_peakwindow_20261107-125400",
+  "dataset_role": "development_failure_example",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 4",
+  "panel_sbp_mmhg": 255,
+  "panel_dbp_mmhg": 195,
+  "panel_map_mmhg": 215,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.55,
+  "panel_evidence": "operator confirmed Preset 4 before the run; no panel photo or independent readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 282,
+  "host_abort_note": "inflate stops on est >= target but the pump coasts a few mmHg: observed 275.2 and 278.1 for target 275, so a 278 ceiling aborted the run never mind the firmware max safe of 280",
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "peak fixed 200..245mmHg at1.8mmHg/s; outside3.0mmHg/s",
+  "peak_window_mmhg": [
+    200,
+    245
+  ],
+  "peak_window_target_speed_mmhg_s": 1.8,
+  "outside_target_speed_mmhg_s": 3.0,
+  "outcome": "aborted",
+  "closeout_confirmed": false,
+  "firmware_readback": [
+    "[Pressure] raw=1403 ads=175mV sensor=242mV est=0.0mmHg VALID",
+    "[Pressure] raw=1402 ads=175mV sensor=242mV est=0.0mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1402 ads=175mV sensor=242mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1402 ads=175mV sensor=242mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1402 ads=175mV sensor=242mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1403 ads=175mV sensor=242mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=4 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0501 pb=0xFF39 scl=0 sda=0"
+  ],
+  "initial_rx_errors": 0,
+  "accepted_rx_errors": 0,
+  "error": "RuntimeError('initial sensor fault')",
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=4 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0501 pb=0xFF39 scl=0 sda=0"
+  ],
+  "fresh_samples": 6,
+  "capture_source_path": "data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261107-125400.ndjson",
+  "capture_source_sha256": "1a463bd82d93646dd10a6aefe711a81f594d68081d660229891b8d8521b6e57f",
+  "script_sha256": "fc306e52c344fb90129db1396b1a7f7b10f509da10f895c341aea1bdf7a003e9",
+  "exclusion_category": "preflight_ads_fault_latch",
+  "exclusion_reason": "initial fault rule still rejected the already-recovered SENSOR_READ latch; no inflation occurred",
+  "abort_stage": "preflight",
+  "capture_attempted": false,
+  "panel_preset": 4,
+  "panel_preset_source": "bp_mode",
+  "panel_map_source": "manual Table 3-2 (derived from the preset number)"
+}

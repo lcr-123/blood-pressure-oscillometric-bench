@@ -1,0 +1,93 @@
+{
+  "run_id": "standard150_100_target275_peakwindow_20261114-115107",
+  "dataset_role": "prospective_validation",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 2",
+  "panel_preset": 2,
+  "panel_sbp_mmhg": 150,
+  "panel_dbp_mmhg": 100,
+  "panel_map_mmhg": 116,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.65,
+  "panel_evidence": "operator confirmed Preset 2 before the run; no panel photo or independent readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 282,
+  "host_abort_note": "inflate stops on est >= target but the pump coasts a few mmHg: observed 275.2 and 278.1 for target 275, so a 278 ceiling aborted the run never mind the firmware max safe of 280",
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "peak fixed 200..245mmHg at1.8mmHg/s; outside3.0mmHg/s",
+  "peak_window_mmhg": [
+    200,
+    245
+  ],
+  "peak_window_target_speed_mmhg_s": 1.8,
+  "outside_target_speed_mmhg_s": 3.0,
+  "outcome": "failed",
+  "closeout_confirmed": false,
+  "firmware_readback": [
+    "[Pressure] raw=956 ads=120mV sensor=165mV est=0.0mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=957 ads=120mV sensor=165mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=557 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=957 ads=120mV sensor=165mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=958 ads=120mV sensor=165mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=957 ads=120mV sensor=165mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=3 status=1 reg=0x01 err=0x00000020 state=0x20 sr1=0x0200 sr2=0x0000 errors=15 recoveries=15",
+    "[ADSbus] cr1=0x0001 pb=0xFFFB scl=1 sda=1"
+  ],
+  "initial_rx_errors": 557,
+  "accepted_rx_errors": 557,
+  "initial_fault_counters": [
+    [
+      15,
+      15
+    ]
+  ],
+  "initial_ads_error_history": [
+    "[ADSdiag] stage=3 status=1 reg=0x01 err=0x00000020 state=0x20 sr1=0x0200 sr2=0x0000 errors=15 recoveries=15"
+  ],
+  "initial_user_stop_latched": false,
+  "pre_capture_purge": true,
+  "pre_capture_zero_gate_mmhg": 5.0,
+  "pre_capture_zero_gate": "raw below 1000 counts (open input?)",
+  "error": "RuntimeError('unloaded zero baseline failed: raw below 1000 counts (open input?)')",
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=557 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=3 status=1 reg=0x01 err=0x00000020 state=0x20 sr1=0x0200 sr2=0x0000 errors=15 recoveries=15",
+    "[ADSbus] cr1=0x0001 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=3689 capacity=4200 dropped=0 duration=92200ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW"
+  ],
+  "fresh_samples": 227,
+  "capture_source_path": "data\\raw\\development_20261101\\standard150_100_target275_peakwindow_20261114-115107.ndjson",
+  "capture_source_sha256": "0d320c0edb8e4139a1e3b234b1735c1eed62f99b27401457460bfc776c04cc95",
+  "script_sha256": "59f6c46a6049bc076349fc9941b43d1a53f847f8b1b0979a11367576975c4490"
+}

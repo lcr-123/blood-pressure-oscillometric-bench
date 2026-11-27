@@ -1,0 +1,59 @@
+本目录及其子目录的数据按 CC BY 4.0 授权
+========================================
+
+Data in this directory and its subdirectories is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+许可全文（唯一有法律效力的版本）：
+<https://creativecommons.org/licenses/by/4.0/legalcode>
+
+人类可读摘要（不构成许可本身）：
+<https://creativecommons.org/licenses/by/4.0/>
+
+适用范围
+--------
+
+- `data/raw/**`：示波法袖带压力波形导出（`*.export.ndjson`）、逐样本遥测（`*.ndjson`）、
+  逐轮元数据（`*.metadata.json`）。
+- `data/reports/**`：分析报告、图表与机器可读结果 JSON。
+- `data/protocols/**`：采集协议、修订（amend）与冻结记录。
+- `data/manifest.csv`、`data/manifest.json`、`data/checksums.sha256`。
+- `data/capture_protocol_v1.md`、`data/dataset_dictionary.md`、`data/README.md`。
+
+不在本许可范围内的内容见仓库根目录 [`LICENSE.md`](../LICENSE.md)。
+
+CC BY 4.0 要求你做什么
+----------------------
+
+你可以复制、再分发、修改、商用，无需事先许可，但必须：
+
+1. **署名**（BY）——注明数据来自本仓库与作者，并提供许可链接。
+2. **标明变更**——若修改、裁剪或重算过数据，须说明改了什么。
+3. **不得增加额外限制**——不能对再分发施加法律条款或技术措施去限制他人按本许可使用。
+
+四件事本许可**不**管，但引用时你的责任
+--------------------------------------
+
+许可只约束版权。以下三件事来自学术与安全义务，不来自 CC BY 4.0，但引用本数据时必须一并遵守：
+
+1. 按 `data/reports/dataset_limitations.md`「引用时必须声明的最小集」逐条声明采集条件与边界。
+2. 声明这是**非人体台架数据**，真值是 BP Pump 2 模拟器，**不是临床验证**，不能宣称符合
+   ISO 81060-2 或任何临床精度标准。
+3. 说明**压力轴口径**：2026-11-26 之前采集的 645 份导出记录的是旧轴 `82.326 / -19.887`，
+   之后采的记录新轴 `81.529 / -20.03`；跨轴混合统计会让结论偏 1–3 mmHg。
+
+推荐署名文字
+------------
+
+> 数据来自「示波法袖带压力波形采集工程」（linchuangrui, 2026），
+> 许可 CC BY 4.0，<https://creativecommons.org/licenses/by/4.0/>。
+> 采集于非人体台架，真值为 BP Pump 2 模拟器；边界与口径见仓库
+> `data/reports/dataset_limitations.md`。
+
+英文：
+
+> Data from the oscillometric cuff-pressure waveform acquisition project
+> (linchuangrui, 2026), licensed CC BY 4.0,
+> <https://creativecommons.org/licenses/by/4.0/>. Collected on a non-human
+> bench with a BP Pump 2 simulator as the reference; see
+> `data/reports/dataset_limitations.md` for limits and conventions.

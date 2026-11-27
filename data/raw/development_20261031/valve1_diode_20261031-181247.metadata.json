@@ -1,0 +1,78 @@
+{
+  "outcome": "failed",
+  "valve_trial_outcome": "not_started",
+  "closeout_confirmed": false,
+  "nonhuman_fixture": true,
+  "operator_authorization": "User requests powered valve open/close after user reports completion of the instructed diode wiring",
+  "added_diode": true,
+  "diode_installation_evidence": "operator OK after wiring instructions",
+  "diode_model_and_polarity_independently_verified": false,
+  "pump_physically_isolated": false,
+  "pump_commanded_on": false,
+  "hardware_voltage_independently_measured": false,
+  "nominal_on_seconds": 0.25,
+  "actual_gpio_pulse_width_measured": false,
+  "pressure_ceiling_mmhg": 5,
+  "freshness_seconds": 2,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "target_changed": false,
+  "status_before": [
+    "[Pressure] raw=1263 ads=158mV sensor=218mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_before": [
+    "[Pressure] raw=1264 ads=158mV sensor=218mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration": [
+    "[Pressure] raw=1263 ads=158mV sensor=218mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "fault_before": [
+    "[Pressure] raw=1262 ads=158mV sensor=218mV est=0.0mmHg VALID",
+    "[Fault] code=4 name=SENSOR_READ age=160638ms",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0801 pb=0xFFFB scl=1 sda=1"
+  ],
+  "error": "RuntimeError('unexpected initial fault')",
+  "fault_final": [
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Pressure] raw=1263 ads=158mV sensor=218mV est=0.0mmHg VALID",
+    "[Fault] code=4 name=SENSOR_READ age=160689ms",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0801 pb=0xFFFB scl=1 sda=1"
+  ],
+  "status_final": [
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Pressure] raw=1264 ads=158mV sensor=218mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_final": [
+    "[Pressure] raw=1264 ads=158mV sensor=218mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "diagnostic_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=4 name=SENSOR_READ age=160638ms",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0801 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Fault] code=4 name=SENSOR_READ age=160689ms",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0801 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fresh_samples": 7,
+  "raw_path": "data/raw/development_20261031/valve1_diode_20261031-181247.ndjson",
+  "raw_sha256": "1728a293a4f6ae023706d733335acbf6233aa69aa1cdbf0e3f081c9c7bdc221b",
+  "script_sha256": "abb9c6bddb0b1b5cca30f4d9e1c2e1f04408fb1e719838ba323ee3ccfe959dba"
+}

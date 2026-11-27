@@ -1,0 +1,32 @@
+{
+  "id": "bp-firmware-bringup",
+  "name": "bp-firmware-bringup",
+  "title": "Bring up blood pressure monitor firmware",
+  "description": "",
+  "status": "in_progress",
+  "dev_type": "firmware",
+  "scope": "firmware",
+  "package": "firmware",
+  "priority": "P1",
+  "creator": "linchuangrui",
+  "assignee": "linchuangrui",
+  "createdAt": "2026-06-19",
+  "completedAt": null,
+  "branch": null,
+  "base_branch": "main",
+  "worktree_path": null,
+  "commit": null,
+  "pr_url": null,
+  "subtasks": [],
+  "children": [],
+  "parent": null,
+  "relatedFiles": [
+    "blood pressure monitor/Core/Inc/",
+    "blood pressure monitor/Core/Src/",
+    "blood pressure monitor/blood pressure monitor.ioc",
+    "血压仪完整接线方案.md",
+    ".trellis/spec/firmware/core/"
+  ],
+  "notes": "Project was initialized with generic Trellis templates; this task adapts the workflow to STM32 blood pressure monitor firmware bring-up.",
+  "meta": {}
+}

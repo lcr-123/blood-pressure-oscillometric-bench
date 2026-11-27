@@ -1,0 +1,69 @@
+{
+  "valid_sealed_hold_comparison": false,
+  "invalid_reason": "SENSOR_READ plus missing samples around pump-stop; original outcome describes completion only",
+  "target_reached_mmhg": 30.7,
+  "pressure_sample_count": 256,
+  "max_host_timestamp_gap_ms": 1067,
+  "failure_lines": [
+    {
+      "timestamp": 1793428390119,
+      "direction": "rx",
+      "text": "��[Pressure] sample failed status=2; will retry init",
+      "truncated": false
+    },
+    {
+      "timestamp": 1793428390130,
+      "direction": "rx",
+      "text": "[Stream] read failed; offline retry interval=1000ms",
+      "truncated": false
+    }
+  ],
+  "hold_observation": {
+    "sample_count": 82,
+    "summary": {
+      "raw": {
+        "min": 2625,
+        "max": 2792,
+        "mean": 2686.3048780487807
+      },
+      "sensor": {
+        "min": 453,
+        "max": 482,
+        "mean": 463.3536585365854
+      },
+      "est": {
+        "min": 17.4,
+        "max": 19.8,
+        "mean": 18.25487804878049
+      }
+    },
+    "first": {
+      "timestamp": 1793428391106,
+      "raw": 2780,
+      "ads": 348,
+      "sensor": 480,
+      "est": 19.6,
+      "valid": "VALID"
+    },
+    "last": {
+      "timestamp": 1793428395148,
+      "raw": 2629,
+      "ads": 329,
+      "sensor": 453,
+      "est": 17.4,
+      "valid": "VALID"
+    },
+    "host_timestamp_duration_s": 4.042,
+    "mean_loss_mmhg_per_s": 0.544285007422069
+  },
+  "pneumatic_closeout_confirmed": true,
+  "postflight": {
+    "sample_count": 200,
+    "min_mmhg": 0.7,
+    "max_mmhg": 0.8,
+    "new_failure_lines": []
+  },
+  "raw_sha256": "c63004e949dae0ad28b7645c83ad9953f21a659d245beddc7f7ca5580ae2d014",
+  "postflight_sha256": "45b2b6ec84b988c55751320fc8e9bd39fbae4264ce7af02dffa84e11945fc3f7",
+  "limits": "Pressure estimates from sensor only; host timestamps, not MCU sampling cadence; no independent reference pressure."
+}

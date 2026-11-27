@@ -1,0 +1,181 @@
+{
+  "stamp": "20261118",
+  "batch": "crosstday",
+  "batch_day": 3,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": -0.95,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "slope_mmhg_per_min": -24.921,
+    "p_start": 145.3,
+    "p_end": 104.9,
+    "n": 1200,
+    "duration_s": 59.94,
+    "target_mmhg": 150,
+    "hold_seconds": 60.0,
+    "outcome": "sealed_hold_completed",
+    "bands": [
+      {
+        "band_mmhg": [
+          100,
+          110
+        ],
+        "n": 404,
+        "span_s": 24.9,
+        "slope_mmhg_per_min": -9.41
+      },
+      {
+        "band_mmhg": [
+          110,
+          120
+        ],
+        "n": 535,
+        "span_s": 32.0,
+        "slope_mmhg_per_min": -19.565
+      },
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 186,
+        "span_s": 10.7,
+        "slope_mmhg_per_min": -60.1
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 65,
+        "span_s": 3.2,
+        "slope_mmhg_per_min": -174.514
+      }
+    ],
+    "source": "tmp\\omniprobe\\daily_leak_20261118.result.json",
+    "settled_slope_mmhg_per_min": -11.15,
+    "settled_window": "40-60 s after the peak of the hold",
+    "transient_note": "the all-window slope is dominated by the first 10 s (-115 mmHg/min while the column relaxes), so compare the settled 40-60 s slope, not the headline number",
+    "settled_windows_mmhg_per_min": {
+      "0-10s": -115.0,
+      "10-20s": -35.88,
+      "20-40s": -18.44,
+      "40-60s": -11.15
+    },
+    "pressure_dependence": [
+      {
+        "target_mmhg": 150,
+        "settled_40_60": -11.15,
+        "source": "tmp/omniprobe/daily_leak_20261118.result.json"
+      }
+    ]
+  },
+  "valve": {
+    "flow_mmhg_per_open_ms": 0.30063,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "outcome": "completed",
+    "steps": null,
+    "source": "tmp\\omniprobe\\daily_valve_20261118.result.json"
+  },
+  "sealed_zero_notes": {
+    "source": "tmp/omniprobe/d3_zero_fixed.result.json (BASELINE n=120)",
+    "seal_true_mmhg": -0.95,
+    "sensor_mV": "230..231",
+    "raw_p2p": 3,
+    "note": "final value used for the day, measured after the loose sensor wire was reseated at about 11:54"
+  },
+  "history_comparison": "settled 40-60 s at 150 mmHg: today -11.15; 2026-11-17 -11.26 and -9.90; 2026-11-16 -5.76; 2026-11-07 rewrap -5.50. Today matches the two 11-17 readings, so the roughly 2x step against 11-07 is still present and stable.",
+  "valve_history": [
+    {
+      "date": "2026-11-07",
+      "flow_mmhg_per_open_ms": 0.075
+    },
+    {
+      "date": "2026-11-06",
+      "flow_mmhg_per_open_ms": 0.14
+    },
+    {
+      "date": "2026-11-14",
+      "flow_mmhg_per_open_ms": 0.132
+    },
+    {
+      "date": "2026-11-16",
+      "flow_mmhg_per_open_ms": 0.24713
+    },
+    {
+      "date": "2026-11-17",
+      "flow_mmhg_per_open_ms": 0.26805
+    },
+    {
+      "date": "2026-11-18",
+      "flow_mmhg_per_open_ms": 0.30063
+    }
+  ],
+  "valve_width_detail": {
+    "width_ms": 4,
+    "pulses": 15,
+    "drop_mmhg": 19.2,
+    "total_open_ms": 60,
+    "flow_mmhg_per_open_ms": 0.32,
+    "flow_from_slope": 0.27742,
+    "note": "the width-4ms probe reads 0.32 while the stamp-level answer is 0.30063 blended from both widths; the upward trend across 11-16/17/18 is monotone"
+  },
+  "zero_step_note": "the +4.9 mmHg sealed-zero step seen at 10:17 was cleared by an MCU reset at ~11:08 without touching temperature, tubing or the sensor. That is evidence for an MCU/power-up state contribution, not for a thermal offset; the DHT11 route was therefore dropped for this batch (see data/protocols/reference_bp_batch_crosstday_v1.md §2.3, hand-recorded temperature).",
+  "zero_arc": [
+    {
+      "time": "10:17",
+      "true_mmhg": 4.24,
+      "sensor_mV": "288..294",
+      "raw_p2p": 35,
+      "event": "open check"
+    },
+    {
+      "time": "10:45",
+      "true_mmhg": 2.67,
+      "sensor_mV": "274..275",
+      "raw_p2p": 4,
+      "event": "self-decay"
+    },
+    {
+      "time": "10:51",
+      "true_mmhg": 2.83,
+      "sensor_mV": "276",
+      "raw_p2p": 4,
+      "event": "self-decay"
+    },
+    {
+      "time": "11:12",
+      "true_mmhg": -0.29,
+      "sensor_mV": 238,
+      "raw_p2p": 3,
+      "event": "MCU reset"
+    },
+    {
+      "time": "11:16",
+      "true_mmhg": 1.19,
+      "sensor_mV": "256..258",
+      "raw_p2p": 9,
+      "event": "after 2 pressure cycles"
+    },
+    {
+      "time": "11:28",
+      "true_mmhg": 1.76,
+      "sensor_mV": "262..263",
+      "raw_p2p": 8,
+      "event": "still drifting up"
+    },
+    {
+      "time": "11:54",
+      "true_mmhg": -0.95,
+      "sensor_mV": "230..231",
+      "raw_p2p": 3,
+      "event": "loose sensor wire reseated"
+    }
+  ],
+  "zero_arc_note": "the +4.9 mmHg step at 10:17 is explained by a loose sensor wire, not by temperature: an MCU reset dropped it to -0.29, two pressure cycles pushed it back to +1.8, and reseating the wire at 11:54 dropped it to -0.95. Temperature was dropped from the card at the operator's request (no one-decimal thermometer available); the protocol asks for a hand-recorded value, so the field stays null with this note.",
+  "no_temperature_reason": "operator has no thermometer with one-decimal resolution; the field is left null and the zero_arc above records what actually moved the zero instead."
+}

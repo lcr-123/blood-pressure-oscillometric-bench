@@ -1,0 +1,6 @@
+run_id,timestamp,subject_id,arm,posture,rest_minutes,cuff_size,target_mmhg,peak_mmhg,reference_before_sbp,reference_before_dbp,reference_before_pulse,dut_sbp,dut_dbp,dut_pulse,reference_after_sbp,reference_after_dbp,reference_after_pulse,raw_log_path,notes
+1,,,,,,,,,,,,,,,,,,,
+2,,,,,,,,,,,,,,,,,,,
+3,,,,,,,,,,,,,,,,,,,
+4,,,,,,,,,,,,,,,,,,,
+5,,,,,,,,,,,,,,,,,,,

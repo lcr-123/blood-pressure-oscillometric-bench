@@ -1,0 +1,4 @@
+Load "blood pressure monitor\\blood pressure monitor.axf" 
+Cannot access Memory (@ 0x00000000, Write, Acc Size: 4 Byte)
+Error: Flash Download failed  -  Target DLL has been cancelled
+Flash Load finished at 11:29:08

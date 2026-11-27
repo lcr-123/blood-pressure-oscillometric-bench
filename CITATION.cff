@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+message: >-
+  If you use these waveforms, reports or tools, please cite this record and
+  also state the limits listed in data/reports/dataset_limitations.md. The
+  data are bench measurements against a BP Pump 2 simulator, not a clinical
+  validation, and they do not establish conformity with ISO 81060-2.
+title: >-
+  Oscillometric cuff-pressure waveform dataset from a non-human bench
+  (MPXV5050GP + ADS1115 + STM32F103ZET6)
+type: dataset
+authors:
+  - name: linchuangrui
+version: "2026-11-26"
+date-released: "2026-11-26"
+license: MIT AND CC-BY-4.0
+repository-code: "https://github.com/lcr-123/blood-pressure-oscillometric-bench"
+# No doi and no license-url on purpose: no DOI has been minted, and a
+# license-url would point at GitHub's own licence detection rather than at the
+# LICENSE.md that separates the data licence from the code licence. Add the DOI
+# only after an archive that mints one exists.
+keywords:
+  - oscillometric blood pressure
+  - cuff pressure waveform
+  - non-human bench
+  - dataset
+  - reproducible research
+abstract: >-
+  645 synchronized cuff-pressure exports recorded on a bench against a
+  Fluke BP Pump 2 simulator, together with the firmware, the acquisition
+  protocol, the frozen estimators and the analysis reports that score them.
+  The published corpus is 62 rounds; the remaining rounds exist as a
+  development and evaluation set. Pressure was calibrated with two
+  parameters per axis: 82.326 mmHg/V and -19.887 mmHg for every capture up to
+  2026-11-26, and 81.529 mmHg/V with -20.03 mmHg afterwards.
+preferred-citation:
+  type: generic
+  title: >-
+    Oscillometric cuff-pressure waveform dataset from a non-human bench,
+    with the frozen reference estimator and the cross-day batch verdict
+  authors:
+    - name: linchuangrui
+  year: 2026
+  notes: >-
+    Repository record, not a journal article. Cite a commit hash together with
+    the version above, because the reports and the frozen records are versioned
+    in the same history. Use a hash that the remote actually serves: the
+    published remote history is a single orphan snapshot, so the local
+    development hashes quoted inside some reports (d022013, c60ef1f, 2430964,
+    0bf20b5, 5066fc5, 7b0a04d, d7db003) are not resolvable there and are
+    catalogued in data/reports/release_blockers_20261126.md section 7.
+references:
+  - type: generic
+    title: Dataset limits and the minimum claim set
+    authors:
+      - name: linchuangrui
+    year: 2026
+    location:
+      path: data/reports/dataset_limitations.md
+  - type: generic
+    title: What this dataset can and cannot support
+    authors:
+      - name: linchuangrui
+    year: 2026
+    location:
+      path: data/reports/dataset_scope_statement.md
+  - type: generic
+    title: Pressure axis refit of 2026-11-26
+    authors:
+      - name: linchuangrui
+    year: 2026
+    location:
+      path: data/reports/pressure_axis_refit_20261126.md

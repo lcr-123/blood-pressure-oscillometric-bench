@@ -1,0 +1,25 @@
+# 数据集与二进制产物必须逐字节保真（FNV-1a / SHA256 校验依赖原始字节），
+# 禁止任何换行转换。
+#
+# 2026-11-26：这里原来是"只给数据类扩展名标 -text"，代码和文档仍交给
+# core.autocrlf 决定。结果在任何 autocrlf=true 的 Windows 机器上克隆，
+# tools/*.py 都会被写成 CRLF，tools/verify_freeze.py 用工作树字节算指纹，
+# 于是报"frozen ... != current ..."，看起来像冻结记录被改动过。
+# 一条 `* -text` 就消除这个依赖：索引里是什么字节，检出就是什么字节。
+*          -text
+data/**    -text
+*.ndjson   -text
+*.tsv      -text
+*.jsonl    -text
+*.bin      -text
+*.hex      -text
+*.pdf      -text
+*.png      -text
+*.zip      -text
+*.exe      -text
+*.o         -text
+*.d         -text
+*.axf       -text
+*.crf       -text
+*.map       -text
+*.lst       -text

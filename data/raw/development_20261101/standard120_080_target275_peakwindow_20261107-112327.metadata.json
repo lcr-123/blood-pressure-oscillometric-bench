@@ -1,0 +1,226 @@
+{
+  "run_id": "standard120_080_target275_peakwindow_20261107-112327",
+  "dataset_role": "development_failure_example",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 1",
+  "panel_sbp_mmhg": 120,
+  "panel_dbp_mmhg": 80,
+  "panel_map_mmhg": 93,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.68,
+  "panel_evidence": "operator confirmed Preset 1 before the run; no panel photo or independent readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 282,
+  "host_abort_note": "inflate stops on est >= target but the pump coasts a few mmHg: observed 275.2 and 278.1 for target 275, so a 278 ceiling aborted the run never mind the firmware max safe of 280",
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "peak fixed 200..245mmHg at1.8mmHg/s; outside3.0mmHg/s",
+  "peak_window_mmhg": [
+    200,
+    245
+  ],
+  "peak_window_target_speed_mmhg_s": 1.8,
+  "outside_target_speed_mmhg_s": 3.0,
+  "outcome": "aborted",
+  "closeout_confirmed": false,
+  "firmware_readback": [
+    "[Pressure] raw=1695 ads=212mV sensor=292mV est=4.2mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1697 ads=212mV sensor=293mV est=4.2mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1696 ads=212mV sensor=293mV est=4.2mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1699 ads=212mV sensor=293mV est=4.2mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1697 ads=212mV sensor=293mV est=4.2mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "initial_rx_errors": 0,
+  "accepted_rx_errors": 0,
+  "initial_user_stop_latched": false,
+  "pre_capture_purge": true,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1279,
+      "max": 1296,
+      "mean": 1287.82
+    },
+    "sensor": {
+      "min": 221,
+      "max": 224,
+      "mean": 222.14
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "pre_capture_zero_true_mmhg": -1.599,
+  "pre_capture_zero_note": "firmware clamps negative pressure to 0 (ads1115.c:215-218); true zero derived from sensor mV with 82.326/-19.887",
+  "profile_query_before_set": [
+    "[Pressure] raw=1296 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "profile_attempts": [],
+  "profile_set_readback": [
+    "[Pressure] raw=1271 ads=159mV sensor=219mV est=0.0mmHg VALID",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "profile_query_readback": [
+    "[Pressure] raw=1269 ads=159mV sensor=219mV est=0.0mmHg VALID",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1"
+  ],
+  "measurement_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 275.6 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=767 capacity=4200 dropped=0 duration=19150ms interval=25ms",
+    "[BP] SBP=217 DBP=25 Pulse=75 bpm valid=1",
+    "[DBG] n=767 map=686(83.8) sbp=1(227.1) dbp=1(30.2) fft=1(1.3Hz/75bpm/m=0.1/n=0.0/t=0.1) ff=75 pk=75"
+  ],
+  "active_pressure": {
+    "raw": {
+      "min": 1270,
+      "max": 20808,
+      "mean": 15356.44580777096
+    },
+    "sensor": {
+      "min": 219,
+      "max": 3589,
+      "mean": 2648.8077709611453
+    },
+    "est": {
+      "min": 0.0,
+      "max": 275.6,
+      "mean": 198.18527607361963
+    }
+  },
+  "closeout_criterion": "vent to plateau (vented reading is offset by the energised valve2 coil), then seal and require sealed est <= 0.8 mmHg",
+  "valve2_offset_documented_mmhg": 3.94,
+  "closeout_attempts": [],
+  "closeout_error": "TimeoutError('vented reading did not reach its plateau: manual unload required')",
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=4200 dropped=0 duration=0ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] mode=normal peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Profile] mode=peak peak_window=200-245mmHg peak_speed=1.8mmHg/s outside=3.0mmHg/s high_target_only=1",
+    "[Target] inflate target set to 275 mmHg (max safe=280)",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 275.6 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=767 capacity=4200 dropped=0 duration=19150ms interval=25ms",
+    "[BP] SBP=217 DBP=25 Pulse=75 bpm valid=1",
+    "[DBG] n=767 map=686(83.8) sbp=1(227.1) dbp=1(30.2) fft=1(1.3Hz/75bpm/m=0.1/n=0.0/t=0.1) ff=75 pk=75",
+    "[Calc] work=571ms wall=803ms max_step=29ms extract=511ms smooth=31ms finish=29ms steps=201",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Motor] TMC2209 init: STEP=PA6(TIM3_CH1) DIR=PA7 EN=PB0 1/8ustep released",
+    "[Debug] USART3 ready",
+    "[Cal] stored record valid",
+    "[BP_Control] Init OK calibration=VALID",
+    "[Boot] after probe",
+    "[Boot] ADS1115 probe address=0x48",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Safety] MPXV5050GP range=0-375mmHg; adult BP 120/80 test supported",
+    "[Boot] Relay-only bring-up mode",
+    "[ESP8266] Skipped for pump/pressure bring-up",
+    "[Actuator] IDLE PB8=HIGH PC1=LOW PC8=HIGH",
+    "[Blood Pressure Monitor] System Ready @ 72MHz",
+    "USART1=ESP8266, USART2=RS232, USART3=Debug",
+    "I2C1=ADS1115(0x48), PC8=Pump relay active-low",
+    "Commands: start stop open close vent seal pressure p help status pins fault stack",
+    "Commands: stream start | stream stop | cal | cal clear | cal write <slope> <intercept>",
+    "Commands: motor <dir 0/1> <steps> <freq 50-2000Hz> | motor stop",
+    "Commands: end with Enter",
+    "[Safety] IWDG enabled nominal=4000ms debug-freeze=ON",
+    "[Stream] auto-started every 250ms; use stream stop to disable",
+    "algo=PULSE_STEP_DEFLATE sw=PEAK_WINDOW_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Stack] used=856 free=3240 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "fresh_samples": 1218,
+  "capture_source_path": "data\\raw\\development_20261101\\standard120_080_target275_peakwindow_20261107-112327.ndjson",
+  "capture_source_sha256": "417ba5dd6ba17e664310c55fc2a9f493f23ac07bef1748242c075100b0d08946",
+  "script_sha256": "cd4104cdc45d7276e43daf16ed31902d4c185a7743d607fd6884dedc6b7f987f",
+  "exclusion_category": "mcu_reboot_during_hold",
+  "exclusion_reason": "the MCU rebooted about 14 s after the deflate PWM started: the boot banner appears mid-run, the pressure fell from 226 to 112 mmHg in 0.5 s, and the capture only holds 767 points instead of about 3300; closeout could not confirm a sealed zero afterwards",
+  "abort_stage": "deflation",
+  "capture_attempted": false,
+  "capture_points_partial": 767,
+  "issue_note": "cause not established; candidates are an IWDG reset from a stalled main loop or a supply transient when the deflate valve was switching. No [Safety] line precedes the boot banner, so the firmware did not report its own fault before resetting",
+  "panel_preset": 1,
+  "panel_preset_source": "bp_mode",
+  "panel_map_source": "manual Table 3-2 (derived from the preset number)",
+  "reset_forensics": {
+    "hypothesis_status": "power-collapse, not watchdog (inferred, not yet instrumented)",
+    "evidence": {
+      "last_pressure_line_to_boot_banner_s": 0.184,
+      "iwdg_nominal_ms": 4000,
+      "note_watchdog": "a watchdog timeout would silence the stream for ~4 s; 0.184 s of silence means the main loop was still printing when the reset hit",
+      "sensor_voltage_before_mv": 250,
+      "sensor_voltage_min_mv": 129,
+      "sensor_voltage_drop_percent": 48,
+      "sensor_ratio_note": "MPXV5050GP is ratiometric (VS15242 Table 6 note 2): a 48 percent drop in Vout implies VS fell to about 2.6 V, so the sensor output is an indicator of the supply, not the cause",
+      "raw_scatter_sd_counts_quiet": 6.4,
+      "raw_scatter_sd_counts_last_4s": 103.0,
+      "raw_scatter_p2p_quiet": 20,
+      "raw_scatter_p2p_last_4s": 509,
+      "timeline": "deflate PWM finished, vent continued, scatter started ~9.6 s into the vent window and the reset came 13.8 s in, i.e. the collapse developed over several seconds rather than at a single valve edge"
+    },
+    "firmware_change": {
+      "what": "main.c now reads RCC->CSR before HAL_Init (Boot_CaptureResetCause) and prints [Boot] reset_csr=0x........ with decoded sources (Boot_PrintResetCause)",
+      "verified_output": "[Boot] reset_csr=0x04000000 PIN",
+      "verified_meaning": "bit26 PINRSTF only, matching a RESET button press; POR clear",
+      "hex_sha256": "61ca1da309439d9a4afa7f783aacbb56be56e4607cc09289a3729eb2e39f74ad",
+      "algorithm_unchanged": true
+    },
+    "next_steps": [
+      "watch for the same reset while running future rounds and read reset_csr the next boot",
+      "if POR/PDR appears with no power cycle, scope the 5 V and 3.3 V rails while the deflate valve switches and check for a flyback diode on the PC1 valve drive",
+      "if IWDG appears, the fault is a stalled main loop instead and the investigation is entirely different"
+    ],
+    "reproduced": false,
+    "attempts_since": {
+      "note": "not yet re-run; 41 of 42 logs show no reset and no stream gap above 0.11 s"
+    }
+  }
+}

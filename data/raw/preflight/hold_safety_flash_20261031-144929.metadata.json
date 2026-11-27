@@ -1,0 +1,128 @@
+{
+  "outcome": "download_verified_preflight_recorded",
+  "physical_trial": false,
+  "operator_confirmation": "ok to load-off, BP Stop, unloaded download preflight",
+  "expected_firmware": "HOLD_SAFETY_20261031",
+  "commands": [
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1333 ads=167mV sensor=230mV est=0.0mmHg UNCAL",
+        "[Pressure] raw=1333 ads=167mV sensor=230mV est=0.0mmHg UNCAL",
+        "[Cal] UNCAL (no stored record); defaults zero=0.29V sens=0.085V/kPa"
+      ]
+    },
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1332 ads=167mV sensor=230mV est=0.0mmHg UNCAL",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=UNCAL ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1332 ads=167mV sensor=230mV est=0.0mmHg UNCAL",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1332 ads=167mV sensor=230mV est=0.0mmHg UNCAL",
+        "[Fault] code=0 name=NONE age=0ms",
+        "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Pressure] raw=1332 ads=167mV sensor=230mV est=0.0mmHg UNCAL",
+        "[Stack] used=1424 free=2672 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    }
+  ],
+  "calibration_written": false,
+  "flash_log": "blood pressure monitor\\MDK-ARM\\download_hold_safety_20261031-144929.log",
+  "hex_sha256": "f402fd49740f8416ff28e5c3803802ae3efc505ec3ddd66b48f99f67426667b4",
+  "before_sample_count": 100,
+  "before_pressure": {
+    "raw": {
+      "min": 1331,
+      "max": 1334,
+      "mean": 1332.52
+    },
+    "sensor": {
+      "min": 230,
+      "max": 230,
+      "mean": 230.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "keil_exit_code": 0,
+  "flash_output": "Load \"blood pressure monitor\\\\blood pressure monitor.axf\" \nFull Chip Erase Done.Programming Done.Verify OK.Application running ...\nFlash Load finished at 14:49:47\n",
+  "new_firmware_seen": true,
+  "after_sample_count": 100,
+  "after_pressure": {
+    "raw": {
+      "min": 1330,
+      "max": 1333,
+      "mean": 1332.0
+    },
+    "sensor": {
+      "min": 229,
+      "max": 230,
+      "mean": 229.99
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "all_nonpressure_lines": [
+    "Horco CMSIS-DAP V2",
+    "Ver: Release 0.2",
+    "The DAPLink is an open source project:",
+    "https://oshwhub.com/ylj2000/dap_hs_esp_open",
+    "Contact author: ylj20000606@gmail.com",
+    "Unauthorized commercial use prohibited",
+    "\u0000[Pressure] raw=1333 ads=167mV sensor=230mV est=0.0mmHg VALID",
+    "[Motor] TMC2209 init: STEP=PA6(TIM3_CH1) DIR=PA7 EN=PB0 1/8ustep released",
+    "[Debug] USART3 ready",
+    "[Cal] no valid record; UNCAL defaults",
+    "[BP_Control] Init OK calibration=UNCAL",
+    "[Boot] after probe",
+    "[Boot] ADS1115 probe address=0x48",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Safety] MPXV5050GP range=0-375mmHg; adult BP 120/80 test supported",
+    "[Boot] Relay-only bring-up mode",
+    "[ESP8266] Skipped for pump/pressure bring-up",
+    "[Actuator] IDLE PB8=HIGH PC1=LOW PC8=HIGH",
+    "[Blood Pressure Monitor] System Ready @ 72MHz",
+    "USART1=ESP8266, USART2=RS232, USART3=Debug",
+    "I2C1=ADS1115(0x48), PC8=Pump relay active-low",
+    "Commands: start stop open close vent seal pressure p help status pins fault stack",
+    "Commands: stream start | stream stop | cal | cal clear | cal write <slope> <intercept>",
+    "Commands: motor <dir 0/1> <steps> <freq 50-2000Hz> | motor stop",
+    "Commands: end with Enter",
+    "[Safety] IWDG enabled nominal=4000ms debug-freeze=ON",
+    "[Stream] auto-started every 250ms; use stream stop to disable",
+    "algo=PULSE_STEP_DEFLATE sw=HOLD_SAFETY_20261031 capacity=3300 deflate=200ms_open1ms",
+    "[Stack] used=856 free=3240 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Cal] UNCAL (no stored record); defaults zero=0.29V sens=0.085V/kPa",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=UNCAL ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1424 free=2672 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "raw_path": "data\\raw\\preflight\\hold_safety_flash_20261031-144929.ndjson",
+  "raw_sha256": "1d704e8b1469df26f5c34bb2e307a4270abc231dea1986ce7a7c618420d0a089"
+}

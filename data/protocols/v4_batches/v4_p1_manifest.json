@@ -1,0 +1,271 @@
+{
+  "tag": "v4_p1",
+  "preset": 1,
+  "panel_sbp": 120,
+  "panel_dbp": 80,
+  "panel_map": 93,
+  "pulse_volume_cc": 0.68,
+  "target_mmhg": 275,
+  "requested_rounds": 44,
+  "started": "2026-11-12T12:09:15",
+  "rounds": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-120916",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.85"
+    },
+    {
+      "attempt": 2,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-121232",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.87"
+    },
+    {
+      "attempt": 3,
+      "exit_code": 0,
+      "outcome": "failed",
+      "run_id": null
+    },
+    {
+      "attempt": 4,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-121639",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.69"
+    },
+    {
+      "attempt": 5,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-122029",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.82"
+    },
+    {
+      "attempt": 6,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-122357",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.59"
+    },
+    {
+      "attempt": 7,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-122734",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.89"
+    },
+    {
+      "attempt": 8,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-123059",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-2.00"
+    },
+    {
+      "attempt": 9,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-123420",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.95"
+    },
+    {
+      "attempt": 10,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-123750",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.98"
+    },
+    {
+      "attempt": 11,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-124117",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.83"
+    },
+    {
+      "attempt": 12,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-124445",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.92"
+    },
+    {
+      "attempt": 13,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-124813",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.91"
+    },
+    {
+      "attempt": 14,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-125139",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.86"
+    },
+    {
+      "attempt": 15,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-125510",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.95"
+    },
+    {
+      "attempt": 16,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-125839",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.74"
+    },
+    {
+      "attempt": 17,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-130211",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.91"
+    },
+    {
+      "attempt": 18,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-130539",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.61"
+    },
+    {
+      "attempt": 19,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-130905",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.68"
+    },
+    {
+      "attempt": 20,
+      "exit_code": 0,
+      "outcome": "failed",
+      "run_id": null
+    },
+    {
+      "attempt": 21,
+      "exit_code": 0,
+      "outcome": "failed",
+      "run_id": null
+    },
+    {
+      "attempt": 22,
+      "exit_code": 0,
+      "outcome": "failed",
+      "run_id": null
+    },
+    {
+      "attempt": 23,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-131501",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.68"
+    },
+    {
+      "attempt": 24,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-131832",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.88"
+    },
+    {
+      "attempt": 25,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-132150",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.64"
+    },
+    {
+      "attempt": 26,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-132519",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.76"
+    },
+    {
+      "attempt": 27,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-132840",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.78"
+    },
+    {
+      "attempt": 28,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-133204",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.85"
+    },
+    {
+      "attempt": 29,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-133527",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.82"
+    },
+    {
+      "attempt": 30,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-133847",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.71"
+    }
+  ]
+}

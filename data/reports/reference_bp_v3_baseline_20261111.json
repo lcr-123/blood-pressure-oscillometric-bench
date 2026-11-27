@@ -1,0 +1,187 @@
+{
+  "estimator": "reference_bp_v3",
+  "map_smoothing_s": 3.0,
+  "note": "the 18 development rounds, scored with the v3 candidate; descriptive only, never a validation set",
+  "rounds": [
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-141750",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 102.14,
+      "sbp_mmhg": 118.57,
+      "dbp_mmhg": 75.04,
+      "high_side_plateau_ratio": 0.0259,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-142446",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 105.09,
+      "sbp_mmhg": 120.53,
+      "dbp_mmhg": 77.51,
+      "high_side_plateau_ratio": 0.0328,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-143250",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 107.06,
+      "sbp_mmhg": 138.2,
+      "dbp_mmhg": 75.09,
+      "high_side_plateau_ratio": 0.0586,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-143637",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 98.54,
+      "sbp_mmhg": 114.27,
+      "dbp_mmhg": 90.5,
+      "high_side_plateau_ratio": 0.0261,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261106-195142",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 98.56,
+      "sbp_mmhg": 119.81,
+      "dbp_mmhg": 75.3,
+      "high_side_plateau_ratio": 0.0999,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-102352",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 100.74,
+      "sbp_mmhg": 130.62,
+      "dbp_mmhg": 79.93,
+      "high_side_plateau_ratio": 0.0355,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-102939",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 95.04,
+      "sbp_mmhg": 123.09,
+      "dbp_mmhg": 85.12,
+      "high_side_plateau_ratio": 0.0351,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard120_080_target275_peakwindow_20261107-115807",
+      "panel_map_mmhg": null,
+      "status": "unresolved_map",
+      "map_mmhg": 249.9,
+      "sbp_mmhg": 254.68,
+      "dbp_mmhg": 224.7,
+      "high_side_plateau_ratio": 0.0885,
+      "envelope_transient_suspected": true
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144148",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 119.91,
+      "sbp_mmhg": 135.81,
+      "dbp_mmhg": 87.31,
+      "high_side_plateau_ratio": 0.0467,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144500",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 121.55,
+      "sbp_mmhg": 159.93,
+      "dbp_mmhg": 92.24,
+      "high_side_plateau_ratio": 0.0295,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard150_100_target275_peakwindow_20261106-144826",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 121.35,
+      "sbp_mmhg": 160.39,
+      "dbp_mmhg": 93.32,
+      "high_side_plateau_ratio": 0.0418,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-145455",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 173.53,
+      "sbp_mmhg": 201.05,
+      "dbp_mmhg": 164.42,
+      "high_side_plateau_ratio": 0.051,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-145808",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 182.14,
+      "sbp_mmhg": 197.04,
+      "dbp_mmhg": 173.18,
+      "high_side_plateau_ratio": 0.0609,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard200_150_target275_peakwindow_20261106-150121",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 166.82,
+      "sbp_mmhg": 178.97,
+      "dbp_mmhg": 152.46,
+      "high_side_plateau_ratio": 0.1708,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-133524",
+      "panel_map_mmhg": null,
+      "status": "unresolved_sbp",
+      "map_mmhg": 210.85,
+      "sbp_mmhg": null,
+      "dbp_mmhg": 205.95,
+      "high_side_plateau_ratio": 0.5118,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-135004",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 216.11,
+      "sbp_mmhg": 258.25,
+      "dbp_mmhg": 182.67,
+      "high_side_plateau_ratio": 0.1239,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261106-135527",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 216.77,
+      "sbp_mmhg": 242.75,
+      "dbp_mmhg": 208.52,
+      "high_side_plateau_ratio": 0.1949,
+      "envelope_transient_suspected": false
+    },
+    {
+      "run": "standard255_195_target275_peakwindow_20261107-125444",
+      "panel_map_mmhg": null,
+      "status": "ok",
+      "map_mmhg": 218.59,
+      "sbp_mmhg": 254.98,
+      "dbp_mmhg": 192.22,
+      "high_side_plateau_ratio": 0.1332,
+      "envelope_transient_suspected": false
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "kind": "nonhuman_vent_zero_check",
+  "operator_confirmed_unloaded": true,
+  "vent_limit_s": 30,
+  "zero_gate": "60 consecutive fresh VALID samples <=1.0 mmHg over >=2.5 s",
+  "commands": [
+    "status",
+    "pins",
+    "cal",
+    "fault",
+    "vent",
+    "seal",
+    "pins",
+    "status",
+    "fault"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1342 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Pressure] raw=1341 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1343 ads=168mV sensor=232mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "initial_cal": [
+    "[Pressure] raw=1342 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1342 ads=168mV sensor=231mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "vent_duration_s": 2.948,
+  "fresh_sample_count": 60,
+  "vent_pressure": {
+    "raw": {
+      "min": 1342,
+      "max": 1363,
+      "mean": 1347.8166666666666
+    },
+    "sensor": {
+      "min": 231,
+      "max": 235,
+      "mean": 232.53333333333333
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "zero_gate_pass": true,
+  "seal_echo": [
+    "[Pressure] raw=1344 ads=168mV sensor=232mV est=0.0mmHg VALID",
+    "[Valve2] CLOSE PC1=LOW"
+  ],
+  "final_pins": [
+    "[Pressure] raw=1312 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "final_status": [
+    "[Pressure] raw=1314 ads=164mV sensor=227mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "final_fault": [
+    "[Pressure] raw=1314 ads=164mV sensor=227mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "sealed": true,
+  "nonpressure_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=2289 capacity=3300 dropped=0 duration=57200ms interval=25ms",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "raw_path": "data\\raw\\preflight\\vent_zero_20261101-120321.ndjson",
+  "raw_sha256": "57e11a0e7c03b6a7fb804c9b6429d2397ee21a11d7e66e35ff11e9589634222d"
+}

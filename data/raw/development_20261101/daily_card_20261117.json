@@ -1,0 +1,103 @@
+{
+  "stamp": "20261117",
+  "batch": "crosstday",
+  "batch_day": 2,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": -1.45,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "slope_mmhg_per_min": -25.336,
+    "p_start": 147.0,
+    "p_end": 105.3,
+    "n": 1200,
+    "duration_s": 59.95,
+    "target_mmhg": 150,
+    "hold_seconds": 60.0,
+    "outcome": "sealed_hold_completed",
+    "bands": [
+      {
+        "band_mmhg": [
+          100,
+          110
+        ],
+        "n": 367,
+        "span_s": 22.6,
+        "slope_mmhg_per_min": -9.202
+      },
+      {
+        "band_mmhg": [
+          110,
+          120
+        ],
+        "n": 558,
+        "span_s": 33.4,
+        "slope_mmhg_per_min": -19.007
+      },
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 193,
+        "span_s": 10.9,
+        "slope_mmhg_per_min": -58.643
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 68,
+        "span_s": 3.6,
+        "slope_mmhg_per_min": -163.024
+      }
+    ],
+    "source": "tmp\\omniprobe\\daily_leak_20261117.result.json",
+    "settled_slope_mmhg_per_min": -11.26,
+    "settled_window": "40-60 s after target reached",
+    "transient_note": "the all-window slope is dominated by the first 10 s (-117 mmHg/min while the column relaxes), so compare the settled 40-60 s slope, not the headline number",
+    "pressure_dependence": [
+      {
+        "target_mmhg": 60,
+        "settled_40_60": -4.4,
+        "source": "tmp/omniprobe/daily_leak60_20261117.result.json"
+      },
+      {
+        "target_mmhg": 150,
+        "settled_40_60": -11.26,
+        "source": "tmp/omniprobe/daily_leak_20261117.result.json"
+      },
+      {
+        "target_mmhg": 250,
+        "settled_40_60": -15.58,
+        "source": "tmp/omniprobe/leak_hold250_20261117.result.json"
+      }
+    ],
+    "repeat_150": {
+      "slope_mmhg_per_min": -21.365,
+      "settled_40_60": -9.9,
+      "source": "tmp/omniprobe/leak_retry150_20261117.result.json",
+      "note": "second 150 mmHg hold on the same day; settled slope differs by 1.4 from the first"
+    }
+  },
+  "valve": {
+    "flow_mmhg_per_open_ms": 0.26805,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "outcome": "completed",
+    "steps": null,
+    "source": "tmp\\omniprobe\\daily_valve_20261117.result.json"
+  },
+  "sealed_zero_notes": {
+    "source": "tmp/omniprobe/zero_sanity_20261117_rerun.json (4 states x 160 samples)",
+    "vent_true_mmhg": -1.06,
+    "seal_true_mmhg": -1.45,
+    "coil_offset_mmhg": 0.42,
+    "raw_p2p_max": 6,
+    "note": "both states est=0.00 (firmware clamps negative pressure); true values from sensor mV"
+  },
+  "history_comparison": "settled 40-60 s at 150 mmHg: today -11.3 and -9.9; 2026-11-16 -5.8; 2026-11-07 rewrap -5.5; 200 mmHg 2026-11-07 -6.0; 240 mmHg 2026-11-07 -9.1. Today is roughly twice the 11-07 settled rate at every pressure tested."
+}

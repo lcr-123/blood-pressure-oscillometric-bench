@@ -1,0 +1,64 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 30,
+  "host_ceiling_mmhg": 40,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "firmware_id": "HOLD_SAFETY_20261031",
+  "firmware_identity_evidence": "data/raw/preflight/hold_safety_flash_20261031-144929.ndjson",
+  "source_clock_note": "Host serial arrival timestamps are not MCU sample ticks.",
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1326,
+      "max": 1329,
+      "mean": 1327.51
+    },
+    "sensor": {
+      "min": 229,
+      "max": 229,
+      "mean": 229.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1328 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "error": "RuntimeError('pressure freshness exceeded 2 seconds')",
+  "emergency_stop_error": "TimeoutError('ACK stop')",
+  "closeout_error": "TimeoutError('ACK vent')",
+  "all_trial_nonpressure_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout"
+  ],
+  "all_trial_pressure": {
+    "raw": {
+      "min": 1327,
+      "max": 3370,
+      "mean": 2412.8571428571427
+    },
+    "sensor": {
+      "min": 229,
+      "max": 581,
+      "mean": 416.14285714285717
+    },
+    "est": {
+      "min": 0.0,
+      "max": 28.0,
+      "mean": 14.507142857142856
+    }
+  },
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": false,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\restart_low30_20261031-145438.ndjson",
+  "raw_sha256": "5c8156536067867c6165ce0ee0cb35f84a4695bfb8a89699eb33d9a7a668370e"
+}

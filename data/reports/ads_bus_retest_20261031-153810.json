@@ -1,0 +1,178 @@
+{
+  "outcome": "failed",
+  "firmware": "ADS_BUS_DIAG_20261031",
+  "target_echo": {
+    "timestamp": 1793432296103,
+    "direction": "rx",
+    "text": "[Inflate] target reached 30.9 mmHg; stopping pump",
+    "truncated": false
+  },
+  "pretarget_pressure": [
+    {
+      "timestamp": 1793432295342,
+      "est": 0.0
+    },
+    {
+      "timestamp": 1793432295383,
+      "est": 0.0
+    },
+    {
+      "timestamp": 1793432295433,
+      "est": 6.0
+    },
+    {
+      "timestamp": 1793432295483,
+      "est": 9.7
+    },
+    {
+      "timestamp": 1793432295533,
+      "est": 11.2
+    },
+    {
+      "timestamp": 1793432295583,
+      "est": 12.2
+    },
+    {
+      "timestamp": 1793432295633,
+      "est": 13.5
+    },
+    {
+      "timestamp": 1793432295683,
+      "est": 14.4
+    },
+    {
+      "timestamp": 1793432295733,
+      "est": 15.8
+    },
+    {
+      "timestamp": 1793432295783,
+      "est": 17.3
+    },
+    {
+      "timestamp": 1793432295833,
+      "est": 19.1
+    },
+    {
+      "timestamp": 1793432295883,
+      "est": 21.2
+    },
+    {
+      "timestamp": 1793432295933,
+      "est": 22.7
+    },
+    {
+      "timestamp": 1793432295983,
+      "est": 25.1
+    },
+    {
+      "timestamp": 1793432296033,
+      "est": 27.3
+    },
+    {
+      "timestamp": 1793432296083,
+      "est": 29.8
+    }
+  ],
+  "raw_sha256": "bf4ec5c19f5f1a7aaeda356081af6c757cdc6f1379644d62ff057e009390332b",
+  "first_error": {
+    "stage": 5,
+    "status": 1,
+    "hal_error": "0x200 WRONG_START",
+    "sr1": "0x0010",
+    "sr2": "0x0000",
+    "cr1": "0x0101",
+    "gpio_b_idr": "0xFFFB",
+    "scl": 1,
+    "sda": 1,
+    "errors": 1,
+    "recoveries": 1
+  },
+  "zero_before_seal": {
+    "host_time": "2026-10-31T15:38:17.783381+08:00",
+    "type": "host.zero_before_seal",
+    "samples": [
+      {
+        "timestamp": 1793432297306,
+        "raw": 1470,
+        "ads": 184,
+        "sensor": 254,
+        "est": 1.0,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297356,
+        "raw": 1463,
+        "ads": 183,
+        "sensor": 252,
+        "est": 0.9,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297406,
+        "raw": 1454,
+        "ads": 182,
+        "sensor": 251,
+        "est": 0.8,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297456,
+        "raw": 1448,
+        "ads": 181,
+        "sensor": 250,
+        "est": 0.7,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297506,
+        "raw": 1420,
+        "ads": 178,
+        "sensor": 245,
+        "est": 0.3,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297556,
+        "raw": 1437,
+        "ads": 180,
+        "sensor": 248,
+        "est": 0.5,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297606,
+        "raw": 1429,
+        "ads": 179,
+        "sensor": 246,
+        "est": 0.4,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297656,
+        "raw": 1425,
+        "ads": 178,
+        "sensor": 246,
+        "est": 0.3,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297706,
+        "raw": 1421,
+        "ads": 178,
+        "sensor": 245,
+        "est": 0.3,
+        "valid": "VALID"
+      },
+      {
+        "timestamp": 1793432297756,
+        "raw": 1417,
+        "ads": 177,
+        "sensor": 244,
+        "est": 0.2,
+        "valid": "VALID"
+      }
+    ]
+  },
+  "valid_export": false,
+  "physical_cause": "unresolved"
+}

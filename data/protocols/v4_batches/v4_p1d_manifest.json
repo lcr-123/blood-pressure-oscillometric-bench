@@ -1,0 +1,52 @@
+{
+  "tag": "v4_p1d",
+  "preset": 1,
+  "panel_sbp": 120,
+  "panel_dbp": 80,
+  "panel_map": 93,
+  "pulse_volume_cc": 0.68,
+  "target_mmhg": 275,
+  "requested_rounds": 4,
+  "started": "2026-11-12T15:24:19",
+  "rounds": [
+    {
+      "attempt": 1,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-152419",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.66"
+    },
+    {
+      "attempt": 2,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-152752",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.69"
+    },
+    {
+      "attempt": 3,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-153130",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.60"
+    },
+    {
+      "attempt": 4,
+      "exit_code": 0,
+      "outcome": "export_received",
+      "run_id": "standard120_080_target275_peakwindow_20261112-153508",
+      "n": null,
+      "gate_usable": true,
+      "peak_slope": "-1.82"
+    }
+  ],
+  "finished": "2026-11-12T15:38:32",
+  "captures_kept": 4,
+  "attempts": 4
+}

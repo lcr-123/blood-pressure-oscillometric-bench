@@ -1,0 +1,166 @@
+{
+  "points_mmhg": [
+    240,
+    250,
+    260
+  ],
+  "settle_seconds": 90.0,
+  "zero_settle_seconds": 90.0,
+  "hold_seconds": 36.0,
+  "repeats": 3,
+  "window_seconds": 12.0,
+  "tester_port": "COM12",
+  "gauge_lag_dropped_s": 2.0,
+  "nonhuman_fixture_confirmed": true,
+  "started": "20261111-195959",
+  "rows": [
+    {
+      "requested_mmhg": 240,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 207.0,
+          "tester_mmhg": 205.0,
+          "difference_mmhg": -2.0,
+          "mcu_first": 207.5,
+          "mcu_last": 206.5,
+          "mcu_points": 241,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 206.0,
+          "tester_mmhg": 204.0,
+          "difference_mmhg": -2.0,
+          "mcu_first": 206.5,
+          "mcu_last": 205.5,
+          "mcu_points": 241,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 205.0,
+          "tester_mmhg": 203.0,
+          "difference_mmhg": -2.0,
+          "mcu_first": 205.5,
+          "mcu_last": 204.6,
+          "mcu_points": 241,
+          "tester_points": 13
+        }
+      ],
+      "mcu_mmhg": 206.0,
+      "tester_mmhg": 204.0,
+      "difference_mmhg": -2.0,
+      "within_point_spread": 0.0
+    },
+    {
+      "requested_mmhg": 250,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 231.9,
+          "tester_mmhg": 230.0,
+          "difference_mmhg": -1.9,
+          "mcu_first": 232.5,
+          "mcu_last": 231.3,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 230.7,
+          "tester_mmhg": 228.0,
+          "difference_mmhg": -2.7,
+          "mcu_first": 231.3,
+          "mcu_last": 230.1,
+          "mcu_points": 240,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 229.5,
+          "tester_mmhg": 227.0,
+          "difference_mmhg": -2.5,
+          "mcu_first": 230.1,
+          "mcu_last": 228.9,
+          "mcu_points": 241,
+          "tester_points": 12
+        }
+      ],
+      "mcu_mmhg": 230.7,
+      "tester_mmhg": 228.0,
+      "difference_mmhg": -2.37,
+      "within_point_spread": 0.8
+    },
+    {
+      "requested_mmhg": 260,
+      "windows": [
+        {
+          "repeat": 0,
+          "mcu_mmhg": 199.9,
+          "tester_mmhg": 198.0,
+          "difference_mmhg": -1.9,
+          "mcu_first": 203.0,
+          "mcu_last": 196.9,
+          "mcu_points": 241,
+          "tester_points": 12
+        },
+        {
+          "repeat": 1,
+          "mcu_mmhg": 194.0,
+          "tester_mmhg": 192.0,
+          "difference_mmhg": -2.0,
+          "mcu_first": 196.9,
+          "mcu_last": 191.1,
+          "mcu_points": 239,
+          "tester_points": 12
+        },
+        {
+          "repeat": 2,
+          "mcu_mmhg": 188.25,
+          "tester_mmhg": 186.0,
+          "difference_mmhg": -2.25,
+          "mcu_first": 191.0,
+          "mcu_last": 185.5,
+          "mcu_points": 240,
+          "tester_points": 13
+        }
+      ],
+      "mcu_mmhg": 194.0,
+      "tester_mmhg": 192.0,
+      "difference_mmhg": -2.05,
+      "within_point_spread": 0.35
+    }
+  ],
+  "calibration": [
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "zero_start": {
+    "mcu_mmhg": 0.0,
+    "mcu_sensor_mv": 232.0,
+    "tester_mmhg": 0.0,
+    "settle_seconds": 90.0
+  },
+  "zero_end": {
+    "mcu_mmhg": 3.8,
+    "mcu_sensor_mv": 287.0,
+    "tester_mmhg": 4.0,
+    "settle_seconds": 90.0
+  },
+  "zero_drift": {
+    "mcu_mmhg": 3.8,
+    "mcu_sensor_mv": 55.0,
+    "tester_mmhg": 4.0
+  },
+  "summary": {
+    "n": 3,
+    "mean_difference": -2.14,
+    "min_difference": -2.37,
+    "max_difference": -2.0,
+    "spread": 0.37,
+    "max_abs": 2.37,
+    "mean_within_point_spread": 0.38
+  },
+  "final_pins": "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+  "finished": "20261111-200938"
+}

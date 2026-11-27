@@ -1,0 +1,49 @@
+{
+  "n": 739,
+  "duration_ms": 18450,
+  "header": {
+    "schema": "bp.capture/2",
+    "type": "begin",
+    "firmware": "CAPTURE_COMPACT_20261028",
+    "n": 739,
+    "dropped": 0,
+    "interval_ms": 25,
+    "raw_kind": 2,
+    "cal_valid": 1,
+    "slope": 1118086889,
+    "intercept": 3248429203,
+    "calc": 0
+  },
+  "valve": {
+    "schema": "bp.capture/2",
+    "type": "valve",
+    "pulses": 93,
+    "period_min": 200,
+    "period_max": 200,
+    "on_min": 1,
+    "on_max": 6,
+    "threshold": 1084227584,
+    "steps": 2,
+    "phase": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "rise_found": 1,
+    "rise_i": 201,
+    "rise_d": 1089793216,
+    "rise_phase": 48,
+    "rise_on": 6,
+    "fall_found": 1,
+    "fall_i": 200,
+    "fall_d": 3241362272,
+    "fall_phase": 23,
+    "fall_on": 6
+  }
+}

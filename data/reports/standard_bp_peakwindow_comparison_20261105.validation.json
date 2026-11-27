@@ -1,0 +1,16 @@
+{
+  "outcome": "passed",
+  "source_snapshot_current_and_hashes_equal": true,
+  "replay_comparisons_equal": true,
+  "full_suite": "159 passed; tmp/peak_window_tests_20261105.log",
+  "final_closeout_passed": true,
+  "plot_visually_checked": true,
+  "artifacts": {
+    "standard_bp_peakwindow_comparison_20261105.json": "8164353834b4e8cf830e5d32c2e78843d94395b559957a6f168372cce9257f21",
+    "standard_bp_peakwindow_comparison_20261105.md": "350f52d2c9a709037a6073fe942aaa87f563c60bed4e49b6d703c40470edd014",
+    "standard_bp_peakwindow_comparison_20261105.png": "72ce9bf2d143a6040be4cc7b73084976f49eda5f223ead5374d0172c03952fba"
+  },
+  "archive_sha256": "d5cd464918e215d6f660f962ddc8e68339c9833fee16b6fafd082840585ffaf6",
+  "baseline_recovery_raw_sha256": "633dd33bc9525fc1760ee53323287d6e62c721f97378b5e2799fac68d4b82de0",
+  "next_step": "Repeated same-condition frozen-profile evidence; no BP accuracy claim"
+}

@@ -1,0 +1,1283 @@
+{
+  "schema": "bp.peak_window_comparison/1",
+  "method": "one normal then one peak trial, frozen extraction and four-origin gates",
+  "fixed_window_mmhg": [
+    200,
+    245
+  ],
+  "analysis_sources": [
+    {
+      "path": "data\\reports\\standard_bp_valvetiming_baseline_20261105.analysis.json",
+      "sha256": "8a3b51fbf64280850c8c6b7474e7878bd1b64365bd0ea8be6bf09a4369677b6a"
+    },
+    {
+      "path": "data\\reports\\standard_bp_peakwindow_20261105.analysis.json",
+      "sha256": "aff614dd9f47e9fc33297c5190ce257855963ba53b0f8d8dc5a828b9a578a02b"
+    }
+  ],
+  "trials": [
+    {
+      "source": "data\\raw\\preflight\\valvetiming_recovery_20261105-122626.ndjson",
+      "source_sha256": "633dd33bc9525fc1760ee53323287d6e62c721f97378b5e2799fac68d4b82de0",
+      "summary": {
+        "points": 3299,
+        "duration_ms": 82450,
+        "header": {
+          "schema": "bp.capture/4",
+          "type": "begin",
+          "firmware": "VALVE_TIMING_20261105",
+          "n": 3299,
+          "dropped": 0,
+          "interval_ms": 25,
+          "raw_kind": 2,
+          "cal_valid": 1,
+          "slope": 1118086889,
+          "intercept": 3248429203,
+          "calc": 3
+        },
+        "timing": {
+          "schema": "bp.capture/4",
+          "type": "timing",
+          "n": 413,
+          "errors": 0,
+          "complete": 1
+        },
+        "valve": {
+          "schema": "bp.capture/4",
+          "type": "valve",
+          "pulses": 413,
+          "period_min": 200,
+          "period_max": 200,
+          "on_min": 1,
+          "on_max": 18,
+          "threshold": 1084227584,
+          "steps": 0,
+          "phase": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "rise_found": 0,
+          "rise_i": 0,
+          "rise_d": 0,
+          "rise_phase": 0,
+          "rise_on": 0,
+          "fall_found": 0,
+          "fall_i": 0,
+          "fall_d": 0,
+          "fall_phase": 0,
+          "fall_on": 0,
+          "trace_n": 0
+        },
+        "pressure_range": [
+          14.903497695922852,
+          266.13348388671875
+        ],
+        "fixed_band_mmhg": [
+          200,
+          245
+        ],
+        "fixed_band_samples": 583,
+        "fixed_band_sample_time_s": 14.575,
+        "fixed_band_ols_fall_mmhg_s": 2.916347101199467,
+        "accepted_beats": 77,
+        "fixed_band_accepted_beats": 20,
+        "fixed_band_bins": {
+          "200": 4,
+          "210": 3,
+          "220": 5,
+          "230": 6,
+          "240": 2
+        },
+        "widths_ms": {
+          "1": 4,
+          "2": 62,
+          "3": 204,
+          "4": 96,
+          "5": 2,
+          "6": 2,
+          "7": 10,
+          "8": 2,
+          "9": 8,
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "16": 2,
+          "17": 2,
+          "18": 1
+        },
+        "intervals_ms": {
+          "200": 412
+        }
+      },
+      "inference": {
+        "status": "abstain",
+        "reason": "bin_origin_gate_failed",
+        "envelope_peak_mmhg": null,
+        "sbp_mmhg": null,
+        "dbp_mmhg": null,
+        "pulse_bpm": null,
+        "bp_output_allowed": false,
+        "exploratory_ratio_crossings_mmhg": null,
+        "clean_beats": 77,
+        "baseline_envelope_peak_mmhg": 225.0,
+        "stability": {
+          "status": "reject",
+          "reason": "bin_origin_gate_failed",
+          "peak_range_mmhg": [
+            212.5,
+            240.0
+          ],
+          "peak_span_mmhg": 27.5,
+          "max_allowed_span_mmhg": 15.0,
+          "meaning": "bin-origin sensitivity only; not an accuracy interval",
+          "variants": [
+            {
+              "origin_mmhg": 0.0,
+              "status": "envelope_candidate",
+              "reason": null,
+              "qualified_bin_count": 21,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 225.0,
+                  "peak_smoothed": 0.028243876657294657,
+                  "peak_bin_beats": 5,
+                  "low_edge_mmhg": 55.0,
+                  "high_edge_mmhg": 255.0,
+                  "low_edge_ratio": 0.1960027215296241,
+                  "high_edge_ratio": 0.5672610950672938,
+                  "high_side_span_mmhg": 30.0,
+                  "high_side_qualified_bins": 4,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 197.16,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.005535876691376776,
+                    0.005696291497572302,
+                    0.006246527398416687,
+                    0.006495458431278875,
+                    0.006234360795652289,
+                    0.006257923316657338,
+                    0.0068989599422427,
+                    0.00784007741565295,
+                    0.009204573921543741,
+                    0.010779663900491732,
+                    0.012171908511571627,
+                    0.012369710088733934,
+                    0.012074736793896855,
+                    0.012869318987017084,
+                    0.01552236020529748,
+                    0.022120098809281723,
+                    0.027932608821184354,
+                    0.028243876657294657,
+                    0.025432331755892205,
+                    0.02072674378047639,
+                    0.016021652401562544
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 225.0,
+                  "peak_smoothed": 0.010179695636643352,
+                  "peak_bin_beats": 5,
+                  "low_edge_mmhg": 55.0,
+                  "high_edge_mmhg": 255.0,
+                  "low_edge_ratio": 0.20708575598397058,
+                  "high_edge_ratio": 0.5721270313003425,
+                  "high_side_span_mmhg": 30.0,
+                  "high_side_qualified_bins": 4,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 195.18,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.002108069966601015,
+                    0.0020772025193667365,
+                    0.002036821060058913,
+                    0.001992075774029706,
+                    0.0019674043618285717,
+                    0.002078609370355006,
+                    0.0023558446999194897,
+                    0.002624872974637409,
+                    0.0031440554414049193,
+                    0.003808260903084916,
+                    0.004278253243839906,
+                    0.004400715765806941,
+                    0.004414850165785636,
+                    0.004921802824724045,
+                    0.006070152306225126,
+                    0.008204157112263227,
+                    0.00999492652620779,
+                    0.010179695636643352,
+                    0.009335377341355809,
+                    0.007679367990463073,
+                    0.0058240790441338106
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 225.0,
+              "height_area_peaks_mmhg": [
+                225.0,
+                225.0
+              ]
+            },
+            {
+              "origin_mmhg": 2.5,
+              "status": "envelope_candidate",
+              "reason": null,
+              "qualified_bin_count": 20,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 227.5,
+                  "peak_smoothed": 0.0265359096761234,
+                  "peak_bin_beats": 6,
+                  "low_edge_mmhg": 57.5,
+                  "high_edge_mmhg": 257.5,
+                  "low_edge_ratio": 0.21200955298874236,
+                  "high_edge_ratio": 0.5782892472070053,
+                  "high_side_span_mmhg": 30.0,
+                  "high_side_qualified_bins": 4,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 193.21,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.005625866348584565,
+                    0.0061814398212011136,
+                    0.00669581397766273,
+                    0.006610339974383095,
+                    0.00666435810206034,
+                    0.007158280698380435,
+                    0.007953783095668833,
+                    0.00922588706686401,
+                    0.011513907256606759,
+                    0.013042585631402707,
+                    0.01234914370926138,
+                    0.012397366702557668,
+                    0.013983404977428135,
+                    0.01737490185340941,
+                    0.022908787787591804,
+                    0.02618989832983248,
+                    0.0265359096761234,
+                    0.025007889881488575,
+                    0.02032020482287463,
+                    0.015345431230558487
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 237.5,
+                  "peak_smoothed": 0.009872762435563363,
+                  "peak_bin_beats": 3,
+                  "low_edge_mmhg": 57.5,
+                  "high_edge_mmhg": 257.5,
+                  "low_edge_ratio": 0.21131166723101316,
+                  "high_edge_ratio": 0.5691081752191612,
+                  "high_side_span_mmhg": 20.0,
+                  "high_side_qualified_bins": 3,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 195.25,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.0020862298904346125,
+                    0.0021290055483427685,
+                    0.0021297414223309216,
+                    0.0021205068577871172,
+                    0.0022913608532744737,
+                    0.0024498342455357165,
+                    0.002737873646700731,
+                    0.0034189152966985917,
+                    0.00443257913619847,
+                    0.005008064442625717,
+                    0.004728147542284382,
+                    0.004642309104246997,
+                    0.00496316474216635,
+                    0.006203231478326753,
+                    0.008273883164997595,
+                    0.009264388644510044,
+                    0.009784509018283238,
+                    0.009872762435563363,
+                    0.007981434088406136,
+                    0.0056186698140757475
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 232.5,
+              "height_area_peaks_mmhg": [
+                227.5,
+                237.5
+              ]
+            },
+            {
+              "origin_mmhg": 5.0,
+              "status": "abstain",
+              "reason": "incomplete_envelope_tails",
+              "qualified_bin_count": 20,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": "incomplete_envelope_tails",
+                  "peak_center_mmhg": 230.0,
+                  "peak_smoothed": 0.025769464142076152,
+                  "peak_bin_beats": 7,
+                  "low_edge_mmhg": 50.0,
+                  "high_edge_mmhg": 250.0,
+                  "low_edge_ratio": 0.21357374179407576,
+                  "high_edge_ratio": 0.8633662990423719,
+                  "high_side_span_mmhg": 20.0,
+                  "high_side_qualified_bins": 3,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 189.93,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.005503680880851466,
+                    0.005887251667527996,
+                    0.006439935745193439,
+                    0.006451434320249043,
+                    0.006085227583723988,
+                    0.006262032263960051,
+                    0.007050419887453689,
+                    0.008094490557663644,
+                    0.009322881385379143,
+                    0.011449453029971208,
+                    0.012927581566073688,
+                    0.01309283955244786,
+                    0.014056688847436077,
+                    0.0154713661530163,
+                    0.019088757959366914,
+                    0.023652100392212085,
+                    0.025036194792697263,
+                    0.025769464142076152,
+                    0.025225526343780877,
+                    0.0222484868846494
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": "incomplete_or_weak_peak",
+                  "peak_center_mmhg": 240.0,
+                  "peak_smoothed": 0.0095144891550282,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 50.0,
+                  "high_edge_mmhg": 250.0,
+                  "low_edge_ratio": 0.20045022732665077,
+                  "high_edge_ratio": 0.843010016336238,
+                  "high_side_span_mmhg": 10.0,
+                  "high_side_qualified_bins": 2,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 193.55,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.001907181514022356,
+                    0.001975467919183885,
+                    0.002029983376796934,
+                    0.001952505973169038,
+                    0.0018700977145092372,
+                    0.002094287738670013,
+                    0.00244539154457473,
+                    0.0028298692601924583,
+                    0.003383311473453185,
+                    0.004250468146291209,
+                    0.004894401824721483,
+                    0.0050214646376940284,
+                    0.005172158351493016,
+                    0.0052743011029607505,
+                    0.0064994830300744225,
+                    0.008153870900735577,
+                    0.008538155931505967,
+                    0.009323825710900815,
+                    0.0095144891550282,
+                    0.008020809658011281
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 235.0,
+              "height_area_peaks_mmhg": [
+                230.0,
+                240.0
+              ]
+            },
+            {
+              "origin_mmhg": 7.5,
+              "status": "abstain",
+              "reason": "incomplete_or_weak_peak",
+              "qualified_bin_count": 20,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": "incomplete_or_weak_peak",
+                  "peak_center_mmhg": 212.5,
+                  "peak_smoothed": 0.02753960039567504,
+                  "peak_bin_beats": 2,
+                  "low_edge_mmhg": 52.5,
+                  "high_edge_mmhg": 252.5,
+                  "low_edge_ratio": 0.19783783395971233,
+                  "high_edge_ratio": 0.5884460820071991,
+                  "high_side_span_mmhg": 40.0,
+                  "high_side_qualified_bins": 5,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 191.41,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.005448374890396387,
+                    0.005869430574618535,
+                    0.0065551262756270825,
+                    0.006794071760253135,
+                    0.006452150140639619,
+                    0.006321441778966595,
+                    0.006748875901545651,
+                    0.008078731214611843,
+                    0.010023959507480334,
+                    0.011974344306014195,
+                    0.012745448301007777,
+                    0.012649618911543977,
+                    0.01384104428402746,
+                    0.016853341231863758,
+                    0.022805543494068235,
+                    0.02753960039567504,
+                    0.027231111206131014,
+                    0.025196464025324793,
+                    0.021219976234702564,
+                    0.016205569952878886
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": "incomplete_or_weak_peak",
+                  "peak_center_mmhg": 212.5,
+                  "peak_smoothed": 0.009709835490886037,
+                  "peak_bin_beats": 2,
+                  "low_edge_mmhg": 52.5,
+                  "high_edge_mmhg": 252.5,
+                  "low_edge_ratio": 0.21436660432221646,
+                  "high_edge_ratio": 0.6000507906210186,
+                  "high_side_span_mmhg": 40.0,
+                  "high_side_qualified_bins": 5,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 190.79,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.0020814644627085814,
+                    0.0020659497504565715,
+                    0.00212284574695968,
+                    0.002179627172876374,
+                    0.0021592568649214106,
+                    0.0023197665311112878,
+                    0.0025421741619391152,
+                    0.0029720062786912057,
+                    0.003579680992981929,
+                    0.004199722446987747,
+                    0.004482650510268373,
+                    0.004471442180110497,
+                    0.004955285447925128,
+                    0.006005747886252214,
+                    0.008126513602043316,
+                    0.009709835490886037,
+                    0.009582883654540655,
+                    0.009149187131902888,
+                    0.007797387041872158,
+                    0.005826394463106193
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 212.5,
+              "height_area_peaks_mmhg": [
+                212.5,
+                212.5
+              ]
+            }
+          ]
+        }
+      },
+      "deletion_summary": {
+        "method": "delete one fixed extracted beat; no re-extraction; all origins retained",
+        "meaning": "sensitivity only; not a confidence interval or BP error",
+        "trial_count": 77,
+        "peak_changed_trials": 9,
+        "outcome_counts": {
+          "bin_origin_gate_failed": 77
+        }
+      },
+      "phase_summary": {
+        "phase_source": "recorded GPIO command edges on MCU sample clock",
+        "complete_command_trace": true,
+        "independent_pressure_reference": false,
+        "pressure_band_mmhg": [
+          200,
+          245
+        ],
+        "recorded_pulses": 413,
+        "phase_bin_width_ms": 25,
+        "phase_deltas": {
+          "0": {
+            "n": 73,
+            "median_mmhg": -0.98,
+            "min_mmhg": -4.075,
+            "max_mmhg": 0.355,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "25": {
+            "n": 71,
+            "median_mmhg": 0.241,
+            "min_mmhg": -0.625,
+            "max_mmhg": 1.789,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "50": {
+            "n": 74,
+            "median_mmhg": 0.149,
+            "min_mmhg": -0.682,
+            "max_mmhg": 1.463,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "75": {
+            "n": 73,
+            "median_mmhg": -0.213,
+            "min_mmhg": -0.781,
+            "max_mmhg": 1.321,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "100": {
+            "n": 73,
+            "median_mmhg": -0.014,
+            "min_mmhg": -0.525,
+            "max_mmhg": 1.264,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "125": {
+            "n": 73,
+            "median_mmhg": -0.071,
+            "min_mmhg": -0.611,
+            "max_mmhg": 1.221,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "150": {
+            "n": 73,
+            "median_mmhg": -0.099,
+            "min_mmhg": -0.483,
+            "max_mmhg": 1.136,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "175": {
+            "n": 73,
+            "median_mmhg": -0.043,
+            "min_mmhg": -0.469,
+            "max_mmhg": 1.136,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          }
+        },
+        "first_sample_after_valve": {
+          "n": 75,
+          "median_mmhg": -0.98,
+          "min_mmhg": -4.075,
+          "max_mmhg": 0.355,
+          "falls_ge5": 0,
+          "rises_ge5": 0
+        },
+        "limitation": "Command timing does not measure mechanical motion or ADS conversion aperture; correlation is not causation."
+      }
+    },
+    {
+      "source": "data\\raw\\development_20261101\\standard255_195_target275_peakwindow_20261105-123135.ndjson",
+      "source_sha256": "1a2151db7552629935bcd72b6d51c71b568a5e35a37327e1e2e2dd67ef5e4209",
+      "summary": {
+        "points": 3273,
+        "duration_ms": 81800,
+        "header": {
+          "schema": "bp.capture/4",
+          "type": "begin",
+          "firmware": "PEAK_WINDOW_20261105",
+          "n": 3273,
+          "dropped": 0,
+          "interval_ms": 25,
+          "raw_kind": 2,
+          "cal_valid": 1,
+          "slope": 1118086889,
+          "intercept": 3248429203,
+          "calc": 3
+        },
+        "timing": {
+          "schema": "bp.capture/4",
+          "type": "timing",
+          "n": 410,
+          "errors": 0,
+          "complete": 1
+        },
+        "valve": {
+          "schema": "bp.capture/4",
+          "type": "valve",
+          "pulses": 410,
+          "period_min": 200,
+          "period_max": 200,
+          "on_min": 1,
+          "on_max": 14,
+          "threshold": 1084227584,
+          "steps": 0,
+          "phase": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "rise_found": 0,
+          "rise_i": 0,
+          "rise_d": 0,
+          "rise_phase": 0,
+          "rise_on": 0,
+          "fall_found": 0,
+          "fall_i": 0,
+          "fall_d": 0,
+          "fall_phase": 0,
+          "fall_on": 0,
+          "trace_n": 0
+        },
+        "pressure_range": [
+          14.917703628540039,
+          264.8838806152344
+        ],
+        "fixed_band_mmhg": [
+          200,
+          245
+        ],
+        "fixed_band_samples": 840,
+        "fixed_band_sample_time_s": 21.0,
+        "fixed_band_ols_fall_mmhg_s": 2.3536780331935248,
+        "accepted_beats": 82,
+        "fixed_band_accepted_beats": 28,
+        "fixed_band_bins": {
+          "200": 9,
+          "210": 4,
+          "220": 3,
+          "230": 9,
+          "240": 3
+        },
+        "widths_ms": {
+          "1": 4,
+          "2": 28,
+          "3": 176,
+          "4": 154,
+          "5": 14,
+          "6": 2,
+          "7": 2,
+          "8": 8,
+          "9": 2,
+          "10": 8,
+          "11": 4,
+          "12": 4,
+          "13": 2,
+          "14": 2
+        },
+        "intervals_ms": {
+          "200": 409
+        }
+      },
+      "inference": {
+        "status": "envelope_candidate",
+        "reason": null,
+        "envelope_peak_mmhg": 215.0,
+        "sbp_mmhg": null,
+        "dbp_mmhg": null,
+        "bp_output_allowed": false,
+        "pulse_bpm": 79.7,
+        "clean_beats": 82,
+        "occupied_bins": 21,
+        "pressure_range_mmhg": [
+          55.0,
+          255.0
+        ],
+        "height_area_peaks_mmhg": [
+          215.0,
+          215.0
+        ],
+        "exploratory_ratio_crossings_mmhg": {
+          "height": {
+            "high_50pct": null,
+            "low_60pct": 150.45
+          },
+          "area": {
+            "high_50pct": null,
+            "low_60pct": 145.02
+          }
+        },
+        "stability": {
+          "status": "pass",
+          "reason": null,
+          "peak_range_mmhg": [
+            212.5,
+            222.5
+          ],
+          "peak_span_mmhg": 10.0,
+          "max_allowed_span_mmhg": 15.0,
+          "meaning": "bin-origin sensitivity only; not an accuracy interval",
+          "variants": [
+            {
+              "origin_mmhg": 0.0,
+              "status": "envelope_candidate",
+              "reason": null,
+              "qualified_bin_count": 21,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 215.0,
+                  "peak_smoothed": 0.030232158075521716,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 55.0,
+                  "high_edge_mmhg": 255.0,
+                  "low_edge_ratio": 0.21141941888610033,
+                  "high_edge_ratio": 0.5758044211813323,
+                  "high_side_span_mmhg": 40.0,
+                  "high_side_qualified_bins": 5,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 150.45,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.0063916652919995265,
+                    0.007474169046217479,
+                    0.008988200719340164,
+                    0.010818093082743188,
+                    0.012384903485690307,
+                    0.013701401610904267,
+                    0.014181765686969262,
+                    0.014891440098918851,
+                    0.015984378969812744,
+                    0.016960558072893747,
+                    0.01912327037909939,
+                    0.018989817138293407,
+                    0.018549444260277645,
+                    0.02022227132224728,
+                    0.020306525048842363,
+                    0.02427575393962237,
+                    0.030232158075521716,
+                    0.027643643845129854,
+                    0.022321937047144517,
+                    0.02003354279834189,
+                    0.017407810281738323
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 215.0,
+                  "peak_smoothed": 0.01095950887426513,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 55.0,
+                  "high_edge_mmhg": 255.0,
+                  "low_edge_ratio": 0.22029468432826008,
+                  "high_edge_ratio": 0.5611871565562067,
+                  "high_side_span_mmhg": 40.0,
+                  "high_side_qualified_bins": 5,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 145.02,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.002414321547849002,
+                    0.0030212739008842206,
+                    0.0036440420319580084,
+                    0.004233392330279335,
+                    0.004767068563739976,
+                    0.005289085168320874,
+                    0.005454726896054076,
+                    0.005712760492206697,
+                    0.006176747363128234,
+                    0.00657404635261138,
+                    0.007309617272465025,
+                    0.007148409062476974,
+                    0.006955380198023975,
+                    0.007497492601007696,
+                    0.0073604632051598555,
+                    0.00881526599320201,
+                    0.01095950887426513,
+                    0.009848380934463559,
+                    0.008121861053648092,
+                    0.007455981083034657,
+                    0.006150335622401362
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 215.0,
+              "height_area_peaks_mmhg": [
+                215.0,
+                215.0
+              ]
+            },
+            {
+              "origin_mmhg": 2.5,
+              "status": "envelope_candidate",
+              "reason": null,
+              "qualified_bin_count": 21,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 217.5,
+                  "peak_smoothed": 0.029095226329095884,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 57.5,
+                  "high_edge_mmhg": 257.5,
+                  "low_edge_ratio": 0.24094534733190964,
+                  "high_edge_ratio": 0.5539665785201542,
+                  "high_side_span_mmhg": 40.0,
+                  "high_side_qualified_bins": 5,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 152.22,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.007010359413564531,
+                    0.008462968167015899,
+                    0.00957357887189501,
+                    0.010817119665764723,
+                    0.012398339656822913,
+                    0.014086640350141516,
+                    0.015084160854516627,
+                    0.016284932823655174,
+                    0.01672124998533693,
+                    0.016822011393977213,
+                    0.01816679974448523,
+                    0.018896034719183063,
+                    0.02059977706516565,
+                    0.0203291901883352,
+                    0.018006754143821965,
+                    0.023192174472337183,
+                    0.029095226329095884,
+                    0.02535750590442906,
+                    0.02117886807679412,
+                    0.0196035336980287,
+                    0.016117782980798752
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 217.5,
+                  "peak_smoothed": 0.01052853102574315,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 57.5,
+                  "high_edge_mmhg": 257.5,
+                  "low_edge_ratio": 0.24866273952509874,
+                  "high_edge_ratio": 0.5332252330284437,
+                  "high_side_span_mmhg": 40.0,
+                  "high_side_qualified_bins": 5,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 126.13,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.0026180533680362893,
+                    0.0032997931591675048,
+                    0.0038057545576478547,
+                    0.004241614224313331,
+                    0.004771649951596386,
+                    0.005366849632553511,
+                    0.005830210946498352,
+                    0.006394681726860333,
+                    0.006504188619653812,
+                    0.006518752034719814,
+                    0.007029981104074478,
+                    0.007387927348751685,
+                    0.008079751428452171,
+                    0.007634323453250149,
+                    0.006482873014138235,
+                    0.008483354816311618,
+                    0.01052853102574315,
+                    0.008892320565307896,
+                    0.00764383086907026,
+                    0.007277228678783899,
+                    0.0056140784096490905
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 217.5,
+              "height_area_peaks_mmhg": [
+                217.5,
+                217.5
+              ]
+            },
+            {
+              "origin_mmhg": 5.0,
+              "status": "envelope_candidate",
+              "reason": null,
+              "qualified_bin_count": 20,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 220.0,
+                  "peak_smoothed": 0.027914407157270282,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 60.0,
+                  "high_edge_mmhg": 250.0,
+                  "low_edge_ratio": 0.2447056742312642,
+                  "high_edge_ratio": 0.7779325799494216,
+                  "high_side_span_mmhg": 30.0,
+                  "high_side_qualified_bins": 4,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 150.61,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.006830813824185851,
+                    0.008828965734871037,
+                    0.010746225487951021,
+                    0.011419525924851695,
+                    0.012070028401956924,
+                    0.013452121786338077,
+                    0.014969181691421788,
+                    0.016889534916155937,
+                    0.01679602158242572,
+                    0.016693503596309275,
+                    0.01759635461720914,
+                    0.018072406550553997,
+                    0.02106696977311693,
+                    0.021901891063583093,
+                    0.020649750762568607,
+                    0.025115946231338237,
+                    0.027914407157270282,
+                    0.022978648109540093,
+                    0.020403786015204504,
+                    0.021715526777613868
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 220.0,
+                  "peak_smoothed": 0.009974402482664948,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 60.0,
+                  "high_edge_mmhg": 250.0,
+                  "low_edge_ratio": 0.28441507416856787,
+                  "high_edge_ratio": 0.7935309057539043,
+                  "high_side_span_mmhg": 30.0,
+                  "high_side_qualified_bins": 4,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 122.97,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.002836870421894299,
+                    0.0035686930921039234,
+                    0.004249462423634035,
+                    0.004430007459045804,
+                    0.004645842681109643,
+                    0.005170119854551495,
+                    0.005773797279207184,
+                    0.006483485631204306,
+                    0.006424584429091367,
+                    0.006439780083274053,
+                    0.00667059998203458,
+                    0.006732203292093963,
+                    0.00789479887040272,
+                    0.008068878095192434,
+                    0.007522173050663406,
+                    0.009228369965570181,
+                    0.009974402482664948,
+                    0.00792638068525999,
+                    0.007204680730100199,
+                    0.007914996636423107
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 220.0,
+              "height_area_peaks_mmhg": [
+                220.0,
+                220.0
+              ]
+            },
+            {
+              "origin_mmhg": 7.5,
+              "status": "envelope_candidate",
+              "reason": null,
+              "qualified_bin_count": 20,
+              "envelopes": {
+                "height": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 222.5,
+                  "peak_smoothed": 0.0294754314817704,
+                  "peak_bin_beats": 3,
+                  "low_edge_mmhg": 62.5,
+                  "high_edge_mmhg": 252.5,
+                  "low_edge_ratio": 0.2277168519455876,
+                  "high_edge_ratio": 0.618114405710679,
+                  "high_side_span_mmhg": 30.0,
+                  "high_side_qualified_bins": 4,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 143.31,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.006712052466766622,
+                    0.009012415537107354,
+                    0.010969600637934299,
+                    0.011483492351392868,
+                    0.012138551806057697,
+                    0.01374839357765149,
+                    0.015356155061746292,
+                    0.016708342562568312,
+                    0.017569292052333818,
+                    0.019002639565195205,
+                    0.01853314579845875,
+                    0.017813749569525264,
+                    0.020649631262785878,
+                    0.02175520326667499,
+                    0.023576318747515746,
+                    0.029181370459227664,
+                    0.0294754314817704,
+                    0.023399267394177935,
+                    0.019213550914951718,
+                    0.01821918881342035
+                  ]
+                },
+                "area": {
+                  "qualified": true,
+                  "reason": null,
+                  "peak_center_mmhg": 212.5,
+                  "peak_smoothed": 0.01078208791201582,
+                  "peak_bin_beats": 4,
+                  "low_edge_mmhg": 62.5,
+                  "high_edge_mmhg": 252.5,
+                  "low_edge_ratio": 0.2428150641508559,
+                  "high_edge_ratio": 0.5946277484665472,
+                  "high_side_span_mmhg": 40.0,
+                  "high_side_qualified_bins": 5,
+                  "high_50pct_crossing_exists": false,
+                  "high_50pct": null,
+                  "low_60pct": 133.74,
+                  "competing_peak_centers_mmhg": [],
+                  "smoothed_values": [
+                    0.0026180533680362893,
+                    0.003547431869913506,
+                    0.004301482928599475,
+                    0.004445017335837295,
+                    0.00468182590477346,
+                    0.0052818992181456826,
+                    0.005889406335404112,
+                    0.006417089481560497,
+                    0.006839462557822992,
+                    0.00745579558141237,
+                    0.007033160328474883,
+                    0.0065998353350379384,
+                    0.007677866925325849,
+                    0.007906862815284247,
+                    0.00859807026773223,
+                    0.01078208791201582,
+                    0.010687870911208982,
+                    0.00833470386966402,
+                    0.006818027934193362,
+                    0.006411328658890342
+                  ]
+                }
+              },
+              "candidate_peak_mmhg": 217.5,
+              "height_area_peaks_mmhg": [
+                222.5,
+                212.5
+              ]
+            }
+          ]
+        }
+      },
+      "deletion_summary": {
+        "method": "delete one fixed extracted beat; no re-extraction; all origins retained",
+        "meaning": "sensitivity only; not a confidence interval or BP error",
+        "trial_count": 82,
+        "peak_changed_trials": 10,
+        "outcome_counts": {
+          "pass": 71,
+          "bin_origin_gate_failed": 11
+        }
+      },
+      "phase_summary": {
+        "phase_source": "recorded GPIO command edges on MCU sample clock",
+        "complete_command_trace": true,
+        "independent_pressure_reference": false,
+        "pressure_band_mmhg": [
+          200,
+          245
+        ],
+        "recorded_pulses": 410,
+        "phase_bin_width_ms": 25,
+        "phase_deltas": {
+          "0": {
+            "n": 106,
+            "median_mmhg": -0.689,
+            "min_mmhg": -3.522,
+            "max_mmhg": 1.079,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "25": {
+            "n": 105,
+            "median_mmhg": 0.17,
+            "min_mmhg": -0.284,
+            "max_mmhg": 1.562,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "50": {
+            "n": 104,
+            "median_mmhg": 0.092,
+            "min_mmhg": -0.341,
+            "max_mmhg": 1.477,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "75": {
+            "n": 105,
+            "median_mmhg": -0.142,
+            "min_mmhg": -0.54,
+            "max_mmhg": 1.235,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "100": {
+            "n": 105,
+            "median_mmhg": -0.057,
+            "min_mmhg": -0.696,
+            "max_mmhg": 1.292,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "125": {
+            "n": 105,
+            "median_mmhg": -0.071,
+            "min_mmhg": -0.682,
+            "max_mmhg": 1.15,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "150": {
+            "n": 105,
+            "median_mmhg": -0.057,
+            "min_mmhg": -0.582,
+            "max_mmhg": 1.15,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          },
+          "175": {
+            "n": 105,
+            "median_mmhg": -0.057,
+            "min_mmhg": -0.54,
+            "max_mmhg": 1.193,
+            "falls_ge5": 0,
+            "rises_ge5": 0
+          }
+        },
+        "first_sample_after_valve": {
+          "n": 107,
+          "median_mmhg": -0.682,
+          "min_mmhg": -3.522,
+          "max_mmhg": 1.15,
+          "falls_ge5": 0,
+          "rises_ge5": 0
+        },
+        "limitation": "Command timing does not measure mechanical motion or ADS conversion aperture; correlation is not causation."
+      }
+    }
+  ],
+  "bp_accuracy_validated": false,
+  "deploy_bp_algorithm": false,
+  "next_step": "Repeat frozen peak profile at identical Preset4 conditions before multi-preset extension; independent dynamic reference remains necessary for accuracy.",
+  "limitations": [
+    "Single sequential trial per profile, different boot/firmware identities.",
+    "No synchronized independent dynamic pressure reference.",
+    "Clipped zero pressure does not prove raw zero stability.",
+    "Frozen feature/gates; no SBP/DBP estimate or accuracy claim.",
+    "Different start/end raw zero and possible pressure offset/drift.",
+    "Only a single sequential capture per mode; no repeatability or causal proof.",
+    "Peak band OLS slope is descriptive on pulsatile samples, not instantaneous control error.",
+    "Original on-device BP calculation failed in both trials; high-side50% crossing missing in both.",
+    "Peak profile requested1.8mmHg/s but measured fixed-band OLS slope2.354; speed setpoint not met."
+  ],
+  "production_c_replays": [
+    {
+      "path": "data\\reports\\standard_bp_valvetiming_baseline_20261105.replay.json",
+      "sha256": "ba2e4dcaadf37cda2f478d34954c2bbfccc30cbd093a30b928044029b2ce6c6a",
+      "comparison": {
+        "max_envelope_abs_error_v": 0.0,
+        "max_smooth_abs_error_v": 0.0,
+        "envelope_bits_equal": true,
+        "feature_bits_equal": true,
+        "validity_equal": true
+      }
+    },
+    {
+      "path": "data\\reports\\standard_bp_peakwindow_20261105.replay.json",
+      "sha256": "e12b396837faceb7a055711f6401e2c0f2f35e929442d864771b5ce1d19e1eba",
+      "comparison": {
+        "max_envelope_abs_error_v": 0.0,
+        "max_smooth_abs_error_v": 0.0,
+        "envelope_bits_equal": true,
+        "feature_bits_equal": true,
+        "validity_equal": true
+      }
+    }
+  ],
+  "final_closeout": {
+    "path": "data\\raw\\preflight\\peakwindow_final_20261105-123717",
+    "metadata_sha256": "2c95b6d6132ac199945950025c457fc7f220bd5c2e2c946a6e9d390bd1f5cf1f",
+    "raw_sha256": "b90ca4c71d2b18d64ff24a16e9b0d101008c09e258c22b1f6c2e115a9611029d",
+    "outcome": "passed",
+    "sealed_observation_seconds": 15,
+    "summary": {
+      "raw": {
+        "min": 1349,
+        "max": 1359,
+        "mean": 1355.2933333333333
+      },
+      "sensor": {
+        "min": 233,
+        "max": 234,
+        "mean": 233.77666666666667
+      },
+      "est": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "new_firmware_archive": {
+    "path": "data\\provenance\\peak_window_20261105_sources.zip",
+    "sha256": "d5cd464918e215d6f660f962ddc8e68339c9833fee16b6fafd082840585ffaf6",
+    "hex_sha256": "bb33a3a40471ba24b9e677c566b83ec19c4cf38393b687684f73d1a618418a96"
+  }
+}

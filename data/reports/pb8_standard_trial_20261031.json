@@ -1,0 +1,26 @@
+{
+  "schema": "bp.development_incident/1",
+  "raw_path": "data\\raw\\development_20261031\\pb8_standard_20261031-133415.ndjson",
+  "raw_sha256": "57cf575112ce7d171118f56ceb08a27c96c6b68e1f5fde13629c94f0cfbfa690",
+  "firmware_capture_export_obtained": false,
+  "diagnostic_pressure_samples": 1435,
+  "device_target_reached_mmhg": 150.5,
+  "maximum_diagnostic_est_mmhg": 150.3,
+  "start_to_first_boot_seconds": 66.525,
+  "pwm_to_last_pressure_seconds": 63.047,
+  "last_pressure_mmhg": 119.0,
+  "repeated_boot_count": 8,
+  "max_pressure_host_gap_ms": 60,
+  "late_window_average_loss_mmhg_s": 0.17262873055436936,
+  "ideal_150_to_15_at_2mmhg_s_seconds": 67.5,
+  "simulation_limitation": "Illustrative ideal ramp only; no identified cuff/valve/BP simulator plant model; not proof of actual flow or reset cause.",
+  "operator_manual_closeout": {
+    "pump_load_power_disconnected": true,
+    "bp_stop": true,
+    "pneumatic_unloaded": true,
+    "basis": "user confirmation after failed remote stop/vent"
+  },
+  "reset_cause": "unknown; no reset-cause register evidence",
+  "ordinary_measurement_max_valve_on_ms": 90,
+  "diagnostic_deflate_test_max_valve_on_ms": 4
+}

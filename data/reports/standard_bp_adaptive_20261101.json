@@ -1,0 +1,284 @@
+{
+  "schema": "bp.standard_adaptive/2",
+  "scope": "development-only; BP outputs withheld; labels held out of inference",
+  "manifest_sha256": "629d6a6fdc362e7f1e2f9229a8967bb3eefc9339140564ac77deab5849bbf220",
+  "profiles": [
+    {
+      "name": "preset_1",
+      "sbp": 120,
+      "dbp": 80,
+      "map": 93,
+      "bpm": 80,
+      "pulse_volume_cc": 0.68
+    },
+    {
+      "name": "preset_2",
+      "sbp": 150,
+      "dbp": 100,
+      "map": 116,
+      "bpm": 80,
+      "pulse_volume_cc": 0.65
+    },
+    {
+      "name": "preset_3",
+      "sbp": 200,
+      "dbp": 150,
+      "map": 166,
+      "bpm": 80,
+      "pulse_volume_cc": 0.6
+    },
+    {
+      "name": "preset_4",
+      "sbp": 255,
+      "dbp": 195,
+      "map": 215,
+      "bpm": 80,
+      "pulse_volume_cc": 0.55
+    },
+    {
+      "name": "preset_5",
+      "sbp": 60,
+      "dbp": 30,
+      "map": 40,
+      "bpm": 80,
+      "pulse_volume_cc": 0.75
+    },
+    {
+      "name": "preset_6",
+      "sbp": 80,
+      "dbp": 50,
+      "map": 60,
+      "bpm": 80,
+      "pulse_volume_cc": 0.71
+    },
+    {
+      "name": "preset_7",
+      "sbp": 100,
+      "dbp": 65,
+      "map": 76,
+      "bpm": 80,
+      "pulse_volume_cc": 0.69
+    },
+    {
+      "name": "user_defined",
+      "setting": null,
+      "note": "separate manual mode; no fixed eighth Standard BP preset"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "standard120_80_20261101-111311",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "outcome": "export_received",
+      "status": "envelope_candidate",
+      "reason": null,
+      "envelope_peak_mmhg": 95.0,
+      "sbp_mmhg": null,
+      "dbp_mmhg": null,
+      "bp_output_allowed": false,
+      "pulse_bpm": 79.7,
+      "clean_beats": 67,
+      "occupied_bins": 11,
+      "pressure_range_mmhg": [
+        35.0,
+        135.0
+      ],
+      "height_area_peaks_mmhg": [
+        95.0,
+        95.0
+      ],
+      "exploratory_ratio_crossings_mmhg": {
+        "height": {
+          "high_50pct": 122.09,
+          "low_60pct": 73.03
+        },
+        "area": {
+          "high_50pct": 121.04,
+          "low_60pct": 74.04
+        }
+      },
+      "envelope_peak_minus_panel_map_mmhg": 2.0
+    },
+    {
+      "run_id": "standard120_80_20261101-114844",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "outcome": "export_received",
+      "status": "envelope_candidate",
+      "reason": null,
+      "envelope_peak_mmhg": 95.0,
+      "sbp_mmhg": null,
+      "dbp_mmhg": null,
+      "bp_output_allowed": false,
+      "pulse_bpm": 79.7,
+      "clean_beats": 53,
+      "occupied_bins": 10,
+      "pressure_range_mmhg": [
+        35.0,
+        125.0
+      ],
+      "height_area_peaks_mmhg": [
+        95.0,
+        95.0
+      ],
+      "exploratory_ratio_crossings_mmhg": {
+        "height": {
+          "high_50pct": null,
+          "low_60pct": 77.42
+        },
+        "area": {
+          "high_50pct": null,
+          "low_60pct": 77.43
+        }
+      },
+      "envelope_peak_minus_panel_map_mmhg": 2.0
+    },
+    {
+      "run_id": "standard120_80_20261101-120429",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "outcome": "export_received",
+      "status": "envelope_candidate",
+      "reason": null,
+      "envelope_peak_mmhg": 100.0,
+      "sbp_mmhg": null,
+      "dbp_mmhg": null,
+      "bp_output_allowed": false,
+      "pulse_bpm": 79.7,
+      "clean_beats": 51,
+      "occupied_bins": 10,
+      "pressure_range_mmhg": [
+        35.0,
+        125.0
+      ],
+      "height_area_peaks_mmhg": [
+        95.0,
+        105.0
+      ],
+      "exploratory_ratio_crossings_mmhg": {
+        "height": {
+          "high_50pct": null,
+          "low_60pct": 74.43
+        },
+        "area": {
+          "high_50pct": null,
+          "low_60pct": 75.7
+        }
+      },
+      "envelope_peak_minus_panel_map_mmhg": 7.0
+    },
+    {
+      "run_id": "standard120_80_20261101-152030",
+      "panel_setting_mmhg": [
+        120,
+        80
+      ],
+      "outcome": "export_received",
+      "status": "envelope_candidate",
+      "reason": null,
+      "envelope_peak_mmhg": 95.0,
+      "sbp_mmhg": null,
+      "dbp_mmhg": null,
+      "bp_output_allowed": false,
+      "pulse_bpm": 79.7,
+      "clean_beats": 56,
+      "occupied_bins": 9,
+      "pressure_range_mmhg": [
+        45.0,
+        125.0
+      ],
+      "height_area_peaks_mmhg": [
+        95.0,
+        95.0
+      ],
+      "exploratory_ratio_crossings_mmhg": {
+        "height": {
+          "high_50pct": null,
+          "low_60pct": 75.76
+        },
+        "area": {
+          "high_50pct": null,
+          "low_60pct": 76.43
+        }
+      },
+      "envelope_peak_minus_panel_map_mmhg": 2.0
+    },
+    {
+      "run_id": "standard150_100_20261101-123247",
+      "panel_setting_mmhg": [
+        150,
+        100
+      ],
+      "outcome": "export_received",
+      "status": "envelope_candidate",
+      "reason": null,
+      "envelope_peak_mmhg": 125.0,
+      "sbp_mmhg": null,
+      "dbp_mmhg": null,
+      "bp_output_allowed": false,
+      "pulse_bpm": 79.7,
+      "clean_beats": 70,
+      "occupied_bins": 12,
+      "pressure_range_mmhg": [
+        45.0,
+        155.0
+      ],
+      "height_area_peaks_mmhg": [
+        125.0,
+        125.0
+      ],
+      "exploratory_ratio_crossings_mmhg": {
+        "height": {
+          "high_50pct": null,
+          "low_60pct": 96.35
+        },
+        "area": {
+          "high_50pct": null,
+          "low_60pct": 94.83
+        }
+      },
+      "envelope_peak_minus_panel_map_mmhg": 9.0
+    },
+    {
+      "run_id": "standard200_150_20261101-133011",
+      "panel_setting_mmhg": [
+        200,
+        150
+      ],
+      "outcome": "failed",
+      "status": "abstain",
+      "reason": "capture_incomplete",
+      "envelope_peak_mmhg": null,
+      "sbp_mmhg": null,
+      "dbp_mmhg": null,
+      "pulse_bpm": null,
+      "bp_output_allowed": false,
+      "exploratory_ratio_crossings_mmhg": null
+    },
+    {
+      "run_id": "standard200_150_20261101-134453",
+      "panel_setting_mmhg": [
+        200,
+        150
+      ],
+      "outcome": "export_received",
+      "status": "abstain",
+      "reason": "incomplete_or_weak_peak",
+      "envelope_peak_mmhg": null,
+      "sbp_mmhg": null,
+      "dbp_mmhg": null,
+      "pulse_bpm": null,
+      "bp_output_allowed": false,
+      "exploratory_ratio_crossings_mmhg": null,
+      "clean_beats": 50
+    }
+  ],
+  "firmware_changed": false
+}

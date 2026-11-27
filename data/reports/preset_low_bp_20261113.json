@@ -1,0 +1,1015 @@
+{
+  "aami_limits": {
+    "mean": 5.0,
+    "sd": 8.0
+  },
+  "discovered_from_raw": true,
+  "presets": [
+    {
+      "preset": 5,
+      "panel": {
+        "sbp_mmhg": 60,
+        "dbp_mmhg": 30,
+        "map_mmhg": 40,
+        "pulse_volume_cc": 0.75
+      },
+      "captured": 11,
+      "gate_dropped": [],
+      "scored": 11,
+      "published_all_three": 10,
+      "status_counts": {
+        "ok": 10,
+        "unresolved_map": 1
+      },
+      "yield": 0.909,
+      "map": {
+        "n": 10,
+        "mean": 17.78,
+        "sd": 46.38,
+        "median": 3.0,
+        "min": 0.82,
+        "max": 149.64,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "aami_pass": false
+      },
+      "sbp": {
+        "n": 10,
+        "mean": 17.73,
+        "sd": 43.09,
+        "median": 5.96,
+        "min": -3.72,
+        "max": 139.96,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "aami_pass": false
+      },
+      "dbp": {
+        "n": 10,
+        "mean": 12.7,
+        "sd": 39.08,
+        "median": 1.42,
+        "min": -4.85,
+        "max": 123.5,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "aami_pass": false
+      },
+      "peak_at_mmhg": {
+        "n": 11,
+        "mean": 139.79,
+        "sd": 78.38,
+        "median": 177.75,
+        "min": 40.51,
+        "max": 241.41,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "aami_pass": false
+      },
+      "plateau_ratio": {
+        "n": 11,
+        "mean": 0.08,
+        "sd": 0.03,
+        "median": 0.08,
+        "min": 0.01,
+        "max": 0.14,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "peak_slope": {
+        "n": 11,
+        "mean": -1.82,
+        "sd": 0.15,
+        "median": -1.91,
+        "min": -1.96,
+        "max": -1.58,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "device_kinds": {
+        "calculation_failed": 10,
+        "valid": 1
+      },
+      "device_valid_rows": [
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-153608",
+          "sbp": 236,
+          "dbp": 90,
+          "pulse_bpm": 183,
+          "sbp_error": 176,
+          "dbp_error": 60
+        }
+      ],
+      "rows": [
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-151805",
+          "status": "ok",
+          "map_mmhg": 42.99,
+          "sbp_mmhg": 65.85,
+          "dbp_mmhg": 32.2,
+          "map_error": 2.99,
+          "sbp_error": 5.85,
+          "dbp_error": 2.2,
+          "envelope_peak_raw_mv": 10.04,
+          "envelope_peak_at_mmhg": 42.58,
+          "high_side_plateau_ratio": 0.0142,
+          "peak_window_slope_mmhg_s": -1.926,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-153242",
+          "status": "ok",
+          "map_mmhg": 41.23,
+          "sbp_mmhg": 61.4,
+          "dbp_mmhg": 30.63,
+          "map_error": 1.23,
+          "sbp_error": 1.4,
+          "dbp_error": 0.63,
+          "envelope_peak_raw_mv": 9.422,
+          "envelope_peak_at_mmhg": 40.51,
+          "high_side_plateau_ratio": 0.0993,
+          "peak_window_slope_mmhg_s": -1.638,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-153608",
+          "status": "ok",
+          "map_mmhg": 46.07,
+          "sbp_mmhg": 66.06,
+          "dbp_mmhg": 28.82,
+          "map_error": 6.07,
+          "sbp_error": 6.06,
+          "dbp_error": -1.18,
+          "envelope_peak_raw_mv": 9.214,
+          "envelope_peak_at_mmhg": 47.95,
+          "high_side_plateau_ratio": 0.0774,
+          "peak_window_slope_mmhg_s": -1.928,
+          "device": {
+            "kind": "valid",
+            "sbp": 236,
+            "dbp": 90,
+            "pulse_bpm": 183
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-153934",
+          "status": "ok",
+          "map_mmhg": 46.71,
+          "sbp_mmhg": 66.88,
+          "dbp_mmhg": 26.89,
+          "map_error": 6.71,
+          "sbp_error": 6.88,
+          "dbp_error": -3.11,
+          "envelope_peak_raw_mv": 10.457,
+          "envelope_peak_at_mmhg": 177.75,
+          "high_side_plateau_ratio": 0.1384,
+          "peak_window_slope_mmhg_s": -1.579,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-154304",
+          "status": "ok",
+          "map_mmhg": 41.88,
+          "sbp_mmhg": 66.27,
+          "dbp_mmhg": 27.03,
+          "map_error": 1.88,
+          "sbp_error": 6.27,
+          "dbp_error": -2.97,
+          "envelope_peak_raw_mv": 10.06,
+          "envelope_peak_at_mmhg": 173.08,
+          "high_side_plateau_ratio": 0.1081,
+          "peak_window_slope_mmhg_s": -1.623,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-154631",
+          "status": "ok",
+          "map_mmhg": 189.64,
+          "sbp_mmhg": 199.96,
+          "dbp_mmhg": 153.5,
+          "map_error": 149.64,
+          "sbp_error": 139.96,
+          "dbp_error": 123.5,
+          "envelope_peak_raw_mv": 10.261,
+          "envelope_peak_at_mmhg": 190.97,
+          "high_side_plateau_ratio": 0.0438,
+          "peak_window_slope_mmhg_s": -1.726,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-155003",
+          "status": "ok",
+          "map_mmhg": 44.38,
+          "sbp_mmhg": 61.3,
+          "dbp_mmhg": 25.15,
+          "map_error": 4.38,
+          "sbp_error": 1.3,
+          "dbp_error": -4.85,
+          "envelope_peak_raw_mv": 10.067,
+          "envelope_peak_at_mmhg": 42.4,
+          "high_side_plateau_ratio": 0.0618,
+          "peak_window_slope_mmhg_s": -1.94,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-155325",
+          "status": "ok",
+          "map_mmhg": 41.09,
+          "sbp_mmhg": 56.28,
+          "dbp_mmhg": 35.94,
+          "map_error": 1.09,
+          "sbp_error": -3.72,
+          "dbp_error": 5.94,
+          "envelope_peak_raw_mv": 10.403,
+          "envelope_peak_at_mmhg": 190.79,
+          "high_side_plateau_ratio": 0.0909,
+          "peak_window_slope_mmhg_s": -1.867,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-155651",
+          "status": "ok",
+          "map_mmhg": 43.01,
+          "sbp_mmhg": 65.15,
+          "dbp_mmhg": 32.55,
+          "map_error": 3.01,
+          "sbp_error": 5.15,
+          "dbp_error": 2.55,
+          "envelope_peak_raw_mv": 10.767,
+          "envelope_peak_at_mmhg": 195.59,
+          "high_side_plateau_ratio": 0.0659,
+          "peak_window_slope_mmhg_s": -1.962,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-160016",
+          "status": "ok",
+          "map_mmhg": 40.82,
+          "sbp_mmhg": 68.18,
+          "dbp_mmhg": 34.32,
+          "map_error": 0.82,
+          "sbp_error": 8.18,
+          "dbp_error": 4.32,
+          "envelope_peak_raw_mv": 10.661,
+          "envelope_peak_at_mmhg": 194.61,
+          "high_side_plateau_ratio": 0.0455,
+          "peak_window_slope_mmhg_s": -1.911,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard060_030_target275_peakwindow_20261113-160347",
+          "status": "unresolved_map",
+          "map_mmhg": 245.97,
+          "sbp_mmhg": 251.79,
+          "dbp_mmhg": 240.58,
+          "map_error": 205.97,
+          "sbp_error": 191.79,
+          "dbp_error": 210.58,
+          "envelope_peak_raw_mv": 12.337,
+          "envelope_peak_at_mmhg": 241.41,
+          "high_side_plateau_ratio": 0.0957,
+          "peak_window_slope_mmhg_s": -1.912,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        }
+      ]
+    },
+    {
+      "preset": 6,
+      "panel": {
+        "sbp_mmhg": 80,
+        "dbp_mmhg": 50,
+        "map_mmhg": 60,
+        "pulse_volume_cc": 0.71
+      },
+      "captured": 11,
+      "gate_dropped": [
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-162512",
+          "why": "v2 gate",
+          "slope": null,
+          "reasons": [
+            "decode failure: point missing, duplicate, out of order or excess"
+          ],
+          "device": {
+            "kind": "valid",
+            "sbp": 207,
+            "dbp": 36,
+            "pulse_bpm": 56
+          }
+        }
+      ],
+      "scored": 10,
+      "published_all_three": 9,
+      "status_counts": {
+        "ok": 9,
+        "unresolved_map": 1
+      },
+      "yield": 0.818,
+      "map": {
+        "n": 9,
+        "mean": 5.14,
+        "sd": 3.19,
+        "median": 6.21,
+        "min": 0.73,
+        "max": 8.31,
+        "aami_mean_ok": false,
+        "aami_sd_ok": true,
+        "aami_pass": false
+      },
+      "sbp": {
+        "n": 9,
+        "mean": 3.88,
+        "sd": 5.69,
+        "median": 4.01,
+        "min": -2.86,
+        "max": 12.4,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "dbp": {
+        "n": 9,
+        "mean": -2.13,
+        "sd": 2.65,
+        "median": -2.81,
+        "min": -6.59,
+        "max": 3.08,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "peak_at_mmhg": {
+        "n": 10,
+        "mean": 83.17,
+        "sd": 57.55,
+        "median": 63.94,
+        "min": 59.19,
+        "max": 246.31,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "aami_pass": false
+      },
+      "plateau_ratio": {
+        "n": 10,
+        "mean": 0.03,
+        "sd": 0.01,
+        "median": 0.03,
+        "min": 0.02,
+        "max": 0.04,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "peak_slope": {
+        "n": 10,
+        "mean": -1.83,
+        "sd": 0.07,
+        "median": -1.83,
+        "min": -1.92,
+        "max": -1.74,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "device_kinds": {
+        "calculation_failed": 7,
+        "valid": 4
+      },
+      "device_valid_rows": [
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-161432",
+          "sbp": 234,
+          "dbp": 28,
+          "pulse_bpm": 199,
+          "sbp_error": 154,
+          "dbp_error": -22
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-163532",
+          "sbp": 234,
+          "dbp": 71,
+          "pulse_bpm": 56,
+          "sbp_error": 154,
+          "dbp_error": 21
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-163858",
+          "sbp": 237,
+          "dbp": 70,
+          "pulse_bpm": 56,
+          "sbp_error": 157,
+          "dbp_error": 20
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-162512",
+          "sbp": 207,
+          "dbp": 36,
+          "pulse_bpm": 56,
+          "sbp_error": 127,
+          "dbp_error": -14
+        }
+      ],
+      "rows": [
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-151412",
+          "status": "ok",
+          "map_mmhg": 60.73,
+          "sbp_mmhg": 84.01,
+          "dbp_mmhg": 49.52,
+          "map_error": 0.73,
+          "sbp_error": 4.01,
+          "dbp_error": -0.48,
+          "envelope_peak_raw_mv": 10.134,
+          "envelope_peak_at_mmhg": 60.88,
+          "high_side_plateau_ratio": 0.0249,
+          "peak_window_slope_mmhg_s": -1.888,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-160726",
+          "status": "ok",
+          "map_mmhg": 61.69,
+          "sbp_mmhg": 85.04,
+          "dbp_mmhg": 48.07,
+          "map_error": 1.69,
+          "sbp_error": 5.04,
+          "dbp_error": -1.93,
+          "envelope_peak_raw_mv": 11.594,
+          "envelope_peak_at_mmhg": 62.43,
+          "high_side_plateau_ratio": 0.0339,
+          "peak_window_slope_mmhg_s": -1.882,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-161058",
+          "status": "unresolved_map",
+          "map_mmhg": 65.43,
+          "sbp_mmhg": 88.94,
+          "dbp_mmhg": 48.37,
+          "map_error": 5.43,
+          "sbp_error": 8.94,
+          "dbp_error": -1.63,
+          "envelope_peak_raw_mv": 11.57,
+          "envelope_peak_at_mmhg": 246.31,
+          "high_side_plateau_ratio": 0.0233,
+          "peak_window_slope_mmhg_s": -1.885,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-161432",
+          "status": "ok",
+          "map_mmhg": 67.43,
+          "sbp_mmhg": 81.37,
+          "dbp_mmhg": 43.41,
+          "map_error": 7.43,
+          "sbp_error": 1.37,
+          "dbp_error": -6.59,
+          "envelope_peak_raw_mv": 10.736,
+          "envelope_peak_at_mmhg": 59.19,
+          "high_side_plateau_ratio": 0.0308,
+          "peak_window_slope_mmhg_s": -1.918,
+          "device": {
+            "kind": "valid",
+            "sbp": 234,
+            "dbp": 28,
+            "pulse_bpm": 199
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-161809",
+          "status": "ok",
+          "map_mmhg": 60.88,
+          "sbp_mmhg": 85.58,
+          "dbp_mmhg": 53.08,
+          "map_error": 0.88,
+          "sbp_error": 5.58,
+          "dbp_error": 3.08,
+          "envelope_peak_raw_mv": 11.082,
+          "envelope_peak_at_mmhg": 63.18,
+          "high_side_plateau_ratio": 0.0421,
+          "peak_window_slope_mmhg_s": -1.862,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-162141",
+          "status": "ok",
+          "map_mmhg": 68.11,
+          "sbp_mmhg": 92.4,
+          "dbp_mmhg": 49.26,
+          "map_error": 8.11,
+          "sbp_error": 12.4,
+          "dbp_error": -0.74,
+          "envelope_peak_raw_mv": 10.466,
+          "envelope_peak_at_mmhg": 68.13,
+          "high_side_plateau_ratio": 0.0199,
+          "peak_window_slope_mmhg_s": -1.804,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-162837",
+          "status": "ok",
+          "map_mmhg": 66.21,
+          "sbp_mmhg": 77.14,
+          "dbp_mmhg": 46.96,
+          "map_error": 6.21,
+          "sbp_error": -2.86,
+          "dbp_error": -3.04,
+          "envelope_peak_raw_mv": 11.686,
+          "envelope_peak_at_mmhg": 64.53,
+          "high_side_plateau_ratio": 0.0259,
+          "peak_window_slope_mmhg_s": -1.765,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-163203",
+          "status": "ok",
+          "map_mmhg": 65.24,
+          "sbp_mmhg": 92.36,
+          "dbp_mmhg": 46.4,
+          "map_error": 5.24,
+          "sbp_error": 12.36,
+          "dbp_error": -3.6,
+          "envelope_peak_raw_mv": 11.677,
+          "envelope_peak_at_mmhg": 63.34,
+          "high_side_plateau_ratio": 0.0197,
+          "peak_window_slope_mmhg_s": -1.757,
+          "device": {
+            "kind": "calculation_failed"
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-163532",
+          "status": "ok",
+          "map_mmhg": 67.69,
+          "sbp_mmhg": 78.86,
+          "dbp_mmhg": 47.19,
+          "map_error": 7.69,
+          "sbp_error": -1.14,
+          "dbp_error": -2.81,
+          "envelope_peak_raw_mv": 11.424,
+          "envelope_peak_at_mmhg": 66.19,
+          "high_side_plateau_ratio": 0.0283,
+          "peak_window_slope_mmhg_s": -1.741,
+          "device": {
+            "kind": "valid",
+            "sbp": 234,
+            "dbp": 71,
+            "pulse_bpm": 56
+          }
+        },
+        {
+          "run_id": "standard080_050_target275_peakwindow_20261113-163858",
+          "status": "ok",
+          "map_mmhg": 68.31,
+          "sbp_mmhg": 78.13,
+          "dbp_mmhg": 46.94,
+          "map_error": 8.31,
+          "sbp_error": -1.87,
+          "dbp_error": -3.06,
+          "envelope_peak_raw_mv": 11.489,
+          "envelope_peak_at_mmhg": 77.48,
+          "high_side_plateau_ratio": 0.0225,
+          "peak_window_slope_mmhg_s": -1.751,
+          "device": {
+            "kind": "valid",
+            "sbp": 237,
+            "dbp": 70,
+            "pulse_bpm": 56
+          }
+        }
+      ]
+    },
+    {
+      "preset": 7,
+      "panel": {
+        "sbp_mmhg": 100,
+        "dbp_mmhg": 65,
+        "map_mmhg": 76,
+        "pulse_volume_cc": 0.69
+      },
+      "captured": 11,
+      "gate_dropped": [],
+      "scored": 11,
+      "published_all_three": 11,
+      "status_counts": {
+        "ok": 11
+      },
+      "yield": 1.0,
+      "map": {
+        "n": 11,
+        "mean": 5.61,
+        "sd": 4.34,
+        "median": 4.1,
+        "min": -0.04,
+        "max": 13.31,
+        "aami_mean_ok": false,
+        "aami_sd_ok": true,
+        "aami_pass": false
+      },
+      "sbp": {
+        "n": 11,
+        "mean": 7.1,
+        "sd": 7.61,
+        "median": 6.58,
+        "min": -5.83,
+        "max": 21.04,
+        "aami_mean_ok": false,
+        "aami_sd_ok": true,
+        "aami_pass": false
+      },
+      "dbp": {
+        "n": 11,
+        "mean": -1.16,
+        "sd": 4.76,
+        "median": -2.19,
+        "min": -7.6,
+        "max": 8.42,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "peak_at_mmhg": {
+        "n": 11,
+        "mean": 80.88,
+        "sd": 5.53,
+        "median": 79.47,
+        "min": 74.22,
+        "max": 93.53,
+        "aami_mean_ok": false,
+        "aami_sd_ok": true,
+        "aami_pass": false
+      },
+      "plateau_ratio": {
+        "n": 11,
+        "mean": 0.03,
+        "sd": 0.02,
+        "median": 0.03,
+        "min": 0.01,
+        "max": 0.06,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "peak_slope": {
+        "n": 11,
+        "mean": -2.04,
+        "sd": 0.26,
+        "median": -2.01,
+        "min": -2.34,
+        "max": -1.68,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "aami_pass": true
+      },
+      "device_kinds": {
+        "valid": 11
+      },
+      "device_valid_rows": [
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-152601",
+          "sbp": 186,
+          "dbp": 58,
+          "pulse_bpm": 56,
+          "sbp_error": 86,
+          "dbp_error": -7
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-164232",
+          "sbp": 188,
+          "dbp": 59,
+          "pulse_bpm": 56,
+          "sbp_error": 88,
+          "dbp_error": -6
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-164605",
+          "sbp": 185,
+          "dbp": 68,
+          "pulse_bpm": 56,
+          "sbp_error": 85,
+          "dbp_error": 3
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-164933",
+          "sbp": 233,
+          "dbp": 59,
+          "pulse_bpm": 56,
+          "sbp_error": 133,
+          "dbp_error": -6
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-165320",
+          "sbp": 189,
+          "dbp": 87,
+          "pulse_bpm": 56,
+          "sbp_error": 89,
+          "dbp_error": 22
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-165646",
+          "sbp": 189,
+          "dbp": 58,
+          "pulse_bpm": 56,
+          "sbp_error": 89,
+          "dbp_error": -7
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-170015",
+          "sbp": 239,
+          "dbp": 61,
+          "pulse_bpm": 75,
+          "sbp_error": 139,
+          "dbp_error": -4
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-170523",
+          "sbp": 231,
+          "dbp": 52,
+          "pulse_bpm": 75,
+          "sbp_error": 131,
+          "dbp_error": -13
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-170834",
+          "sbp": 230,
+          "dbp": 62,
+          "pulse_bpm": 75,
+          "sbp_error": 130,
+          "dbp_error": -3
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-171143",
+          "sbp": 232,
+          "dbp": 54,
+          "pulse_bpm": 75,
+          "sbp_error": 132,
+          "dbp_error": -11
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-171449",
+          "sbp": 229,
+          "dbp": 57,
+          "pulse_bpm": 75,
+          "sbp_error": 129,
+          "dbp_error": -8
+        }
+      ],
+      "rows": [
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-152601",
+          "status": "ok",
+          "map_mmhg": 85.35,
+          "sbp_mmhg": 106.58,
+          "dbp_mmhg": 62.81,
+          "map_error": 9.35,
+          "sbp_error": 6.58,
+          "dbp_error": -2.19,
+          "envelope_peak_raw_mv": 11.511,
+          "envelope_peak_at_mmhg": 84.64,
+          "high_side_plateau_ratio": 0.0081,
+          "peak_window_slope_mmhg_s": -1.681,
+          "device": {
+            "kind": "valid",
+            "sbp": 186,
+            "dbp": 58,
+            "pulse_bpm": 56
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-164232",
+          "status": "ok",
+          "map_mmhg": 86.32,
+          "sbp_mmhg": 114.8,
+          "dbp_mmhg": 62.5,
+          "map_error": 10.32,
+          "sbp_error": 14.8,
+          "dbp_error": -2.5,
+          "envelope_peak_raw_mv": 11.932,
+          "envelope_peak_at_mmhg": 83.93,
+          "high_side_plateau_ratio": 0.0266,
+          "peak_window_slope_mmhg_s": -1.855,
+          "device": {
+            "kind": "valid",
+            "sbp": 188,
+            "dbp": 59,
+            "pulse_bpm": 56
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-164605",
+          "status": "ok",
+          "map_mmhg": 78.99,
+          "sbp_mmhg": 108.59,
+          "dbp_mmhg": 73.42,
+          "map_error": 2.99,
+          "sbp_error": 8.59,
+          "dbp_error": 8.42,
+          "envelope_peak_raw_mv": 12.109,
+          "envelope_peak_at_mmhg": 80.99,
+          "high_side_plateau_ratio": 0.0168,
+          "peak_window_slope_mmhg_s": -1.855,
+          "device": {
+            "kind": "valid",
+            "sbp": 185,
+            "dbp": 68,
+            "pulse_bpm": 56
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-164933",
+          "status": "ok",
+          "map_mmhg": 89.31,
+          "sbp_mmhg": 103.62,
+          "dbp_mmhg": 62.44,
+          "map_error": 13.31,
+          "sbp_error": 3.62,
+          "dbp_error": -2.56,
+          "envelope_peak_raw_mv": 11.045,
+          "envelope_peak_at_mmhg": 74.22,
+          "high_side_plateau_ratio": 0.0377,
+          "peak_window_slope_mmhg_s": -2.007,
+          "device": {
+            "kind": "valid",
+            "sbp": 233,
+            "dbp": 59,
+            "pulse_bpm": 56
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-165320",
+          "status": "ok",
+          "map_mmhg": 82.92,
+          "sbp_mmhg": 94.17,
+          "dbp_mmhg": 57.4,
+          "map_error": 6.92,
+          "sbp_error": -5.83,
+          "dbp_error": -7.6,
+          "envelope_peak_raw_mv": 13.488,
+          "envelope_peak_at_mmhg": 93.53,
+          "high_side_plateau_ratio": 0.0358,
+          "peak_window_slope_mmhg_s": -1.807,
+          "device": {
+            "kind": "valid",
+            "sbp": 189,
+            "dbp": 87,
+            "pulse_bpm": 56
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-165646",
+          "status": "ok",
+          "map_mmhg": 84.47,
+          "sbp_mmhg": 110.66,
+          "dbp_mmhg": 63.38,
+          "map_error": 8.47,
+          "sbp_error": 10.66,
+          "dbp_error": -1.62,
+          "envelope_peak_raw_mv": 11.498,
+          "envelope_peak_at_mmhg": 84.43,
+          "high_side_plateau_ratio": 0.0149,
+          "peak_window_slope_mmhg_s": -1.76,
+          "device": {
+            "kind": "valid",
+            "sbp": 189,
+            "dbp": 58,
+            "pulse_bpm": 56
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-170015",
+          "status": "ok",
+          "map_mmhg": 75.96,
+          "sbp_mmhg": 112.23,
+          "dbp_mmhg": 66.14,
+          "map_error": -0.04,
+          "sbp_error": 12.23,
+          "dbp_error": 1.14,
+          "envelope_peak_raw_mv": 12.609,
+          "envelope_peak_at_mmhg": 79.47,
+          "high_side_plateau_ratio": 0.0357,
+          "peak_window_slope_mmhg_s": -2.249,
+          "device": {
+            "kind": "valid",
+            "sbp": 239,
+            "dbp": 61,
+            "pulse_bpm": 75
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-170523",
+          "status": "ok",
+          "map_mmhg": 79.4,
+          "sbp_mmhg": 102.51,
+          "dbp_mmhg": 58.23,
+          "map_error": 3.4,
+          "sbp_error": 2.51,
+          "dbp_error": -6.77,
+          "envelope_peak_raw_mv": 13.99,
+          "envelope_peak_at_mmhg": 75.78,
+          "high_side_plateau_ratio": 0.0515,
+          "peak_window_slope_mmhg_s": -2.316,
+          "device": {
+            "kind": "valid",
+            "sbp": 231,
+            "dbp": 52,
+            "pulse_bpm": 75
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-170834",
+          "status": "ok",
+          "map_mmhg": 78.48,
+          "sbp_mmhg": 105.83,
+          "dbp_mmhg": 67.34,
+          "map_error": 2.48,
+          "sbp_error": 5.83,
+          "dbp_error": 2.34,
+          "envelope_peak_raw_mv": 11.511,
+          "envelope_peak_at_mmhg": 79.23,
+          "high_side_plateau_ratio": 0.0222,
+          "peak_window_slope_mmhg_s": -2.337,
+          "device": {
+            "kind": "valid",
+            "sbp": 230,
+            "dbp": 62,
+            "pulse_bpm": 75
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-171143",
+          "status": "ok",
+          "map_mmhg": 76.39,
+          "sbp_mmhg": 121.04,
+          "dbp_mmhg": 59.92,
+          "map_error": 0.39,
+          "sbp_error": 21.04,
+          "dbp_error": -5.08,
+          "envelope_peak_raw_mv": 12.219,
+          "envelope_peak_at_mmhg": 76.22,
+          "high_side_plateau_ratio": 0.0573,
+          "peak_window_slope_mmhg_s": -2.314,
+          "device": {
+            "kind": "valid",
+            "sbp": 232,
+            "dbp": 54,
+            "pulse_bpm": 75
+          }
+        },
+        {
+          "run_id": "standard100_065_target275_peakwindow_20261113-171449",
+          "status": "ok",
+          "map_mmhg": 80.1,
+          "sbp_mmhg": 98.05,
+          "dbp_mmhg": 68.7,
+          "map_error": 4.1,
+          "sbp_error": -1.95,
+          "dbp_error": 3.7,
+          "envelope_peak_raw_mv": 12.329,
+          "envelope_peak_at_mmhg": 77.24,
+          "high_side_plateau_ratio": 0.0272,
+          "peak_window_slope_mmhg_s": -2.262,
+          "device": {
+            "kind": "valid",
+            "sbp": 229,
+            "dbp": 57,
+            "pulse_bpm": 75
+          }
+        }
+      ]
+    }
+  ]
+}

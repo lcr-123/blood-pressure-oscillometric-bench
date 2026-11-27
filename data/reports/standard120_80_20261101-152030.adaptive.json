@@ -1,0 +1,32 @@
+{
+  "schema": "bp.standard_adaptive_capture/2",
+  "source": "data\\reports\\standard120_80_20261101-152030.verified.ndjson",
+  "source_sha256": "65469606895aeee1ac3ec76e15f403d1d96a4e99add26086c6801ebd78dad79b",
+  "status": "envelope_candidate",
+  "reason": null,
+  "envelope_peak_mmhg": 95.0,
+  "sbp_mmhg": null,
+  "dbp_mmhg": null,
+  "bp_output_allowed": false,
+  "pulse_bpm": 79.7,
+  "clean_beats": 56,
+  "occupied_bins": 9,
+  "pressure_range_mmhg": [
+    45.0,
+    125.0
+  ],
+  "height_area_peaks_mmhg": [
+    95.0,
+    95.0
+  ],
+  "exploratory_ratio_crossings_mmhg": {
+    "height": {
+      "high_50pct": null,
+      "low_60pct": 75.76
+    },
+    "area": {
+      "high_50pct": null,
+      "low_60pct": 76.43
+    }
+  }
+}

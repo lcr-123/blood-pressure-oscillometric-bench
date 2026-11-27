@@ -1,0 +1,1706 @@
+{
+  "batch_tag": "crosstday",
+  "rounds": 265,
+  "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "presets": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "exclusions": [
+    {
+      "run_id": "standard120_080_target275_peakwindow_20261125-135554",
+      "reason": "validity_v2:peak-window deflation ran at -16.14 mmHg/s against a limit of 4.0; healthy rounds measured 1.56..2.63, so the deflate valve was not throttling and the round does not represent the intended pressure profile"
+    }
+  ],
+  "model_sbp_mmhg": {
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "presets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "sw": 17.20633051581347,
+    "sb": 0.0,
+    "day_effects": {
+      "2": 2.5250173076168956,
+      "3": -11.101785714285748,
+      "4": -8.074982692383132,
+      "5": -6.116502514949517,
+      "6": -9.041071428571454,
+      "7": -12.01392857142859,
+      "8": -3.208214285714311,
+      "9": -5.668214285714322,
+      "10": -9.114597726982435,
+      "1": 0.0
+    },
+    "f_day": 1.8688912094570302,
+    "p_day": 0.05722792795099125,
+    "df_day": 9,
+    "df_res": 243,
+    "n": 259,
+    "ss_day_share": 0.05339957818068978
+  },
+  "model_map_mmhg": {
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "presets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "sw": 11.293000167047303,
+    "sb": 0.0,
+    "day_effects": {
+      "2": -11.428928571428521,
+      "3": -9.821428571428505,
+      "4": -10.137857142857097,
+      "5": -7.858928571428557,
+      "6": -8.92321428571427,
+      "7": -12.878214285714272,
+      "8": -10.179999999999982,
+      "9": -10.95642857142855,
+      "10": -11.094820359281409,
+      "1": 0.0
+    },
+    "f_day": 1.6562858751421448,
+    "p_day": 0.10013333396414514,
+    "df_day": 9,
+    "df_res": 249,
+    "n": 265,
+    "ss_day_share": 0.05354970322021208
+  },
+  "model_dbp_mmhg": {
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "presets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "sw": 12.236680629733451,
+    "sb": 1.468979934691808,
+    "day_effects": {
+      "2": -9.903214285714238,
+      "3": -8.509642857142804,
+      "4": -9.763571428571375,
+      "5": -7.922499999999982,
+      "6": -10.097499999999982,
+      "7": -15.359999999999985,
+      "8": -13.054642857142838,
+      "9": -12.537499999999971,
+      "10": -13.599616481323041,
+      "1": 0.0
+    },
+    "f_day": 2.2909327669898314,
+    "p_day": 0.017396778147005063,
+    "df_day": 9,
+    "df_res": 249,
+    "n": 265,
+    "ss_day_share": 0.07530706309763857
+  },
+  "t0": {
+    "1": {
+      "map_mmhg": {
+        "n": 37,
+        "days": 10,
+        "mean": 1.8554054054054052,
+        "sd": 3.242352193662458,
+        "se_clustered": 1.8565577911018074,
+        "ci95": [
+          -2.344394915230704,
+          6.055205726041515
+        ],
+        "half_width": 4.199800320636109,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "sbp_mmhg": {
+        "n": 37,
+        "days": 10,
+        "mean": -0.24216216216216277,
+        "sd": 6.898377480383475,
+        "se_clustered": 2.8287033120410006,
+        "ci95": [
+          -6.6410952488848904,
+          6.156770924560566
+        ],
+        "half_width": 6.398933086722728,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "dbp_mmhg": {
+        "n": 37,
+        "days": 10,
+        "mean": 3.9062162162162153,
+        "sd": 5.283489667167246,
+        "se_clustered": 2.064635236507462,
+        "ci95": [
+          -0.7642851653403779,
+          8.57671759777281
+        ],
+        "half_width": 4.670501381556593,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      }
+    },
+    "2": {
+      "map_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 5.016578947368421,
+        "sd": 9.0709623662738,
+        "se_clustered": 1.8319665359283523,
+        "ci95": [
+          0.8724075771788415,
+          9.160750317558001
+        ],
+        "half_width": 4.1441713701895795,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "sbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": -4.9831578947368405,
+        "sd": 13.29617789121881,
+        "se_clustered": 2.7912353887208674,
+        "ci95": [
+          -11.29733315860716,
+          1.3310173691334795
+        ],
+        "half_width": 6.31417526387032,
+        "aami_mean_ok": true,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "dbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 6.472368421052633,
+        "sd": 10.589284087331826,
+        "se_clustered": 2.038681079176443,
+        "ci95": [
+          1.8605790703323999,
+          11.084157771772865
+        ],
+        "half_width": 4.611789350720233,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      }
+    },
+    "3": {
+      "map_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 2.9931578947368425,
+        "sd": 5.43871065069314,
+        "se_clustered": 1.8319665359283523,
+        "ci95": [
+          -1.151013475452737,
+          7.1373292649264215
+        ],
+        "half_width": 4.1441713701895795,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "sbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": -5.497894736842106,
+        "sd": 10.360476655500012,
+        "se_clustered": 2.7912353887208674,
+        "ci95": [
+          -11.812070000712426,
+          0.8162805270282139
+        ],
+        "half_width": 6.31417526387032,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "dbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 5.516315789473687,
+        "sd": 6.128549681195306,
+        "se_clustered": 2.038681079176443,
+        "ci95": [
+          0.9045264387534537,
+          10.12810514019392
+        ],
+        "half_width": 4.611789350720233,
+        "aami_mean_ok": false,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      }
+    },
+    "4": {
+      "map_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": -1.2921052631578953,
+        "sd": 15.953400240446031,
+        "se_clustered": 1.8319665359283523,
+        "ci95": [
+          -5.436276633347475,
+          2.852066107031684
+        ],
+        "half_width": 4.1441713701895795,
+        "aami_mean_ok": true,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "sbp_mmhg": {
+        "n": 32,
+        "days": 10,
+        "mean": -15.185937499999998,
+        "sd": 19.66167220587943,
+        "se_clustered": 3.041678246767183,
+        "ci95": [
+          -22.066650471753746,
+          -8.30522452824625
+        ],
+        "half_width": 6.8807129717537485,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "FAIL"
+      },
+      "dbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 6.761578947368419,
+        "sd": 17.32906580759243,
+        "se_clustered": 2.038681079176443,
+        "ci95": [
+          2.149789596648186,
+          11.373368298088653
+        ],
+        "half_width": 4.611789350720233,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      }
+    },
+    "5": {
+      "map_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 4.998947368421052,
+        "sd": 4.010464547785822,
+        "se_clustered": 1.8319665359283523,
+        "ci95": [
+          0.8547759982314727,
+          9.143118738610632
+        ],
+        "half_width": 4.1441713701895795,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "sbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 8.847105263157896,
+        "sd": 25.543308099996032,
+        "se_clustered": 2.7912353887208674,
+        "ci95": [
+          2.5329299992875765,
+          15.161280527028216
+        ],
+        "half_width": 6.31417526387032,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "dbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 2.9831578947368422,
+        "sd": 4.821241348092586,
+        "se_clustered": 2.038681079176443,
+        "ci95": [
+          -1.628631455983391,
+          7.5949472454570754
+        ],
+        "half_width": 4.611789350720233,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      }
+    },
+    "6": {
+      "map_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 7.757894736842104,
+        "sd": 22.08168192256108,
+        "se_clustered": 1.8319665359283523,
+        "ci95": [
+          3.6137233666525246,
+          11.902066107031683
+        ],
+        "half_width": 4.1441713701895795,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "sbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 9.511052631578949,
+        "sd": 26.90367449930813,
+        "se_clustered": 2.7912353887208674,
+        "ci95": [
+          3.1968773677086286,
+          15.825227895449268
+        ],
+        "half_width": 6.31417526387032,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "dbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 6.023421052631579,
+        "sd": 23.2132900280428,
+        "se_clustered": 2.038681079176443,
+        "ci95": [
+          1.4116317019113458,
+          10.635210403351813
+        ],
+        "half_width": 4.611789350720233,
+        "aami_mean_ok": false,
+        "aami_sd_ok": false,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      }
+    },
+    "7": {
+      "map_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 3.7471052631578945,
+        "sd": 5.417457720257939,
+        "se_clustered": 1.8319665359283523,
+        "ci95": [
+          -0.397066107031685,
+          7.8912766333474735
+        ],
+        "half_width": 4.1441713701895795,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "sbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 3.484473684210527,
+        "sd": 6.955289916575231,
+        "se_clustered": 2.7912353887208674,
+        "ci95": [
+          -2.829701579659793,
+          9.798648948080846
+        ],
+        "half_width": 6.31417526387032,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      },
+      "dbp_mmhg": {
+        "n": 38,
+        "days": 10,
+        "mean": 2.8423684210526314,
+        "sd": 7.202483968746954,
+        "se_clustered": 2.038681079176443,
+        "ci95": [
+          -1.7694209296676018,
+          7.454157771772865
+        ],
+        "half_width": 4.611789350720233,
+        "aami_mean_ok": true,
+        "aami_sd_ok": true,
+        "claimable_within_5": false,
+        "verdict": "undecided"
+      }
+    }
+  },
+  "t1": {
+    "verdict": "FAIL",
+    "rule": "offset must transfer",
+    "offset_fitted": -1.3254098360655746,
+    "late_mean_without": -1.641386861313869,
+    "late_mean_with": -2.9667966973794435,
+    "late_sd": 12.46581998568142,
+    "improvement": -1.3254098360655746,
+    "first_days": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "second_days": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "t2": {
+    "verdict": "wrapping excluded above the detection limit",
+    "statement": "rewrapping the cuff shifts SBP by at most 1.81 mmHg at this design's 80% detection power (measured -1.08, 95% CI -5.28..3.12)",
+    "delta_wrap_mmhg": -1.0833471074380154,
+    "ci95": [
+      -5.282972124675288,
+      3.1162779097992566
+    ],
+    "detectable_mmhg": 1.81,
+    "cells": [
+      {
+        "day": 2,
+        "preset": 1,
+        "delta_sbp": -0.8900000000000077,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 2,
+        "preset": 2,
+        "delta_sbp": 31.034999999999997,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 2,
+        "preset": 3,
+        "delta_sbp": 1.960000000000008,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 2,
+        "preset": 4,
+        "delta_sbp": -20.265,
+        "n_a": 2,
+        "n_b": 1
+      },
+      {
+        "day": 2,
+        "preset": 5,
+        "delta_sbp": -77.18499999999999,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 2,
+        "preset": 6,
+        "delta_sbp": 63.78,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 2,
+        "preset": 7,
+        "delta_sbp": -4.299999999999997,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 3,
+        "preset": 1,
+        "delta_sbp": -2.779999999999994,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 3,
+        "preset": 2,
+        "delta_sbp": -2.7099999999999937,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 3,
+        "preset": 3,
+        "delta_sbp": 2.0500000000000114,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 3,
+        "preset": 4,
+        "delta_sbp": 7.300000000000011,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 3,
+        "preset": 5,
+        "delta_sbp": -0.13500000000000156,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 3,
+        "preset": 6,
+        "delta_sbp": -1.1699999999999946,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 3,
+        "preset": 7,
+        "delta_sbp": 5.979999999999997,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 4,
+        "preset": 1,
+        "delta_sbp": 7.900000000000006,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 4,
+        "preset": 2,
+        "delta_sbp": 10.145000000000017,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 4,
+        "preset": 3,
+        "delta_sbp": -10.794999999999987,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 4,
+        "preset": 4,
+        "delta_sbp": -3.990000000000009,
+        "n_a": 1,
+        "n_b": 2
+      },
+      {
+        "day": 4,
+        "preset": 5,
+        "delta_sbp": -23.280000000000005,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 4,
+        "preset": 6,
+        "delta_sbp": 3.135000000000005,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 4,
+        "preset": 7,
+        "delta_sbp": -0.480000000000004,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 5,
+        "preset": 1,
+        "delta_sbp": 1.5449999999999946,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 5,
+        "preset": 2,
+        "delta_sbp": -18.724999999999994,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 5,
+        "preset": 3,
+        "delta_sbp": -8.805000000000007,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 5,
+        "preset": 4,
+        "delta_sbp": -12.710000000000008,
+        "n_a": 1,
+        "n_b": 1
+      },
+      {
+        "day": 5,
+        "preset": 5,
+        "delta_sbp": -13.149999999999995,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 5,
+        "preset": 6,
+        "delta_sbp": 4.950000000000003,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 5,
+        "preset": 7,
+        "delta_sbp": 9.189999999999998,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 6,
+        "preset": 1,
+        "delta_sbp": 12.354999999999997,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 6,
+        "preset": 2,
+        "delta_sbp": 12.109999999999985,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 6,
+        "preset": 3,
+        "delta_sbp": -0.664999999999992,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 6,
+        "preset": 4,
+        "delta_sbp": -26.004999999999995,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 6,
+        "preset": 5,
+        "delta_sbp": 0.40000000000000213,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 6,
+        "preset": 6,
+        "delta_sbp": -4.18,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 6,
+        "preset": 7,
+        "delta_sbp": -7.239999999999995,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 7,
+        "preset": 1,
+        "delta_sbp": 1.8449999999999989,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 7,
+        "preset": 2,
+        "delta_sbp": 4.3799999999999955,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 7,
+        "preset": 3,
+        "delta_sbp": 0.48499999999999943,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 7,
+        "preset": 4,
+        "delta_sbp": -40.730000000000004,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 7,
+        "preset": 5,
+        "delta_sbp": 5.264999999999997,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 7,
+        "preset": 6,
+        "delta_sbp": 3.5999999999999943,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 7,
+        "preset": 7,
+        "delta_sbp": 5.159999999999997,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 8,
+        "preset": 1,
+        "delta_sbp": 11.14,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 8,
+        "preset": 2,
+        "delta_sbp": 1.480000000000004,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 8,
+        "preset": 3,
+        "delta_sbp": 0.030000000000001137,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 8,
+        "preset": 4,
+        "delta_sbp": -13.72999999999999,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 8,
+        "preset": 5,
+        "delta_sbp": -0.19000000000000483,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 8,
+        "preset": 6,
+        "delta_sbp": -1.0150000000000006,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 8,
+        "preset": 7,
+        "delta_sbp": -0.28999999999999915,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 9,
+        "preset": 1,
+        "delta_sbp": 1.0750000000000028,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 9,
+        "preset": 2,
+        "delta_sbp": -0.42499999999999716,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 9,
+        "preset": 3,
+        "delta_sbp": 1.5450000000000017,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 9,
+        "preset": 4,
+        "delta_sbp": 16.97500000000001,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 9,
+        "preset": 5,
+        "delta_sbp": 4.685000000000002,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 9,
+        "preset": 6,
+        "delta_sbp": -5.225000000000001,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 9,
+        "preset": 7,
+        "delta_sbp": -4.975000000000001,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 10,
+        "preset": 1,
+        "delta_sbp": -0.5700000000000003,
+        "n_a": 2,
+        "n_b": 1
+      },
+      {
+        "day": 10,
+        "preset": 2,
+        "delta_sbp": -5.484999999999999,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 10,
+        "preset": 3,
+        "delta_sbp": -1.3100000000000023,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 10,
+        "preset": 4,
+        "delta_sbp": 3.4799999999999898,
+        "n_a": 1,
+        "n_b": 1
+      },
+      {
+        "day": 10,
+        "preset": 5,
+        "delta_sbp": -8.229999999999997,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 10,
+        "preset": 6,
+        "delta_sbp": 0.6850000000000023,
+        "n_a": 2,
+        "n_b": 2
+      },
+      {
+        "day": 10,
+        "preset": 7,
+        "delta_sbp": 3.4000000000000057,
+        "n_a": 2,
+        "n_b": 2
+      }
+    ]
+  },
+  "t4": {
+    "frozen_v2": {
+      "rounds": 265,
+      "published": 259,
+      "publish_rate": 0.9773584905660377,
+      "silent_over_20": 20,
+      "per_preset": {
+        "1": {
+          "map_mmhg": {
+            "n": 37,
+            "days": 10,
+            "mean": 1.8554054054054052,
+            "sd": 3.242352193662458,
+            "se_clustered": 1.8565577911018074,
+            "ci95": [
+              -2.344394915230704,
+              6.055205726041515
+            ],
+            "half_width": 4.199800320636109,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "sbp_mmhg": {
+            "n": 37,
+            "days": 10,
+            "mean": -0.24216216216216277,
+            "sd": 6.898377480383475,
+            "se_clustered": 2.8287033120410006,
+            "ci95": [
+              -6.6410952488848904,
+              6.156770924560566
+            ],
+            "half_width": 6.398933086722728,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 37,
+            "days": 10,
+            "mean": 3.9062162162162153,
+            "sd": 5.283489667167246,
+            "se_clustered": 2.064635236507462,
+            "ci95": [
+              -0.7642851653403779,
+              8.57671759777281
+            ],
+            "half_width": 4.670501381556593,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        },
+        "2": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 5.016578947368421,
+            "sd": 9.0709623662738,
+            "se_clustered": 1.8319665359283523,
+            "ci95": [
+              0.8724075771788415,
+              9.160750317558001
+            ],
+            "half_width": 4.1441713701895795,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": -4.9831578947368405,
+            "sd": 13.29617789121881,
+            "se_clustered": 2.7912353887208674,
+            "ci95": [
+              -11.29733315860716,
+              1.3310173691334795
+            ],
+            "half_width": 6.31417526387032,
+            "aami_mean_ok": true,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 6.472368421052633,
+            "sd": 10.589284087331826,
+            "se_clustered": 2.038681079176443,
+            "ci95": [
+              1.8605790703323999,
+              11.084157771772865
+            ],
+            "half_width": 4.611789350720233,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        },
+        "3": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 2.9931578947368425,
+            "sd": 5.43871065069314,
+            "se_clustered": 1.8319665359283523,
+            "ci95": [
+              -1.151013475452737,
+              7.1373292649264215
+            ],
+            "half_width": 4.1441713701895795,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": -5.497894736842106,
+            "sd": 10.360476655500012,
+            "se_clustered": 2.7912353887208674,
+            "ci95": [
+              -11.812070000712426,
+              0.8162805270282139
+            ],
+            "half_width": 6.31417526387032,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 5.516315789473687,
+            "sd": 6.128549681195306,
+            "se_clustered": 2.038681079176443,
+            "ci95": [
+              0.9045264387534537,
+              10.12810514019392
+            ],
+            "half_width": 4.611789350720233,
+            "aami_mean_ok": false,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        },
+        "4": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": -1.2921052631578953,
+            "sd": 15.953400240446031,
+            "se_clustered": 1.8319665359283523,
+            "ci95": [
+              -5.436276633347475,
+              2.852066107031684
+            ],
+            "half_width": 4.1441713701895795,
+            "aami_mean_ok": true,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "sbp_mmhg": {
+            "n": 32,
+            "days": 10,
+            "mean": -15.185937499999998,
+            "sd": 19.66167220587943,
+            "se_clustered": 3.041678246767183,
+            "ci95": [
+              -22.066650471753746,
+              -8.30522452824625
+            ],
+            "half_width": 6.8807129717537485,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "FAIL"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 6.761578947368419,
+            "sd": 17.32906580759243,
+            "se_clustered": 2.038681079176443,
+            "ci95": [
+              2.149789596648186,
+              11.373368298088653
+            ],
+            "half_width": 4.611789350720233,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        },
+        "5": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 4.998947368421052,
+            "sd": 4.010464547785822,
+            "se_clustered": 1.8319665359283523,
+            "ci95": [
+              0.8547759982314727,
+              9.143118738610632
+            ],
+            "half_width": 4.1441713701895795,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 8.847105263157896,
+            "sd": 25.543308099996032,
+            "se_clustered": 2.7912353887208674,
+            "ci95": [
+              2.5329299992875765,
+              15.161280527028216
+            ],
+            "half_width": 6.31417526387032,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 2.9831578947368422,
+            "sd": 4.821241348092586,
+            "se_clustered": 2.038681079176443,
+            "ci95": [
+              -1.628631455983391,
+              7.5949472454570754
+            ],
+            "half_width": 4.611789350720233,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        },
+        "6": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 7.757894736842104,
+            "sd": 22.08168192256108,
+            "se_clustered": 1.8319665359283523,
+            "ci95": [
+              3.6137233666525246,
+              11.902066107031683
+            ],
+            "half_width": 4.1441713701895795,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 9.511052631578949,
+            "sd": 26.90367449930813,
+            "se_clustered": 2.7912353887208674,
+            "ci95": [
+              3.1968773677086286,
+              15.825227895449268
+            ],
+            "half_width": 6.31417526387032,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 6.023421052631579,
+            "sd": 23.2132900280428,
+            "se_clustered": 2.038681079176443,
+            "ci95": [
+              1.4116317019113458,
+              10.635210403351813
+            ],
+            "half_width": 4.611789350720233,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        },
+        "7": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 3.7471052631578945,
+            "sd": 5.417457720257939,
+            "se_clustered": 1.8319665359283523,
+            "ci95": [
+              -0.397066107031685,
+              7.8912766333474735
+            ],
+            "half_width": 4.1441713701895795,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 3.484473684210527,
+            "sd": 6.955289916575231,
+            "se_clustered": 2.7912353887208674,
+            "ci95": [
+              -2.829701579659793,
+              9.798648948080846
+            ],
+            "half_width": 6.31417526387032,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 2.8423684210526314,
+            "sd": 7.202483968746954,
+            "se_clustered": 2.038681079176443,
+            "ci95": [
+              -1.7694209296676018,
+              7.454157771772865
+            ],
+            "half_width": 4.611789350720233,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        }
+      }
+    },
+    "covered_bp": {
+      "rounds": 265,
+      "published": 248,
+      "publish_rate": 0.9358490566037736,
+      "silent_over_20": 2,
+      "per_preset": {
+        "1": {
+          "map_mmhg": {
+            "n": 37,
+            "days": 10,
+            "mean": -1.737837837837837,
+            "sd": 3.1856240755542315,
+            "se_clustered": 0.7419425945958946,
+            "ci95": [
+              -3.416218527958004,
+              -0.05945714771766952
+            ],
+            "half_width": 1.6783806901201674,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "sbp_mmhg": {
+            "n": 37,
+            "days": 10,
+            "mean": 0.9032432432432433,
+            "sd": 6.313230839564923,
+            "se_clustered": 1.4700966817914374,
+            "ci95": [
+              -2.422326553261514,
+              4.228813039748
+            ],
+            "half_width": 3.325569796504757,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "dbp_mmhg": {
+            "n": 37,
+            "days": 10,
+            "mean": 2.641351351351352,
+            "sd": 3.3460342713943243,
+            "se_clustered": 0.6192276731626696,
+            "ci95": [
+              1.2405694350761036,
+              4.0421332676266
+            ],
+            "half_width": 1.4007819162752482,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          }
+        },
+        "2": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": -0.7094736842105258,
+            "sd": 4.369566709528359,
+            "se_clustered": 0.7344168098522621,
+            "ci95": [
+              -2.3708299685562904,
+              0.9518826001352387
+            ],
+            "half_width": 1.6613562843457645,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": -3.5405263157894726,
+            "sd": 8.06045030844831,
+            "se_clustered": 1.4506243428182843,
+            "ci95": [
+              -6.822046885356645,
+              -0.25900574622229966
+            ],
+            "half_width": 3.281520569567173,
+            "aami_mean_ok": true,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 2.000789473684211,
+            "sd": 4.683747853426867,
+            "se_clustered": 0.6112722759862178,
+            "ci95": [
+              0.6180038081976991,
+              3.3835751391707234
+            ],
+            "half_width": 1.382785665486512,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          }
+        },
+        "3": {
+          "map_mmhg": {
+            "n": 34,
+            "days": 10,
+            "mean": -1.571176470588235,
+            "sd": 4.315084018779538,
+            "se_clustered": 0.7666371688848111,
+            "ci95": [
+              -3.305419833830478,
+              0.16306689265400842
+            ],
+            "half_width": 1.7342433632422434,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "sbp_mmhg": {
+            "n": 34,
+            "days": 10,
+            "mean": -1.3229411764705887,
+            "sd": 5.43090791528578,
+            "se_clustered": 1.533583053535712,
+            "ci95": [
+              -4.7921262623488,
+              2.146243909407623
+            ],
+            "half_width": 3.4691850858782116,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "dbp_mmhg": {
+            "n": 34,
+            "days": 10,
+            "mean": 3.229411764705881,
+            "sd": 5.122016613497883,
+            "se_clustered": 0.6451862062445253,
+            "ci95": [
+              1.7699079190175333,
+              4.688915610394229
+            ],
+            "half_width": 1.4595038456883478,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          }
+        },
+        "4": {
+          "map_mmhg": {
+            "n": 25,
+            "days": 10,
+            "mean": -0.40079999999999816,
+            "sd": 4.06226529578428,
+            "se_clustered": 0.8678358901851514,
+            "ci95": [
+              -2.3639694027127938,
+              1.5623694027127972
+            ],
+            "half_width": 1.9631694027127955,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "sbp_mmhg": {
+            "n": 25,
+            "days": 10,
+            "mean": -2.872399999999999,
+            "sd": 3.424524638544741,
+            "se_clustered": 1.7884498023833402,
+            "ci95": [
+              -6.918130270014122,
+              1.173330270014124
+            ],
+            "half_width": 4.045730270014123,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 25,
+            "days": 10,
+            "mean": 5.1276,
+            "sd": 4.456239333788079,
+            "se_clustered": 0.7496641806749266,
+            "ci95": [
+              3.431751973368163,
+              6.823448026631837
+            ],
+            "half_width": 1.6958480266318372,
+            "aami_mean_ok": false,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          }
+        },
+        "5": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 0.7115789473684209,
+            "sd": 4.416612696378874,
+            "se_clustered": 0.7344168098522621,
+            "ci95": [
+              -0.9497773369773437,
+              2.3729352317141856
+            ],
+            "half_width": 1.6613562843457645,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 3.418947368421053,
+            "sd": 3.9932123419580203,
+            "se_clustered": 1.4506243428182843,
+            "ci95": [
+              0.13742679885387998,
+              6.7004679379882255
+            ],
+            "half_width": 3.281520569567173,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 1.8307894736842112,
+            "sd": 2.3372903942200316,
+            "se_clustered": 0.6112722759862178,
+            "ci95": [
+              0.44800380819769914,
+              3.2135751391707235
+            ],
+            "half_width": 1.382785665486512,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          }
+        },
+        "6": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 0.4376315789473679,
+            "sd": 4.197292199328442,
+            "se_clustered": 0.7344168098522621,
+            "ci95": [
+              -1.2237247053983966,
+              2.0989878632931322
+            ],
+            "half_width": 1.6613562843457645,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 6.419736842105263,
+            "sd": 18.826377482619044,
+            "se_clustered": 1.4506243428182843,
+            "ci95": [
+              3.13821627253809,
+              9.701257411672437
+            ],
+            "half_width": 3.281520569567173,
+            "aami_mean_ok": false,
+            "aami_sd_ok": false,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 1.614473684210526,
+            "sd": 3.617239276820825,
+            "se_clustered": 0.6112722759862178,
+            "ci95": [
+              0.231688018724014,
+              2.997259349697038
+            ],
+            "half_width": 1.382785665486512,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          }
+        },
+        "7": {
+          "map_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": -0.6889473684210535,
+            "sd": 4.374683178936957,
+            "se_clustered": 0.7344168098522621,
+            "ci95": [
+              -2.350303652766818,
+              0.972408915924711
+            ],
+            "half_width": 1.6613562843457645,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          },
+          "sbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 2.9160526315789483,
+            "sd": 5.813450173182357,
+            "se_clustered": 1.4506243428182843,
+            "ci95": [
+              -0.36546793798822463,
+              6.197573201146121
+            ],
+            "half_width": 3.281520569567173,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": false,
+            "verdict": "undecided"
+          },
+          "dbp_mmhg": {
+            "n": 38,
+            "days": 10,
+            "mean": 1.1918421052631585,
+            "sd": 3.0715995087190353,
+            "se_clustered": 0.6112722759862178,
+            "ci95": [
+              -0.19094356022335357,
+              2.5746277707496708
+            ],
+            "half_width": 1.382785665486512,
+            "aami_mean_ok": true,
+            "aami_sd_ok": true,
+            "claimable_within_5": true,
+            "verdict": "PASS (claimable)"
+          }
+        }
+      }
+    }
+  }
+}

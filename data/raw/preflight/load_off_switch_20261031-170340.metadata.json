@@ -1,0 +1,837 @@
+{
+  "outcome": "load_off_switch_comparison_passed",
+  "nonhuman_fixture": true,
+  "dataset_role": "development",
+  "operator_confirmation": "OK after BP Stop / disconnect only pump-valve load-side12V; retain control power",
+  "load_power_disconnected_operator_confirmed": true,
+  "load_voltage_independently_measured": false,
+  "load_power_returned": false,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "target_changed": false,
+  "host_pressure_ceiling_mmhg": 5,
+  "freshness_limit_seconds": 2,
+  "on_seconds": 2,
+  "off_seconds": 2,
+  "cycles": [
+    {
+      "phase": "valve1",
+      "number": 1,
+      "completed": true,
+      "on": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1295,
+            "max": 1297,
+            "mean": 1295.9
+          },
+          "sensor": {
+            "min": 223,
+            "max": 224,
+            "mean": 223.75
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 39,
+        "summary": {
+          "raw": {
+            "min": 1295,
+            "max": 1297,
+            "mean": 1296.2564102564102
+          },
+          "sensor": {
+            "min": 223,
+            "max": 224,
+            "mean": 223.94871794871796
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "valve1",
+      "number": 2,
+      "completed": true,
+      "on": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1295,
+            "max": 1297,
+            "mean": 1296.175
+          },
+          "sensor": {
+            "min": 223,
+            "max": 224,
+            "mean": 223.9
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1295,
+            "max": 1298,
+            "mean": 1296.7
+          },
+          "sensor": {
+            "min": 223,
+            "max": 224,
+            "mean": 223.95
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+          "[Pressure] raw=1296 ads=162mV sensor=224mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "valve1",
+      "number": 3,
+      "completed": true,
+      "on": {
+        "count": 39,
+        "summary": {
+          "raw": {
+            "min": 1295,
+            "max": 1297,
+            "mean": 1295.974358974359
+          },
+          "sensor": {
+            "min": 223,
+            "max": 224,
+            "mean": 223.82051282051282
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1295,
+            "max": 1298,
+            "mean": 1296.225
+          },
+          "sensor": {
+            "min": 223,
+            "max": 224,
+            "mean": 223.9
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "valve2",
+      "number": 1,
+      "completed": true,
+      "on": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1292,
+            "max": 1295,
+            "mean": 1293.6
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1292,
+            "max": 1295,
+            "mean": 1294.25
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+          "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "valve2",
+      "number": 2,
+      "completed": true,
+      "on": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1292,
+            "max": 1294,
+            "mean": 1293.275
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 39,
+        "summary": {
+          "raw": {
+            "min": 1293,
+            "max": 1295,
+            "mean": 1293.8974358974358
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+          "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "valve2",
+      "number": 3,
+      "completed": true,
+      "on": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1292,
+            "max": 1295,
+            "mean": 1293.55
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 39,
+        "summary": {
+          "raw": {
+            "min": 1293,
+            "max": 1295,
+            "mean": 1293.871794871795
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "pump_and_valve1",
+      "number": 1,
+      "completed": true,
+      "on": {
+        "count": 39,
+        "summary": {
+          "raw": {
+            "min": 1293,
+            "max": 1295,
+            "mean": 1293.7692307692307
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1293,
+            "max": 1295,
+            "mean": 1294.35
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+          "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "pump_and_valve1",
+      "number": 2,
+      "completed": true,
+      "on": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1293,
+            "max": 1295,
+            "mean": 1294.075
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1294,
+            "max": 1295,
+            "mean": 1294.375
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+          "[Pressure] raw=1295 ads=162mV sensor=223mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    },
+    {
+      "phase": "pump_and_valve1",
+      "number": 3,
+      "completed": true,
+      "on": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1293,
+            "max": 1295,
+            "mean": 1294.275
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "off": {
+        "count": 40,
+        "summary": {
+          "raw": {
+            "min": 1293,
+            "max": 1295,
+            "mean": 1294.375
+          },
+          "sensor": {
+            "min": 223,
+            "max": 223,
+            "mean": 223.0
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      },
+      "health": {
+        "diag": {
+          "errors": 0,
+          "recoveries": 0,
+          "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+        },
+        "status": [
+          "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+          "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+          "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+          "[UART3] rx_errors=0 rx_state=0x22"
+        ]
+      }
+    }
+  ],
+  "closeout_confirmed": true,
+  "firmware_identity": {
+    "firmware": "READ_PATH_TEST_20261031",
+    "source": "data/raw/preflight/read_path_board_20261031-165145.metadata.json",
+    "source_sha256": "286aa1e5b392ae645cf0fc77afb00581136ad20b14a574c2ceb573a415fa54b8",
+    "fresh_boot_id_observed": false
+  },
+  "current_readtest_capability": [
+    "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Help] start stop open close vent seal pressure p",
+    "[Help] help status pins fault stream start stream stop",
+    "[Help] holdopen (non-human sealed-path diagnostic, 15s timeout)",
+    "[Help] cal | cal clear | cal write <slope> <intercept>",
+    "[Help] target <20-250>  inflate target mmHg",
+    "[Help] motor <dir 0/1> <steps> <freq 50-2000Hz> | motor stop",
+    "[Help] capture export (stream on, sealed, fresh calibrated <=5mmHg)",
+    "[Help] zero pulse (non-human, sealed zero, pump off, 5s)",
+    "[Help] loaded pulse [1-4] (non-human, default 5ms, 40-80mmHg, auto vent)",
+    "[Help] deflate test (non-human, 1-4ms closed-loop rate probe, 10s/45mmHg limit)",
+    "[Help] stack (runtime stack high-water mark)",
+    "[Help] readtest (non-human, sealed zero, 10s at 25ms, no actuator writes)"
+  ],
+  "calibration": [
+    "[Pressure] raw=1297 ads=162mV sensor=224mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "diag_before": {
+    "errors": 0,
+    "recoveries": 0,
+    "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+  },
+  "baseline": {
+    "count": 100,
+    "summary": {
+      "raw": {
+        "min": 1295,
+        "max": 1298,
+        "mean": 1296.77
+      },
+      "sensor": {
+        "min": 223,
+        "max": 224,
+        "mean": 223.97
+      },
+      "est": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "static_before": {
+    "result": "[ReadTest] PASS_READ_ONLY n=400 elapsed=10000ms last_raw=1297",
+    "display_count": 201,
+    "pressure": {
+      "raw": {
+        "min": 1295,
+        "max": 1298,
+        "mean": 1296.3532338308457
+      },
+      "sensor": {
+        "min": 223,
+        "max": 224,
+        "mean": 223.98009950248758
+      },
+      "est": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "static_after": {
+    "result": "[ReadTest] PASS_READ_ONLY n=400 elapsed=10000ms last_raw=1295",
+    "display_count": 201,
+    "pressure": {
+      "raw": {
+        "min": 1293,
+        "max": 1295,
+        "mean": 1293.910447761194
+      },
+      "sensor": {
+        "min": 223,
+        "max": 223,
+        "mean": 223.0
+      },
+      "est": {
+        "min": 0.0,
+        "max": 0.0,
+        "mean": 0.0
+      }
+    }
+  },
+  "health_after": {
+    "diag": {
+      "errors": 0,
+      "recoveries": 0,
+      "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+    },
+    "status": [
+      "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+      "[Pressure] raw=1295 ads=162mV sensor=223mV est=0.0mmHg VALID",
+      "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+      "[UART3] rx_errors=0 rx_state=0x22"
+    ]
+  },
+  "closeout_attempts": [
+    {
+      "attempt": 1,
+      "count": 100,
+      "pressure": {
+        "raw": {
+          "min": 1292,
+          "max": 1296,
+          "mean": 1294.22
+        },
+        "sensor": {
+          "min": 223,
+          "max": 224,
+          "mean": 223.03
+        },
+        "est": {
+          "min": 0.0,
+          "max": 0.0,
+          "mean": 0.0
+        }
+      }
+    }
+  ],
+  "fault_final": [
+    "[Pressure] raw=1295 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0"
+  ],
+  "diag_final": {
+    "errors": 0,
+    "recoveries": 0,
+    "line": "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0"
+  },
+  "status_final": [
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_final": [
+    "[Pressure] raw=1295 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "diagnostic_lines": [
+    "[Help] start stop open close vent seal pressure p",
+    "[Help] help status pins fault stream start stream stop",
+    "[Help] holdopen (non-human sealed-path diagnostic, 15s timeout)",
+    "[Help] cal | cal clear | cal write <slope> <intercept>",
+    "[Help] target <20-250>  inflate target mmHg",
+    "[Help] motor <dir 0/1> <steps> <freq 50-2000Hz> | motor stop",
+    "[Help] capture export (stream on, sealed, fresh calibrated <=5mmHg)",
+    "[Help] zero pulse (non-human, sealed zero, pump off, 5s)",
+    "[Help] loaded pulse [1-4] (non-human, default 5ms, 40-80mmHg, auto vent)",
+    "[Help] deflate test (non-human, 1-4ms closed-loop rate probe, 10s/45mmHg limit)",
+    "[Help] stack (runtime stack high-water mark)",
+    "[Help] readtest (non-human, sealed zero, 10s at 25ms, no actuator writes)",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[ReadTest] START 10000ms interval=25ms sealed-zero NONHUMAN",
+    "[ReadTest] PASS_READ_ONLY n=400 elapsed=10000ms last_raw=1297",
+    "[HoldOpen] PB8=LOW PC1=LOW PC8=HIGH timeout=15s NONHUMAN",
+    "[Pins] PB8=LOW PC1=LOW PC8=HIGH pump=OFF",
+    "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[HoldOpen] PB8=LOW PC1=LOW PC8=HIGH timeout=15s NONHUMAN",
+    "[Pins] PB8=LOW PC1=LOW PC8=HIGH pump=OFF",
+    "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[HoldOpen] PB8=LOW PC1=LOW PC8=HIGH timeout=15s NONHUMAN",
+    "[Pins] PB8=LOW PC1=LOW PC8=HIGH pump=OFF",
+    "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Pins] PB8=LOW PC1=LOW PC8=LOW pump=ON",
+    "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Pins] PB8=LOW PC1=LOW PC8=LOW pump=ON",
+    "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Pins] PB8=LOW PC1=LOW PC8=LOW pump=ON",
+    "[Valve1] CLOSE PB8=HIGH PC8=HIGH",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[ReadTest] START 10000ms interval=25ms sealed-zero NONHUMAN",
+    "[ReadTest] PASS_READ_ONLY n=400 elapsed=10000ms last_raw=1295",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "fresh_samples_total": 1484,
+  "raw_path": "data/raw/preflight/load_off_switch_20261031-170340.ndjson",
+  "raw_sha256": "7f7aff1a5669b17d64984cd4813bdb794666ae37ed320fe9b7d561812425ef26",
+  "script_sha256": "4820b5550346ada9453a82feb24a0861a33ea3da623e8a0139228c00b485a7d9"
+}

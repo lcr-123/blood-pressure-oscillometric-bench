@@ -1,0 +1,44 @@
+{
+  "kind": "high_pressure_preflash_readonly",
+  "load_power_independently_verified": false,
+  "outcome": "pass",
+  "gates": {
+    "idle_online": true,
+    "uart_zero": true,
+    "pins_safe": true,
+    "calibration": true,
+    "fault_none": true,
+    "ads_zero": true,
+    "fresh_zero": true,
+    "no_boot": true
+  },
+  "zero": {
+    "raw": {
+      "min": 1293,
+      "max": 1295,
+      "mean": 1294.19
+    },
+    "sensor": {
+      "min": 223,
+      "max": 223,
+      "mean": 223.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=2801 capacity=3300 dropped=0 duration=70000ms interval=25ms"
+  ],
+  "raw_path": "data/raw/preflight/high_preflash_retry_20261101-132217.ndjson",
+  "raw_sha256": "c8d43ecfce3cf6cfbb8e35db190d152fc769a1f20e89d043f6a434c84f65373a"
+}

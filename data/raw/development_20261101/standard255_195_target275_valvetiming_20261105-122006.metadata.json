@@ -1,0 +1,131 @@
+{
+  "run_id": "standard255_195_target275_valvetiming_20261105-122006",
+  "dataset_role": "development",
+  "nonhuman_fixture_confirmed": true,
+  "pneumatic_configuration": "operator confirmed current dynamic External Cuff circuit; individual connections not independently measured",
+  "bp_model": "BP Pump 2",
+  "bp_mode": "Standard BP / External Cuff / Preset 4",
+  "panel_sbp_mmhg": 255,
+  "panel_dbp_mmhg": 195,
+  "panel_bpm": 80,
+  "panel_pulse_volume_profile_cc": 0.55,
+  "panel_evidence": "prior operator-confirmed Preset4 settings retained under continued authorization; no independent current panel readback",
+  "panel_evidence_path": null,
+  "missing_value_reasons": {
+    "panel_evidence_path": "operator confirmation only; no panel photo supplied"
+  },
+  "inflation_target_mmhg": 275,
+  "host_abort_mmhg": 278,
+  "host_freshness_limit_s": 2,
+  "host_active_deadline_s": 130,
+  "terminal_result_wait_s": 115,
+  "host_target_reach_deadline_s": 25,
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "deflation_profile": "normal high-target 3.0mmHg/s",
+  "outcome": "failed",
+  "closeout_confirmed": false,
+  "firmware_readback": [
+    "[Pressure] raw=1327 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Pressure] raw=1329 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=VALVE_TIMING_20261105 capacity=4200 deflate=200ms_open1ms"
+  ],
+  "initial_status": [
+    "[Pressure] raw=1327 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "initial_pins": [
+    "[Pressure] raw=1328 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "calibration_readback": [
+    "[Pressure] raw=1327 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1328 ads=166mV sensor=229mV est=0.0mmHg VALID",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=200 capacity=4200 dropped=0 duration=4974ms interval=25ms"
+  ],
+  "initial_user_stop_latched": false,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1325,
+      "max": 1329,
+      "mean": 1327.38
+    },
+    "sensor": {
+      "min": 229,
+      "max": 229,
+      "mean": 229.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "measurement_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 276.5 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=3299 capacity=4200 dropped=0 duration=82450ms interval=25ms",
+    "[BP] calculation failed"
+  ],
+  "active_pressure": {
+    "raw": {
+      "min": 1327,
+      "max": 20874,
+      "mean": 10791.911086717892
+    },
+    "sensor": {
+      "min": 229,
+      "max": 3601,
+      "mean": 1861.4648737650932
+    },
+    "est": {
+      "min": 0.0,
+      "max": 276.5,
+      "mean": 133.36256860592755
+    }
+  },
+  "closeout_attempts": [],
+  "closeout_error": "TimeoutError('fresh stable zero not reached: manual unload required')",
+  "nonpressure_lines": [
+    "algo=PULSE_STEP_DEFLATE sw=VALVE_TIMING_20261105 capacity=4200 deflate=200ms_open1ms",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=200 capacity=4200 dropped=0 duration=4974ms interval=25ms",
+    "[Target] inflate target set to 275 mmHg (max safe=280)",
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 276.5 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=3299 capacity=4200 dropped=0 duration=82450ms interval=25ms",
+    "[BP] calculation failed",
+    "[DBGFAIL] n=3299 map=2098(98.6) sbp=1(258.1) dbp=1(98.2)",
+    "[Calc] work=2377ms wall=3445ms max_step=33ms extract=2214ms smooth=130ms finish=33ms steps=859",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH"
+  ],
+  "fresh_samples": 2531,
+  "capture_source_path": "data\\raw\\development_20261101\\standard255_195_target275_valvetiming_20261105-122006.ndjson",
+  "capture_source_sha256": "5f1611fdf0009627d6f3a9508e91a7e001d7d2554dc4597b5d080d23e3b7d7a6",
+  "script_sha256": "88eebf38b5c3eee80dc9a8c2ef9d1bdb60245a00ffd7bbd648babcc8a65a5157",
+  "panel_preset": 4,
+  "panel_preset_source": "bp_mode",
+  "panel_map_mmhg": 215,
+  "panel_map_source": "manual Table 3-2 (derived from the preset number)"
+}

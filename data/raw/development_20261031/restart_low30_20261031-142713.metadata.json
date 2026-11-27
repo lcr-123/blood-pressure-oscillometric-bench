@@ -1,0 +1,80 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 30,
+  "host_ceiling_mmhg": 40,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": true,
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1331,
+      "max": 1334,
+      "mean": 1332.1166666666666
+    },
+    "sensor": {
+      "min": 230,
+      "max": 230,
+      "mean": 230.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1331 ads=166mV sensor=230mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "pressure_during_test": {
+    "raw": {
+      "min": 1332,
+      "max": 3751,
+      "mean": 2682.0
+    },
+    "sensor": {
+      "min": 230,
+      "max": 647,
+      "mean": 462.6363636363636
+    },
+    "est": {
+      "min": 0.0,
+      "max": 33.4,
+      "mean": 18.222727272727273
+    }
+  },
+  "test_event_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 30.2 mmHg; stopping pump",
+    "[Inflate] holding before deflate...",
+    "[Deflate] PWM started after hold",
+    "[Deflate] done; valve2 closed",
+    "[Capture] n=65 capacity=3300 dropped=0 duration=1600ms interval=25ms"
+  ],
+  "post_capture_zero": {
+    "raw": {
+      "min": 1442,
+      "max": 1457,
+      "mean": 1450.325
+    },
+    "sensor": {
+      "min": 249,
+      "max": 251,
+      "mean": 250.175
+    },
+    "est": {
+      "min": 0.6,
+      "max": 0.8,
+      "mean": 0.71
+    }
+  },
+  "outcome": "natural_deflation_completed",
+  "pneumatic_closeout_confirmed": true,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\restart_low30_20261031-142713.ndjson",
+  "raw_sha256": "0186f87779472d45d4f323528fd74bc930f6e1a97c51eb69719c2834f883a99f"
+}

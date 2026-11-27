@@ -1,0 +1,4717 @@
+{
+ "exports": 299,
+ "published": 243,
+ "refused": 51,
+ "silent_over_20": [
+  "standard150_100_target275_peakwindow_20261114-120952",
+  "standard150_100_target275_peakwindow_20261114-121253"
+ ],
+ "pooled": {
+  "map_mmhg": {
+   "n": 243,
+   "mean": -0.7393827160493829,
+   "sd": 6.548531602299222,
+   "aami_pass": true
+  },
+  "sbp_mmhg": {
+   "n": 243,
+   "mean": 0.6405349794238677,
+   "sd": 7.232193187937922,
+   "aami_pass": true
+  },
+  "dbp_mmhg": {
+   "n": 243,
+   "mean": 1.629670781893004,
+   "sd": 7.076635860193679,
+   "aami_pass": true
+  }
+ },
+ "per_preset": {
+  "1": {
+   "map_mmhg": {
+    "n": 90,
+    "mean": -1.922777777777778,
+    "sd": 4.652817686302842,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 90,
+    "mean": 0.5983333333333332,
+    "sd": 5.748060982294792,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 90,
+    "mean": 0.3011111111111115,
+    "sd": 3.5617681016578717,
+    "aami_pass": true
+   },
+   "presets_pass": true,
+   "exports": 95,
+   "published": 90
+  },
+  "2": {
+   "map_mmhg": {
+    "n": 26,
+    "mean": 3.731538461538463,
+    "sd": 15.23842214727173,
+    "aami_pass": false
+   },
+   "sbp_mmhg": {
+    "n": 26,
+    "mean": 2.6626923076923075,
+    "sd": 14.45417851216521,
+    "aami_pass": false
+   },
+   "dbp_mmhg": {
+    "n": 26,
+    "mean": 5.913461538461538,
+    "sd": 17.625357174776955,
+    "aami_pass": false
+   },
+   "presets_pass": false,
+   "exports": 33,
+   "published": 26
+  },
+  "3": {
+   "map_mmhg": {
+    "n": 20,
+    "mean": 0.3385000000000005,
+    "sd": 5.140174351947712,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 20,
+    "mean": -2.2724999999999995,
+    "sd": 5.186640607317389,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 20,
+    "mean": 2.4984999999999973,
+    "sd": 4.613939149326116,
+    "aami_pass": true
+   },
+   "presets_pass": true,
+   "exports": 33,
+   "published": 20
+  },
+  "4": {
+   "map_mmhg": {
+    "n": 49,
+    "mean": -0.9273469387755113,
+    "sd": 3.767934212707609,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 49,
+    "mean": -1.9597959183673488,
+    "sd": 5.376458131597077,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 49,
+    "mean": 3.7873469387755105,
+    "sd": 5.2148768663596,
+    "aami_pass": true
+   },
+   "presets_pass": true,
+   "exports": 75,
+   "published": 49
+  },
+  "5": {
+   "map_mmhg": {
+    "n": 20,
+    "mean": -0.8435000000000006,
+    "sd": 2.9353279651783195,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 20,
+    "mean": 4.8925,
+    "sd": 5.12340437291661,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 20,
+    "mean": 0.37149999999999983,
+    "sd": 1.5407013952981554,
+    "aami_pass": true
+   },
+   "presets_pass": true,
+   "exports": 21,
+   "published": 20
+  },
+  "6": {
+   "map_mmhg": {
+    "n": 19,
+    "mean": -1.1973684210526316,
+    "sd": 4.051597547888793,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 19,
+    "mean": 1.9052631578947354,
+    "sd": 5.35514432674171,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 19,
+    "mean": 0.1742105263157896,
+    "sd": 2.804726795547263,
+    "aami_pass": true
+   },
+   "presets_pass": true,
+   "exports": 21,
+   "published": 19
+  },
+  "7": {
+   "map_mmhg": {
+    "n": 19,
+    "mean": -1.334210526315789,
+    "sd": 4.226017715414141,
+    "aami_pass": true
+   },
+   "sbp_mmhg": {
+    "n": 19,
+    "mean": 2.1052631578947363,
+    "sd": 5.478459199873479,
+    "aami_pass": true
+   },
+   "dbp_mmhg": {
+    "n": 19,
+    "mean": -1.6384210526315783,
+    "sd": 3.100991352522781,
+    "aami_pass": true
+   },
+   "presets_pass": true,
+   "exports": 21,
+   "published": 19
+  }
+ },
+ "rows": [
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-151805",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.926,
+   "error_mmhg": {
+    "map_mmhg": -2.530000000000001,
+    "sbp_mmhg": 5.340000000000003,
+    "dbp_mmhg": 1.0399999999999991
+   },
+   "values_mmhg": {
+    "map_mmhg": 37.47,
+    "sbp_mmhg": 65.34,
+    "dbp_mmhg": 31.04
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-153242",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.638,
+   "error_mmhg": {
+    "map_mmhg": -4.079999999999998,
+    "sbp_mmhg": -0.3500000000000014,
+    "dbp_mmhg": 0.5
+   },
+   "values_mmhg": {
+    "map_mmhg": 35.92,
+    "sbp_mmhg": 59.65,
+    "dbp_mmhg": 30.5
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-153608",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.928,
+   "error_mmhg": {
+    "map_mmhg": 0.8900000000000006,
+    "sbp_mmhg": 0.36999999999999744,
+    "dbp_mmhg": -2.34
+   },
+   "values_mmhg": {
+    "map_mmhg": 40.89,
+    "sbp_mmhg": 60.37,
+    "dbp_mmhg": 27.66
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-153934",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.579,
+   "error_mmhg": {
+    "map_mmhg": 0.03999999999999915,
+    "sbp_mmhg": 3.5600000000000023,
+    "dbp_mmhg": -0.370000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 40.04,
+    "sbp_mmhg": 63.56,
+    "dbp_mmhg": 29.63
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-154304",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.623,
+   "error_mmhg": {
+    "map_mmhg": -1.1099999999999994,
+    "sbp_mmhg": 6.269999999999996,
+    "dbp_mmhg": -0.6600000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 38.89,
+    "sbp_mmhg": 66.27,
+    "dbp_mmhg": 29.34
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-154631",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.726,
+   "error_mmhg": {
+    "map_mmhg": -4.869999999999997,
+    "sbp_mmhg": 6.109999999999999,
+    "dbp_mmhg": 0.019999999999999574
+   },
+   "values_mmhg": {
+    "map_mmhg": 35.13,
+    "sbp_mmhg": 66.11,
+    "dbp_mmhg": 30.02
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-155003",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.94,
+   "error_mmhg": {
+    "map_mmhg": -0.9299999999999997,
+    "sbp_mmhg": 1.1700000000000017,
+    "dbp_mmhg": -0.41000000000000014
+   },
+   "values_mmhg": {
+    "map_mmhg": 39.07,
+    "sbp_mmhg": 61.17,
+    "dbp_mmhg": 29.59
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-155325",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.867,
+   "error_mmhg": {
+    "map_mmhg": -2.8299999999999983,
+    "sbp_mmhg": -4.060000000000002,
+    "dbp_mmhg": 3.450000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 37.17,
+    "sbp_mmhg": 55.94,
+    "dbp_mmhg": 33.45
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-155651",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.962,
+   "error_mmhg": {
+    "map_mmhg": -2.5900000000000034,
+    "sbp_mmhg": -1.9399999999999977,
+    "dbp_mmhg": 2.6499999999999986
+   },
+   "values_mmhg": {
+    "map_mmhg": 37.41,
+    "sbp_mmhg": 58.06,
+    "dbp_mmhg": 32.65
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-160016",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.911,
+   "error_mmhg": {
+    "map_mmhg": -3.950000000000003,
+    "sbp_mmhg": 8.180000000000007,
+    "dbp_mmhg": 3.1599999999999966
+   },
+   "values_mmhg": {
+    "map_mmhg": 36.05,
+    "sbp_mmhg": 68.18,
+    "dbp_mmhg": 33.16
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261113-160347",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.912,
+   "error_mmhg": {
+    "map_mmhg": 2.0700000000000003,
+    "sbp_mmhg": 6.680000000000007,
+    "dbp_mmhg": 0.14000000000000057
+   },
+   "values_mmhg": {
+    "map_mmhg": 42.07,
+    "sbp_mmhg": 66.68,
+    "dbp_mmhg": 30.14
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-131932",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.296,
+   "error_mmhg": {
+    "map_mmhg": -4.25,
+    "sbp_mmhg": 6.909999999999997,
+    "dbp_mmhg": 0.5500000000000007
+   },
+   "values_mmhg": {
+    "map_mmhg": 35.75,
+    "sbp_mmhg": 66.91,
+    "dbp_mmhg": 30.55
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-132241",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.145,
+   "error_mmhg": {
+    "map_mmhg": 1.8800000000000026,
+    "sbp_mmhg": 8.760000000000005,
+    "dbp_mmhg": -0.6099999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 41.88,
+    "sbp_mmhg": 68.76,
+    "dbp_mmhg": 29.39
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-132558",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.19,
+   "error_mmhg": {
+    "map_mmhg": -2.530000000000001,
+    "sbp_mmhg": 12.0,
+    "dbp_mmhg": -1.0899999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 37.47,
+    "sbp_mmhg": 72.0,
+    "dbp_mmhg": 28.91
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-132912",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.201,
+   "error_mmhg": {
+    "map_mmhg": 5.479999999999997,
+    "sbp_mmhg": 14.0,
+    "dbp_mmhg": -1.879999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 45.48,
+    "sbp_mmhg": 74.0,
+    "dbp_mmhg": 28.12
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-133229",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.169,
+   "error_mmhg": {
+    "map_mmhg": -2.490000000000002,
+    "sbp_mmhg": 12.069999999999993,
+    "dbp_mmhg": 1.0
+   },
+   "values_mmhg": {
+    "map_mmhg": 37.51,
+    "sbp_mmhg": 72.07,
+    "dbp_mmhg": 31.0
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-133545",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.196,
+   "error_mmhg": {
+    "map_mmhg": -2.5900000000000034,
+    "sbp_mmhg": 5.859999999999999,
+    "dbp_mmhg": 2.1899999999999977
+   },
+   "values_mmhg": {
+    "map_mmhg": 37.41,
+    "sbp_mmhg": 65.86,
+    "dbp_mmhg": 32.19
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-133901",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.179,
+   "error_mmhg": {
+    "map_mmhg": 1.0499999999999972,
+    "sbp_mmhg": 8.909999999999997,
+    "dbp_mmhg": 0.05999999999999872
+   },
+   "values_mmhg": {
+    "map_mmhg": 41.05,
+    "sbp_mmhg": 68.91,
+    "dbp_mmhg": 30.06
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-134219",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.165,
+   "error_mmhg": {
+    "map_mmhg": 3.8299999999999983,
+    "sbp_mmhg": -1.4099999999999966,
+    "dbp_mmhg": -0.28999999999999915
+   },
+   "values_mmhg": {
+    "map_mmhg": 43.83,
+    "sbp_mmhg": 58.59,
+    "dbp_mmhg": 29.71
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-134537",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.178,
+   "error_mmhg": {
+    "map_mmhg": 2.6400000000000006,
+    "sbp_mmhg": -0.5799999999999983,
+    "dbp_mmhg": 0.3200000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 42.64,
+    "sbp_mmhg": 59.42,
+    "dbp_mmhg": 30.32
+   }
+  },
+  {
+   "run_id": "standard060_030_target275_peakwindow_20261114-134855",
+   "preset": 5,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -2.162
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-151412",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.888,
+   "error_mmhg": {
+    "map_mmhg": -3.8299999999999983,
+    "sbp_mmhg": 4.200000000000003,
+    "dbp_mmhg": -0.00999999999999801
+   },
+   "values_mmhg": {
+    "map_mmhg": 56.17,
+    "sbp_mmhg": 84.2,
+    "dbp_mmhg": 49.99
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-160726",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.882,
+   "error_mmhg": {
+    "map_mmhg": -3.6199999999999974,
+    "sbp_mmhg": 5.040000000000006,
+    "dbp_mmhg": 3.3900000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 56.38,
+    "sbp_mmhg": 85.04,
+    "dbp_mmhg": 53.39
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-161058",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.885,
+   "error_mmhg": {
+    "map_mmhg": 1.1599999999999966,
+    "sbp_mmhg": 3.019999999999996,
+    "dbp_mmhg": 3.1400000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 61.16,
+    "sbp_mmhg": 83.02,
+    "dbp_mmhg": 53.14
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-161432",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.918,
+   "error_mmhg": {
+    "map_mmhg": 5.340000000000003,
+    "sbp_mmhg": 1.3700000000000045,
+    "dbp_mmhg": -4.75
+   },
+   "values_mmhg": {
+    "map_mmhg": 65.34,
+    "sbp_mmhg": 81.37,
+    "dbp_mmhg": 45.25
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-161809",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.862,
+   "error_mmhg": {
+    "map_mmhg": -3.969999999999999,
+    "sbp_mmhg": 3.989999999999995,
+    "dbp_mmhg": 3.5900000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 56.03,
+    "sbp_mmhg": 83.99,
+    "dbp_mmhg": 53.59
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-162141",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.804,
+   "error_mmhg": {
+    "map_mmhg": 3.700000000000003,
+    "sbp_mmhg": 12.159999999999997,
+    "dbp_mmhg": -1.0200000000000031
+   },
+   "values_mmhg": {
+    "map_mmhg": 63.7,
+    "sbp_mmhg": 92.16,
+    "dbp_mmhg": 48.98
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-162512",
+   "preset": 6,
+   "gate_usable": false,
+   "status": "gate_rejected",
+   "peak_window_slope_mmhg_s": null
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-162837",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.765,
+   "error_mmhg": {
+    "map_mmhg": 3.700000000000003,
+    "sbp_mmhg": -2.2900000000000063,
+    "dbp_mmhg": -2.259999999999998
+   },
+   "values_mmhg": {
+    "map_mmhg": 63.7,
+    "sbp_mmhg": 77.71,
+    "dbp_mmhg": 47.74
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-163203",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.757,
+   "error_mmhg": {
+    "map_mmhg": 0.3500000000000014,
+    "sbp_mmhg": 10.019999999999996,
+    "dbp_mmhg": -2.229999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 60.35,
+    "sbp_mmhg": 90.02,
+    "dbp_mmhg": 47.77
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-163532",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.741,
+   "error_mmhg": {
+    "map_mmhg": 5.239999999999995,
+    "sbp_mmhg": -1.1099999999999994,
+    "dbp_mmhg": -3.5700000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 65.24,
+    "sbp_mmhg": 78.89,
+    "dbp_mmhg": 46.43
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261113-163858",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.751,
+   "error_mmhg": {
+    "map_mmhg": 3.6499999999999986,
+    "sbp_mmhg": -1.4099999999999966,
+    "dbp_mmhg": -1.3299999999999983
+   },
+   "values_mmhg": {
+    "map_mmhg": 63.65,
+    "sbp_mmhg": 78.59,
+    "dbp_mmhg": 48.67
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-135216",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.181,
+   "error_mmhg": {
+    "map_mmhg": -5.020000000000003,
+    "sbp_mmhg": 1.8900000000000006,
+    "dbp_mmhg": -0.35999999999999943
+   },
+   "values_mmhg": {
+    "map_mmhg": 54.98,
+    "sbp_mmhg": 81.89,
+    "dbp_mmhg": 49.64
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-135529",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.223,
+   "error_mmhg": {
+    "map_mmhg": -3.1400000000000006,
+    "sbp_mmhg": -8.260000000000005,
+    "dbp_mmhg": 1.5799999999999983
+   },
+   "values_mmhg": {
+    "map_mmhg": 56.86,
+    "sbp_mmhg": 71.74,
+    "dbp_mmhg": 51.58
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-135840",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.155,
+   "error_mmhg": {
+    "map_mmhg": 1.4799999999999969,
+    "sbp_mmhg": -1.5400000000000063,
+    "dbp_mmhg": -4.189999999999998
+   },
+   "values_mmhg": {
+    "map_mmhg": 61.48,
+    "sbp_mmhg": 78.46,
+    "dbp_mmhg": 45.81
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-140157",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.281,
+   "error_mmhg": {
+    "map_mmhg": -1.490000000000002,
+    "sbp_mmhg": 5.030000000000001,
+    "dbp_mmhg": 3.289999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 58.51,
+    "sbp_mmhg": 85.03,
+    "dbp_mmhg": 53.29
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-140513",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.206,
+   "error_mmhg": {
+    "map_mmhg": -4.18,
+    "sbp_mmhg": -5.420000000000002,
+    "dbp_mmhg": 2.719999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 55.82,
+    "sbp_mmhg": 74.58,
+    "dbp_mmhg": 52.72
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-140829",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.294
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-141139",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.301,
+   "error_mmhg": {
+    "map_mmhg": -5.149999999999999,
+    "sbp_mmhg": 6.859999999999999,
+    "dbp_mmhg": 2.8699999999999974
+   },
+   "values_mmhg": {
+    "map_mmhg": 54.85,
+    "sbp_mmhg": 86.86,
+    "dbp_mmhg": 52.87
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-141453",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.296,
+   "error_mmhg": {
+    "map_mmhg": -6.609999999999999,
+    "sbp_mmhg": 3.700000000000003,
+    "dbp_mmhg": -1.5200000000000031
+   },
+   "values_mmhg": {
+    "map_mmhg": 53.39,
+    "sbp_mmhg": 83.7,
+    "dbp_mmhg": 48.48
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-141805",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.299,
+   "error_mmhg": {
+    "map_mmhg": -4.850000000000001,
+    "sbp_mmhg": -6.3700000000000045,
+    "dbp_mmhg": 3.1899999999999977
+   },
+   "values_mmhg": {
+    "map_mmhg": 55.15,
+    "sbp_mmhg": 73.63,
+    "dbp_mmhg": 53.19
+   }
+  },
+  {
+   "run_id": "standard080_050_target275_peakwindow_20261114-142119",
+   "preset": 6,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.149,
+   "error_mmhg": {
+    "map_mmhg": -5.509999999999998,
+    "sbp_mmhg": 5.319999999999993,
+    "dbp_mmhg": 0.7800000000000011
+   },
+   "values_mmhg": {
+    "map_mmhg": 54.49,
+    "sbp_mmhg": 85.32,
+    "dbp_mmhg": 50.78
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-152601",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.681,
+   "error_mmhg": {
+    "map_mmhg": 4.670000000000002,
+    "sbp_mmhg": 5.5,
+    "dbp_mmhg": -2.8900000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 80.67,
+    "sbp_mmhg": 105.5,
+    "dbp_mmhg": 62.11
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-164232",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.855,
+   "error_mmhg": {
+    "map_mmhg": 5.010000000000005,
+    "sbp_mmhg": 12.799999999999997,
+    "dbp_mmhg": -2.490000000000002
+   },
+   "values_mmhg": {
+    "map_mmhg": 81.01,
+    "sbp_mmhg": 112.8,
+    "dbp_mmhg": 62.51
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-164605",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.855,
+   "error_mmhg": {
+    "map_mmhg": 1.0,
+    "sbp_mmhg": 8.25,
+    "dbp_mmhg": 6.6200000000000045
+   },
+   "values_mmhg": {
+    "map_mmhg": 77.0,
+    "sbp_mmhg": 108.25,
+    "dbp_mmhg": 71.62
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-164933",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.007
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-165320",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.807,
+   "error_mmhg": {
+    "map_mmhg": 2.3799999999999955,
+    "sbp_mmhg": -5.829999999999998,
+    "dbp_mmhg": -3.3100000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 78.38,
+    "sbp_mmhg": 94.17,
+    "dbp_mmhg": 61.69
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-165646",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.76,
+   "error_mmhg": {
+    "map_mmhg": 3.1599999999999966,
+    "sbp_mmhg": -0.8400000000000034,
+    "dbp_mmhg": -1.9200000000000017
+   },
+   "values_mmhg": {
+    "map_mmhg": 79.16,
+    "sbp_mmhg": 99.16,
+    "dbp_mmhg": 63.08
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-170015",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.249,
+   "error_mmhg": {
+    "map_mmhg": 0.12000000000000455,
+    "sbp_mmhg": 8.14,
+    "dbp_mmhg": 1.1800000000000068
+   },
+   "values_mmhg": {
+    "map_mmhg": 76.12,
+    "sbp_mmhg": 108.14,
+    "dbp_mmhg": 66.18
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-170523",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.316,
+   "error_mmhg": {
+    "map_mmhg": 4.590000000000003,
+    "sbp_mmhg": 0.21999999999999886,
+    "dbp_mmhg": -2.5700000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 80.59,
+    "sbp_mmhg": 100.22,
+    "dbp_mmhg": 62.43
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-170834",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.337,
+   "error_mmhg": {
+    "map_mmhg": -2.8299999999999983,
+    "sbp_mmhg": 5.829999999999998,
+    "dbp_mmhg": 2.6200000000000045
+   },
+   "values_mmhg": {
+    "map_mmhg": 73.17,
+    "sbp_mmhg": 105.83,
+    "dbp_mmhg": 67.62
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-171143",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.314,
+   "error_mmhg": {
+    "map_mmhg": -4.920000000000002,
+    "sbp_mmhg": 3.950000000000003,
+    "dbp_mmhg": -0.8299999999999983
+   },
+   "values_mmhg": {
+    "map_mmhg": 71.08,
+    "sbp_mmhg": 103.95,
+    "dbp_mmhg": 64.17
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261113-171449",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.262,
+   "error_mmhg": {
+    "map_mmhg": 0.4300000000000068,
+    "sbp_mmhg": -3.3700000000000045,
+    "dbp_mmhg": 2.5400000000000063
+   },
+   "values_mmhg": {
+    "map_mmhg": 76.43,
+    "sbp_mmhg": 96.63,
+    "dbp_mmhg": 67.54
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-142438",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -1.782
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-142804",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.165,
+   "error_mmhg": {
+    "map_mmhg": -0.060000000000002274,
+    "sbp_mmhg": -6.280000000000001,
+    "dbp_mmhg": -5.560000000000002
+   },
+   "values_mmhg": {
+    "map_mmhg": 75.94,
+    "sbp_mmhg": 93.72,
+    "dbp_mmhg": 59.44
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-143118",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.345,
+   "error_mmhg": {
+    "map_mmhg": -4.170000000000002,
+    "sbp_mmhg": 4.219999999999999,
+    "dbp_mmhg": -2.799999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 71.83,
+    "sbp_mmhg": 104.22,
+    "dbp_mmhg": 62.2
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-143424",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.324,
+   "error_mmhg": {
+    "map_mmhg": -7.75,
+    "sbp_mmhg": 4.109999999999999,
+    "dbp_mmhg": -5.090000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 68.25,
+    "sbp_mmhg": 104.11,
+    "dbp_mmhg": 59.91
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-143731",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.43,
+   "error_mmhg": {
+    "map_mmhg": -6.670000000000002,
+    "sbp_mmhg": 4.939999999999998,
+    "dbp_mmhg": -2.0900000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 69.33,
+    "sbp_mmhg": 104.94,
+    "dbp_mmhg": 62.91
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144035",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.592,
+   "error_mmhg": {
+    "map_mmhg": -1.1400000000000006,
+    "sbp_mmhg": -5.219999999999999,
+    "dbp_mmhg": -1.990000000000002
+   },
+   "values_mmhg": {
+    "map_mmhg": 74.86,
+    "sbp_mmhg": 94.78,
+    "dbp_mmhg": 63.01
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144334",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.27,
+   "error_mmhg": {
+    "map_mmhg": -6.5,
+    "sbp_mmhg": 4.810000000000002,
+    "dbp_mmhg": -3.789999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 69.5,
+    "sbp_mmhg": 104.81,
+    "dbp_mmhg": 61.21
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144639",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.153,
+   "error_mmhg": {
+    "map_mmhg": -6.989999999999995,
+    "sbp_mmhg": 4.849999999999994,
+    "dbp_mmhg": 0.3299999999999983
+   },
+   "values_mmhg": {
+    "map_mmhg": 69.01,
+    "sbp_mmhg": 104.85,
+    "dbp_mmhg": 65.33
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-144948",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.358,
+   "error_mmhg": {
+    "map_mmhg": -0.8700000000000045,
+    "sbp_mmhg": -5.209999999999994,
+    "dbp_mmhg": -4.159999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 75.13,
+    "sbp_mmhg": 94.79,
+    "dbp_mmhg": 60.84
+   }
+  },
+  {
+   "run_id": "standard100_065_target275_peakwindow_20261114-145253",
+   "preset": 7,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.387,
+   "error_mmhg": {
+    "map_mmhg": -4.810000000000002,
+    "sbp_mmhg": -0.8700000000000045,
+    "dbp_mmhg": -4.93
+   },
+   "values_mmhg": {
+    "map_mmhg": 71.19,
+    "sbp_mmhg": 99.13,
+    "dbp_mmhg": 60.07
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261106-141750",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.663,
+   "error_mmhg": {
+    "map_mmhg": 1.769999999999996,
+    "sbp_mmhg": -1.5799999999999983,
+    "dbp_mmhg": -1.8799999999999955
+   },
+   "values_mmhg": {
+    "map_mmhg": 94.77,
+    "sbp_mmhg": 118.42,
+    "dbp_mmhg": 78.12
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261106-142446",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.221,
+   "error_mmhg": {
+    "map_mmhg": 5.090000000000003,
+    "sbp_mmhg": -0.5400000000000063,
+    "dbp_mmhg": -2.4399999999999977
+   },
+   "values_mmhg": {
+    "map_mmhg": 98.09,
+    "sbp_mmhg": 119.46,
+    "dbp_mmhg": 77.56
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261106-143250",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.253,
+   "error_mmhg": {
+    "map_mmhg": 6.689999999999998,
+    "sbp_mmhg": 16.69999999999999,
+    "dbp_mmhg": -2.1099999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 99.69,
+    "sbp_mmhg": 136.7,
+    "dbp_mmhg": 77.89
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261106-143637",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.261,
+   "error_mmhg": {
+    "map_mmhg": -0.9000000000000057,
+    "sbp_mmhg": -8.180000000000007,
+    "dbp_mmhg": 8.230000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 92.1,
+    "sbp_mmhg": 111.82,
+    "dbp_mmhg": 88.23
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261106-195142",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.946,
+   "error_mmhg": {
+    "map_mmhg": -0.12000000000000455,
+    "sbp_mmhg": -0.7999999999999972,
+    "dbp_mmhg": -4.480000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 92.88,
+    "sbp_mmhg": 119.2,
+    "dbp_mmhg": 75.52
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-102352",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.857,
+   "error_mmhg": {
+    "map_mmhg": 5.430000000000007,
+    "sbp_mmhg": -3.4000000000000057,
+    "dbp_mmhg": -0.18999999999999773
+   },
+   "values_mmhg": {
+    "map_mmhg": 98.43,
+    "sbp_mmhg": 116.6,
+    "dbp_mmhg": 79.81
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-102939",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.835,
+   "error_mmhg": {
+    "map_mmhg": -4.950000000000003,
+    "sbp_mmhg": 3.269999999999996,
+    "dbp_mmhg": 3.969999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.05,
+    "sbp_mmhg": 123.27,
+    "dbp_mmhg": 83.97
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-115807",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.143,
+   "error_mmhg": {
+    "map_mmhg": -3.019999999999996,
+    "sbp_mmhg": 3.5400000000000063,
+    "dbp_mmhg": 3.739999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.98,
+    "sbp_mmhg": 123.54,
+    "dbp_mmhg": 83.74
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-150908",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.737,
+   "error_mmhg": {
+    "map_mmhg": 1.1299999999999955,
+    "sbp_mmhg": -4.430000000000007,
+    "dbp_mmhg": -4.849999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 94.13,
+    "sbp_mmhg": 115.57,
+    "dbp_mmhg": 75.15
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-151234",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.556,
+   "error_mmhg": {
+    "map_mmhg": -5.650000000000006,
+    "sbp_mmhg": 9.340000000000003,
+    "dbp_mmhg": -1.9500000000000028
+   },
+   "values_mmhg": {
+    "map_mmhg": 87.35,
+    "sbp_mmhg": 129.34,
+    "dbp_mmhg": 78.05
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-151610",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.863,
+   "error_mmhg": {
+    "map_mmhg": -3.260000000000005,
+    "sbp_mmhg": 11.449999999999989,
+    "dbp_mmhg": 0.6899999999999977
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.74,
+    "sbp_mmhg": 131.45,
+    "dbp_mmhg": 80.69
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-152619",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.667,
+   "error_mmhg": {
+    "map_mmhg": -4.030000000000001,
+    "sbp_mmhg": 1.8100000000000023,
+    "dbp_mmhg": 2.9599999999999937
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.97,
+    "sbp_mmhg": 121.81,
+    "dbp_mmhg": 82.96
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-152950",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.625,
+   "error_mmhg": {
+    "map_mmhg": -4.739999999999995,
+    "sbp_mmhg": 4.3799999999999955,
+    "dbp_mmhg": 1.6200000000000045
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.26,
+    "sbp_mmhg": 124.38,
+    "dbp_mmhg": 81.62
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-153320",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.802,
+   "error_mmhg": {
+    "map_mmhg": -3.799999999999997,
+    "sbp_mmhg": 8.530000000000001,
+    "dbp_mmhg": 3.75
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.2,
+    "sbp_mmhg": 128.53,
+    "dbp_mmhg": 83.75
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-153646",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.854,
+   "error_mmhg": {
+    "map_mmhg": -0.9899999999999949,
+    "sbp_mmhg": -0.2600000000000051,
+    "dbp_mmhg": 3.4000000000000057
+   },
+   "values_mmhg": {
+    "map_mmhg": 92.01,
+    "sbp_mmhg": 119.74,
+    "dbp_mmhg": 83.4
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-154020",
+   "preset": 1,
+   "gate_usable": false,
+   "status": "gate_rejected",
+   "peak_window_slope_mmhg_s": -13.352
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-154308",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.796,
+   "error_mmhg": {
+    "map_mmhg": 2.8599999999999994,
+    "sbp_mmhg": -3.319999999999993,
+    "dbp_mmhg": -1.4500000000000028
+   },
+   "values_mmhg": {
+    "map_mmhg": 95.86,
+    "sbp_mmhg": 116.68,
+    "dbp_mmhg": 78.55
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261107-154636",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.786,
+   "error_mmhg": {
+    "map_mmhg": -4.469999999999999,
+    "sbp_mmhg": -3.519999999999996,
+    "dbp_mmhg": 2.510000000000005
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.53,
+    "sbp_mmhg": 116.48,
+    "dbp_mmhg": 82.51
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-110308",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.83,
+   "error_mmhg": {
+    "map_mmhg": 4.280000000000001,
+    "sbp_mmhg": 2.8599999999999994,
+    "dbp_mmhg": -1.7399999999999949
+   },
+   "values_mmhg": {
+    "map_mmhg": 97.28,
+    "sbp_mmhg": 122.86,
+    "dbp_mmhg": 78.26
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-110704",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.934,
+   "error_mmhg": {
+    "map_mmhg": -6.640000000000001,
+    "sbp_mmhg": -4.310000000000002,
+    "dbp_mmhg": 1.4399999999999977
+   },
+   "values_mmhg": {
+    "map_mmhg": 86.36,
+    "sbp_mmhg": 115.69,
+    "dbp_mmhg": 81.44
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-111025",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.789,
+   "error_mmhg": {
+    "map_mmhg": -4.569999999999993,
+    "sbp_mmhg": -10.430000000000007,
+    "dbp_mmhg": 1.7199999999999989
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.43,
+    "sbp_mmhg": 109.57,
+    "dbp_mmhg": 81.72
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-111343",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.869,
+   "error_mmhg": {
+    "map_mmhg": -5.670000000000002,
+    "sbp_mmhg": 0.8400000000000034,
+    "dbp_mmhg": -0.5900000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 87.33,
+    "sbp_mmhg": 120.84,
+    "dbp_mmhg": 79.41
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-111703",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.804,
+   "error_mmhg": {
+    "map_mmhg": 5.060000000000002,
+    "sbp_mmhg": 1.1299999999999955,
+    "dbp_mmhg": -2.969999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 98.06,
+    "sbp_mmhg": 121.13,
+    "dbp_mmhg": 77.03
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-112021",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.723,
+   "error_mmhg": {
+    "map_mmhg": -5.989999999999995,
+    "sbp_mmhg": -7.329999999999998,
+    "dbp_mmhg": -0.09000000000000341
+   },
+   "values_mmhg": {
+    "map_mmhg": 87.01,
+    "sbp_mmhg": 112.67,
+    "dbp_mmhg": 79.91
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-112356",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.844,
+   "error_mmhg": {
+    "map_mmhg": -6.090000000000003,
+    "sbp_mmhg": -16.319999999999993,
+    "dbp_mmhg": 3.3400000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 86.91,
+    "sbp_mmhg": 103.68,
+    "dbp_mmhg": 83.34
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-112727",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.832,
+   "error_mmhg": {
+    "map_mmhg": -6.310000000000002,
+    "sbp_mmhg": 2.219999999999999,
+    "dbp_mmhg": 2.75
+   },
+   "values_mmhg": {
+    "map_mmhg": 86.69,
+    "sbp_mmhg": 122.22,
+    "dbp_mmhg": 82.75
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-113054",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.928,
+   "error_mmhg": {
+    "map_mmhg": -3.769999999999996,
+    "sbp_mmhg": -1.0900000000000034,
+    "dbp_mmhg": -4.200000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.23,
+    "sbp_mmhg": 118.91,
+    "dbp_mmhg": 75.8
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261111-113425",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.781,
+   "error_mmhg": {
+    "map_mmhg": -3.200000000000003,
+    "sbp_mmhg": -1.8799999999999955,
+    "dbp_mmhg": -2.700000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.8,
+    "sbp_mmhg": 118.12,
+    "dbp_mmhg": 77.3
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-120422",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.826,
+   "error_mmhg": {
+    "map_mmhg": -4.8799999999999955,
+    "sbp_mmhg": 4.060000000000002,
+    "dbp_mmhg": 3.569999999999993
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.12,
+    "sbp_mmhg": 124.06,
+    "dbp_mmhg": 83.57
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-120916",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.846,
+   "error_mmhg": {
+    "map_mmhg": -6.140000000000001,
+    "sbp_mmhg": 4.090000000000003,
+    "dbp_mmhg": -1.3100000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 86.86,
+    "sbp_mmhg": 124.09,
+    "dbp_mmhg": 78.69
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-121232",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.868,
+   "error_mmhg": {
+    "map_mmhg": -0.8299999999999983,
+    "sbp_mmhg": -2.4000000000000057,
+    "dbp_mmhg": -4.310000000000002
+   },
+   "values_mmhg": {
+    "map_mmhg": 92.17,
+    "sbp_mmhg": 117.6,
+    "dbp_mmhg": 75.69
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-121639",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.688,
+   "error_mmhg": {
+    "map_mmhg": -0.8499999999999943,
+    "sbp_mmhg": -10.920000000000002,
+    "dbp_mmhg": -0.9300000000000068
+   },
+   "values_mmhg": {
+    "map_mmhg": 92.15,
+    "sbp_mmhg": 109.08,
+    "dbp_mmhg": 79.07
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-122029",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.821,
+   "error_mmhg": {
+    "map_mmhg": 0.9300000000000068,
+    "sbp_mmhg": 1.7000000000000028,
+    "dbp_mmhg": -2.730000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 93.93,
+    "sbp_mmhg": 121.7,
+    "dbp_mmhg": 77.27
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-122357",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.588,
+   "error_mmhg": {
+    "map_mmhg": -4.950000000000003,
+    "sbp_mmhg": -5.969999999999999,
+    "dbp_mmhg": -0.5699999999999932
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.05,
+    "sbp_mmhg": 114.03,
+    "dbp_mmhg": 79.43
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-122734",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.886,
+   "error_mmhg": {
+    "map_mmhg": 8.569999999999993,
+    "sbp_mmhg": 9.319999999999993,
+    "dbp_mmhg": -1.519999999999996
+   },
+   "values_mmhg": {
+    "map_mmhg": 101.57,
+    "sbp_mmhg": 129.32,
+    "dbp_mmhg": 78.48
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-123059",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.997,
+   "error_mmhg": {
+    "map_mmhg": 7.459999999999994,
+    "sbp_mmhg": 8.379999999999995,
+    "dbp_mmhg": -2.469999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 100.46,
+    "sbp_mmhg": 128.38,
+    "dbp_mmhg": 77.53
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-123420",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.95,
+   "error_mmhg": {
+    "map_mmhg": -2.1200000000000045,
+    "sbp_mmhg": 0.9500000000000028,
+    "dbp_mmhg": -3.489999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.88,
+    "sbp_mmhg": 120.95,
+    "dbp_mmhg": 76.51
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-123750",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.975,
+   "error_mmhg": {
+    "map_mmhg": -6.090000000000003,
+    "sbp_mmhg": -2.510000000000005,
+    "dbp_mmhg": 3.730000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 86.91,
+    "sbp_mmhg": 117.49,
+    "dbp_mmhg": 83.73
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-124117",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.826,
+   "error_mmhg": {
+    "map_mmhg": -4.5,
+    "sbp_mmhg": 2.75,
+    "dbp_mmhg": 2.739999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.5,
+    "sbp_mmhg": 122.75,
+    "dbp_mmhg": 82.74
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-124445",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.916,
+   "error_mmhg": {
+    "map_mmhg": -2.239999999999995,
+    "sbp_mmhg": 1.480000000000004,
+    "dbp_mmhg": -3.739999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.76,
+    "sbp_mmhg": 121.48,
+    "dbp_mmhg": 76.26
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-124813",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.912,
+   "error_mmhg": {
+    "map_mmhg": -8.090000000000003,
+    "sbp_mmhg": -3.9000000000000057,
+    "dbp_mmhg": 1.8100000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 84.91,
+    "sbp_mmhg": 116.1,
+    "dbp_mmhg": 81.81
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-125139",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.864,
+   "error_mmhg": {
+    "map_mmhg": -2.8599999999999994,
+    "sbp_mmhg": 1.6200000000000045,
+    "dbp_mmhg": 6.25
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.14,
+    "sbp_mmhg": 121.62,
+    "dbp_mmhg": 86.25
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-125510",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.947,
+   "error_mmhg": {
+    "map_mmhg": -4.959999999999994,
+    "sbp_mmhg": -1.1400000000000006,
+    "dbp_mmhg": 4.980000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.04,
+    "sbp_mmhg": 118.86,
+    "dbp_mmhg": 84.98
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-125839",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.736,
+   "error_mmhg": {
+    "map_mmhg": -5.599999999999994,
+    "sbp_mmhg": -0.8199999999999932,
+    "dbp_mmhg": 3.3400000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 87.4,
+    "sbp_mmhg": 119.18,
+    "dbp_mmhg": 83.34
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-130211",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.906,
+   "error_mmhg": {
+    "map_mmhg": -2.760000000000005,
+    "sbp_mmhg": 1.8700000000000045,
+    "dbp_mmhg": 3.989999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.24,
+    "sbp_mmhg": 121.87,
+    "dbp_mmhg": 83.99
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-130539",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.609,
+   "error_mmhg": {
+    "map_mmhg": -2.5799999999999983,
+    "sbp_mmhg": -4.950000000000003,
+    "dbp_mmhg": -0.4300000000000068
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.42,
+    "sbp_mmhg": 115.05,
+    "dbp_mmhg": 79.57
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-130905",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.684
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-131501",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.678,
+   "error_mmhg": {
+    "map_mmhg": -7.3799999999999955,
+    "sbp_mmhg": 5.540000000000006,
+    "dbp_mmhg": -1.9300000000000068
+   },
+   "values_mmhg": {
+    "map_mmhg": 85.62,
+    "sbp_mmhg": 125.54,
+    "dbp_mmhg": 78.07
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-131832",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.879,
+   "error_mmhg": {
+    "map_mmhg": -7.090000000000003,
+    "sbp_mmhg": 4.709999999999994,
+    "dbp_mmhg": -2.5600000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 85.91,
+    "sbp_mmhg": 124.71,
+    "dbp_mmhg": 77.44
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-132150",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -1.643
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-132519",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.756,
+   "error_mmhg": {
+    "map_mmhg": 0.0799999999999983,
+    "sbp_mmhg": 6.069999999999993,
+    "dbp_mmhg": 4.390000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 93.08,
+    "sbp_mmhg": 126.07,
+    "dbp_mmhg": 84.39
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-132840",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.779,
+   "error_mmhg": {
+    "map_mmhg": -3.8299999999999983,
+    "sbp_mmhg": 7.650000000000006,
+    "dbp_mmhg": 3.269999999999996
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.17,
+    "sbp_mmhg": 127.65,
+    "dbp_mmhg": 83.27
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-133204",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.846,
+   "error_mmhg": {
+    "map_mmhg": -1.230000000000004,
+    "sbp_mmhg": -3.6200000000000045,
+    "dbp_mmhg": 1.0900000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 91.77,
+    "sbp_mmhg": 116.38,
+    "dbp_mmhg": 81.09
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-133527",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.817,
+   "error_mmhg": {
+    "map_mmhg": -2.5799999999999983,
+    "sbp_mmhg": 6.269999999999996,
+    "dbp_mmhg": 1.6700000000000017
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.42,
+    "sbp_mmhg": 126.27,
+    "dbp_mmhg": 81.67
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-133847",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.711,
+   "error_mmhg": {
+    "map_mmhg": 3.1299999999999955,
+    "sbp_mmhg": -1.4200000000000017,
+    "dbp_mmhg": -3.489999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 96.13,
+    "sbp_mmhg": 118.58,
+    "dbp_mmhg": 76.51
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-141400",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.776,
+   "error_mmhg": {
+    "map_mmhg": 2.6500000000000057,
+    "sbp_mmhg": -0.8100000000000023,
+    "dbp_mmhg": -3.239999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 95.65,
+    "sbp_mmhg": 119.19,
+    "dbp_mmhg": 76.76
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-141948",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.818,
+   "error_mmhg": {
+    "map_mmhg": 0.12000000000000455,
+    "sbp_mmhg": 7.430000000000007,
+    "dbp_mmhg": 2.8400000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 93.12,
+    "sbp_mmhg": 127.43,
+    "dbp_mmhg": 82.84
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-142312",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.86,
+   "error_mmhg": {
+    "map_mmhg": 6.450000000000003,
+    "sbp_mmhg": 1.75,
+    "dbp_mmhg": -0.6599999999999966
+   },
+   "values_mmhg": {
+    "map_mmhg": 99.45,
+    "sbp_mmhg": 121.75,
+    "dbp_mmhg": 79.34
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-142638",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.749,
+   "error_mmhg": {
+    "map_mmhg": -3.9000000000000057,
+    "sbp_mmhg": 8.199999999999989,
+    "dbp_mmhg": 3.2900000000000063
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.1,
+    "sbp_mmhg": 128.2,
+    "dbp_mmhg": 83.29
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-143005",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.757,
+   "error_mmhg": {
+    "map_mmhg": 1.0999999999999943,
+    "sbp_mmhg": 3.9099999999999966,
+    "dbp_mmhg": -4.450000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 94.1,
+    "sbp_mmhg": 123.91,
+    "dbp_mmhg": 75.55
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-143328",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.811,
+   "error_mmhg": {
+    "map_mmhg": -4.8700000000000045,
+    "sbp_mmhg": 2.230000000000004,
+    "dbp_mmhg": 5.519999999999996
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.13,
+    "sbp_mmhg": 122.23,
+    "dbp_mmhg": 85.52
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-143657",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.774,
+   "error_mmhg": {
+    "map_mmhg": -17.599999999999994,
+    "sbp_mmhg": -7.5,
+    "dbp_mmhg": -10.590000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 75.4,
+    "sbp_mmhg": 112.5,
+    "dbp_mmhg": 69.41
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-143956",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.792,
+   "error_mmhg": {
+    "map_mmhg": -0.7199999999999989,
+    "sbp_mmhg": 6.730000000000004,
+    "dbp_mmhg": 1.230000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 92.28,
+    "sbp_mmhg": 126.73,
+    "dbp_mmhg": 81.23
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-144324",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.729,
+   "error_mmhg": {
+    "map_mmhg": 1.9500000000000028,
+    "sbp_mmhg": -1.6400000000000006,
+    "dbp_mmhg": 1.5799999999999983
+   },
+   "values_mmhg": {
+    "map_mmhg": 94.95,
+    "sbp_mmhg": 118.36,
+    "dbp_mmhg": 81.58
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-144652",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.597,
+   "error_mmhg": {
+    "map_mmhg": 7.730000000000004,
+    "sbp_mmhg": 4.6299999999999955,
+    "dbp_mmhg": -1.5999999999999943
+   },
+   "values_mmhg": {
+    "map_mmhg": 100.73,
+    "sbp_mmhg": 124.63,
+    "dbp_mmhg": 78.4
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-145033",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.794,
+   "error_mmhg": {
+    "map_mmhg": -2.6599999999999966,
+    "sbp_mmhg": -8.159999999999997,
+    "dbp_mmhg": -3.180000000000007
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.34,
+    "sbp_mmhg": 111.84,
+    "dbp_mmhg": 76.82
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-145340",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.67,
+   "error_mmhg": {
+    "map_mmhg": -3.760000000000005,
+    "sbp_mmhg": 2.8900000000000006,
+    "dbp_mmhg": 3.3700000000000045
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.24,
+    "sbp_mmhg": 122.89,
+    "dbp_mmhg": 83.37
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-145715",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.895,
+   "error_mmhg": {
+    "map_mmhg": 3.9399999999999977,
+    "sbp_mmhg": 6.219999999999999,
+    "dbp_mmhg": 3.019999999999996
+   },
+   "values_mmhg": {
+    "map_mmhg": 96.94,
+    "sbp_mmhg": 126.22,
+    "dbp_mmhg": 83.02
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-150053",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.019
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-150425",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.765,
+   "error_mmhg": {
+    "map_mmhg": 1.6099999999999994,
+    "sbp_mmhg": 0.6299999999999955,
+    "dbp_mmhg": -1.2600000000000051
+   },
+   "values_mmhg": {
+    "map_mmhg": 94.61,
+    "sbp_mmhg": 120.63,
+    "dbp_mmhg": 78.74
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-150843",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.816,
+   "error_mmhg": {
+    "map_mmhg": -0.7600000000000051,
+    "sbp_mmhg": 1.7600000000000051,
+    "dbp_mmhg": -5.3700000000000045
+   },
+   "values_mmhg": {
+    "map_mmhg": 92.24,
+    "sbp_mmhg": 121.76,
+    "dbp_mmhg": 74.63
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-151151",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.862,
+   "error_mmhg": {
+    "map_mmhg": -3.469999999999999,
+    "sbp_mmhg": 5.109999999999999,
+    "dbp_mmhg": 6.540000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.53,
+    "sbp_mmhg": 125.11,
+    "dbp_mmhg": 86.54
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-151525",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.892,
+   "error_mmhg": {
+    "map_mmhg": -2.030000000000001,
+    "sbp_mmhg": -1.0100000000000051,
+    "dbp_mmhg": 1.4699999999999989
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.97,
+    "sbp_mmhg": 118.99,
+    "dbp_mmhg": 81.47
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-152000",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.689,
+   "error_mmhg": {
+    "map_mmhg": -2.5900000000000034,
+    "sbp_mmhg": 7.6299999999999955,
+    "dbp_mmhg": 5.0
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.41,
+    "sbp_mmhg": 127.63,
+    "dbp_mmhg": 85.0
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-152419",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.658,
+   "error_mmhg": {
+    "map_mmhg": -3.930000000000007,
+    "sbp_mmhg": 4.099999999999994,
+    "dbp_mmhg": 3.739999999999995
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.07,
+    "sbp_mmhg": 124.1,
+    "dbp_mmhg": 83.74
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-152752",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.689,
+   "error_mmhg": {
+    "map_mmhg": 3.5600000000000023,
+    "sbp_mmhg": 2.780000000000001,
+    "dbp_mmhg": -1.25
+   },
+   "values_mmhg": {
+    "map_mmhg": 96.56,
+    "sbp_mmhg": 122.78,
+    "dbp_mmhg": 78.75
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-153130",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.602,
+   "error_mmhg": {
+    "map_mmhg": 2.4599999999999937,
+    "sbp_mmhg": -9.159999999999997,
+    "dbp_mmhg": -1.9899999999999949
+   },
+   "values_mmhg": {
+    "map_mmhg": 95.46,
+    "sbp_mmhg": 110.84,
+    "dbp_mmhg": 78.01
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261112-153508",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.821,
+   "error_mmhg": {
+    "map_mmhg": 11.170000000000002,
+    "sbp_mmhg": 6.400000000000006,
+    "dbp_mmhg": -0.06999999999999318
+   },
+   "values_mmhg": {
+    "map_mmhg": 104.17,
+    "sbp_mmhg": 126.4,
+    "dbp_mmhg": 79.93
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-103254",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.88,
+   "error_mmhg": {
+    "map_mmhg": -1.1700000000000017,
+    "sbp_mmhg": 6.730000000000004,
+    "dbp_mmhg": 3.3400000000000034
+   },
+   "values_mmhg": {
+    "map_mmhg": 91.83,
+    "sbp_mmhg": 126.73,
+    "dbp_mmhg": 83.34
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-103610",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.869,
+   "error_mmhg": {
+    "map_mmhg": -2.6099999999999994,
+    "sbp_mmhg": -2.269999999999996,
+    "dbp_mmhg": 1.7000000000000028
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.39,
+    "sbp_mmhg": 117.73,
+    "dbp_mmhg": 81.7
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-103940",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.93,
+   "error_mmhg": {
+    "map_mmhg": -2.0,
+    "sbp_mmhg": 2.569999999999993,
+    "dbp_mmhg": -2.730000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 91.0,
+    "sbp_mmhg": 122.57,
+    "dbp_mmhg": 77.27
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-104311",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.913,
+   "error_mmhg": {
+    "map_mmhg": -3.4000000000000057,
+    "sbp_mmhg": 0.9000000000000057,
+    "dbp_mmhg": 6.450000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 89.6,
+    "sbp_mmhg": 120.9,
+    "dbp_mmhg": 86.45
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-104639",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.784,
+   "error_mmhg": {
+    "map_mmhg": -5.790000000000006,
+    "sbp_mmhg": -4.069999999999993,
+    "dbp_mmhg": 3.730000000000004
+   },
+   "values_mmhg": {
+    "map_mmhg": 87.21,
+    "sbp_mmhg": 115.93,
+    "dbp_mmhg": 83.73
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-105015",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.893,
+   "error_mmhg": {
+    "map_mmhg": 3.799999999999997,
+    "sbp_mmhg": 7.090000000000003,
+    "dbp_mmhg": -3.6899999999999977
+   },
+   "values_mmhg": {
+    "map_mmhg": 96.8,
+    "sbp_mmhg": 127.09,
+    "dbp_mmhg": 76.31
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-105345",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.911,
+   "error_mmhg": {
+    "map_mmhg": -2.9200000000000017,
+    "sbp_mmhg": -1.6899999999999977,
+    "dbp_mmhg": 6.519999999999996
+   },
+   "values_mmhg": {
+    "map_mmhg": 90.08,
+    "sbp_mmhg": 118.31,
+    "dbp_mmhg": 86.52
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-105941",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.934,
+   "error_mmhg": {
+    "map_mmhg": -6.540000000000006,
+    "sbp_mmhg": -4.769999999999996,
+    "dbp_mmhg": 3.2900000000000063
+   },
+   "values_mmhg": {
+    "map_mmhg": 86.46,
+    "sbp_mmhg": 115.23,
+    "dbp_mmhg": 83.29
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-110735",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.863,
+   "error_mmhg": {
+    "map_mmhg": -5.650000000000006,
+    "sbp_mmhg": 1.8400000000000034,
+    "dbp_mmhg": 4.430000000000007
+   },
+   "values_mmhg": {
+    "map_mmhg": 87.35,
+    "sbp_mmhg": 121.84,
+    "dbp_mmhg": 84.43
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-111100",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.83,
+   "error_mmhg": {
+    "map_mmhg": -6.819999999999993,
+    "sbp_mmhg": -16.519999999999996,
+    "dbp_mmhg": 0.5300000000000011
+   },
+   "values_mmhg": {
+    "map_mmhg": 86.18,
+    "sbp_mmhg": 103.48,
+    "dbp_mmhg": 80.53
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-111445",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.905,
+   "error_mmhg": {
+    "map_mmhg": 4.219999999999999,
+    "sbp_mmhg": -5.989999999999995,
+    "dbp_mmhg": -4.079999999999998
+   },
+   "values_mmhg": {
+    "map_mmhg": 97.22,
+    "sbp_mmhg": 114.01,
+    "dbp_mmhg": 75.92
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-202311",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -1.729
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-204215",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.846,
+   "error_mmhg": {
+    "map_mmhg": -5.769999999999996,
+    "sbp_mmhg": 0.1700000000000017,
+    "dbp_mmhg": -5.659999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 87.23,
+    "sbp_mmhg": 120.17,
+    "dbp_mmhg": 74.34
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-204552",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.207,
+   "error_mmhg": {
+    "map_mmhg": -4.959999999999994,
+    "sbp_mmhg": 5.150000000000006,
+    "dbp_mmhg": -7.030000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.04,
+    "sbp_mmhg": 125.15,
+    "dbp_mmhg": 72.97
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-204918",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.701,
+   "error_mmhg": {
+    "map_mmhg": -4.030000000000001,
+    "sbp_mmhg": 0.8299999999999983,
+    "dbp_mmhg": -3.200000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 88.97,
+    "sbp_mmhg": 120.83,
+    "dbp_mmhg": 76.8
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-210003",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.838,
+   "error_mmhg": {
+    "map_mmhg": -8.599999999999994,
+    "sbp_mmhg": -4.0,
+    "dbp_mmhg": 0.7600000000000051
+   },
+   "values_mmhg": {
+    "map_mmhg": 84.4,
+    "sbp_mmhg": 116.0,
+    "dbp_mmhg": 80.76
+   }
+  },
+  {
+   "run_id": "standard120_080_target275_peakwindow_20261114-210348",
+   "preset": 1,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.936,
+   "error_mmhg": {
+    "map_mmhg": -10.010000000000005,
+    "sbp_mmhg": -3.730000000000004,
+    "dbp_mmhg": -1.0300000000000011
+   },
+   "values_mmhg": {
+    "map_mmhg": 82.99,
+    "sbp_mmhg": 116.27,
+    "dbp_mmhg": 78.97
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261106-144148",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.309,
+   "error_mmhg": {
+    "map_mmhg": -1.6800000000000068,
+    "sbp_mmhg": 3.530000000000001,
+    "dbp_mmhg": 6.290000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 114.32,
+    "sbp_mmhg": 153.53,
+    "dbp_mmhg": 106.29
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261106-144500",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.129,
+   "error_mmhg": {
+    "map_mmhg": 1.2199999999999989,
+    "sbp_mmhg": 9.5,
+    "dbp_mmhg": -1.5999999999999943
+   },
+   "values_mmhg": {
+    "map_mmhg": 117.22,
+    "sbp_mmhg": 159.5,
+    "dbp_mmhg": 98.4
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261106-144826",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.177,
+   "error_mmhg": {
+    "map_mmhg": 1.25,
+    "sbp_mmhg": 9.800000000000011,
+    "dbp_mmhg": -1.8299999999999983
+   },
+   "values_mmhg": {
+    "map_mmhg": 117.25,
+    "sbp_mmhg": 159.8,
+    "dbp_mmhg": 98.17
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-201902",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.741,
+   "error_mmhg": {
+    "map_mmhg": -0.769999999999996,
+    "sbp_mmhg": -9.169999999999987,
+    "dbp_mmhg": -1.9300000000000068
+   },
+   "values_mmhg": {
+    "map_mmhg": 115.23,
+    "sbp_mmhg": 140.83,
+    "dbp_mmhg": 98.07
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-202234",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.803
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-202606",
+   "preset": 2,
+   "gate_usable": false,
+   "status": "gate_rejected",
+   "peak_window_slope_mmhg_s": -15.489
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-202825",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.717,
+   "error_mmhg": {
+    "map_mmhg": 0.8799999999999955,
+    "sbp_mmhg": 3.530000000000001,
+    "dbp_mmhg": -1.8100000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 116.88,
+    "sbp_mmhg": 153.53,
+    "dbp_mmhg": 98.19
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-203151",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.909,
+   "error_mmhg": {
+    "map_mmhg": -0.980000000000004,
+    "sbp_mmhg": 4.139999999999986,
+    "dbp_mmhg": -3.569999999999993
+   },
+   "values_mmhg": {
+    "map_mmhg": 115.02,
+    "sbp_mmhg": 154.14,
+    "dbp_mmhg": 96.43
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-203512",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.726,
+   "error_mmhg": {
+    "map_mmhg": -0.6099999999999994,
+    "sbp_mmhg": -0.21000000000000796,
+    "dbp_mmhg": -3.8599999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 115.39,
+    "sbp_mmhg": 149.79,
+    "dbp_mmhg": 96.14
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-203849",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.748
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-204223",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.859,
+   "error_mmhg": {
+    "map_mmhg": 0.14000000000000057,
+    "sbp_mmhg": -12.27000000000001,
+    "dbp_mmhg": -1.8199999999999932
+   },
+   "values_mmhg": {
+    "map_mmhg": 116.14,
+    "sbp_mmhg": 137.73,
+    "dbp_mmhg": 98.18
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-204545",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.847,
+   "error_mmhg": {
+    "map_mmhg": -0.45999999999999375,
+    "sbp_mmhg": -11.860000000000014,
+    "dbp_mmhg": 6.150000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 115.54,
+    "sbp_mmhg": 138.14,
+    "dbp_mmhg": 106.15
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261107-204916",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.823,
+   "error_mmhg": {
+    "map_mmhg": 5.859999999999999,
+    "sbp_mmhg": 5.550000000000011,
+    "dbp_mmhg": -0.7399999999999949
+   },
+   "values_mmhg": {
+    "map_mmhg": 121.86,
+    "sbp_mmhg": 155.55,
+    "dbp_mmhg": 99.26
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-113958",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.95,
+   "error_mmhg": {
+    "map_mmhg": -7.219999999999999,
+    "sbp_mmhg": 0.3100000000000023,
+    "dbp_mmhg": 2.3599999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 108.78,
+    "sbp_mmhg": 150.31,
+    "dbp_mmhg": 102.36
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-114638",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.802
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-115007",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.852,
+   "error_mmhg": {
+    "map_mmhg": -5.200000000000003,
+    "sbp_mmhg": 0.5800000000000125,
+    "dbp_mmhg": -4.519999999999996
+   },
+   "values_mmhg": {
+    "map_mmhg": 110.8,
+    "sbp_mmhg": 150.58,
+    "dbp_mmhg": 95.48
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-115340",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.88,
+   "error_mmhg": {
+    "map_mmhg": 4.799999999999997,
+    "sbp_mmhg": 8.509999999999991,
+    "dbp_mmhg": -1.2199999999999989
+   },
+   "values_mmhg": {
+    "map_mmhg": 120.8,
+    "sbp_mmhg": 158.51,
+    "dbp_mmhg": 98.78
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-115705",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.816,
+   "error_mmhg": {
+    "map_mmhg": -5.769999999999996,
+    "sbp_mmhg": -7.3300000000000125,
+    "dbp_mmhg": 1.3700000000000045
+   },
+   "values_mmhg": {
+    "map_mmhg": 110.23,
+    "sbp_mmhg": 142.67,
+    "dbp_mmhg": 101.37
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-120035",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.885,
+   "error_mmhg": {
+    "map_mmhg": -5.849999999999994,
+    "sbp_mmhg": -10.25,
+    "dbp_mmhg": 7.049999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 110.15,
+    "sbp_mmhg": 139.75,
+    "dbp_mmhg": 107.05
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-120405",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.894,
+   "error_mmhg": {
+    "map_mmhg": -1.5799999999999983,
+    "sbp_mmhg": -5.360000000000014,
+    "dbp_mmhg": 7.459999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 114.42,
+    "sbp_mmhg": 144.64,
+    "dbp_mmhg": 107.46
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-120731",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.89,
+   "error_mmhg": {
+    "map_mmhg": -5.849999999999994,
+    "sbp_mmhg": -5.849999999999994,
+    "dbp_mmhg": 2.3799999999999955
+   },
+   "values_mmhg": {
+    "map_mmhg": 110.15,
+    "sbp_mmhg": 144.15,
+    "dbp_mmhg": 102.38
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-121058",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.855,
+   "error_mmhg": {
+    "map_mmhg": 2.7900000000000063,
+    "sbp_mmhg": 3.4399999999999977,
+    "dbp_mmhg": -1.2900000000000063
+   },
+   "values_mmhg": {
+    "map_mmhg": 118.79,
+    "sbp_mmhg": 153.44,
+    "dbp_mmhg": 98.71
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261111-121422",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.903,
+   "error_mmhg": {
+    "map_mmhg": -3.3100000000000023,
+    "sbp_mmhg": -1.3199999999999932,
+    "dbp_mmhg": -3.8900000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 112.69,
+    "sbp_mmhg": 148.68,
+    "dbp_mmhg": 96.11
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-111849",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.929
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-112222",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.917
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-112550",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.807,
+   "error_mmhg": {
+    "map_mmhg": 4.469999999999999,
+    "sbp_mmhg": -1.5999999999999943,
+    "dbp_mmhg": 2.25
+   },
+   "values_mmhg": {
+    "map_mmhg": 120.47,
+    "sbp_mmhg": 148.4,
+    "dbp_mmhg": 102.25
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-112923",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.885,
+   "error_mmhg": {
+    "map_mmhg": -4.849999999999994,
+    "sbp_mmhg": -8.990000000000009,
+    "dbp_mmhg": 8.030000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 111.15,
+    "sbp_mmhg": 141.01,
+    "dbp_mmhg": 108.03
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-113256",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.794,
+   "error_mmhg": {
+    "map_mmhg": -1.8599999999999994,
+    "sbp_mmhg": -2.6399999999999864,
+    "dbp_mmhg": 5.590000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 114.14,
+    "sbp_mmhg": 147.36,
+    "dbp_mmhg": 105.59
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-113621",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.833,
+   "error_mmhg": {
+    "map_mmhg": 3.700000000000003,
+    "sbp_mmhg": 1.4199999999999875,
+    "dbp_mmhg": 1.1599999999999966
+   },
+   "values_mmhg": {
+    "map_mmhg": 119.7,
+    "sbp_mmhg": 151.42,
+    "dbp_mmhg": 101.16
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-113954",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.777,
+   "error_mmhg": {
+    "map_mmhg": 11.579999999999998,
+    "sbp_mmhg": 2.740000000000009,
+    "dbp_mmhg": 3.0999999999999943
+   },
+   "values_mmhg": {
+    "map_mmhg": 127.58,
+    "sbp_mmhg": 152.74,
+    "dbp_mmhg": 103.1
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-114316",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.638
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-120952",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.201,
+   "error_mmhg": {
+    "map_mmhg": 48.05000000000001,
+    "sbp_mmhg": 42.18000000000001,
+    "dbp_mmhg": 62.00999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 164.05,
+    "sbp_mmhg": 192.18,
+    "dbp_mmhg": 162.01
+   }
+  },
+  {
+   "run_id": "standard150_100_target275_peakwindow_20261114-121253",
+   "preset": 2,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.012,
+   "error_mmhg": {
+    "map_mmhg": 58.27000000000001,
+    "sbp_mmhg": 50.849999999999994,
+    "dbp_mmhg": 66.63
+   },
+   "values_mmhg": {
+    "map_mmhg": 174.27,
+    "sbp_mmhg": 200.85,
+    "dbp_mmhg": 166.63
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261106-145455",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.197
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261106-145808",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.292
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261106-150121",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.403,
+   "error_mmhg": {
+    "map_mmhg": -4.860000000000014,
+    "sbp_mmhg": -4.9199999999999875,
+    "dbp_mmhg": 1.789999999999992
+   },
+   "values_mmhg": {
+    "map_mmhg": 161.14,
+    "sbp_mmhg": 195.08,
+    "dbp_mmhg": 151.79
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-210903",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.817,
+   "error_mmhg": {
+    "map_mmhg": -1.8799999999999955,
+    "sbp_mmhg": -1.1100000000000136,
+    "dbp_mmhg": -0.09999999999999432
+   },
+   "values_mmhg": {
+    "map_mmhg": 164.12,
+    "sbp_mmhg": 198.89,
+    "dbp_mmhg": 149.9
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-211221",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.862,
+   "error_mmhg": {
+    "map_mmhg": -0.19999999999998863,
+    "sbp_mmhg": -7.900000000000006,
+    "dbp_mmhg": -4.409999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 165.8,
+    "sbp_mmhg": 192.1,
+    "dbp_mmhg": 145.59
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-211546",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.768
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-211901",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.799,
+   "error_mmhg": {
+    "map_mmhg": -2.960000000000008,
+    "sbp_mmhg": 1.7199999999999989,
+    "dbp_mmhg": -5.740000000000009
+   },
+   "values_mmhg": {
+    "map_mmhg": 163.04,
+    "sbp_mmhg": 201.72,
+    "dbp_mmhg": 144.26
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-212226",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.747,
+   "error_mmhg": {
+    "map_mmhg": 9.909999999999997,
+    "sbp_mmhg": 3.3100000000000023,
+    "dbp_mmhg": 4.069999999999993
+   },
+   "values_mmhg": {
+    "map_mmhg": 175.91,
+    "sbp_mmhg": 203.31,
+    "dbp_mmhg": 154.07
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-212549",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.918
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-212915",
+   "preset": 3,
+   "gate_usable": false,
+   "status": "gate_rejected",
+   "peak_window_slope_mmhg_s": -32.865
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-213112",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.946,
+   "error_mmhg": {
+    "map_mmhg": -3.069999999999993,
+    "sbp_mmhg": -3.8899999999999864,
+    "dbp_mmhg": 3.8000000000000114
+   },
+   "values_mmhg": {
+    "map_mmhg": 162.93,
+    "sbp_mmhg": 196.11,
+    "dbp_mmhg": 153.8
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-213433",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.998,
+   "error_mmhg": {
+    "map_mmhg": -7.090000000000003,
+    "sbp_mmhg": -6.030000000000001,
+    "dbp_mmhg": 0.09999999999999432
+   },
+   "values_mmhg": {
+    "map_mmhg": 158.91,
+    "sbp_mmhg": 193.97,
+    "dbp_mmhg": 150.1
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261107-213751",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -3.507
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-122618",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.757,
+   "error_mmhg": {
+    "map_mmhg": -5.439999999999998,
+    "sbp_mmhg": 3.6899999999999977,
+    "dbp_mmhg": 1.2299999999999898
+   },
+   "values_mmhg": {
+    "map_mmhg": 160.56,
+    "sbp_mmhg": 203.69,
+    "dbp_mmhg": 151.23
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-123019",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.691,
+   "error_mmhg": {
+    "map_mmhg": 7.110000000000014,
+    "sbp_mmhg": -1.0500000000000114,
+    "dbp_mmhg": 2.1100000000000136
+   },
+   "values_mmhg": {
+    "map_mmhg": 173.11,
+    "sbp_mmhg": 198.95,
+    "dbp_mmhg": 152.11
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-123343",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.757,
+   "error_mmhg": {
+    "map_mmhg": -1.7700000000000102,
+    "sbp_mmhg": -11.360000000000014,
+    "dbp_mmhg": 8.009999999999991
+   },
+   "values_mmhg": {
+    "map_mmhg": 164.23,
+    "sbp_mmhg": 188.64,
+    "dbp_mmhg": 158.01
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-123715",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.695,
+   "error_mmhg": {
+    "map_mmhg": 3.5200000000000102,
+    "sbp_mmhg": 3.219999999999999,
+    "dbp_mmhg": 3.8799999999999955
+   },
+   "values_mmhg": {
+    "map_mmhg": 169.52,
+    "sbp_mmhg": 203.22,
+    "dbp_mmhg": 153.88
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-124047",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.922,
+   "error_mmhg": {
+    "map_mmhg": 1.1999999999999886,
+    "sbp_mmhg": -2.0999999999999943,
+    "dbp_mmhg": 3.1599999999999966
+   },
+   "values_mmhg": {
+    "map_mmhg": 167.2,
+    "sbp_mmhg": 197.9,
+    "dbp_mmhg": 153.16
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-124418",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.786,
+   "error_mmhg": {
+    "map_mmhg": 2.9099999999999966,
+    "sbp_mmhg": 4.289999999999992,
+    "dbp_mmhg": 0.8899999999999864
+   },
+   "values_mmhg": {
+    "map_mmhg": 168.91,
+    "sbp_mmhg": 204.29,
+    "dbp_mmhg": 150.89
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-124803",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.814
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-125141",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.801,
+   "error_mmhg": {
+    "map_mmhg": -0.5300000000000011,
+    "sbp_mmhg": -3.25,
+    "dbp_mmhg": 6.1299999999999955
+   },
+   "values_mmhg": {
+    "map_mmhg": 165.47,
+    "sbp_mmhg": 196.75,
+    "dbp_mmhg": 156.13
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-125522",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.962,
+   "error_mmhg": {
+    "map_mmhg": 7.360000000000014,
+    "sbp_mmhg": -4.699999999999989,
+    "dbp_mmhg": 10.830000000000013
+   },
+   "values_mmhg": {
+    "map_mmhg": 173.36,
+    "sbp_mmhg": 195.3,
+    "dbp_mmhg": 160.83
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261111-125853",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.039,
+   "error_mmhg": {
+    "map_mmhg": 7.9199999999999875,
+    "sbp_mmhg": -1.1599999999999966,
+    "dbp_mmhg": 11.259999999999991
+   },
+   "values_mmhg": {
+    "map_mmhg": 173.92,
+    "sbp_mmhg": 198.84,
+    "dbp_mmhg": 161.26
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-121628",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.134
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-121938",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.202,
+   "error_mmhg": {
+    "map_mmhg": -0.7599999999999909,
+    "sbp_mmhg": -4.430000000000007,
+    "dbp_mmhg": -1.0600000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 165.24,
+    "sbp_mmhg": 195.57,
+    "dbp_mmhg": 148.94
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-122245",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.421,
+   "error_mmhg": {
+    "map_mmhg": -2.319999999999993,
+    "sbp_mmhg": -13.099999999999994,
+    "dbp_mmhg": 6.949999999999989
+   },
+   "values_mmhg": {
+    "map_mmhg": 163.68,
+    "sbp_mmhg": 186.9,
+    "dbp_mmhg": 156.95
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-122551",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.198
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-122905",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.223
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-123209",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.005
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-123528",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.076,
+   "error_mmhg": {
+    "map_mmhg": -7.430000000000007,
+    "sbp_mmhg": -3.509999999999991,
+    "dbp_mmhg": 0.9199999999999875
+   },
+   "values_mmhg": {
+    "map_mmhg": 158.57,
+    "sbp_mmhg": 196.49,
+    "dbp_mmhg": 150.92
+   }
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-123843",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.229
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-124151",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.061
+  },
+  {
+   "run_id": "standard200_150_target275_peakwindow_20261114-124505",
+   "preset": 3,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.16,
+   "error_mmhg": {
+    "map_mmhg": 5.150000000000006,
+    "sbp_mmhg": 6.8300000000000125,
+    "dbp_mmhg": -3.8499999999999943
+   },
+   "values_mmhg": {
+    "map_mmhg": 171.15,
+    "sbp_mmhg": 206.83,
+    "dbp_mmhg": 146.15
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_capacity4200_20261105-111540",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -3.941,
+   "error_mmhg": {
+    "map_mmhg": 7.509999999999991,
+    "sbp_mmhg": -9.150000000000006,
+    "dbp_mmhg": 2.7299999999999898
+   },
+   "values_mmhg": {
+    "map_mmhg": 222.51,
+    "sbp_mmhg": 245.85,
+    "dbp_mmhg": 197.73
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261105-123135",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.354
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261106-133524",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -1.669
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261106-135004",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.904,
+   "error_mmhg": {
+    "map_mmhg": -6.860000000000014,
+    "sbp_mmhg": 1.1399999999999864,
+    "dbp_mmhg": -10.310000000000002
+   },
+   "values_mmhg": {
+    "map_mmhg": 208.14,
+    "sbp_mmhg": 256.14,
+    "dbp_mmhg": 184.69
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261106-135527",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.168
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-125444",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.628,
+   "error_mmhg": {
+    "map_mmhg": 0.9099999999999966,
+    "sbp_mmhg": -0.0800000000000125,
+    "dbp_mmhg": 0.8300000000000125
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.91,
+    "sbp_mmhg": 254.92,
+    "dbp_mmhg": 195.83
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-214926",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.145,
+   "error_mmhg": {
+    "map_mmhg": -3.5500000000000114,
+    "sbp_mmhg": 0.0800000000000125,
+    "dbp_mmhg": 7.090000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 211.45,
+    "sbp_mmhg": 255.08,
+    "dbp_mmhg": 202.09
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-215245",
+   "preset": 4,
+   "gate_usable": false,
+   "status": "gate_rejected",
+   "peak_window_slope_mmhg_s": -16.813
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-215530",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.833
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-215831",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.071,
+   "error_mmhg": {
+    "map_mmhg": 0.46999999999999886,
+    "sbp_mmhg": 4.100000000000023,
+    "dbp_mmhg": 4.560000000000002
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.47,
+    "sbp_mmhg": 259.1,
+    "dbp_mmhg": 199.56
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-220147",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.904,
+   "error_mmhg": {
+    "map_mmhg": 2.6299999999999955,
+    "sbp_mmhg": 3.009999999999991,
+    "dbp_mmhg": -0.19999999999998863
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.63,
+    "sbp_mmhg": 258.01,
+    "dbp_mmhg": 194.8
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-220508",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.837,
+   "error_mmhg": {
+    "map_mmhg": -5.72999999999999,
+    "sbp_mmhg": 3.079999999999984,
+    "dbp_mmhg": 1.4000000000000057
+   },
+   "values_mmhg": {
+    "map_mmhg": 209.27,
+    "sbp_mmhg": 258.08,
+    "dbp_mmhg": 196.4
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-220827",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.017,
+   "error_mmhg": {
+    "map_mmhg": 0.5300000000000011,
+    "sbp_mmhg": 2.3899999999999864,
+    "dbp_mmhg": 5.969999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.53,
+    "sbp_mmhg": 257.39,
+    "dbp_mmhg": 200.97
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-221143",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.905,
+   "error_mmhg": {
+    "map_mmhg": 2.6599999999999966,
+    "sbp_mmhg": 5.889999999999986,
+    "dbp_mmhg": -2.5200000000000102
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.66,
+    "sbp_mmhg": 260.89,
+    "dbp_mmhg": 192.48
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-221505",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -1.853
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261107-221823",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.12,
+   "error_mmhg": {
+    "map_mmhg": 1.3700000000000045,
+    "sbp_mmhg": 2.0500000000000114,
+    "dbp_mmhg": 3.789999999999992
+   },
+   "values_mmhg": {
+    "map_mmhg": 216.37,
+    "sbp_mmhg": 257.05,
+    "dbp_mmhg": 198.79
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261109-172104",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.342,
+   "error_mmhg": {
+    "map_mmhg": -4.400000000000006,
+    "sbp_mmhg": 0.3199999999999932,
+    "dbp_mmhg": 2.969999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 210.6,
+    "sbp_mmhg": 255.32,
+    "dbp_mmhg": 197.97
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261109-173028",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.826,
+   "error_mmhg": {
+    "map_mmhg": -1.25,
+    "sbp_mmhg": -7.1699999999999875,
+    "dbp_mmhg": 4.759999999999991
+   },
+   "values_mmhg": {
+    "map_mmhg": 213.75,
+    "sbp_mmhg": 247.83,
+    "dbp_mmhg": 199.76
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261109-174044",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.763,
+   "error_mmhg": {
+    "map_mmhg": -1.6599999999999966,
+    "sbp_mmhg": 0.30000000000001137,
+    "dbp_mmhg": 10.849999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 213.34,
+    "sbp_mmhg": 255.3,
+    "dbp_mmhg": 205.85
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-100857",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.406,
+   "error_mmhg": {
+    "map_mmhg": 2.0,
+    "sbp_mmhg": -0.5300000000000011,
+    "dbp_mmhg": 7.099999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.0,
+    "sbp_mmhg": 254.47,
+    "dbp_mmhg": 202.1
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-101458",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.085,
+   "error_mmhg": {
+    "map_mmhg": -7.3700000000000045,
+    "sbp_mmhg": -6.560000000000002,
+    "dbp_mmhg": 5.610000000000014
+   },
+   "values_mmhg": {
+    "map_mmhg": 207.63,
+    "sbp_mmhg": 248.44,
+    "dbp_mmhg": 200.61
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-101822",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.092,
+   "error_mmhg": {
+    "map_mmhg": -4.810000000000002,
+    "sbp_mmhg": -4.889999999999986,
+    "dbp_mmhg": -3.9799999999999898
+   },
+   "values_mmhg": {
+    "map_mmhg": 210.19,
+    "sbp_mmhg": 250.11,
+    "dbp_mmhg": 191.02
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-102141",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.072,
+   "error_mmhg": {
+    "map_mmhg": 2.4799999999999898,
+    "sbp_mmhg": -11.430000000000007,
+    "dbp_mmhg": -2.1299999999999955
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.48,
+    "sbp_mmhg": 243.57,
+    "dbp_mmhg": 192.87
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-102503",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.94,
+   "error_mmhg": {
+    "map_mmhg": -5.199999999999989,
+    "sbp_mmhg": -3.5,
+    "dbp_mmhg": 5.930000000000007
+   },
+   "values_mmhg": {
+    "map_mmhg": 209.8,
+    "sbp_mmhg": 251.5,
+    "dbp_mmhg": 200.93
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-102825",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.851,
+   "error_mmhg": {
+    "map_mmhg": 2.1299999999999955,
+    "sbp_mmhg": 4.300000000000011,
+    "dbp_mmhg": -2.280000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.13,
+    "sbp_mmhg": 259.3,
+    "dbp_mmhg": 192.72
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-103143",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.385,
+   "error_mmhg": {
+    "map_mmhg": -6.490000000000009,
+    "sbp_mmhg": -6.360000000000014,
+    "dbp_mmhg": 7.840000000000003
+   },
+   "values_mmhg": {
+    "map_mmhg": 208.51,
+    "sbp_mmhg": 248.64,
+    "dbp_mmhg": 202.84
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-103454",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.318,
+   "error_mmhg": {
+    "map_mmhg": 2.5999999999999943,
+    "sbp_mmhg": -3.4799999999999898,
+    "dbp_mmhg": 7.02000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.6,
+    "sbp_mmhg": 251.52,
+    "dbp_mmhg": 202.02
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-103811",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.25
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-104126",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -1.668
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261111-104445",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.252,
+   "error_mmhg": {
+    "map_mmhg": -3.4399999999999977,
+    "sbp_mmhg": -14.75,
+    "dbp_mmhg": 2.4399999999999977
+   },
+   "values_mmhg": {
+    "map_mmhg": 211.56,
+    "sbp_mmhg": 240.25,
+    "dbp_mmhg": 197.44
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-164022",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.978,
+   "error_mmhg": {
+    "map_mmhg": 0.9699999999999989,
+    "sbp_mmhg": -1.789999999999992,
+    "dbp_mmhg": 15.050000000000011
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.97,
+    "sbp_mmhg": 253.21,
+    "dbp_mmhg": 210.05
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-164439",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -2.373
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-164755",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.517,
+   "error_mmhg": {
+    "map_mmhg": 1.1500000000000057,
+    "sbp_mmhg": -9.349999999999994,
+    "dbp_mmhg": 10.539999999999992
+   },
+   "values_mmhg": {
+    "map_mmhg": 216.15,
+    "sbp_mmhg": 245.65,
+    "dbp_mmhg": 205.54
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-165121",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -1.688
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-165449",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.763,
+   "error_mmhg": {
+    "map_mmhg": 1.4199999999999875,
+    "sbp_mmhg": 1.9800000000000182,
+    "dbp_mmhg": 8.159999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 216.42,
+    "sbp_mmhg": 256.98,
+    "dbp_mmhg": 203.16
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-165821",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -2.175
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-170138",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -2.28
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-170503",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.24,
+   "error_mmhg": {
+    "map_mmhg": -9.150000000000006,
+    "sbp_mmhg": -7.1299999999999955,
+    "dbp_mmhg": 2.460000000000008
+   },
+   "values_mmhg": {
+    "map_mmhg": 205.85,
+    "sbp_mmhg": 247.87,
+    "dbp_mmhg": 197.46
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-170822",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.659,
+   "error_mmhg": {
+    "map_mmhg": -8.289999999999992,
+    "sbp_mmhg": -4.6200000000000045,
+    "dbp_mmhg": 4.460000000000008
+   },
+   "values_mmhg": {
+    "map_mmhg": 206.71,
+    "sbp_mmhg": 250.38,
+    "dbp_mmhg": 199.46
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-171200",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -2.04
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-171527",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.146,
+   "error_mmhg": {
+    "map_mmhg": -2.3000000000000114,
+    "sbp_mmhg": 3.5299999999999727,
+    "dbp_mmhg": 7.639999999999986
+   },
+   "values_mmhg": {
+    "map_mmhg": 212.7,
+    "sbp_mmhg": 258.53,
+    "dbp_mmhg": 202.64
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-171854",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.012,
+   "error_mmhg": {
+    "map_mmhg": -0.5699999999999932,
+    "sbp_mmhg": 2.8799999999999955,
+    "dbp_mmhg": 6.72999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 214.43,
+    "sbp_mmhg": 257.88,
+    "dbp_mmhg": 201.73
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-172220",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.7,
+   "error_mmhg": {
+    "map_mmhg": 0.2599999999999909,
+    "sbp_mmhg": -2.0600000000000023,
+    "dbp_mmhg": -1.3799999999999955
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.26,
+    "sbp_mmhg": 252.94,
+    "dbp_mmhg": 193.62
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-172554",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.65,
+   "error_mmhg": {
+    "map_mmhg": 0.5699999999999932,
+    "sbp_mmhg": 5.240000000000009,
+    "dbp_mmhg": 11.02000000000001
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.57,
+    "sbp_mmhg": 260.24,
+    "dbp_mmhg": 206.02
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-172931",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.662,
+   "error_mmhg": {
+    "map_mmhg": 2.1699999999999875,
+    "sbp_mmhg": 1.7799999999999727,
+    "dbp_mmhg": -3.5500000000000114
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.17,
+    "sbp_mmhg": 256.78,
+    "dbp_mmhg": 191.45
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-173305",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.757,
+   "error_mmhg": {
+    "map_mmhg": -10.069999999999993,
+    "sbp_mmhg": -14.960000000000008,
+    "dbp_mmhg": -5.599999999999994
+   },
+   "values_mmhg": {
+    "map_mmhg": 204.93,
+    "sbp_mmhg": 240.04,
+    "dbp_mmhg": 189.4
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-173631",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -2.08
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-173948",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.945,
+   "error_mmhg": {
+    "map_mmhg": -1.4799999999999898,
+    "sbp_mmhg": -1.2800000000000011,
+    "dbp_mmhg": -7.360000000000014
+   },
+   "values_mmhg": {
+    "map_mmhg": 213.52,
+    "sbp_mmhg": 253.72,
+    "dbp_mmhg": 187.64
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-174539",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_views",
+   "peak_window_slope_mmhg_s": -2.045
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-175106",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.532,
+   "error_mmhg": {
+    "map_mmhg": 3.210000000000008,
+    "sbp_mmhg": -0.3100000000000023,
+    "dbp_mmhg": 7.069999999999993
+   },
+   "values_mmhg": {
+    "map_mmhg": 218.21,
+    "sbp_mmhg": 254.69,
+    "dbp_mmhg": 202.07
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-175429",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.931,
+   "error_mmhg": {
+    "map_mmhg": -1.1800000000000068,
+    "sbp_mmhg": 1.6399999999999864,
+    "dbp_mmhg": 3.5200000000000102
+   },
+   "values_mmhg": {
+    "map_mmhg": 213.82,
+    "sbp_mmhg": 256.64,
+    "dbp_mmhg": 198.52
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-175800",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.314,
+   "error_mmhg": {
+    "map_mmhg": 5.180000000000007,
+    "sbp_mmhg": -0.4399999999999977,
+    "dbp_mmhg": 5.939999999999998
+   },
+   "values_mmhg": {
+    "map_mmhg": 220.18,
+    "sbp_mmhg": 254.56,
+    "dbp_mmhg": 200.94
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-180123",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.463,
+   "error_mmhg": {
+    "map_mmhg": 1.1899999999999977,
+    "sbp_mmhg": 3.9700000000000273,
+    "dbp_mmhg": 1.0600000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 216.19,
+    "sbp_mmhg": 258.97,
+    "dbp_mmhg": 196.06
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-180440",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.143
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-180805",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.136,
+   "error_mmhg": {
+    "map_mmhg": 0.4099999999999966,
+    "sbp_mmhg": 2.319999999999993,
+    "dbp_mmhg": 8.699999999999989
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.41,
+    "sbp_mmhg": 257.32,
+    "dbp_mmhg": 203.7
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-181132",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.748,
+   "error_mmhg": {
+    "map_mmhg": 1.8000000000000114,
+    "sbp_mmhg": 3.6499999999999773,
+    "dbp_mmhg": 4.800000000000011
+   },
+   "values_mmhg": {
+    "map_mmhg": 216.8,
+    "sbp_mmhg": 258.65,
+    "dbp_mmhg": 199.8
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-181506",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.066,
+   "error_mmhg": {
+    "map_mmhg": -4.569999999999993,
+    "sbp_mmhg": -5.300000000000011,
+    "dbp_mmhg": 10.409999999999997
+   },
+   "values_mmhg": {
+    "map_mmhg": 210.43,
+    "sbp_mmhg": 249.7,
+    "dbp_mmhg": 205.41
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-181838",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.336,
+   "error_mmhg": {
+    "map_mmhg": -1.2199999999999989,
+    "sbp_mmhg": 3.2799999999999727,
+    "dbp_mmhg": 11.400000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 213.78,
+    "sbp_mmhg": 258.28,
+    "dbp_mmhg": 206.4
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-182150",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.943
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-182510",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.748,
+   "error_mmhg": {
+    "map_mmhg": 0.9199999999999875,
+    "sbp_mmhg": -7.199999999999989,
+    "dbp_mmhg": 8.0
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.92,
+    "sbp_mmhg": 247.8,
+    "dbp_mmhg": 203.0
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-182824",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -1.869,
+   "error_mmhg": {
+    "map_mmhg": 0.4300000000000068,
+    "sbp_mmhg": -7.25,
+    "dbp_mmhg": 6.47999999999999
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.43,
+    "sbp_mmhg": 247.75,
+    "dbp_mmhg": 201.48
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-183147",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.319,
+   "error_mmhg": {
+    "map_mmhg": 2.5,
+    "sbp_mmhg": 2.410000000000025,
+    "dbp_mmhg": 6.900000000000006
+   },
+   "values_mmhg": {
+    "map_mmhg": 217.5,
+    "sbp_mmhg": 257.41,
+    "dbp_mmhg": 201.9
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-183507",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.58,
+   "error_mmhg": {
+    "map_mmhg": 0.539999999999992,
+    "sbp_mmhg": -8.210000000000008,
+    "dbp_mmhg": 0.22999999999998977
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.54,
+    "sbp_mmhg": 246.79,
+    "dbp_mmhg": 195.23
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-183820",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -1.932
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261112-184151",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.591,
+   "error_mmhg": {
+    "map_mmhg": 0.03999999999999204,
+    "sbp_mmhg": -4.900000000000006,
+    "dbp_mmhg": 3.3100000000000023
+   },
+   "values_mmhg": {
+    "map_mmhg": 215.04,
+    "sbp_mmhg": 250.1,
+    "dbp_mmhg": 198.31
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-124819",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.675
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-125123",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.608
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-125433",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.826
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-125734",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.761
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-130034",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.243,
+   "error_mmhg": {
+    "map_mmhg": -2.9499999999999886,
+    "sbp_mmhg": -1.1200000000000045,
+    "dbp_mmhg": -0.18000000000000682
+   },
+   "values_mmhg": {
+    "map_mmhg": 212.05,
+    "sbp_mmhg": 253.88,
+    "dbp_mmhg": 194.82
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-130351",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.299
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-130703",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.715
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-131012",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_self_consistent",
+   "peak_window_slope_mmhg_s": -2.47
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-131321",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "ok",
+   "peak_window_slope_mmhg_s": -2.452,
+   "error_mmhg": {
+    "map_mmhg": -0.9499999999999886,
+    "sbp_mmhg": -11.550000000000011,
+    "dbp_mmhg": 0.30000000000001137
+   },
+   "values_mmhg": {
+    "map_mmhg": 214.05,
+    "sbp_mmhg": 243.45,
+    "dbp_mmhg": 195.3
+   }
+  },
+  {
+   "run_id": "standard255_195_target275_peakwindow_20261114-131626",
+   "preset": 4,
+   "gate_usable": true,
+   "status": "unresolved_pulse_pressure",
+   "peak_window_slope_mmhg_s": -2.793
+  }
+ ]
+}

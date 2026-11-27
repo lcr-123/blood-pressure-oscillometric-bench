@@ -1,0 +1,50 @@
+{
+  "version": [
+    "[Pressure] raw=1422 ads=178mV sensor=245mV est=0.3mmHg VALID",
+    "[Pressure] raw=1424 ads=178mV sensor=246mV est=0.3mmHg VALID",
+    "algo=PULSE_STEP_DEFLATE sw=TARGET275_CAPTURE_20261105 capacity=3300 deflate=200ms_open1ms"
+  ],
+  "status": [
+    "[Pressure] raw=1423 ads=178mV sensor=245mV est=0.3mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins": [
+    "[Pressure] raw=1424 ads=178mV sensor=246mV est=0.3mmHg VALID",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "cal": [
+    "[Pressure] raw=1423 ads=178mV sensor=245mV est=0.3mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "fault": [
+    "[Pressure] raw=1424 ads=178mV sensor=246mV est=0.3mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=37598ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[ADSbus] cr1=0x0000 pb=0x0000 scl=0 sda=0",
+    "[Capture] n=3300 capacity=3300 dropped=1 duration=82475ms interval=25ms"
+  ],
+  "stack": [
+    "[Pressure] raw=1424 ads=178mV sensor=246mV est=0.3mmHg VALID",
+    "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "zero_count": 100,
+  "pressure": {
+    "raw": {
+      "min": 1422,
+      "max": 1430,
+      "mean": 1425.4
+    },
+    "sensor": {
+      "min": 245,
+      "max": 247,
+      "mean": 245.86
+    },
+    "est": {
+      "min": 0.3,
+      "max": 0.4,
+      "mean": 0.34700000000000003
+    }
+  },
+  "zero_valid": true
+}

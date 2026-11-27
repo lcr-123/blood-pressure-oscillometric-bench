@@ -1,0 +1,21 @@
+{
+  "schema": "bp.peak_instability_validation/1",
+  "diagnostic_reproduction_exact": true,
+  "prior_adaptive_exact": true,
+  "prior_diagnostics_exact": true,
+  "source_hashes_checked_by_audit": true,
+  "counts": {
+    "diagnosed": 8,
+    "capture_incomplete": 5
+  },
+  "visual_inspection": "reviewed PNG: all four panels readable",
+  "checks": {
+    "full_suite_before_final_report_guard": "153 tests passed",
+    "current_diagnostic_suite_including_added_guard": "8 tests passed; 7 overlap with full suite"
+  },
+  "artifact_sha256": {
+    "standard_bp_peak_instability_20261105_reviewed.json": "471c89585c129d5035433bab2834c2833c317b603a016abe40442d4f8f583a5e",
+    "standard_bp_peak_instability_20261105_reviewed.md": "d3fb45fbc8e773cbea4c0bc3794b476ac30d333a9d624ee5e59059e5c4d8e277",
+    "standard_bp_peak_instability_20261105_reviewed.png": "5ccf7560bd06cc107d56a30da10ec02ddd8ecebc8118a1e7a74fb0038b23d92b"
+  }
+}

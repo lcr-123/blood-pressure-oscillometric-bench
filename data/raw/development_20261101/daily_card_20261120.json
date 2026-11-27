@@ -1,0 +1,198 @@
+{
+  "stamp": "20261120",
+  "batch": "crosstday",
+  "batch_day": 5,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": -0.79,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "slope_mmhg_per_min": -25.206,
+    "p_start": 147.7,
+    "p_end": 107.3,
+    "n": 1200,
+    "duration_s": 59.95,
+    "target_mmhg": 150,
+    "hold_seconds": 60.0,
+    "outcome": "sealed_hold_completed",
+    "bands": [
+      {
+        "band_mmhg": [
+          100,
+          110
+        ],
+        "n": 250,
+        "span_s": 18.6,
+        "slope_mmhg_per_min": -6.803
+      },
+      {
+        "band_mmhg": [
+          110,
+          120
+        ],
+        "n": 636,
+        "span_s": 40.0,
+        "slope_mmhg_per_min": -16.434
+      },
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 219,
+        "span_s": 12.3,
+        "slope_mmhg_per_min": -49.482
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 77,
+        "span_s": 3.9,
+        "slope_mmhg_per_min": -145.662
+      }
+    ],
+    "source": "tmp\\omniprobe\\daily_leak_20261120.result.json",
+    "settled_slope_mmhg_per_min": -11.64,
+    "settled_window": "40-60 s after the peak of the hold",
+    "settled_windows": {
+      "0-10s": -116.33,
+      "10-20s": -36.87,
+      "20-40s": -18.74,
+      "40-60s": -11.64
+    },
+    "history_comparison": "D4 -11.36, D3 -11.11, D2 -11.26 on the same window; 11-16 -5.76 and 11-07 -5.50. The roughly 2x step has now held for four consecutive days, so it is the current baseline rather than a transient."
+  },
+  "valve": {
+    "flow_mmhg_per_open_ms": 0.33333,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "outcome": "completed",
+    "steps": null,
+    "source": "tmp\\omniprobe\\daily_valve_20261120.result.json"
+  },
+  "sealed_zero_notes": {
+    "source": "tmp/omniprobe/zero_sanity_20261120_rerun.json (four-state probe)",
+    "seal_true_mmhg": -0.79,
+    "vent_true_mmhg": -0.42,
+    "coil_offset_mmhg": 0.37,
+    "sensor_mV": "232..233",
+    "raw_p2p": 3,
+    "note": "the coil offset collapsed to +0.37 mmHg, the smallest of the batch so far (D2 +3.02 on 11-16, D3 +0.99, D4 +1.76). Both states read negative today, which has not happened before. The sensor wire was not touched."
+  },
+  "zero_arc": [
+    {
+      "time": "17:55",
+      "true_mmhg": -0.87,
+      "sensor_mV": "231..232",
+      "raw_p2p": 3,
+      "event": "open check"
+    },
+    {
+      "time": "17:56",
+      "true_mmhg": 0.0,
+      "sensor_mV": "232",
+      "raw_p2p": 3,
+      "event": "vent then seal (est clamped)"
+    },
+    {
+      "time": "17:57",
+      "true_mmhg": -0.79,
+      "sensor_mV": "232..233",
+      "raw_p2p": 3,
+      "event": "four-state probe"
+    },
+    {
+      "time": "19:06",
+      "true_mmhg": 1.35,
+      "sensor_mV": "257..258",
+      "raw_p2p": 4,
+      "event": "after the aborted run; OmniProbe had been restarted, MCU fault code=4 SENSOR_READ latched"
+    },
+    {
+      "time": "19:09",
+      "true_mmhg": 4.89,
+      "sensor_mV": "300..301",
+      "raw_p2p": 6,
+      "event": "vented, reading did not drop to zero within one window"
+    },
+    {
+      "time": "19:11",
+      "true_mmhg": 1.11,
+      "sensor_mV": "254..255",
+      "raw_p2p": 3,
+      "event": "four-state probe (seal +1.11 / vent +4.77 / coil offset +3.66)"
+    },
+    {
+      "time": "19:16",
+      "true_mmhg": 1.11,
+      "sensor_mV": "255",
+      "raw_p2p": 3,
+      "event": "pre-restart check"
+    }
+  ],
+  "zero_arc_note": "the zero stayed between -0.87 and -0.79 all through the card, with raw p2p 3 — the same band as D3's post-repair and D4. The vent state also read negative (-0.42), so the two states are not separated the way they were on 11-16 (+0.0 vs +7.7).",
+  "no_temperature_reason": "dropped from the card on 2026-11-18 at the operator request (no thermometer with one-decimal resolution). Kept null rather than back-filled; see crosstday_d03_20261118.md section 1.2.",
+  "valve_history": [
+    {
+      "date": "2026-11-07",
+      "flow_mmhg_per_open_ms": 0.075
+    },
+    {
+      "date": "2026-11-06",
+      "flow_mmhg_per_open_ms": 0.14
+    },
+    {
+      "date": "2026-11-14",
+      "flow_mmhg_per_open_ms": 0.132
+    },
+    {
+      "date": "2026-11-16",
+      "flow_mmhg_per_open_ms": 0.24713
+    },
+    {
+      "date": "2026-11-17",
+      "flow_mmhg_per_open_ms": 0.26805
+    },
+    {
+      "date": "2026-11-18",
+      "flow_mmhg_per_open_ms": 0.30063
+    },
+    {
+      "date": "2026-11-19",
+      "flow_mmhg_per_open_ms": 0.31381
+    },
+    {
+      "date": "2026-11-20",
+      "flow_mmhg_per_open_ms": 0.33333
+    }
+  ],
+  "valve_width_detail": {
+    "width_3ms": {
+      "pulses": 16,
+      "drop_mmhg": 15.6,
+      "total_open_ms": 48,
+      "flow_mmhg_per_open_ms": 0.325,
+      "flow_from_slope": 0.29575
+    },
+    "width_4ms": {
+      "pulses": 15,
+      "drop_mmhg": 20.5,
+      "total_open_ms": 60,
+      "flow_mmhg_per_open_ms": 0.34167,
+      "flow_from_slope": 0.29791
+    },
+    "note": "the two widths read 0.325 and 0.34167 (D4 was 0.31667 and 0.31094), so the blended 0.33333 sits between them again. The series 0.24713 / 0.26805 / 0.30063 / 0.31381 / 0.33333 keeps climbing by +0.021 / +0.033 / +0.013 / +0.020: no sign of levelling off."
+  },
+  "switching_note": "the OmniProbe desktop app started at 17:54:54 but had no serial session yet; the first state check fell back to the direct port and failed with PermissionError(13) because the app already held COM6. Six polls of probe_bridge_serial later the app had attached, and every later command went through 127.0.0.1:8765. Nothing else was needed: no re-plug, no baud scan.",
+  "abort_note": {
+    "when": "2026-11-20T18:30:54 (block A, round 8 of 14)",
+    "what": "the orchestrator process disappeared mid-round; the orphan ndjson standard255_195_target275_peakwindow_20261120-183054.ndjson ends right after [Deflate] PWM started after hold, with no metadata and no export",
+    "why": "the agent shell that owned the background job was restarted, which killed the job and its child python processes. Not a firmware or pneumatic fault: the seven rounds that finished before it are all export_received with closeout confirmed, and the fixture was left vented.",
+    "cleanup": "the 21 completed files plus the orphan ndjson were moved to tmp/omniprobe/quarantine_20261120/; data/raw keeps only this card, and the manifest was never written for day 5, so D5 restarts from round 1",
+    "zero_after": "the sealed zero read +1.11 after the abort against -0.79 at open. OmniProbe was restarted and MCU fault code=4 SENSOR_READ was latched (recoveries=1), which is the same latched-but-recovered state D2 started from. Still inside the +/-5.0 gate."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "outcome": "load_off_preflight_passed_calibration_restored",
+  "physical_trial": false,
+  "actuator_supply": "operator-confirmed off",
+  "calibration_source": "calibration_data/manual_static_2026-10-25.json",
+  "commands": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1330 ads=166mV sensor=229mV est=0.0mmHg UNCAL",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=UNCAL ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1329 ads=166mV sensor=229mV est=0.0mmHg UNCAL",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1329 ads=166mV sensor=229mV est=0.0mmHg UNCAL",
+        "[Cal] UNCAL (no stored record); defaults zero=0.29V sens=0.085V/kPa"
+      ]
+    },
+    {
+      "text": "cal write 82.326 -19.887",
+      "response": [
+        "[Pressure] raw=1329 ads=166mV sensor=229mV est=0.0mmHg UNCAL",
+        "[Cal] written+verified slope=82.326 intercept=-19.89 -> VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1330 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1330 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1330 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1329 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Fault] code=0 name=NONE age=0ms",
+        "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Pressure] raw=1330 ads=166mV sensor=229mV est=0.0mmHg VALID",
+        "[Stack] used=1424 free=2672 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    }
+  ],
+  "before": {
+    "raw": {
+      "min": 1328,
+      "max": 1331,
+      "mean": 1329.54
+    },
+    "sensor": {
+      "min": 229,
+      "max": 230,
+      "mean": 229.07
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_restored": true,
+  "after_count": 200,
+  "after": {
+    "raw": {
+      "min": 1327,
+      "max": 1331,
+      "mean": 1329.34
+    },
+    "sensor": {
+      "min": 229,
+      "max": 230,
+      "mean": 229.065
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "unclipped_raw_derived_mmhg": {
+    "min": -1.043329778911474,
+    "max": -0.986528964379179,
+    "mean": -1.0101013024100816
+  },
+  "unclipped_note": "Host reconstruction from raw and configured divider, not independent pressure reference or new zero calibration.",
+  "nonpressure_lines": [
+    "[Status] mode=RELAY_ONLY state=IDLE cal=UNCAL ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Cal] UNCAL (no stored record); defaults zero=0.29V sens=0.085V/kPa",
+    "[Cal] written+verified slope=82.326 intercept=-19.89 -> VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Fault] code=0 name=NONE age=0ms",
+    "[ADSdiag] stage=0 status=0 reg=0x00 err=0x00000000 state=0x0 sr1=0x0000 sr2=0x0000 errors=0 recoveries=0",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1424 free=2672 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+  ],
+  "raw_path": "data\\raw\\preflight\\hold_safety_cal_restore_20261031-145124.ndjson",
+  "raw_sha256": "4beed78ca46d533d822343e22eefa3d80b834ecf17985d5a4fcdbad34e43a5fb"
+}

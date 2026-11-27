@@ -1,0 +1,188 @@
+{
+  "stamp": "20261121",
+  "batch": "crosstday",
+  "batch_day": 6,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": -0.38,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "slope_mmhg_per_min": -24.881,
+    "p_start": 146.6,
+    "p_end": 106.8,
+    "n": 1200,
+    "duration_s": 59.95,
+    "target_mmhg": 150,
+    "hold_seconds": 60.0,
+    "outcome": "sealed_hold_completed",
+    "bands": [
+      {
+        "band_mmhg": [
+          100,
+          110
+        ],
+        "n": 376,
+        "span_s": 24.5,
+        "slope_mmhg_per_min": -8.595
+      },
+      {
+        "band_mmhg": [
+          110,
+          120
+        ],
+        "n": 557,
+        "span_s": 36.3,
+        "slope_mmhg_per_min": -18.535
+      },
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 189,
+        "span_s": 10.9,
+        "slope_mmhg_per_min": -57.884
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 66,
+        "span_s": 3.4,
+        "slope_mmhg_per_min": -169.6
+      }
+    ],
+    "source": "tmp\\omniprobe\\daily_leak_20261121.result.json",
+    "settled_slope_mmhg_per_min": -11.13,
+    "settled_window": "40-60 s after the peak of the hold",
+    "settled_windows": {
+      "0-10s": -117.06,
+      "10-20s": -36.07,
+      "20-40s": -18.31,
+      "40-60s": -11.13
+    },
+    "history_comparison": "D5 -11.64, D4 -11.36, D3 -11.11, D2 -11.26 on the same window; 11-16 -5.76 and 11-07 -5.50. Five consecutive days sit at 11.1-11.6 mmHg/min, so the roughly 2x step is the current baseline and is not drifting further."
+  },
+  "valve": {
+    "flow_mmhg_per_open_ms": 0.32042,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "outcome": "completed",
+    "steps": null,
+    "source": "tmp\\omniprobe\\daily_valve_20261121.result.json"
+  },
+  "sealed_zero_notes": {
+    "source": "tmp/omniprobe/zero_sanity_20261121_final.json (four-state probe)",
+    "seal_true_mmhg": -0.38,
+    "vent_true_mmhg": 0.61,
+    "coil_offset_mmhg": 0.99,
+    "sensor_mV": "237",
+    "raw_p2p": 3,
+    "note": "the sealed zero came back to -0.38 and the coil offset to +0.99, both inside the batch range (D5 was -0.79 / +0.37, D4 -0.01 / +1.76). The wire was not touched today. Getting there needed a fault clear and a vent, see zero_arc."
+  },
+  "zero_arc": [
+    {
+      "time": "10:47",
+      "true_mmhg": -0.54,
+      "sensor_mV": "235..236",
+      "raw_p2p": 8,
+      "event": "open check; fault shows SENSOR_INIT code=3, 139 s old"
+    },
+    {
+      "time": "10:50",
+      "true_mmhg": 2.42,
+      "sensor_mV": "271..272",
+      "raw_p2p": 3,
+      "event": "after a 0.6 s start/stop to clear the latched boot fault (residual +6.9 mmHg first)"
+    },
+    {
+      "time": "10:53",
+      "true_mmhg": 0.45,
+      "sensor_mV": "247",
+      "raw_p2p": 2,
+      "event": "vent then seal; four-state probe reads seal +0.45 / vent +2.51"
+    },
+    {
+      "time": "11:00",
+      "true_mmhg": 1.44,
+      "sensor_mV": "259..260",
+      "raw_p2p": 2,
+      "event": "after the leak hold and the valve working point (both cycle pressure)"
+    },
+    {
+      "time": "11:05",
+      "true_mmhg": 1.4,
+      "sensor_mV": "259",
+      "raw_p2p": 3,
+      "event": "profile peak refused 8 times: firmware wants the last sample inside -1..+1"
+    },
+    {
+      "time": "11:12",
+      "true_mmhg": -0.38,
+      "sensor_mV": "237",
+      "raw_p2p": 3,
+      "event": "vent until est fell to 0.60, seal, then profile peak accepted on the first try"
+    }
+  ],
+  "zero_arc_note": "today opened with a latched SENSOR_INIT (firmware boot probe of ADS1115 failed, main.c:1947-1953). The acquisition script accepts a latched SENSOR_READ when the counters prove a recovery, but SENSOR_INIT is a different code and would have aborted every round with \"initial sensor fault\". ManualPump_Start calls BP_Control_Reset (main.c:699), which sets s_fault back to NONE, so a 0.6 s start/stop cleared it and the fault field has read code=0 since. The zero itself then wandered between -0.54 and +1.44 over the card as the leak and valve probes cycled pressure; a final vent brought it to -0.38 and the firmware accepted profile peak immediately.",
+  "no_temperature_reason": "dropped from the card on 2026-11-18 at the operator request (no thermometer with one-decimal resolution). Kept null rather than back-filled; see crosstday_d03_20261118.md section 1.2.",
+  "valve_history": [
+    {
+      "date": "2026-11-07",
+      "flow_mmhg_per_open_ms": 0.075
+    },
+    {
+      "date": "2026-11-06",
+      "flow_mmhg_per_open_ms": 0.14
+    },
+    {
+      "date": "2026-11-14",
+      "flow_mmhg_per_open_ms": 0.132
+    },
+    {
+      "date": "2026-11-16",
+      "flow_mmhg_per_open_ms": 0.24713
+    },
+    {
+      "date": "2026-11-17",
+      "flow_mmhg_per_open_ms": 0.26805
+    },
+    {
+      "date": "2026-11-18",
+      "flow_mmhg_per_open_ms": 0.30063
+    },
+    {
+      "date": "2026-11-19",
+      "flow_mmhg_per_open_ms": 0.31381
+    },
+    {
+      "date": "2026-11-20",
+      "flow_mmhg_per_open_ms": 0.33333
+    },
+    {
+      "date": "2026-11-21",
+      "flow_mmhg_per_open_ms": 0.32042
+    }
+  ],
+  "valve_width_detail": {
+    "width_3ms": {
+      "pulses": 16,
+      "drop_mmhg": 14.6,
+      "total_open_ms": 48,
+      "flow_mmhg_per_open_ms": 0.30417,
+      "flow_from_slope": 0.26985
+    },
+    "width_4ms": {
+      "pulses": 15,
+      "drop_mmhg": 20.2,
+      "total_open_ms": 60,
+      "flow_mmhg_per_open_ms": 0.33667,
+      "flow_from_slope": 0.28724
+    },
+    "note": "the blended figure fell for the first time in the batch, 0.33333 -> 0.32042 (-0.013), after eight consecutive rises (+0.021 / +0.033 / +0.013 / +0.020 / ...). Both widths also read below yesterday (0.325 -> 0.30417 and 0.34167 -> 0.33667), so the turn is in the measurement, not in one odd pulse train."
+  },
+  "switching_note": "the OmniProbe app was running with a live serial session from the first check, so no port fallback and no wake-up was needed; [BP_VERSION] / [CUFF_EXT] / [SIM_STD120_80] answered on the first panel check of the day."
+}

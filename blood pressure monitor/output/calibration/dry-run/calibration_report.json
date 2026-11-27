@@ -1,0 +1,179 @@
+{
+  "schema": "pressure-calibration-report/v1",
+  "generated_at": "2026-09-17T01:41:41.941807+00:00",
+  "mode": "simulation",
+  "hardware_operated": false,
+  "sensor_unit": "V",
+  "model": {
+    "slope_mmhg_per_unit": 75.0217992352602,
+    "intercept_mmhg": -37.547289991757054,
+    "calibration_rmse_mmhg": 0.018593189156377546,
+    "calibration_r_squared": 0.9999999654293317,
+    "zero_voltage_v": 0.5004850640013689,
+    "sensitivity_v_per_kpa": 0.09997920706325465
+  },
+  "verification": {
+    "tolerance_mmhg": 1.0,
+    "rmse_mmhg": 0.04214035040116261,
+    "max_abs_error_mmhg": 0.07125683471533506,
+    "passed": true
+  },
+  "calibration_points": [
+    {
+      "stage": "calibration",
+      "reference_mmhg": 0.0,
+      "sample_count": 20,
+      "sensor_mean": 0.5007309362716464,
+      "sensor_stdev": 0.0015817729822293735,
+      "predicted_mmhg": 0.018445780098275577,
+      "error_mmhg": 0.018445780098275577,
+      "absolute_error_mmhg": 0.018445780098275577,
+      "passed": null
+    },
+    {
+      "stage": "calibration",
+      "reference_mmhg": 50.0,
+      "sample_count": 20,
+      "sensor_mean": 1.1669551312403563,
+      "sensor_stdev": 0.0012071322675908163,
+      "predicted_mmhg": 49.99978358071368,
+      "error_mmhg": -0.0002164192863176595,
+      "absolute_error_mmhg": 0.0002164192863176595,
+      "passed": null
+    },
+    {
+      "stage": "calibration",
+      "reference_mmhg": 100.0,
+      "sample_count": 20,
+      "sensor_mean": 1.8331948444039938,
+      "sensor_stdev": 0.0014970662211778352,
+      "predicted_mmhg": 99.98228558423344,
+      "error_mmhg": -0.017714415766562297,
+      "absolute_error_mmhg": 0.017714415766562297,
+      "passed": null
+    },
+    {
+      "stage": "calibration",
+      "reference_mmhg": 150.0,
+      "sample_count": 20,
+      "sensor_mean": 2.499853432722891,
+      "sensor_stdev": 0.0014807213042154562,
+      "predicted_mmhg": 149.99621235555574,
+      "error_mmhg": -0.003787644444258831,
+      "absolute_error_mmhg": 0.003787644444258831,
+      "passed": null
+    },
+    {
+      "stage": "calibration",
+      "reference_mmhg": 200.0,
+      "sample_count": 20,
+      "sensor_mean": 3.1659928177795065,
+      "sensor_stdev": 0.0013383201435602568,
+      "predicted_mmhg": 199.97118756397282,
+      "error_mmhg": -0.028812436027180865,
+      "absolute_error_mmhg": 0.028812436027180865,
+      "passed": null
+    },
+    {
+      "stage": "calibration",
+      "reference_mmhg": 250.0,
+      "sample_count": 20,
+      "sensor_mean": 3.833253723670046,
+      "sensor_stdev": 0.00118902181330572,
+      "predicted_mmhg": 250.03030128323076,
+      "error_mmhg": 0.03030128323075587,
+      "absolute_error_mmhg": 0.03030128323075587,
+      "passed": null
+    },
+    {
+      "stage": "calibration",
+      "reference_mmhg": 300.0,
+      "sample_count": 20,
+      "sensor_mean": 4.499346553732138,
+      "sensor_stdev": 0.0013700652006246004,
+      "predicted_mmhg": 300.00178385219533,
+      "error_mmhg": 0.0017838521953308373,
+      "absolute_error_mmhg": 0.0017838521953308373,
+      "passed": null
+    }
+  ],
+  "verification_points": [
+    {
+      "stage": "verification",
+      "reference_mmhg": 0.0,
+      "sample_count": 12,
+      "sensor_mean": 0.4995352489417237,
+      "sensor_stdev": 0.0011270757754531465,
+      "predicted_mmhg": -0.07125683471533506,
+      "error_mmhg": -0.07125683471533506,
+      "absolute_error_mmhg": 0.07125683471533506,
+      "passed": true
+    },
+    {
+      "stage": "verification",
+      "reference_mmhg": 50.0,
+      "sample_count": 12,
+      "sensor_mean": 1.1664797199252122,
+      "sensor_stdev": 0.0014030896418067923,
+      "predicted_mmhg": 49.96411736847476,
+      "error_mmhg": -0.03588263152524007,
+      "absolute_error_mmhg": 0.03588263152524007,
+      "passed": true
+    },
+    {
+      "stage": "verification",
+      "reference_mmhg": 100.0,
+      "sample_count": 12,
+      "sensor_mean": 1.833788121109193,
+      "sensor_stdev": 0.001170535979763348,
+      "predicted_mmhg": 100.02679427010185,
+      "error_mmhg": 0.02679427010184554,
+      "absolute_error_mmhg": 0.02679427010184554,
+      "passed": true
+    },
+    {
+      "stage": "verification",
+      "reference_mmhg": 150.0,
+      "sample_count": 12,
+      "sensor_mean": 2.4991430822534273,
+      "sensor_stdev": 0.0011539848717076705,
+      "predicted_mmhg": 149.94292058524894,
+      "error_mmhg": -0.057079414751058266,
+      "absolute_error_mmhg": 0.057079414751058266,
+      "passed": true
+    },
+    {
+      "stage": "verification",
+      "reference_mmhg": 200.0,
+      "sample_count": 12,
+      "sensor_mean": 3.1667421616864324,
+      "sensor_stdev": 0.0011435444384089795,
+      "predicted_mmhg": 200.0274046921164,
+      "error_mmhg": 0.027404692116391516,
+      "absolute_error_mmhg": 0.027404692116391516,
+      "passed": true
+    },
+    {
+      "stage": "verification",
+      "reference_mmhg": 250.0,
+      "sample_count": 12,
+      "sensor_mean": 3.8332329090018864,
+      "sensor_stdev": 0.001650916224941744,
+      "predicted_mmhg": 250.02873972937493,
+      "error_mmhg": 0.02873972937493363,
+      "absolute_error_mmhg": 0.02873972937493363,
+      "passed": true
+    },
+    {
+      "stage": "verification",
+      "reference_mmhg": 300.0,
+      "sample_count": 12,
+      "sensor_mean": 4.499624558695001,
+      "sensor_stdev": 0.000875936736961945,
+      "predicted_mmhg": 300.02264028470563,
+      "error_mmhg": 0.02264028470563062,
+      "absolute_error_mmhg": 0.02264028470563062,
+      "passed": true
+    }
+  ]
+}

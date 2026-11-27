@@ -1,0 +1,77 @@
+{
+  "date_local": "2026-11-10",
+  "stage": "supply_measured_not_calibration_changed",
+  "purpose": "record the MPXV5050GP supply voltage so future scale questions have a starting point; the calibration itself was NOT modified",
+  "sensor": {
+    "part": "MPXV5050GP",
+    "transfer_function": "VOUT = VS * (P_kPa * 0.018 + 0.04)",
+    "ratiometric": true,
+    "datasheet_supply_range_V": [4.75, 5.25],
+    "datasheet_total_accuracy_VFSS_percent": 2.5,
+    "datasheet_zero_allowance_mV": [88, 313]
+  },
+  "supply_readings": [
+    {
+      "local_time": "21:37",
+      "voltage_V": 5.133,
+      "method": "multimeter at the sensor VCC to GND",
+      "within_datasheet_range": true
+    },
+    {
+      "local_time": "21:52",
+      "voltage_V": 5.149,
+      "method": "multimeter at the sensor VCC to GND",
+      "within_datasheet_range": true,
+      "note": "adopted as the recording value at the operator's instruction; the two readings differ by +0.31 percent in about 15 minutes, so the rail is not a stable reference"
+    }
+  ],
+  "adopted_value_V": 5.149,
+  "adopted_value_reason": "operator decision 2026-11-10: no stable 5.000 V source is available for a control experiment, so record the present rail instead of waiting",
+  "implications": {
+    "datasheet_gain_at_adopted_V_mmHg_per_V": 80.929,
+    "firmware_slope_mmHg_per_V": 82.326,
+    "firmware_slope_vs_datasheet_at_adopted_percent": 1.73,
+    "supply_that_the_firmware_slope_corresponds_to_V": 5.0616,
+    "note": "the firmware slope was fitted on 2026-10-25 against the BP Pump 2 panel and implicitly assumes the supply that makes the datasheet gain equal 82.326, i.e. about 5.062 V. At 5.149 V the datasheet gain would be 80.929, so the firmware reads high by about 1.7 percent IF the part's gain is datasheet-typical."
+  },
+  "hypotheses_not_separated": [
+    {
+      "id": "H1",
+      "statement": "supply was about 5.062 V on 2026-10-25 and has drifted to 5.149 V",
+      "supports": "the datasheet gain at 5.062 V is 82.320 mmHg/V, essentially identical to the fitted 82.326",
+      "testable": "swap in a precision 5.000 V source and see whether the fitted slope becomes 83.34"
+    },
+    {
+      "id": "H2",
+      "statement": "the supply was always about 5.149 V and this part's gain runs about 1.7 percent above datasheet-typical",
+      "supports": "the datasheet total accuracy is +/-2.5 percent VFSS including span, so 1.7 percent is inside the allowance",
+      "testable": "only with an independent pressure reference, or a known-good second sensor on the same rail"
+    }
+  ],
+  "why_not_separated": "no VS value was recorded at the 2026-10-25 calibration, and no stable 5.000 V source is currently available; the two hypotheses produce the same fitted slope from the data on hand",
+  "fit_quality_with_each_reading": {
+    "note": "predicted Tester-minus-MCU at each hold point, assuming the Tester is right",
+    "measured": {"60": -1.17, "120": -1.63, "180": -2.10, "260": -2.87},
+    "predicted_at_5.133_V": {"60": -0.55, "120": -1.40, "180": -2.25, "260": -3.37},
+    "predicted_at_5.149_V": {"60": -0.74, "120": -1.78, "180": -2.81, "260": -4.20},
+    "observation": "5.149 over-predicts the disagreement more than 5.133 does, so the adopted value fits the measurements slightly worse; recorded as measured rather than rounded to a tidier number"
+  },
+  "zero_ratio_check": {
+    "zero_at_calibration_mV": 238.0,
+    "predicted_today_mV": 242.1,
+    "measured_today_mV": 240.0,
+    "difference_mV": -2.1,
+    "note": "within the recorded zero drift (21 sealed holds span 3.58 mmHg, about 43 mV), so the ratiometric model is not contradicted"
+  },
+  "calibration_unchanged": {
+    "slope_mmHg_per_V": 82.326,
+    "intercept_mmHg": -19.887,
+    "firmware_readback": "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa",
+    "reason": "changing it would put the 70 already-collected exports on a different pressure scale, and the two hypotheses above cannot be separated without a control experiment or a third-party reference"
+  },
+  "limitations": [
+    "the rail moved 0.31 percent between two readings 15 minutes apart, so it is not stable enough to serve as a reference itself",
+    "no independent pressure standard was available, so neither H1 nor H2 can be confirmed",
+    "the dataset pressure axis therefore carries a scale uncertainty of roughly 1 to 1.7 percent whose cause is unresolved"
+  ]
+}

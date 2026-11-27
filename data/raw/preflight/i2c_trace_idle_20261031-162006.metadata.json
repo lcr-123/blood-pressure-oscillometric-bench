@@ -1,0 +1,64 @@
+{
+  "kind": "read_only_idle_diagnostic",
+  "actuator_commands_sent": false,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "physical_supply_state": "not independently observed",
+  "commands": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1337 ads=167mV sensor=231mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+        "[UART3] rx_errors=0 rx_state=0x22"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1338 ads=167mV sensor=231mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    },
+    {
+      "text": "cal",
+      "response": [
+        "[Pressure] raw=1337 ads=167mV sensor=231mV est=0.0mmHg VALID",
+        "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1337 ads=167mV sensor=231mV est=0.0mmHg VALID",
+        "[Fault] code=1 name=USER_STOP age=635864ms",
+        "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+        "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms"
+      ]
+    }
+  ],
+  "fresh_sample_count": 100,
+  "pressure_window": {
+    "raw": {
+      "min": 1337,
+      "max": 1340,
+      "mean": 1338.28
+    },
+    "sensor": {
+      "min": 231,
+      "max": 231,
+      "mean": 231.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "all_valid": true,
+  "outcome": "read_only_observation_complete",
+  "raw_path": "data/raw/preflight/i2c_trace_idle_20261031-162006.ndjson",
+  "raw_sha256": "1318d6a2b89cceb729b5d7d6eaa7509221f574e740e02fa32427900dfb043977",
+  "limitation": "No electrical waveform or loaded switching measured. Displayed zero is clipped. No actuator command was sent."
+}

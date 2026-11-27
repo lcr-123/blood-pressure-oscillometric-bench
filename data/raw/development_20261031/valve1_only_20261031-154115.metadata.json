@@ -1,0 +1,41 @@
+{
+  "physical_action": "PB8 inflation valve only, 250ms nominal hold; PC8 pump OFF throughout",
+  "firmware": "ADS_BUS_DIAG_20261031",
+  "outcome": "failed",
+  "calibration_changed": false,
+  "firmware_changed": false,
+  "initial_status": [
+    "[Pressure] raw=1378 ads=172mV sensor=238mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+  ],
+  "initial_fault": [
+    "[Pressure] raw=1379 ads=172mV sensor=238mV est=0.0mmHg VALID",
+    "[Fault] code=1 name=USER_STOP age=179808ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1"
+  ],
+  "baseline": {
+    "raw": {
+      "min": 1375,
+      "max": 1383,
+      "mean": 1377.84
+    },
+    "sensor": {
+      "min": 237,
+      "max": 239,
+      "mean": 237.92
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "baseline_sample_count": 100,
+  "release_host_event_ms": 1793432481377.1743,
+  "error": "ValueError('min() iterable argument is empty')",
+  "closeout_confirmed": false,
+  "closeout_error": "TimeoutError('ACK close')",
+  "raw_path": "data\\raw\\development_20261031\\valve1_only_20261031-154115.ndjson",
+  "raw_sha256": "ddb0da4d83e810e127de51eadb44b4c3e0d06be435cd4f332efd6136f752ca5a"
+}

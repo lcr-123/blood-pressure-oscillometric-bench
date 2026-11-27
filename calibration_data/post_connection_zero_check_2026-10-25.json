@@ -1,0 +1,24 @@
+{
+  "stage": "post_connection_change_zero_check_pending",
+  "source": "user_reported_serial_line_after_instruction_to_record_open_atmosphere_zero",
+  "reference_pressure_mmHg": 0,
+  "reference_status": "Expected atmospheric zero under protocol; actual pneumatic state not independently verified.",
+  "raw": 768,
+  "ads_mV": 96,
+  "sensor_mV": 132,
+  "est_mmHg": 0,
+  "previous_vent_check": {
+    "raw": 1426,
+    "sensor_mV": 246
+  },
+  "sensor_change_mV": -114,
+  "connection_change_status": "User suspects loose connection; electrical wire versus pneumatic tube and any calibration command remain unspecified.",
+  "assessment": "Start separate collection round. Raw change cannot be explained solely by changing pressure calibration coefficients. est zero may reflect negative-value clamping. Confirm connection and repeated atmospheric zero before pressure testing.",
+  "used_in_fit": false,
+  "subsequent_zero_reports": [
+    {"raw": 446, "ads_mV": 56, "sensor_mV": 77, "est_mmHg": 0.0},
+    {"raw": 446, "ads_mV": 56, "sensor_mV": 77, "est_mmHg": 0.0},
+    {"raw": 457, "ads_mV": 57, "sensor_mV": 79, "est_mmHg": 0.0}
+  ],
+  "followup_assessment": "If all readings were at atmospheric pressure, output decreased further from 132 to 77-79 mV. Three latest lines do not establish stability across the connection change. Pause pressure testing and inspect physical connections; electrical versus pneumatic loose connection remains unconfirmed. Do not use est=0 as evidence of correct zero because firmware clamps negative pressure."
+}

@@ -1,0 +1,122 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 30,
+  "host_ceiling_mmhg": 40,
+  "limit_seconds": 15,
+  "pump_load_reconnected_by_user": true,
+  "operator_confirmation": "用户回复OK了，确认已接回泵阀12V，非人体台架、BP Stop、气路密封并已卸压；授权单轮30mmHg复测与放气收尾。",
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "firmware_id": "UART_RX_GUARD_20261031",
+  "firmware_identity_evidence": "data/raw/preflight/uart_rx_guard_flash_20261031-160132.ndjson",
+  "firmware_identity_note": "Prior verified download; current status checks UART diagnostic, not a startup ID reread.",
+  "source_clock_note": "Host serial arrival timestamps are not MCU sample ticks.",
+  "initial_status": [
+    "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Pressure] raw=1293 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1292,
+      "max": 1294,
+      "mean": 1292.61
+    },
+    "sensor": {
+      "min": 223,
+      "max": 223,
+      "mean": 223.0
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1292 ads=162mV sensor=223mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "error": "RuntimeError('device safety/offline event: [Safety] Pressure read failed during hold; emergency vent')",
+  "terminal_diagnostics": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1411 ads=176mV sensor=243mV est=0.1mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+        "[UART3] rx_errors=0 rx_state=0x22"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1415 ads=177mV sensor=244mV est=0.2mmHg VALID",
+        "[Fault] code=1 name=USER_STOP age=1665ms",
+        "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+        "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+        "[Pressure] raw=1417 ads=177mV sensor=244mV est=0.2mmHg VALID",
+        "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1418 ads=177mV sensor=245mV est=0.2mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    }
+  ],
+  "all_trial_nonpressure_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 31.0 mmHg; stopping p=ip",
+    "[Inflate] holding before deflate...",
+    "[Safety] Pressure read failed during hold; emergency vent",
+    "[DebugCmd] STOP",
+    "[Safety] STOP PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pressure] ADS1115 retry init",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Fault] code=1 name=USER_STOP age=1665ms",
+    "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "all_trial_pressure": {
+    "raw": {
+      "min": 1293,
+      "max": 3581,
+      "mean": 1958.264705882353
+    },
+    "sensor": {
+      "min": 223,
+      "max": 618,
+      "mean": 337.8235294117647
+    },
+    "est": {
+      "min": 0.0,
+      "max": 31.0,
+      "mean": 8.00294117647059
+    }
+  },
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": true,
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\uart_guard_low30_20261031-160924.ndjson",
+  "raw_sha256": "234aa36a997524ef0937efcc752c3c36d194d4f7d9ebab9545c8c1764f84eb51"
+}

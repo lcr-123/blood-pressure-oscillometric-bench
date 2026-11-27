@@ -1,0 +1,213 @@
+{
+  "schema": "bp.standard_adaptive_capture_diagnostics/1",
+  "source": "data\\raw\\development_20261101\\standard255_195_20261105-103250.ndjson",
+  "source_sha256": "dd654025df8c98302dbbb1187c895c7e4bece313fe9fb9dbc85714b4fa2273c9",
+  "sample_count": 2825,
+  "raw_pressure_range_mmhg": [
+    14.93,
+    237.65
+  ],
+  "eligible_pressure_range_mmhg": [
+    20.0,
+    231.84
+  ],
+  "dominant_frequency_hz": 1.3281,
+  "dominant_pulse_bpm": 79.69,
+  "prominence_threshold_v": 0.003667,
+  "peak_candidates_before_prominence": 93,
+  "peak_candidates_after_prominence": 74,
+  "approx_rejected_by_prominence": 19,
+  "pressure_step_count_ge_5mmhg": 0,
+  "pressure_step_max_abs_delta_mmhg": 3.195,
+  "pressure_step_p99_abs_delta_mmhg": 2.1694,
+  "rejection_counts": {
+    "no_bracketing_trough": 2,
+    "geometry_or_period": 2,
+    "pressure_step_padding": 0,
+    "cuff_pressure_out_of_range": 1,
+    "accepted": 69
+  },
+  "accepted_beat_pressure_range_mmhg": [
+    55.1,
+    230.21
+  ],
+  "occupied_bins": [
+    {
+      "low_mmhg": 50,
+      "center_mmhg": 55.0,
+      "count": 2,
+      "height_median_v": 0.005277,
+      "area_median_v_s": 0.001925,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 60,
+      "center_mmhg": 65.0,
+      "count": 4,
+      "height_median_v": 0.006971,
+      "area_median_v_s": 0.002776,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 70,
+      "center_mmhg": 75.0,
+      "count": 4,
+      "height_median_v": 0.009443,
+      "area_median_v_s": 0.003638,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 80,
+      "center_mmhg": 85.0,
+      "count": 4,
+      "height_median_v": 0.009469,
+      "area_median_v_s": 0.003685,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 90,
+      "center_mmhg": 95.0,
+      "count": 4,
+      "height_median_v": 0.007601,
+      "area_median_v_s": 0.00287,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 100,
+      "center_mmhg": 105.0,
+      "count": 3,
+      "height_median_v": 0.007139,
+      "area_median_v_s": 0.002956,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 110,
+      "center_mmhg": 115.0,
+      "count": 4,
+      "height_median_v": 0.00945,
+      "area_median_v_s": 0.003495,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 120,
+      "center_mmhg": 125.0,
+      "count": 5,
+      "height_median_v": 0.007737,
+      "area_median_v_s": 0.002932,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 130,
+      "center_mmhg": 135.0,
+      "count": 3,
+      "height_median_v": 0.011444,
+      "area_median_v_s": 0.004281,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 140,
+      "center_mmhg": 145.0,
+      "count": 4,
+      "height_median_v": 0.008341,
+      "area_median_v_s": 0.003082,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 150,
+      "center_mmhg": 155.0,
+      "count": 4,
+      "height_median_v": 0.007449,
+      "area_median_v_s": 0.003116,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 160,
+      "center_mmhg": 165.0,
+      "count": 4,
+      "height_median_v": 0.013155,
+      "area_median_v_s": 0.004975,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 170,
+      "center_mmhg": 175.0,
+      "count": 5,
+      "height_median_v": 0.011727,
+      "area_median_v_s": 0.004227,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 180,
+      "center_mmhg": 185.0,
+      "count": 4,
+      "height_median_v": 0.015734,
+      "area_median_v_s": 0.005818,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 190,
+      "center_mmhg": 195.0,
+      "count": 4,
+      "height_median_v": 0.018712,
+      "area_median_v_s": 0.006691,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 200,
+      "center_mmhg": 205.0,
+      "count": 5,
+      "height_median_v": 0.023784,
+      "area_median_v_s": 0.008881,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 210,
+      "center_mmhg": 215.0,
+      "count": 3,
+      "height_median_v": 0.035662,
+      "area_median_v_s": 0.012882,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 220,
+      "center_mmhg": 225.0,
+      "count": 2,
+      "height_median_v": 0.024208,
+      "area_median_v_s": 0.007845,
+      "used_for_envelope": true
+    },
+    {
+      "low_mmhg": 230,
+      "center_mmhg": 235.0,
+      "count": 1,
+      "height_median_v": 0.019367,
+      "area_median_v_s": 0.006745,
+      "used_for_envelope": false
+    }
+  ],
+  "qualified_bin_count": 18,
+  "height_envelope": {
+    "qualified": true,
+    "peak_center_mmhg": 215.0,
+    "peak_smoothed": 0.029829,
+    "low_edge_mmhg": 55.0,
+    "high_edge_mmhg": 225.0,
+    "low_edge_ratio": 0.1911,
+    "high_edge_ratio": 0.9076,
+    "high_side_span_mmhg": 10.0,
+    "high_side_qualified_bins": 2,
+    "high_50pct_crossing_exists": false
+  },
+  "area_envelope": {
+    "qualified": true,
+    "peak_center_mmhg": 215.0,
+    "peak_smoothed": 0.010622,
+    "low_edge_mmhg": 55.0,
+    "high_edge_mmhg": 225.0,
+    "low_edge_ratio": 0.2012,
+    "high_edge_ratio": 0.8571,
+    "high_side_span_mmhg": 10.0,
+    "high_side_qualified_bins": 2,
+    "high_50pct_crossing_exists": false
+  }
+}

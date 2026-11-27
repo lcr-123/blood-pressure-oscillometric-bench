@@ -1,0 +1,150 @@
+{
+  "dataset_role": "development",
+  "target_mmhg": 30,
+  "host_ceiling_mmhg": 40,
+  "limit_seconds": 15,
+  "hardware_configuration": "operator: original configuration, no added diode",
+  "load_voltage_independently_measured": false,
+  "operator_confirmation": "User requests one retry with unchanged original nonhuman bench configuration; no diode added; physical 12V not independently measured.",
+  "nonhuman_fixture_confirmed": true,
+  "firmware_changed": false,
+  "calibration_changed": false,
+  "export_obtained": false,
+  "firmware_id": "READ_PATH_TEST_20261031",
+  "firmware_identity_evidence": "data/raw/preflight/read_path_board_20261031-165145.metadata.json",
+  "firmware_identity_note": "Prior verified download; current status checks UART diagnostic, not a startup ID reread.",
+  "source_clock_note": "Host serial arrival timestamps are not MCU sample ticks.",
+  "initial_status": [
+    "[Pressure] raw=1309 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pre_capture_zero": {
+    "raw": {
+      "min": 1307,
+      "max": 1310,
+      "mean": 1308.85
+    },
+    "sensor": {
+      "min": 225,
+      "max": 226,
+      "mean": 225.99
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "calibration_readback": [
+    "[Pressure] raw=1308 ads=164mV sensor=226mV est=0.0mmHg VALID",
+    "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+  ],
+  "error": "RuntimeError('device safety/offline event: [Safety] Pressure read failed during hold; emergency vent')",
+  "terminal_diagnostics": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1336 ads=167mV sensor=230mV est=0.0mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[UART3] rx_errors=0 rx_state=0x22",
+        "[Pressure] raw=1336 ads=167mV sensor=230mV est=0.0mmHg VALID",
+        "[Fault] code=1 name=USER_STOP age=9511ms",
+        "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+        "[ADSbus] cr1=0x0801 pb=0xFFFB scl=1 sda=1"
+      ]
+    },
+    {
+      "text": "stack",
+      "response": [
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+        "[Pressure] raw=1336 ads=167mV sensor=230mV est=0.0mmHg VALID",
+        "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Pressure] raw=1336 ads=167mV sensor=230mV est=0.0mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    }
+  ],
+  "all_trial_nonpressure_lines": [
+    "[DebugCmd] START",
+    "[Inflate] START PB8=LOW PC1=LOW PC8=LOW safety=pressure+timeout",
+    "[Inflate] target reached 30.8 mmHg; stopping pEip",
+    "[Inflate] holding before deflate...",
+    "[Safety] Pressure read failed during hold; emergency vent",
+    "[DebugCmd] STOP",
+    "[Safety] STOP PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Deflate] VENT PB8=HIGH PC1=HIGH PC8=HIGH",
+    "[Pressure] ADS1115 retry init",
+    "[ADS1115] Init OK address=0x48 config=0xC383",
+    "[Valve2] CLOSE PC1=LOW",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF",
+    "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22",
+    "[Fault] code=1 name=USER_STOP age=9511ms",
+    "[ADSdiag] stage=5 status=2 reg=0x01 err=0x00000020 state=0x20 sr1=0x0000 sr2=0x0002 errors=1 recoveries=1",
+    "[ADSbus] cr1=0x0801 pb=0xFFFB scl=1 sda=1",
+    "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+    "[Stack] used=1224 free=2872 reserved=4096 saturated=0 pattern=0xA5A5A5A5",
+    "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+  ],
+  "all_trial_pressure": {
+    "raw": {
+      "min": 1308,
+      "max": 3572,
+      "mean": 1454.3298429319373
+    },
+    "sensor": {
+      "min": 226,
+      "max": 616,
+      "mean": 250.7801047120419
+    },
+    "est": {
+      "min": 0.0,
+      "max": 30.8,
+      "mean": 1.4230366492146598
+    }
+  },
+  "outcome": "failed",
+  "pneumatic_closeout_confirmed": true,
+  "closeout_evidence": {
+    "closeout_attempts": [
+      {
+        "attempt": 1,
+        "count": 100,
+        "pressure": {
+          "raw": {
+            "min": 1327,
+            "max": 1337,
+            "mean": 1334.46
+          },
+          "sensor": {
+            "min": 229,
+            "max": 231,
+            "mean": 230.04
+          },
+          "est": {
+            "min": 0.0,
+            "max": 0.0,
+            "mean": 0.0
+          }
+        }
+      }
+    ],
+    "closeout_confirmed": true
+  },
+  "start_attempted": true,
+  "script_sha256": "9b5f0c911414f59bbbef1a8c48c50cb0b54718d15f60d87b49bd70dd6704cbaf",
+  "reset_events": [],
+  "raw_path": "data\\raw\\development_20261031\\original_config_low30_20261031-174142.ndjson",
+  "raw_sha256": "87d869bf073e0e400eb902c1a2ca686b0dbff1606bb868ec761f7252b8eaa4bb"
+}

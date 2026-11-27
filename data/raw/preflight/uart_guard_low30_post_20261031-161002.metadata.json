@@ -1,0 +1,52 @@
+{
+  "physical_trial": false,
+  "additional_inflation": false,
+  "outcome": "fresh_near_zero_and_sealed",
+  "sample_count": 100,
+  "initial_postseal_pressure": {
+    "raw": {
+      "min": 1418,
+      "max": 1422,
+      "mean": 1419.73
+    },
+    "sensor": {
+      "min": 245,
+      "max": 245,
+      "mean": 245.0
+    },
+    "est": {
+      "min": 0.2,
+      "max": 0.3,
+      "mean": 0.286
+    }
+  },
+  "commands": [
+    {
+      "text": "status",
+      "response": [
+        "[Pressure] raw=1418 ads=177mV sensor=245mV est=0.2mmHg VALID",
+        "[Status] mode=RELAY_ONLY state=EMERGENCY cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+        "[UART3] rx_errors=0 rx_state=0x22"
+      ]
+    },
+    {
+      "text": "fault",
+      "response": [
+        "[Pressure] raw=1418 ads=177mV sensor=245mV est=0.2mmHg VALID",
+        "[Fault] code=1 name=USER_STOP age=37014ms",
+        "[ADSdiag] stage=5 status=1 reg=0x01 err=0x00000200 state=0x20 sr1=0x0010 sr2=0x0000 errors=1 recoveries=1",
+        "[ADSbus] cr1=0x0101 pb=0xFFFB scl=1 sda=1"
+      ]
+    },
+    {
+      "text": "pins",
+      "response": [
+        "[Capture] n=0 capacity=3300 dropped=0 duration=0ms interval=25ms",
+        "[Pressure] raw=1417 ads=177mV sensor=244mV est=0.2mmHg VALID",
+        "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+      ]
+    }
+  ],
+  "raw_path": "data/raw/preflight/uart_guard_low30_post_20261031-161002.ndjson",
+  "raw_sha256": "78e1a159eaaca5f6e9c21fe8bed8c0f82ca32ab116aa033a04c8d09ef4c01a33"
+}

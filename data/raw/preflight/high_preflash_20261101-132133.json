@@ -1,0 +1,51 @@
+{
+  "kind": "high_pressure_preflash_readonly",
+  "load_power_independently_verified": false,
+  "outcome": "failed_gate",
+  "responses": {
+    "status": [
+      "[Pressure] raw=1294 ads=162mV sensor=223mV est=0.0mmHg VALID"
+    ],
+    "pins": [
+      "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+      "[UART3] rx_errors=0 rx_state=0x22"
+    ],
+    "cal": [
+      "[Pressure] raw=1295 ads=162mV sensor=223mV est=0.0mmHg VALID",
+      "[Pins] PB8=HIGH PC1=LOW PC8=HIGH pump=OFF"
+    ],
+    "fault": [
+      "[Pressure] raw=1293 ads=162mV sensor=223mV est=0.0mmHg VALID",
+      "[Cal] VALID slope=82.326mmHg/V intercept=-19.89mmHg zero=0.242V sens=0.0911V/kPa"
+    ]
+  },
+  "gates": {
+    "idle_online": false,
+    "uart_zero": false,
+    "pins_safe": false,
+    "calibration": false,
+    "fault_none": false,
+    "ads_zero": false,
+    "fresh_zero": true,
+    "no_boot": true
+  },
+  "zero": {
+    "raw": {
+      "min": 1293,
+      "max": 1296,
+      "mean": 1294.3762376237623
+    },
+    "sensor": {
+      "min": 223,
+      "max": 224,
+      "mean": 223.04950495049505
+    },
+    "est": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    }
+  },
+  "raw_path": "data/raw/preflight/high_preflash_20261101-132133.ndjson",
+  "raw_sha256": "bc6503136ac0c4b3408b7497fc15e300a5eb3306c956951098b8adfdb80632dd"
+}

@@ -1,0 +1,12 @@
+*** Using Compiler 'V6.22', folder: 'D:\Keli5\ARM\ARMCLANG\Bin'
+Build target 'blood pressure monitor'
+../Core/Src/main.c(147): warning: unused parameter 'f' [-Wunused-parameter]
+  147 | int fputc(int ch, FILE *f)
+      |                         ^
+1 warning generated.
+compiling main.c...
+linking...
+Program Size: Code=41504 RO-data=4120 RW-data=28 ZI-data=44940  
+FromELF: creating hex file...
+"blood pressure monitor\blood pressure monitor.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:01

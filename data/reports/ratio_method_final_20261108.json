@@ -1,0 +1,286 @@
+{
+  "estimator": {
+    "envelope": "per-beat peak-to-peak of v after 0.7-3.2 Hz band-pass, 2 mmHg bins, median per bin, pressure >= 25 mmHg",
+    "map": "pressure of the envelope maximum",
+    "sbp": "crossing of 0.5 x peak on the high-pressure side, interpolated",
+    "dbp": "crossing of 0.45 x peak on the low-pressure side, interpolated",
+    "sbp_ratio_source": "classic literature value, not fitted",
+    "dbp_ratio_source": "chosen on the 19 development rounds alone",
+    "gate": "tools/validity_v2.py, applied before any estimate"
+  },
+  "development": {
+    "n": 19,
+    "summary": {
+      "map_err": {
+        "n": 19,
+        "mean": 3.31,
+        "sd": 3.72,
+        "minimum": -4.51,
+        "maximum": 10.09,
+        "within_10": 18,
+        "within_15": 19
+      },
+      "sbp_err": {
+        "n": 19,
+        "mean": -6.13,
+        "sd": 7.85,
+        "minimum": -24.21,
+        "maximum": 2.98,
+        "within_10": 13,
+        "within_15": 16
+      },
+      "dbp_err": {
+        "n": 19,
+        "mean": -2.38,
+        "sd": 5.29,
+        "minimum": -12.56,
+        "maximum": 8.54,
+        "within_10": 18,
+        "within_15": 19
+      }
+    }
+  },
+  "prospective": {
+    "n": 36,
+    "summary": {
+      "map_err": {
+        "n": 36,
+        "mean": 5.87,
+        "sd": 10.2,
+        "minimum": -4.9,
+        "maximum": 51.45,
+        "within_10": 28,
+        "within_15": 34
+      },
+      "sbp_err": {
+        "n": 36,
+        "mean": -2.27,
+        "sd": 8.54,
+        "minimum": -17.16,
+        "maximum": 30.23,
+        "within_10": 29,
+        "within_15": 33
+      },
+      "dbp_err": {
+        "n": 36,
+        "mean": -2.06,
+        "sd": 5.73,
+        "minimum": -17.61,
+        "maximum": 14.36,
+        "within_10": 32,
+        "within_15": 35
+      }
+    }
+  },
+  "per_preset": {
+    "1": {
+      "n": 9,
+      "summary": {
+        "map_err": {
+          "n": 9,
+          "mean": 1.46,
+          "sd": 2.33,
+          "minimum": -1.91,
+          "maximum": 6.09,
+          "within_10": 9,
+          "within_15": 9
+        },
+        "sbp_err": {
+          "n": 9,
+          "mean": 0.5,
+          "sd": 5.0,
+          "minimum": -4.9,
+          "maximum": 8.86,
+          "within_10": 9,
+          "within_15": 9
+        },
+        "dbp_err": {
+          "n": 9,
+          "mean": -0.96,
+          "sd": 4.22,
+          "minimum": -7.97,
+          "maximum": 3.61,
+          "within_10": 9,
+          "within_15": 9
+        }
+      },
+      "rounds": [
+        "7-1509",
+        "7-1512",
+        "7-1516",
+        "7-1526",
+        "7-1529",
+        "7-1533",
+        "7-1536",
+        "7-1543",
+        "7-1546"
+      ]
+    },
+    "2": {
+      "n": 9,
+      "summary": {
+        "map_err": {
+          "n": 9,
+          "mean": 5.81,
+          "sd": 3.93,
+          "minimum": 2.66,
+          "maximum": 12.55,
+          "within_10": 7,
+          "within_15": 9
+        },
+        "sbp_err": {
+          "n": 9,
+          "mean": -9.26,
+          "sd": 5.76,
+          "minimum": -15.65,
+          "maximum": 4.61,
+          "within_10": 4,
+          "within_15": 8
+        },
+        "dbp_err": {
+          "n": 9,
+          "mean": -1.71,
+          "sd": 3.68,
+          "minimum": -5.91,
+          "maximum": 5.64,
+          "within_10": 9,
+          "within_15": 9
+        }
+      },
+      "rounds": [
+        "7-2019",
+        "7-2022",
+        "7-2028",
+        "7-2031",
+        "7-2035",
+        "7-2038",
+        "7-2042",
+        "7-2045",
+        "7-2049"
+      ]
+    },
+    "3": {
+      "n": 9,
+      "summary": {
+        "map_err": {
+          "n": 9,
+          "mean": 9.0,
+          "sd": 17.57,
+          "minimum": -4.9,
+          "maximum": 51.45,
+          "within_10": 5,
+          "within_15": 8
+        },
+        "sbp_err": {
+          "n": 9,
+          "mean": -1.19,
+          "sd": 12.93,
+          "minimum": -17.16,
+          "maximum": 30.23,
+          "within_10": 7,
+          "within_15": 7
+        },
+        "dbp_err": {
+          "n": 9,
+          "mean": -3.49,
+          "sd": 7.2,
+          "minimum": -17.61,
+          "maximum": 4.01,
+          "within_10": 7,
+          "within_15": 8
+        }
+      },
+      "rounds": [
+        "7-2109",
+        "7-2112",
+        "7-2115",
+        "7-2119",
+        "7-2122",
+        "7-2125",
+        "7-2131",
+        "7-2134",
+        "7-2137"
+      ]
+    },
+    "4": {
+      "n": 9,
+      "summary": {
+        "map_err": {
+          "n": 9,
+          "mean": 7.22,
+          "sd": 9.52,
+          "minimum": -2.59,
+          "maximum": 30.18,
+          "within_10": 7,
+          "within_15": 8
+        },
+        "sbp_err": {
+          "n": 9,
+          "mean": 0.88,
+          "sd": 4.21,
+          "minimum": -9.1,
+          "maximum": 5.98,
+          "within_10": 9,
+          "within_15": 9
+        },
+        "dbp_err": {
+          "n": 9,
+          "mean": -2.1,
+          "sd": 7.53,
+          "minimum": -13.49,
+          "maximum": 14.36,
+          "within_10": 7,
+          "within_15": 9
+        }
+      },
+      "rounds": [
+        "7-2149",
+        "7-2155",
+        "7-2158",
+        "7-2201",
+        "7-2205",
+        "7-2208",
+        "7-2211",
+        "7-2215",
+        "7-2218"
+      ]
+    }
+  },
+  "outliers": [
+    {
+      "run": "7-2137",
+      "preset": 3,
+      "map_err": 51.4,
+      "sbp_err": 30.2,
+      "slope": -3.507
+    },
+    {
+      "run": "7-2155",
+      "preset": 4,
+      "map_err": 30.2,
+      "sbp_err": -0.4,
+      "slope": -2.833
+    },
+    {
+      "run": "7-2115",
+      "preset": 3,
+      "map_err": 13.3,
+      "sbp_err": -1.8,
+      "slope": -1.768
+    },
+    {
+      "run": "7-2122",
+      "preset": 3,
+      "map_err": 13.0,
+      "sbp_err": 1.6,
+      "slope": -1.747
+    },
+    {
+      "run": "7-2038",
+      "preset": 2,
+      "map_err": 12.5,
+      "sbp_err": -7.9,
+      "slope": -1.748
+    }
+  ]
+}

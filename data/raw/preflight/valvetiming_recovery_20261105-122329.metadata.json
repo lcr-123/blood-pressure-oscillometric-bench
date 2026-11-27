@@ -1,0 +1,17 @@
+{
+  "outcome": "failed",
+  "source_failed_trial": "standard255_195_target275_valvetiming_20261105-122006",
+  "closeout_confirmed": false,
+  "status": [
+    "[Pressure] raw=1640 ads=205mV sensor=283mV est=3.4mmHg VALID",
+    "[Status] mode=RELAY_ONLY state=IDLE cal=VALID ads=ONLINE stream=ON manual=OFF remaining=0ms",
+    "[UART3] rx_errors=0 rx_state=0x22"
+  ],
+  "pins_before": [
+    "[Pressure] raw=1642 ads=205mV sensor=283mV est=3.4mmHg VALID",
+    "[Pins] PB8=HIGH PC1=HIGH PC8=HIGH pump=OFF"
+  ],
+  "target_restored_mmhg": 50,
+  "error": "TimeoutError('operator manual unloading still required; no timed seal')",
+  "raw_sha256": "93b6937d30d77aa85ed5b865650dd0bb3501d4ca0b68ffab8a5ace4258319758"
+}

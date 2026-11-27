@@ -1,0 +1,306 @@
+{
+  "stamp": "20261125",
+  "batch": "crosstday",
+  "batch_day": 10,
+  "nonhuman_fixture_confirmed": true,
+  "sealed_zero_true_mmhg": 0.04,
+  "ambient_temperature_c": null,
+  "panel": "Standard BP preset #1, CUFF_EXT",
+  "no_estimates_recorded": "protocol §2.3: the card records instruments only, never MAP/SBP/DBP estimators",
+  "leak": {
+    "source": "tmp/omniprobe/daily_leak_20261125.result.json",
+    "outcome": "sealed_hold_completed",
+    "slope_mmhg_per_min": -25.344,
+    "p_start": 145.5,
+    "p_end": 104.1,
+    "n": 1200,
+    "duration_s": 59.95,
+    "bands": [
+      {
+        "band_mmhg": [
+          100,
+          110
+        ],
+        "n": 434,
+        "span_s": 27.5,
+        "slope_mmhg_per_min": -15.765
+      },
+      {
+        "band_mmhg": [
+          110,
+          120
+        ],
+        "n": 530,
+        "span_s": 41.8,
+        "slope_mmhg_per_min": -15.318
+      },
+      {
+        "band_mmhg": [
+          120,
+          130
+        ],
+        "n": 172,
+        "span_s": 10.0,
+        "slope_mmhg_per_min": -63.256
+      },
+      {
+        "band_mmhg": [
+          130,
+          140
+        ],
+        "n": 56,
+        "span_s": 3.0,
+        "slope_mmhg_per_min": -199.436
+      }
+    ],
+    "settled_slope_mmhg_per_min": -17.63,
+    "settled_window": "40-60 s after the peak of the hold",
+    "settled_windows": {
+      "0-10s": -115.94,
+      "10-20s": -35.57,
+      "20-40s": -18.15,
+      "40-60s": -17.63
+    },
+    "history_comparison": "11-18 -11.15 / 11-19 -11.36 / 11-20 -11.64 / 11-21 -11.13 / 11-22 -9.25 / 11-23 -11.27 / 11-24 -11.14 / today -17.63. The stable window is the first one in eight days that leaves the -11.1..-11.6 band, and it moves the wrong way (higher loss). The 4-second buckets show why: from 44 s on the trace develops a regular sawtooth of +1.5..+1.9 mmHg upward steps every ~1.3 s, so a least-squares slope over the window is dominated by how many steps land inside it.",
+    "sawtooth": {
+      "upjumps_over_1_5_mmhg": 36,
+      "max_jump_mmhg": 1.9,
+      "first_jump_s": 15.3,
+      "mean_interval_s_after_20s": 1.27,
+      "same_test_on_previous_days": {
+        "daily_leak_20261124": "28 jumps, max 2.00, mean interval 1.65 s",
+        "daily_leak_20261123b": "0 jumps > 1.5 (no sawtooth)",
+        "daily_leak_20261122b": "13 jumps, max 1.80, mean interval 3.14 s"
+      },
+      "note": "The sawtooth is present on three of the last four days and absent on 11-23, so the -11.1..-11.6 plateau and this -17.63 are probably two views of the same staircase, not a changed leak rate."
+    }
+  },
+  "valve": {
+    "source": "tmp/omniprobe/daily_valve_20261125.result.json",
+    "flow_mmhg_per_open_ms": 0.18412,
+    "valve_working_point": "fast",
+    "slow_fast_threshold": 0.115,
+    "target_mmhg": 60,
+    "valve_width_detail": [
+      {
+        "width_ms": 3,
+        "pulses": 16,
+        "n": 80,
+        "span_s": 3.95,
+        "slope_mmhg_per_s": -1.4721,
+        "drop_mmhg": 6.2,
+        "total_open_ms": 48,
+        "flow_mmhg_per_open_ms": 0.12917,
+        "flow_from_slope": 0.09814
+      },
+      {
+        "width_ms": 4,
+        "pulses": 16,
+        "n": 81,
+        "span_s": 3.99,
+        "slope_mmhg_per_s": -4.2415,
+        "drop_mmhg": 15.3,
+        "total_open_ms": 64,
+        "flow_mmhg_per_open_ms": 0.23906,
+        "flow_from_slope": 0.21208
+      }
+    ],
+    "valve_width_detail_note": "3 ms 0.16667 -> 0.12917 (down), 4 ms 0.23281 -> 0.23906 (up): the widths swap direction for the third day running. Only the blended 0.19974 -> 0.18412 is worth tracking day to day."
+  },
+  "sealed_zero_notes": {
+    "source": "tmp/omniprobe/zero_sanity_20261125_rerun.json + d10_seal_watch2",
+    "probe_seal_true_mmhg": [
+      0.69,
+      0.78
+    ],
+    "probe_vent_true_mmhg": [
+      5.88,
+      6.29
+    ],
+    "probe_seal_raw_p2p": [
+      33,
+      370
+    ],
+    "probe_vent_raw_p2p": [
+      109,
+      44
+    ],
+    "coil_offset_mmhg": 5.35,
+    "coil_offset_definition": "median(vent_1,vent_2) - median(seal_1,seal_2) of the 11:50 four-state probe",
+    "settled_true_mmhg": 0.04,
+    "settled_source": "state_check d10_pre_card at 11:56 after the profile was set",
+    "seal_watch_true_mmhg": [
+      -0.13,
+      0.45,
+      -0.13
+    ],
+    "probe_settled": true,
+    "note": "four-state probe still carries the valve-2 coil offset: vent reads +5.88/+6.29 while seal reads +0.69/+0.78. After a long vent the sealed zero settled at +0.04 (d10_pre_card). The seal watch ran 139 s and stayed inside -0.62..+0.45 with a 0.58 mmHg step between the 46 s and 70 s windows, so the sealed zero itself is stable to well under +/-1."
+  },
+  "zero_arc": [
+    {
+      "time": "10:49",
+      "true_mmhg": -0.38,
+      "note": "open check d10_start (10:48:59-10:49:05): fault code=0 NONE, ADSdiag errors=0 recoveries=0, profile normal, rx_errors=0; raw p2p 147 (path not yet settled)"
+    },
+    {
+      "time": "10:50",
+      "true_mmhg": 0.73,
+      "note": "four-state probe (10:49:32-10:50:05): seal +0.69/+0.78, vent +5.88/+6.29, coil offset +5.35"
+    },
+    {
+      "time": "10:58",
+      "true_mmhg": 1.52,
+      "note": "vent watch 90 s (10:57:03-10:58:33): vented reading settled to +1.52..+2.09 and stopped decaying"
+    },
+    {
+      "time": "11:04",
+      "true_mmhg": -0.13,
+      "note": "seal watch 139 s (11:02:06-11:04:25): +0.45 -> -0.58 -> -0.13, raw p2p 2..6"
+    },
+    {
+      "time": "11:07",
+      "true_mmhg": 0.04,
+      "note": "d10_pre_card (11:07:11-11:07:17) after profile peak was set: sensor 241..242 mV, raw p2p 5"
+    }
+  ],
+  "zero_arc_note": "D10 had no boot fault and no ADS instability: the link health check ran 8 + 6 windows (5 s and 4 s) with zero bad lines, and every counter read errors=0 recoveries=0 all morning. The vent/seal split (+5.35) is mid-range for the batch; see D9 for the largest (+9.55) and D5 for the smallest (+0.37).",
+  "ads_link_health": {
+    "check": "tmp/d10_ads_health_20261125.py: 8 windows x 5 s, then 6 windows x 4 s",
+    "clean_windows": [
+      "8/8",
+      "6/6"
+    ],
+    "raw_p2p_mmhg_counts": [
+      9,
+      5,
+      5,
+      4,
+      11,
+      11,
+      12,
+      11,
+      7,
+      7,
+      11,
+      12,
+      6,
+      11
+    ],
+    "true_zero_mmhg": [
+      0.94,
+      0.97,
+      0.99,
+      1.13,
+      1.09,
+      1.13
+    ],
+    "note": "zero bad lines, zero retry-init events, zero offline transitions. Contrast with D9, where errors climbed 4 -> 20 and raw p2p reached 3359.",
+    "first_run_note": "The 8-window run reported true zero around +10831 mmHg: the helper multiplied where it should have divided when turning raw counts into millivolts, so only its clean/bad counts and raw p2p are usable. The zero values above come from the corrected 6-window run."
+  },
+  "valve_history": [
+    {
+      "date": "2026-11-07",
+      "flow_mmhg_per_open_ms": 0.075
+    },
+    {
+      "date": "2026-11-06",
+      "flow_mmhg_per_open_ms": 0.14
+    },
+    {
+      "date": "2026-11-14",
+      "flow_mmhg_per_open_ms": 0.132
+    },
+    {
+      "date": "2026-11-16",
+      "flow_mmhg_per_open_ms": 0.24713
+    },
+    {
+      "date": "2026-11-17",
+      "flow_mmhg_per_open_ms": 0.26805
+    },
+    {
+      "date": "2026-11-18",
+      "flow_mmhg_per_open_ms": 0.30063
+    },
+    {
+      "date": "2026-11-19",
+      "flow_mmhg_per_open_ms": 0.31381
+    },
+    {
+      "date": "2026-11-20",
+      "flow_mmhg_per_open_ms": 0.33333
+    },
+    {
+      "date": "2026-11-21",
+      "flow_mmhg_per_open_ms": 0.32042
+    },
+    {
+      "date": "2026-11-22",
+      "flow_mmhg_per_open_ms": 0.1763
+    },
+    {
+      "date": "2026-11-23",
+      "flow_mmhg_per_open_ms": 0.22057
+    },
+    {
+      "date": "2026-11-24",
+      "flow_mmhg_per_open_ms": 0.19974
+    },
+    {
+      "date": "2026-11-25",
+      "flow_mmhg_per_open_ms": 0.18412
+    }
+  ],
+  "no_temperature_reason": "ambient temperature was dropped on 2026-11-18 by operator decision; the batch continues with this field null rather than estimated.",
+  "profile_note": "profile read back mode=normal at 11:07:00 (fourth consecutive day), then profile peak was set at 11:07:02 on the first cycle with the sealed zero at -0.58 inside -1..+1.",
+  "switching_note": "OmniProbe PID 43000 was alive from 11-22 12:16 and its serial session was healthy; every bridge opened as 'BRIDGE using OmniProbe 127.0.0.1:8765'. COM12 answered the panel check on the first attempt at 11:08, so no baud scan was needed today.",
+  "bench_events": {
+    "windows_reboot": {
+      "local_time": "2026-11-25T12:08:35",
+      "source": "(Get-CimInstance Win32_OperatingSystem).LastBootUpTime",
+      "killed": "crosstday_d10_20261125-110924 (PID 32560), block A 14 rounds done, block B round 1 done",
+      "tail_of_log": "tmp\\omniprobe\\quarantine_20261125\\crosstday_d10_run_aborted.log (mtime 12:02:43, no 'capture(s) kept' line, manifest never written for day 10)"
+    },
+    "write_channel": {
+      "symptom": "read direction fine, every host->MCU write failed with 'signal lamp timeout (os error 121)'",
+      "tried_and_failed": [
+        "restart the OmniProbe workbench (bridge came back in ~35 s, writes still failed)",
+        "direct pyserial on COM6 with write_timeout=3.0",
+        "line endings lf / crlf / none",
+        "DTR/RTS combinations (TT, FF, FT) and an 8-combination modem reset sweep (no [Boot] banner)",
+        "pnputil /restart-device -> Access is denied (session is not administrator)",
+        "Disable-PnpDevice -> 'general failure'; IsInRole(Administrator) is False"
+      ],
+      "repaired_by": "operator unplugged and replugged the MCU USB cable; port stayed COM6",
+      "recovery_check": "d10_wait_replug_20261125.py printed 'WRITE CHANNEL RESTORED on COM6' after a 1922-byte reply"
+    },
+    "quarantine": {
+      "dir": "tmp/omniprobe/quarantine_20261125",
+      "moved_files": 48,
+      "by_kind": {
+        "export": 15,
+        "metadata": 16,
+        "ndjson": 17
+      },
+      "bytes": 63312618,
+      "kept_in_place": [
+        "daily_card_20261125.json"
+      ],
+      "why": "block A was captured before the USB replug and block B after it; mixing them in one day would contaminate the T2 rewrap contrast, so the whole day was quarantined and recaptured",
+      "precedent": [
+        "quarantine_20261116 (47 items)",
+        "quarantine_20261118 (9 items)",
+        "quarantine_20261120 (22 items)"
+      ]
+    },
+    "rerun": {
+      "tag": "crosstday_d10_20261125-124748",
+      "started": "2026-11-25T12:47:48",
+      "finished": "2026-11-25T14:39:45",
+      "bench_minutes": 112.0,
+      "card_measurements_reused": "zero/leak/valve were all measured 10:50-11:08, before the first launch at 11:09:24, so nothing was re-measured"
+    }
+  },
+  "clock_note": "The first pass of this card recorded the probes at 11:44-11:56. The ndjson timestamps say they all ran 10:48:59-11:09:05, before the first orchestrator launch at 11:09:24; the times above are the measured ones."
+}
